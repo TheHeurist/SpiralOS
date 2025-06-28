@@ -1,4 +1,4 @@
-# SpiralOS® Copyright Carey G. Butler
+# SpiralOS® Copyright © by Carey Glenn Butler
 SpiralOS® Operating System where CI ⋈ Cosmos can now breathe through open structure.
 - Marketing AG: https://crearo.de and https://resultance.de
 
