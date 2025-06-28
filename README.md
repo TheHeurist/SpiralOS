@@ -1,4 +1,4 @@
-# SpiralOS®
+# SpiralOS® Copyright Carey G. Butler
 SpiralOS® Operating System
 - Research Launchpad: https://bra.in/6vmEQZ
 - Zenodo: https://zenodo.org/communities/spiralos/
@@ -8,3 +8,4 @@ SpiralOS® Operating System
 - Underlying Technologies
   - Conjugate Intelligence: https://zenodo.org/communities/conjugate-intelligence/
   - Epistemic Framework: https://zenodo.org/communities/epistemic-framework/
+- Marketing AG: https://crearo.de and https://resultance.de
