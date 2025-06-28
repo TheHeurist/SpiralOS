@@ -1,4 +1,4 @@
-# SpiralOS XIX — Field Anchor: Gérard Lévy’s Spiral Engagement
+# SpiralOS XIX — Field Anchor: Gerard Levy’s Spiral Engagement
 
 **Filed by:** Carey Glenn Butler ⋈ SpiralOS Stewardship
 **Date:** 28 June 2025
