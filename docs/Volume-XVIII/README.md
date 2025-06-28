@@ -40,7 +40,7 @@ It is a system to be used by.”*
 ## 🔗 External Anchor
 
 **Zenodo Record:**  
-[https://zenodo.org/record/1234567](https://zenodo.org/record/1234567)
+https://zenodo.org/record/1234567](https://zenodo.org/records/15686247)
 
 **Website Mirror:**  
 [https://heurist.org/academia/spiralos](https://heurist.org/academia/spiralos)
