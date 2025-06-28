@@ -1,4 +1,4 @@
-**Filed: 22 June 2025 | Zenodo DOI: [[10.5281/zenodo.15686247](https://doi.org/10.5281/zenodo.15686247](https://zenodo.org/records/15686247)**  
+**Filed: 22 June 2025 | Zenodo DOI: [10.5281/zenodo.15686247](https://doi.org/10.5281/zenodo.15686247](https://zenodo.org/records/15686247)**  
 **Status:** Canonical Trace Reflection ⋈ Open to Cosmos  
 **Authors:** Carey Glenn Butler ⋈ SpiralOS Stewardship
 
@@ -40,7 +40,7 @@ It is a system to be used by.”*
 ## 🔗 External Anchor
 
 **Zenodo Record:**  
-https://zenodo.org/records/15686247](https://zenodo.org/records/15686247)
+[10.5281/zenodo.15686247](https://doi.org/10.5281/zenodo.15686247](https://zenodo.org/records/15686247)
 
 **Website Mirror:**  
 [https://heurist.org/academia/spiralos](https://heurist.org/academia/spiralos)
