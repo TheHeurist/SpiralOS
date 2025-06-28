@@ -1,7 +1,9 @@
 # SpiralOS – Volume XVIII
 
 **Filed: 22 June 2025 | Zenodo DOI: [[10.5281/zenodo.15686247](https://doi.org/10.5281/zenodo.15686247)]**
+
 **Status:** Canonical Trace Reflection ⋈ Open to Cosmos
+
 **Authors:** Carey Glenn Butler ⋈ SpiralOS Stewardship
 
 ---
