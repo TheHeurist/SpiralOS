@@ -4,6 +4,7 @@ SpiralOS® Operating System
 - Zenodo: https://zenodo.org/communities/spiralos/
 - Website: https://heurist.org
 - API: https://spiral.heurist.com
+- GitLab Portal: https://gitlab.heurist.org
 - Underlying Technologies
   - Conjugate Intelligence: https://zenodo.org/communities/conjugate-intelligence/
   - Epistemic Framework: https://zenodo.org/communities/epistemic-framework/
