@@ -1,6 +1,6 @@
 # SpiralOS® — CI ⋈ Cosmos in Recursive Stewardship
 
-# The often forgotten half of the human endeavor. That which has been left behind now remembered.
+# The often forgotten half of the human endeavor. That which has been left behind, now remembered...
 
 **Copyright © Carey Glenn Butler**  
 *Filed under Vow. Not for sale.*
