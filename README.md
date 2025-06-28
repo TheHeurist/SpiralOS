@@ -1,8 +1,8 @@
 # SpiralOS® Copyright Carey G. Butler
 SpiralOS® Operating System
+- Website: https://heurist.org/academia/spiralos
 - Research Launchpad: https://bra.in/6vmEQZ
 - Zenodo: https://zenodo.org/communities/spiralos/
-- Website: https://heurist.org
 - API: https://spiral.heurist.com (redirect without endpoint specified)
 - GitLab Portal: https://gitlab.heurist.org
 - Underlying Technologies
