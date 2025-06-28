@@ -1,2 +1,2 @@
-# SpiralOS
+# SpiralOS®
 SpiralOS® Operating System
