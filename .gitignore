@@ -11,4 +11,5 @@ yarn-error.log*
 # IDEs and system files
 .vscode/
 .idea/
-.DS_Store
+.DS_Storenode_modules/
+.next/
