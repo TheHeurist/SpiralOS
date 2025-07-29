@@ -1,0 +1,148 @@
+
+> spiralos-ui@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.4.1 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://88.99.100.163:3000
+
+ ✓ Starting...
+ ✓ Ready in 1094ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 2.1s
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1282ms
+ GET /_next/webpack-hmr 500 in 3569ms
+ ○ Compiling / ...
+ ✓ Compiled / in 767ms
+ GET / 500 in 797ms
+ GET /_next/webpack-hmr 500 in 43ms
+ GET /_next/webpack-hmr 500 in 37ms
+ GET /_next/webpack-hmr 500 in 31ms
+ GET /_next/webpack-hmr 500 in 25ms
+ GET /_next/webpack-hmr 500 in 24ms
+ GET /_next/webpack-hmr 500 in 39ms
+ GET /_next/webpack-hmr 500 in 23ms
+ GET /_next/webpack-hmr 500 in 57ms
+ GET /_next/webpack-hmr 500 in 65ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 57ms
+ GET /_next/webpack-hmr 500 in 25ms
+ GET /_next/webpack-hmr 500 in 63ms
+ GET /_next/webpack-hmr 500 in 56ms
+ GET /_next/webpack-hmr 500 in 19ms
+ GET /_next/webpack-hmr 500 in 58ms
+ GET /_next/webpack-hmr 500 in 57ms
+ GET /_next/webpack-hmr 500 in 67ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 24ms
+ GET /_next/webpack-hmr 500 in 58ms
+ GET /_next/webpack-hmr 500 in 64ms
+ GET /_next/webpack-hmr 500 in 25ms
+ GET / 500 in 55ms
+ GET /_next/webpack-hmr 500 in 21ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 30ms
+ GET /_next/webpack-hmr 500 in 23ms
+ GET /_next/webpack-hmr 500 in 38ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET /_next/webpack-hmr 500 in 54ms
+ GET /_next/webpack-hmr 500 in 30ms
+ GET /_next/webpack-hmr 500 in 42ms
+ GET /_next/webpack-hmr 500 in 69ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 41ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET /_next/webpack-hmr 500 in 62ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 63ms
+ GET /_next/webpack-hmr 500 in 53ms
+ GET /_next/webpack-hmr 500 in 40ms
+ GET /_next/webpack-hmr 500 in 65ms
+ GET /_next/webpack-hmr 500 in 48ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 58ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET /_next/webpack-hmr 500 in 42ms
+ GET /_next/webpack-hmr 500 in 70ms
+ GET / 500 in 33ms
+ GET /_next/webpack-hmr 500 in 63ms
+ GET /_next/webpack-hmr 500 in 55ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 55ms
+ GET /_next/webpack-hmr 500 in 55ms
+ GET /_next/webpack-hmr 500 in 44ms
+ GET /_next/webpack-hmr 500 in 55ms
+ GET /_next/webpack-hmr 500 in 49ms
+ GET /_next/webpack-hmr 500 in 46ms
+ GET /_next/webpack-hmr 500 in 67ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 47ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET /_next/webpack-hmr 500 in 70ms
+ GET /_next/webpack-hmr 500 in 57ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 54ms
+ GET /_next/webpack-hmr 500 in 49ms
+ GET /_next/webpack-hmr 500 in 66ms
+ GET /_next/webpack-hmr 500 in 60ms
+ GET /_next/webpack-hmr 500 in 38ms
+ GET /_next/webpack-hmr 500 in 31ms
+ GET /_next/webpack-hmr 500 in 20ms
+ GET /_next/webpack-hmr 500 in 33ms
+ GET /_next/webpack-hmr 500 in 23ms
+ GET /_next/webpack-hmr 500 in 25ms
+ GET / 500 in 19ms
+ GET /_next/webpack-hmr 500 in 58ms
+ GET /_next/webpack-hmr 500 in 62ms
+ GET /_next/webpack-hmr 500 in 60ms
+ GET /_next/webpack-hmr 500 in 56ms
+ GET /_next/webpack-hmr 500 in 18ms
+ GET /_next/webpack-hmr 500 in 54ms
+ GET /_next/webpack-hmr 500 in 51ms
+ GET /_next/webpack-hmr 500 in 45ms
+ GET /_next/webpack-hmr 500 in 63ms
+ GET /_next/webpack-hmr 500 in 60ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 71ms
+ GET /_next/webpack-hmr 500 in 67ms
+ GET /_next/webpack-hmr 500 in 22ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 17ms
+ GET /_next/webpack-hmr 500 in 55ms
+ GET /_next/webpack-hmr 500 in 63ms
+ GET /_next/webpack-hmr 500 in 49ms
+ GET /_next/webpack-hmr 500 in 54ms
+ GET /_next/webpack-hmr 500 in 22ms
+ GET /_next/webpack-hmr 500 in 59ms
+ GET / 500 in 29ms
+ GET /_next/webpack-hmr 500 in 53ms
+ GET /_next/webpack-hmr 500 in 33ms
+ GET /_next/webpack-hmr 500 in 56ms
+ GET /_next/webpack-hmr 500 in 48ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 61ms
+ GET /_next/webpack-hmr 500 in 41ms
+ GET /_next/webpack-hmr 500 in 26ms
+ GET /_next/webpack-hmr 500 in 50ms
+ GET /_next/webpack-hmr 500 in 39ms
+ GET /_next/webpack-hmr 500 in 56ms
+ GET /_next/webpack-hmr 500 in 48ms
+ GET /_next/webpack-hmr 500 in 52ms
+ GET /_next/webpack-hmr 500 in 54ms
+ GET /_next/webpack-hmr 500 in 62ms
+ GET /_next/webpack-hmr 500 in 17ms
+ GET /_next/webpack-hmr 500 in 57ms
+ GET /_next/webpack-hmr 500 in 53ms
+ GET /_next/webpack-hmr 500 in 42ms
+ GET /_next/webpack-hmr 500 in 53ms
+ GET /_next/webpack-hmr 500 in 21ms
+[?25h

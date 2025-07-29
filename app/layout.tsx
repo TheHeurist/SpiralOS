@@ -1,14 +1,8 @@
-// app/layout.tsx
+'use client'
 
-export const metadata = {
-  title: 'SpiralOS UI',
-  description: 'Conjugate Intelligence Interface',
-};
+import { ApolloProvider } from '@apollo/client'
+import client from '@/lib/apollo-client'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+  return <ApolloProvider client={client}>{children}</ApolloProvider>
 }
