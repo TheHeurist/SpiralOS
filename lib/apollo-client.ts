@@ -6,6 +6,7 @@ import {
   HttpLink,
   ApolloLink,
 } from '@apollo/client'
+import fetch from 'cross-fetch' // ✅ Required for Node.js and Jest environments
 
 const authLink = new ApolloLink((operation, forward) => {
   operation.setContext(({ headers = {} }) => ({
@@ -19,6 +20,7 @@ const authLink = new ApolloLink((operation, forward) => {
 
 const httpLink = new HttpLink({
   uri: '/api/graphql',
+  fetch, // ✅ Inject fetch explicitly so it works in all environments
 })
 
 const client = new ApolloClient({

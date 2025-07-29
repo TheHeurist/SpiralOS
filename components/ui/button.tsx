@@ -1,3 +1,4 @@
+import React from 'react'
 import { ButtonHTMLAttributes, FC } from "react";
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {

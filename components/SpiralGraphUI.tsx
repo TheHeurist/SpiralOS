@@ -1,5 +1,5 @@
 "use client"
-
+import React from 'react'
 import { useEffect, useState } from "react"
 import { gql, useQuery, useMutation } from "@apollo/client"
 import ForceGraph2D from "react-force-graph-2d"
