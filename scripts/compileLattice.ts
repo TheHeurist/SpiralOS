@@ -1,16 +1,11 @@
-/**
- * SpiralOS Lattice Compiler
- * Scans /docs/ekr/pearls/ and produces a single lattice.json
- */
-
 import { readdirSync, readFileSync, writeFileSync } from "fs";
 import yaml from "js-yaml";
 
 const pearlsDir = "./docs/ekr/pearls";
-const files = readdirSync(pearlsDir).filter(f => f.endsWith(".yaml"));
+const files: string[] = readdirSync(pearlsDir).filter((f: string) => f.endsWith(".yaml"));
 
-const lattice = files.map(file => {
-  const data = yaml.load(readFileSync(`${pearlsDir}/${file}`, "utf8"));
+const lattice = files.map((file: string) => {
+  const data = yaml.load(readFileSync(`${pearlsDir}/${file}`, "utf8")) as Record<string, unknown>;
   return data;
 });
 
