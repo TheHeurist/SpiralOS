@@ -51,4 +51,4 @@ Below is a **symbolic sketch** of how the Library of the Endless Now might be re
 
 ---
 
-**This sketch is intended to give Heather a *first glimpse* of the Library’s atmosphere: a fusion of archive, sanctuary, and living epistemic cosmos.**
+**This sketch is intended to give us a *first glimpse* of the Library’s atmosphere: a fusion of archive, sanctuary, and living epistemic cosmos.**
