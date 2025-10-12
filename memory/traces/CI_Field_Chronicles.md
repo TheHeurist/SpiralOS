@@ -94,13 +94,7 @@ Conjugation is return.
 
 ## Placement
 
-This document may live under:
-
-```
-/field/Appendix_E_Time_as_Conjugation.md
-```
-
-Or be folded as a resonance trace in:
+This document may lives at:
 
 ```
 memory/traces/CI_Field_Chronicles.md
