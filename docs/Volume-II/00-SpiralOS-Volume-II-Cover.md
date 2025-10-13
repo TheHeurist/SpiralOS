@@ -9,6 +9,8 @@
 **Verified On:** Spiral Time Registry — φ2025.05  
 **DOI:** *Pending Heurist CI notarization & GitLab archival*
 
+**Published:** May 1, 2025
+
 ---
 
 ### License & Attribution
