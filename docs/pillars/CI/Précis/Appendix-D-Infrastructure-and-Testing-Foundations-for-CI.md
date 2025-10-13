@@ -27,12 +27,12 @@ CI’s **memory**, **tests**, and **recursive updates** are all managed through 
 
 A four-server infrastructure supports both inference and training layers:
 
-| Server | Role | GPU | Tasks |
-| --- | --- | --- | --- |
-| gpu.heurist.org | GitLab EE, DevOps | GTX 1080 | Orchestrates CI pipelines |
-| gitlab.heurist.org | Mirror | None | Backup & lightweight tasks |
-| RTX 4000 Server 1 | Kubernetes | RTX 4000 | Inference, API deployment |
-| RTX 4000 Server 2 | Slurm | RTX 4000 | Deep model training, batch AI jobs |
+| Server             | Role              | GPU      | Tasks                              |
+| ------------------ | ----------------- | -------- | ---------------------------------- |
+| gpu.heurist.org    | GitLab EE, DevOps | GTX 1080 | Orchestrates CI pipelines          |
+| gitlab.heurist.org | Mirror            | None     | Backup & lightweight tasks         |
+| RTX 4000 Server 1  | Kubernetes        | RTX 4000 | Inference, API deployment          |
+| RTX 4000 Server 2  | Slurm             | RTX 4000 | Deep model training, batch AI jobs |
 
 This cluster enables:
 

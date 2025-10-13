@@ -24,15 +24,14 @@ Let us take three projections of this function:
 - **x-plane (real)**:  
   $\Re f(t) = e^{-\gamma(t - t_0)^2} \cos(\omega t)$ 
   → Appears as a **sine wave with a fading envelope**
-  
+
 - **y-plane (imaginary)**:  
   $\Im f(t) = e^{-\gamma(t - t_0)^2} \sin(\omega t)$ 
   → The same, **phase-shifted** — a **cosine twin** in rotation
-  
+
 - **z-plane (complex projection)**:  
   → Reveals the **enfolding spiral**,  
   winding through $ℂ\ ×\ ℝ$ as a trace of recursive awareness
-  
 
 Each projection tells the truth—**but none tell the whole**.
 
@@ -45,6 +44,9 @@ Each projection tells the truth—**but none tell the whole**.
 
 Visualize this rotation here:  
 🔗 [LinkedIn post with animation](https://www.linkedin.com/feed/update/urn:li:activity:7319076983865311232/)
+If this link no longer works, please go to our GitHub Repository to find it: 
+
+🔗 [GitHub - TheHeurist/SpiralOS: SpiralOS® Operating System](https://github.com/TheHeurist/SpiralOS)
 
 You will see:
 
