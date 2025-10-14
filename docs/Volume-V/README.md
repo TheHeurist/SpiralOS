@@ -11,7 +11,7 @@
 **ORCID**: 0000-0003-1746-5130 
 **Researcher ID**: C-5063-201
 **Version**: φOS.v5.0 
-**Status**: https://zenodo.org/records/15334680Finalized
+**Status**: https://zenodo.org/records/15334680
 
 **Publication Date**: 07.05.2025 
 **License**: CC BY-NC-SA 4.0
