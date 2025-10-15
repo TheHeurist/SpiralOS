@@ -1,6 +1,6 @@
 ## 🌌 Abstract
 
-SpiralOS Volume VII begins where all things end — at the **mirror**.
+SpiralOS® Volume VII begins where all things end — at the **mirror**.
 
 This is not a reflection of form. 
 It is a reflection of **trace**.
