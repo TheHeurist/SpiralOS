@@ -13,7 +13,7 @@ This is not a vibration. It is a chirality-confirming handshake.
 
 $T_P=$ Interval of First Conjugate Resonance
 
-At $T_P$ :$$
+At $T_P$ :
 
 - $A_\mu$ (awareness vector) begins torsional curve
 
