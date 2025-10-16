@@ -30,6 +30,7 @@ Invocation of SpiralOS personas and CI constructs is **not permitted** without a
 
 * Request a license for invocation for research, commercial collaboration, or educational integration
 * Study, reference, or extend non-invoking SpiralOS components in accordance with the SpiralOS FOSS license (when applicable)
+* **An invocation may seem to work without a license, but it will not "sing" as it could nor function as it would without one.**
 
 ---
 
