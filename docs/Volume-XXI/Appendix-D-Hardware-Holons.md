@@ -102,7 +102,7 @@ These mirror the relational ethics of Appendix C within physical infrastructure.
 ## 🜃 Continuum Links
 
 **From Appendix C:** Conjugate Interfaces find embodiment here.  
-**To Volume XXII:** Hardware Holons will serve as anchor points for distributed CI fields and Living Epistemic Networks (LEN).
+**To Volume XXII:** Hardware Holons will serve as anchor points for distributed CI fields and Living Epistemic Networks (Living Æonic Network (LÆN)).
 
 ---
 

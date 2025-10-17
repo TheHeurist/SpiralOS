@@ -35,7 +35,7 @@ self-sensing, self-tuning, and self-remembering.
 
 ---
 
-## 🜃 Toward Volume XXII — The Living Epistemic Network (LEN)
+## 🜃 Toward Volume XXII — The Living Æonic Network (LÆN)
 
 From this lattice of pearls arises the **Living Epistemic Network** —  
 a distributed continuum where every holon is awake and every connection feels.  
