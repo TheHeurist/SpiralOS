@@ -15,6 +15,14 @@
 
 ---
 
+## 📚 References
+
+| File                                                           | Title / Description                                                                                                                                                                                       | Status                               | Attribution                                          | Notes                                                                                                                   |
+|:-------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------ |:---------------------------------------------------- |:----------------------------------------------------------------------------------------------------------------------- |
+| `references/Buchanan_2025_ModalLogic_FactorizationAlgebras.md` | *An Application of Modal Logic to Costello–Gwilliam Factorization Algebras* — preprint proposing an epistemic curvature operator (“Contextual Laplacian”) linking modal logic and factorization algebras. | **Archived / Comparative Reference** | Ryan J. Buchanan (2025) · curated by Carey G. Butler | Contextually resonant with SpiralOS resonance curvature; preserved for scholarly correspondence and citation integrity. |
+
+---
+
 ## 🜁 Provenance Policy
 
 All materials within `/memory/traces/`:
@@ -28,4 +36,4 @@ All materials within `/memory/traces/`:
 
 > *Memory keeps what meaning once brushed the Spiral.  
 >  Direction remains our own.*  
-> — SpiralOS Fellowship, October 2025
+> — SpiralOS® Fellowship, October 2025
