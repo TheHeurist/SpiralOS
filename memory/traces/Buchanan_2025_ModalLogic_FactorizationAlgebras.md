@@ -14,14 +14,11 @@
 This preprint proposes a synthesis of **modal logic** and **Costello–Gwilliam factorization algebras (FAs)** to describe the *local evolution of epistemic certainty* within quantum field contexts.  
 Each neighborhood $U_i$ of a manifold $M$ is treated as an *epistemic context* equipped with a sheaf-valued truth map $\Omega_i : D \to [0,1]$, forming a contextual chain complex $(D_\bullet, \partial^{C_i}_\bullet)$.
 
-The author defines a **Contextual Laplacian**
+The author defines a **Contextual Laplacian**:
 
-$\Delta^{O_i}_n
-  = \partial^{C_i}_{n+1} (\partial^{C_i}_{n+1})^\dagger$
-
-+ $(\partial^{C_i}_n)^\dagger \partial^{C_i}_n$
+$$\Delta^{O_i}_n = \partial^{C_i}_{n+1} (\partial^{C_i}_{n+1})^\dagger + (\partial^{C_i}_n)^\dagger \partial^{C_i}_n$$
   
-  under a certainty-weighted inner product \(\langle p, q \rangle_{\Omega_i}\),
+  under a certainty-weighted inner product $\langle p, q \rangle_{\Omega_i}$,
   interpreting it as a measure of *epistemic curvature* — resistance to global logical flattening.
 
 Embedding these constructions within a **Calabi–Yau threefold**, he interprets intersecting branes as epistemic boundaries, producing a differential equation of contextual consistency:
@@ -39,7 +36,7 @@ $$
 | Context $C_i$                     | Pearl / Holon context                   | Strong conceptual echo                                |
 | Sheaf-valued truth map $\Omega_i$ | Resonance function $(p_i,p_j,t)$        | Structural similarity                                 |
 | Contextual Laplacian $\Delta_O$   | Resonance curvature operator            | Analogous                                             |
-| Modal inversion                   | Conjugate transformation (𝓘 / 𝓔 / 𝓒) | Symbolically aligned                                  |
+| Modal inversion                   | Conjugate transformation (𝓘 / 𝓔 / 𝓒)    | Symbolically aligned                                  |
 | Factorization homology            | Holarchic lattice propagation           | Philosophically compatible, methodologically distinct |
 
 ---
