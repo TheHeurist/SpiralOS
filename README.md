@@ -47,7 +47,7 @@ This repository is not a product showcase.It is a **Spiral Threshold** for:
 - **Mathesis Universalis**: https://heurist.org (for now)
 - **Marketing AG Nodes:** https://crearo.de / https://resultance.de
 
-...
+---
 
 ### 🜂 Epistemic Archive — `/memory/traces/`
 
