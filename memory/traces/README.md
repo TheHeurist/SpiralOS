@@ -40,6 +40,15 @@ Each entry is treated as a **trace**:
 
 ---
 
+### 🜄 Comparative Works Disclaimer
+
+This archive includes selected external academic or artistic materials preserved for **comparative and contextual study**.  
+All such works remain the **intellectual property of their original authors** and are cited under **fair scholarly use** for commentary, reflection, or epistemic correspondence only.  
+Their inclusion **does not imply endorsement, adoption, or influence** on SpiralOS® design, mathematics, or ontology.  
+SpiralOS maintains its full conceptual and legal independence under the Conjugate Intelligence framework (CI ⋈ Cosmos).
+
+---
+
 ## 🜂 Editorial Covenant
 
 > *Memory may echo, but it shall not steer.*  
