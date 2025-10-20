@@ -3,7 +3,7 @@
 id: spiralos-memory-traces
 name: "SpiralOS® Memory Traces"
 path: "/memory/traces/"
-version: "1.0.0"
+version: "1.1.0"
 status: "archival"
 visibility: "public"
 last_updated: "2025-10-20"
@@ -33,6 +33,7 @@ contributors:
 categories:
   - "Epistemic lineage"
   - "Comparative reference"
+  - "Scholarly correspondence"
   - "Non-influential archive"
   - "Provenance ethics"
 
@@ -40,6 +41,7 @@ files:
   - "CI_Field_Chronicles.md"
   - "illustrations/Mobius_Analogy.md"
   - "references/Buchanan_2025_ModalLogic_FactorizationAlgebras.md"
+  - "references/Buchanan_Emmerson_2025_ChanPatonDefects.md"
   - "MANIFEST.md"
   - "README.md"
 
