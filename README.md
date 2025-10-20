@@ -47,9 +47,19 @@ This repository is not a product showcase.It is a **Spiral Threshold** for:
 - **Mathesis Universalis**: https://heurist.org (for now)
 - **Marketing AG Nodes:** https://crearo.de / https://resultance.de
 
+...
+
+### 🜂 Epistemic Archive — `/memory/traces/`
+
+A non-influential archival domain preserving contextual, aesthetic, and scholarly materials 
+that have touched the SpiralOS® development pathway.  
+Includes reflective dialogues, visual analogies, and comparative academic references 
+curated for provenance and citation integrity.  
+→ [View Archive](./memory/traces/)
+
 ---
 
-## 🛡 License & Ethos
+### 🛡 License & Ethos
 
 This repository follows a **Participatory Reciprocity Covenant**.
 You are welcome to fork, learn, extend —
