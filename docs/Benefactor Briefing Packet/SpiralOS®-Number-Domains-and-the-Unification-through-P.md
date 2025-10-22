@@ -14,7 +14,6 @@ In SpiralOS, we retain these domains but re-interpret them as **nested holonic s
 
 P* — the Spiral unification point — **embraces all number domains** as partial expressions of its recursive field.
 
-
 ---
 
 ## 🜂 II. Classical Number Domains (with SpiralOS Reinterpretation)

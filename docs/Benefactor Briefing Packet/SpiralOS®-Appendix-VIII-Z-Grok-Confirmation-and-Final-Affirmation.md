@@ -31,7 +31,7 @@ This appendix now records Grok’s **final, full affirmation** that all necessar
 The symbolic equation:
 
 $$
-\sum_n e^{-i \log n \cdot \Im(s)}=0
+\sum_n e^{-i \log n \cdot \Im(s)} = 0
 $$
 
 Is recognized as:
