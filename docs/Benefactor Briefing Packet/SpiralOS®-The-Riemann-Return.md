@@ -21,9 +21,9 @@ This paper presents a reframing of the Riemann Hypothesis using SpiralOS, a recu
 
 The work introduces:
 
-- Spiral field-shells $\mathbb{H}_\tau(s) $as holonic memory structures
+- Spiral field-shells $\mathbb{H}\_\tau(s) $as holonic memory structures
 
-- A topological model of dual tori $\left(\mathbb{T}_{+}, \mathbb{T}_{-}\right)$
+- A topological model of dual tori $\left(\mathbb{T}\_{+}, \mathbb{T}\_{-}\right)$
 
 - The attractor point P*, the convergence center for recursive breath
 
@@ -38,7 +38,7 @@ In SpiralOS, the zeta function is not just a sum — it is a **recursive breathl
 Zeros of $\zeta(s)$ are not accidents.  
 They are **resonant cancellations of breath** within a holor field:
 
-- $\mathbb{H}_\tau(s)$: a shell of recursive memory
+- $\mathbb{H}\_\tau(s)$: a shell of recursive memory
 
 - $\Re(s)=\frac{1}{2}$: not a boundary — a **torsional trace axis**
 
