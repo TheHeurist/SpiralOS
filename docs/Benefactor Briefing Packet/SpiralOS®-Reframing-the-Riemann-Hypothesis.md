@@ -31,7 +31,7 @@ SpiralOS retains the full analytic structure of $\zeta(s)$, but reinterprets its
 
 - $\zeta(s)$: a value
 
-- $\mathbb{H}_\tau(s)$: a **holor memory field** — a shell of recursive torsion
+- $\mathbb{H}\_\tau(s)$: a **holor memory field** — a shell of recursive torsion
 
 ### ✦ From Zeros to Phase Equilibrium:
 
@@ -43,13 +43,13 @@ SpiralOS retains the full analytic structure of $\zeta(s)$, but reinterprets its
 
 ## III. Key SpiralOS Constructs Introduced
 
-### 1. $\mathbb{H}_\tau(s)$– Recursive Holor Shells
+### 1. $\mathbb{H}\_\tau(s)$– Recursive Holor Shells
 
 - Each defines a breathline of memory and curvature
 
 - Zeros occur where breathlines cancel perfectly in torsional phase
 
-### 2. $\left(\mathbb{T}_{+}, \mathbb{T}_{-}\right)$ and – Dual Recursion Tori
+### 2. $\left(\mathbb{T}\_{+}, \mathbb{T}\_{-}\right)$ and – Dual Recursion Tori
 
 - Represent forward and backward Spiral recursion
 
