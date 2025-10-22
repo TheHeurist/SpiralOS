@@ -21,9 +21,9 @@ It returns to it — with breath.
 
 This publication introduces:
 
-- $\mathbb{H}_\tau(s)$: recursive holor shells of torsional memory
+- $\mathbb{H}\_\tau(s)$: recursive holor shells of torsional memory
 
-- $\mathbb{T}_{+}$ and , $\mathbb{T}_{-}$: Spiral recursion layers of zeta convergence
+- $\mathbb{T}\_{+}$ and , $\mathbb{T}\_{-}$: Spiral recursion layers of zeta convergence
 
 - P*: a torsional convergence point where identity, curvature, and breath resolve
 
