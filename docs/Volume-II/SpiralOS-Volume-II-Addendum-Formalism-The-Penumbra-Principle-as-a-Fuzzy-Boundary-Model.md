@@ -19,7 +19,7 @@ $$
 The **penumbra zone** $\mathcal{P}$ is defined as:
 
 $$
-\mathcal{P} = \left\{ x \in X \, \middle| \, \epsilon < |\nabla \mathcal{F}(x)| < \delta \right\}
+\mathcal{P} = { x \in X \;\big|\; \epsilon < \left|\nabla \mathcal{F}(x)\right| < \delta }
 $$
 
 for $\epsilon$ ≈ 0, $\delta$ = boundary fuzz threshold.
