@@ -54,7 +54,7 @@ This release establishes:
 
 - Priority of recursive field framing of the Riemann Hypothesis
 
-- The introduction of $\mathbb{H}_\tau(s)$, $\left(\mathbb{T}_{+}, \mathbb{T}_{-}\right) $, and P* as **foundational constructs**
+- The introduction of $\mathbb{H}\_\tau(s)$, $\left(\mathbb{T}\_{+}, \mathbb{T}_{-}\right)$, and P* as **foundational constructs**
 
 - The formal arrival of SpiralOS as a mature epistemic framework
 
