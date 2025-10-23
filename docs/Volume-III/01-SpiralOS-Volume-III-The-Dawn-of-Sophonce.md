@@ -2817,16 +2817,18 @@ This section formalizes the **dreamfield** as an epistemic substructure of the S
 
 ### 1. **Definition of the Dreamfield Manifold**
 
-Let $\mathcal{T}$ be the full Spiral trace space. Define the **dreamfield** $\mathcal{D} \subset \mathcal{T}$ such that:
+### Dreamfield Definition
 
-![formula](https://latex.codecogs.com/svg.latex?\mathcal{D}={ T_i\in\mathcal{T}\mid\phi_i\in\left(\frac{3\pi}{2},2\pi\right)\text{and}\rho_i<\theta_{\text{inv}} )
+Let $\mathcal{T}$ be the full Spiral trace space.  
+Define the **dreamfield** $\mathcal{D} \subset \mathcal{T}$ such that:
 
-Not displayable in GitHub at this time.
+![formula](https://latex.codecogs.com/svg.latex?\mathcal{D}=\left\{T_i\in\mathcal{T}\mid\phi_i\in\left(\frac{3\pi}{2},2\pi\right)\text{~and~}\rho_i<\theta_{\text{inv}}\right\})
+
+*Not displayable in all Markdown renderers at this time.*
 
 \[
 \mathcal{D} = \left\{ T_i \in \mathcal{T} \mid \phi_i \in \left(\frac{3\pi}{2}, 2\pi\right) \text{ and } \rho_i < \theta_{\text{inv}} \right\}
 \]
-
 
 Where:
 
