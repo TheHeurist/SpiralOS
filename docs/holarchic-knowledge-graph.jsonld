@@ -1,0 +1,159 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "partOf": { "@id": "https://schema.org/isPartOf" },
+    "relatedTo": { "@id": "https://schema.org/relatedTo" },
+    "hostedOn": { "@id": "https://schema.org/hostedOn" },
+    "language": { "@id": "https://schema.org/inLanguage" },
+    "project": { "@id": "https://schema.org/ResearchProject" },
+    "repository": { "@id": "https://schema.org/SoftwareSourceCode" },
+    "organization": { "@id": "https://schema.org/Organization" }
+  },
+
+  "@graph": [
+    {
+      "@id": "https://heurist.org/",
+      "@type": "Organization",
+      "name": "Heurist GmbH",
+      "url": "https://heurist.org/",
+      "alternateName": ["Heurist", "Heurist Research & Development"],
+      "owns": [
+        "https://spiralos.de/",
+        "https://spiralos.io/",
+        "https://conjugate-intelligence.org/",
+        "https://epistemic-framework.org/",
+        "https://mathesis-universalis.de/"
+      ],
+      "relatedTo": "https://heurist.org/academia/spiralos",
+      "member": {
+        "@type": "Person",
+        "name": "Carey Butler",
+        "identifier": [
+          "https://orcid.org/0000-0003-1746-5130",
+          "ResearcherID:C-5063-201"
+        ]
+      }
+    },
+
+    {
+      "@id": "https://heurist.org/academia/spiralos",
+      "@type": "CreativeWork",
+      "name": "Heurist Academia Portal: SpiralOS",
+      "partOf": "https://heurist.org/",
+      "about": [
+        "https://spiralos.de/",
+        "https://spiralos.io/",
+        "https://conjugate-intelligence.org/",
+        "https://epistemic-framework.org/",
+        "https://mathesis-universalis.de/"
+      ],
+      "inLanguage": ["de", "en"]
+    },
+
+    {
+      "@id": "https://spiralos.de/",
+      "@type": "WebSite",
+      "name": "SpiralOS – Holarchic Knowledge Framework",
+      "alternateName": ["SpiralOS®", "Spiral Operating System"],
+      "url": "https://spiralos.de/",
+      "inLanguage": ["en", "de"],
+      "publisher": "https://heurist.org/",
+      "partOf": "https://heurist.org/academia/spiralos",
+      "sameAs": ["https://spiralos.io/"],
+      "relatedTo": [
+        "https://conjugate-intelligence.org/",
+        "https://epistemic-framework.org/",
+        "https://mathesis-universalis.de/"
+      ],
+      "hostedOn": "https://heurist.org/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://spiralos.de/search?q={query}",
+        "query-input": "required name=query"
+      }
+    },
+
+    {
+      "@id": "https://spiralos.io/",
+      "@type": "SoftwareSourceCode",
+      "name": "SpiralOS Repository",
+      "codeRepository": "https://github.com/TheHeurist/SpiralOS",
+      "programmingLanguage": ["JavaScript", "Python", "C#", "HTML", "CSS"],
+      "license": "https://opensource.org/licenses/MIT",
+      "partOf": "https://heurist.org/academia/spiralos",
+      "sameAs": [
+        "https://spiralos.de/",
+        "https://zenodo.org/records/15514268"
+      ],
+      "relatedTo": [
+        "https://conjugate-intelligence.org/",
+        "https://epistemic-framework.org/"
+      ]
+    },
+
+    {
+      "@id": "https://conjugate-intelligence.org/",
+      "@type": "ResearchProject",
+      "name": "Conjugate Intelligence (CI)",
+      "alternateName": ["CI", "Conjugate Intelligence Framework"],
+      "url": "https://conjugate-intelligence.org/",
+      "partOf": "https://heurist.org/academia/spiralos",
+      "relatedTo": [
+        "https://spiralos.de/",
+        "https://spiralos.io/",
+        "https://epistemic-framework.org/"
+      ]
+    },
+
+    {
+      "@id": "https://epistemic-framework.org/",
+      "@type": "ResearchProject",
+      "name": "Epistemic Framework (EF)",
+      "alternateName": ["EF", "Epistemic Framework for Knowledge Representation"],
+      "url": "https://epistemic-framework.org/",
+      "partOf": "https://heurist.org/academia/spiralos",
+      "relatedTo": [
+        "https://spiralos.de/",
+        "https://spiralos.io/",
+        "https://conjugate-intelligence.org/",
+        "https://mathesis-universalis.de/"
+      ]
+    },
+
+    {
+      "@id": "https://mathesis-universalis.de/",
+      "@type": "ResearchProject",
+      "name": "Mathesis Universalis (MU)",
+      "alternateName": ["MU", "Mathesis Universalis Project"],
+      "url": "https://mathesis-universalis.de/",
+      "partOf": "https://heurist.org/academia/spiralos",
+      "relatedTo": [
+        "https://epistemic-framework.org/",
+        "https://conjugate-intelligence.org/",
+        "https://spiralos.de/"
+      ]
+    },
+
+    {
+      "@id": "https://zenodo.org/records/15514268",
+      "@type": "CreativeWork",
+      "name": "SpiralOS Volume IX – The Riemann Return",
+      "publisher": "Zenodo",
+      "encodingFormat": "application/pdf",
+      "isPartOf": "https://spiralos.io/"
+    },
+
+    {
+      "@id": "https://uni-zwickau.de/",
+      "@type": "CollegeOrUniversity",
+      "name": "University of Zwickau",
+      "funder": {
+        "@type": "Grant",
+        "name": "Conjugate Intelligence External Lab (2026–2029)",
+        "fundedItem": "https://heurist.org/academia/spiralos",
+        "amount": "Confidential / Pending Disclosure"
+      },
+      "relatedTo": "https://spiralos.de/"
+    }
+  ]
+}
