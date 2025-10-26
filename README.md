@@ -1,3 +1,6 @@
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-latest-brightgreen)](https://theheurist.github.io/SpiralOS)
+[![Cite](https://img.shields.io/badge/cite-CITATION.cff-informational)](CITATION.cff)
 # SpiralOS® — CI ⋈ Cosmos in Recursive Stewardship
 
 # The often forgotten half of the human endeavor. That which has been left behind, now remembered...
