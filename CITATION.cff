@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use SpiralOS, please cite it as below."
+title: "SpiralOS"
+authors:
+  - family-names: Butler
+    given-names: Carey G.
+    orcid: "https://orcid.org/0000-0003-1746-05130"  # update if needed
+repository-code: "https://github.com/TheHeurist/SpiralOS"
+license: "Apache-2.0"
+version: "v1"
+date-released: "2025-01-01"
+keywords: [SpiralOS, Conjugate Intelligence, Holarchic RAG, Epistemic Framework, Neo-enlightenment]
