@@ -1,7 +1,7 @@
 name: SEO Checks
 on:
   push:
-    branches: [ main ]
+    branches: [ main, seo/enhancements ]
   pull_request:
   schedule:
     - cron: "23 3 * * *"   # 03:23 UTC daily
@@ -14,24 +14,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Generate sitemap (static repo fallback)
         run: |
           python - << 'PY'
-            import os, time
-            base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
-            paths = []
-            for root,_,files in os.walk("."):
-                for f in files:
-                    if f.lower().endswith((".md",".html")) and ".github" not in root:
-                        p = os.path.join(root,f).lstrip("./")
-                    if p.endswith(".md"):
-                        p = p[:-3] + ".html"
-                    paths.append(p.replace("\\","/"))
-                    urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
-                    print("""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s\n</urlset>"""%urls)
-                    PY > sitemap.xml
-
+import os
+base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
+paths = []
+for root,_,files in os.walk("."):
+    for f in files:
+        if f.lower().endswith((".md",".html")) and ".github" not in root:
+            p = os.path.join(root,f).lstrip("./")
+            if p.endswith(".md"):
+                p = p[:-3] + ".html"
+            paths.append(p.replace("\\","/"))
+urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
+print("""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s\n</urlset>"""%urls)
+PY > sitemap.xml
       - name: Commit sitemap.xml if changed
         run: |
           git config user.name  "seo-bot"
@@ -39,11 +37,9 @@ jobs:
           git add sitemap.xml
           if git diff --cached --quiet; then
             echo "No sitemap changes."
-          else
+          else:
             git commit -m "chore(seo): refresh sitemap.xml"
             git push
-          fi
-
   links:
     runs-on: ubuntu-latest
     steps:
