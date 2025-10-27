@@ -1,0 +1,44 @@
+name: Schema & Citation Validation
+on:
+  push:
+    branches: [ main, seo/** ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate-jsonld:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Validate JSON syntax
+        run: |
+          set -e
+          find docs -type f -name "*.jsonld" -o -name "structured-data.jsonld" | while read f; do
+            echo "Checking $f"
+            jq empty "$f"
+          done
+  validate-citation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate CITATION.cff
+        uses: citation-file-format/cffconvert-github-action@v2
+        with:
+          args: "--validate"
+  validate-dois:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check DOI reachability
+        run: |
+          set -e
+          DOIS=$(grep -RhoE "zenodo\\.org/records/[0-9]{6,}" docs | sort -u || true)
+          for d in $DOIS; do
+            echo "Checking https://$d"
+            code=$(curl -s -o /dev/null -w "%{http_code}" "https://$d")
+            if [ "$code" -lt 200 ] || [ "$code" -gt 399 ]; then
+              echo "::warning title=DOI unreachable::$d returned $code"
+            fi
+          done
