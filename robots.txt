@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://theheurist.github.io/SpiralOS/sitemap.xml
