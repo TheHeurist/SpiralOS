@@ -1,0 +1,37 @@
+name: SEO Checks
+
+on: [pull_request, push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check canonical files
+        run: |
+          set -e
+          missing=0
+          for d in docs/Volume-*; do
+            for f in Cover.md README.md MANIFEST.md Abstract.md Quotes.md Contents.md; do
+              if [ ! -f "$d/$f" ]; then
+                echo "Missing: $d/$f"
+                missing=1
+              fi
+            done
+          done
+          if [ $missing -ne 0 ]; then
+            echo '::error::One or more volumes are missing canonical files'
+            exit 1
+          fi
+      - name: Validate JSON-LD syntax
+        run: |
+          python - <<'PY'
+import json,sys,glob
+for p in glob.glob('docs/**/**/*.json*', recursive=True):
+  try:
+    with open(p) as f: json.load(f)
+  except Exception as e:
+    print(f'Invalid JSON in {p}: {e}')
+    sys.exit(1)
+print('JSON-LD OK')
+PY

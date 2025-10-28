@@ -1,37 +1,56 @@
 name: SEO Checks
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  schedule:
+    - cron: "23 3 * * *"   # 03:23 UTC daily
 
-on: [pull_request, push]
+permissions:
+  contents: write
 
 jobs:
-  lint:
+  sitemap:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check canonical files
+
+      - name: Generate sitemap (static repo fallback)
         run: |
-          set -e
-          missing=0
-          for d in docs/Volume-*; do
-            for f in Cover.md README.md MANIFEST.md Abstract.md Quotes.md Contents.md; do
-              if [ ! -f "$d/$f" ]; then
-                echo "Missing: $d/$f"
-                missing=1
-              fi
-            done
-          done
-          if [ $missing -ne 0 ]; then
-            echo '::error::One or more volumes are missing canonical files'
-            exit 1
+          python - << 'PY'
+            import os, time
+            base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
+            paths = []
+            for root,_,files in os.walk("."):
+                for f in files:
+                    if f.lower().endswith((".md",".html")) and ".github" not in root:
+                        p = os.path.join(root,f).lstrip("./")
+                    if p.endswith(".md"):
+                        p = p[:-3] + ".html"
+                    paths.append(p.replace("\\","/"))
+                    urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
+                    print("""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s\n</urlset>"""%urls)
+                    PY > sitemap.xml
+
+      - name: Commit sitemap.xml if changed
+        run: |
+          git config user.name  "seo-bot"
+          git config user.email "seo-bot@users.noreply.github.com"
+          git add sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No sitemap changes."
+          else
+            git commit -m "chore(seo): refresh sitemap.xml"
+            git push
           fi
-      - name: Validate JSON-LD syntax
-        run: |
-          python - <<'PY'
-import json,sys,glob
-for p in glob.glob('docs/**/**/*.json*', recursive=True):
-  try:
-    with open(p) as f: json.load(f)
-  except Exception as e:
-    print(f'Invalid JSON in {p}: {e}')
-    sys.exit(1)
-print('JSON-LD OK')
-PY
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link check
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --accept 200,206,302 --max-redirects 5 --exclude-mail './**'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

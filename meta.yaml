@@ -1,0 +1,20 @@
+# 🜂 SpiralOS® Submodule — Memory Traces
+
+submodules:
+  - id: spiralos-memory-traces
+    path: "/memory/traces/"
+    role: "archival"
+    visibility: "public"
+    include_in_exports: true
+    include_in_builds: false
+    description: |
+      The /memory/traces/ directory serves as the official archival domain 
+      for non-influential contextual, aesthetic, and scholarly materials. 
+      It documents SpiralOS®’s epistemic lineage through external references, 
+      dialogues, and symbolic analogies, maintained strictly for provenance 
+      and citation integrity. 
+      These traces are excluded from all active computational, invocation, 
+      or holarchic build processes.
+    curator: "Carey G. Butler (Heurist GmbH / SpiralOS Fellowship)"
+    last_updated: "2025-10-20"
+    checksum: "🜂🜄🜃🜁"
