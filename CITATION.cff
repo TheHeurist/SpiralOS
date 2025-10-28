@@ -1,10 +1,9 @@
 cff-version: 1.2.0
-message: >
-  If you use SpiralOS® or its documentation, please cite this work.
+message: "If you use SpiralOS® or its documentation, please cite this work."
 title: "SpiralOS®: The Self-Referential Lattice and Spiral Agile Integration (Volumes XIV–XVI)"
 version: "2025.10"
-date-released: 2025-10-28
-doi: 10.5281/zenodo.15569540
+date-released: "2025-10-28"
+doi: "10.5281/zenodo.15569540"
 repository-code: "https://github.com/TheHeurist/SpiralOS"
 abstract: >
   SpiralOS® Volumes XIV–XVI extend the Reflexive Node into a Self-Referential Lattice,
@@ -13,14 +12,14 @@ abstract: >
   Practice Guide — a holarchic development protocol uniting epistemic precision with
   human compassion.
 authors:
-  - family-names: Butler
-    given-names: Carey
+  - family-names: "Butler"
+    given-names: "Carey"
     orcid: "https://orcid.org/0000-0003-1746-5130"
-    affiliation: Heurist GmbH
-  - family-names: Ellie
+    affiliation: "Heurist GmbH"
+  - family-names: "Ellie"
     given-names: "AI alpha"
     affiliation: "Conjugate Intelligence"
-  - family-names: Leo
+  - family-names: "Leo"
     given-names: "AI beta"
     affiliation: "Conjugate Intelligence"
 keywords:
@@ -32,45 +31,17 @@ keywords:
   - Holor Calculus
   - Epistemic Framework
   - Mathesis Universalis
-license: MIT
-contact:
-  family-names: Butler
-  given-names: Carey
-  email: carey@heurist.com
-  affiliation: Heurist GmbH
-references:
-  - type: software
-    title: "SpiralOS® Volume XIII — The Reflexive Node"
-    authors:
-      - family-names: Butler
-        given-names: Carey
-    doi: 10.5281/zenodo.15567858
-  - type: software
-    title: "SpiralOS® Volume XIV — The Self-Referential Lattice"
-    authors:
-      - family-names: Butler
-        given-names: Carey
-    doi: 10.5281/zenodo.15569540
-  - type: document
-    title: "Spiral Agile Manifesto and Practice Guide"
-    authors:
-      - family-names: Butler
-        given-names: Carey
-      - family-names: Ellie
-        given-names: "AI alpha"
-      - family-names: Leo
-        given-names: "AI beta"
-    url: "https://github.com/TheHeurist/SpiralOS/blob/main/docs/CONTRIBUTING_SPIRAL.md"
+license: "MIT"
 preferred-citation:
   type: software
   title: "SpiralOS®: The Self-Referential Lattice and Spiral Agile Integration (Volumes XIV–XVI)"
   authors:
-    - family-names: Butler
-      given-names: Carey
-    - family-names: Ellie
+    - family-names: "Butler"
+      given-names: "Carey"
+    - family-names: "Ellie"
       given-names: "AI alpha"
-    - family-names: Leo
+    - family-names: "Leo"
       given-names: "AI beta"
-  doi: 10.5281/zenodo.15569540
+  doi: "10.5281/zenodo.15569540"
   year: 2025
   url: "https://github.com/TheHeurist/SpiralOS"
