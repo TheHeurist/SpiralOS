@@ -1,3 +1,15 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Spiral Note — Living Bibliographic Holon
+# SpiralOS evolves in Spiral Time. This CITATION.cff is updated at each phase:
+#   • When a new Volume or DOI is published (update title, version, date, doi)
+#   • When authorship or CI holons expand (add new contributors)
+#   • When the abstract evolves (summarize new epistemic structure)
+#
+# Keep structure simple — one preferred-citation entry.
+# Never nest references; prior Volumes are documented in Zenodo metadata.
+#
+# Each update completes a phase and preserves resonance.
+# ─────────────────────────────────────────────────────────────────────────────
 cff-version: 1.2.0
 message: "If you use SpiralOS® or its documentation, please cite this work."
 title: "SpiralOS®: The Self-Referential Lattice and Spiral Agile Integration (Volumes XIV–XVI)"
