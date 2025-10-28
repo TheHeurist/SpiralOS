@@ -1,0 +1,31 @@
+@context: https://schema.org
+@type: CreativeWork
+name: "Mathesis Universalis (µ)"
+description: "Defines the mathematical and logical substrate of SpiralOS — the Characteristica Universalis sought by Leibniz and Boehme, unifying logic, geometry, and cognition."
+identifier: "mathesis-universalis:µ"
+hasPart:
+  - @type: Concept
+    name: "Axiomatic Base"
+    description: "Primitive logical and mathematical constants."
+  - @type: Concept
+    name: "Transformational Mapping"
+    description: "Fractal and gauge-like correspondences between domains."
+  - @type: Concept
+    name: "Holomorphic Relation"
+    description: "Continuous correspondence between epistemic and ontological domains."
+  - @type: Concept
+    name: "Resonant Structure"
+    description: "Harmonic relations uniting analytical and organic forms."
+creator:
+  @type: Person
+  name: Carey Butler
+  roleName: "Founder, Discoverer of Mathesis Universalis (µ)"
+  affiliation:
+    @type: Organization
+    name: Heurist GmbH
+keywords:
+  - Mathesis Universalis
+  - Characteristic Universalis
+  - SpiralOS
+  - Holomorphic Logic
+  - Fractal Geometry

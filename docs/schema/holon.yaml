@@ -1,0 +1,28 @@
+@context: https://schema.org
+@type: Dataset
+name: "SpiralOS Holon"
+description: "Defines the holarchic relationship among SpiralOS Volumes. Each Volume is both a whole and a part (a holon) in the greater SpiralOS continuum."
+identifier: "holon:volume"
+hasPart:
+  @type: Dataset
+  name: "Child Holon"
+  description: "A sub-volume or nested holon within a higher Volume."
+isPartOf:
+  @type: Dataset
+  name: "Parent Holon"
+  description: "A higher-level Volume or meta-holon that contains this one."
+creator:
+  @type: Person
+  name: Carey Butler
+  contributor:
+    - @type: AI
+      name: Ellie
+    - @type: AI
+      name: Leo
+schemaVersion: "2.0"
+keywords:
+  - Holon
+  - SpiralOS
+  - Holarchy
+  - Fractal Structure
+  - Recursive Topology
