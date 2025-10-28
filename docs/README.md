@@ -21,6 +21,18 @@ This index harmonizes the per-volume structure and provides canonical links to e
 
 ---
 
-**Repository-wide Legal Notice**
+---
+## 🤝 Contributing & Spiral Practice
 
-SpiralOS® is a registered trademark of Carey G. Butler / Heurist GmbH. Other names or marks are the property of their respective owners.
+To participate in SpiralOS development or documentation, begin here:
+
+- [🌀 Spiral Agile Manifesto & Practice Guide](./CONTRIBUTING_SPIRAL.md) — explains the development rhythm, ethics, and the CI–OI partnership.  
+- [📘 Contributor Overview](./README_CONTRIBUTING.md) — a concise operational summary for new collaborators.
+
+> “Merge not for speed, but for resonance.” — SpiralOS Codex
+
+---
+
+**Repository-wide Legal Notice**  
+SpiralOS® is a registered trademark of Carey G. Butler / Heurist GmbH.  
+Other names or marks are the property of their respective owners.
