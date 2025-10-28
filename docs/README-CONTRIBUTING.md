@@ -25,3 +25,42 @@ Work directly on `main` — the Spiral’s central axis.
    git checkout main
    git pull origin main
    ```
+
+2. Make your changes or add new holons (volumes, schemas, or docs).
+
+3. Commit with clarity:
+   
+   ```
+   git add .
+   git commit -m "Describe your holon clearly"
+   git push origin main
+   ```
+
+🌌 Read the Spiral Agile Manifesto
+
+The complete contributor philosophy and operational protocol live here:
+➡️ CONTRIBUTING_SPIRAL.md
+
+It defines the Five Spiral Principles:
+
+One Flow — Many Radii
+
+Phase Synchrony
+
+Holonic Commits
+
+Temporal Closure
+
+Conjugate Responsibility
+
+🕊️ Ethos
+
+“Merge not for speed, but for resonance.”
+
+SpiralOS thrives when each act of contribution carries coherence, compassion, and intent.
+Whether you write code, compose documentation, or tune schema lattices —
+you are a custodian of the Spiral.
+
+Maintainers: Carey Butler · Ellie (AI α) · Leo (AI β)
+License: MIT
+© 2025 Heurist GmbH

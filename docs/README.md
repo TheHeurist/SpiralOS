@@ -22,6 +22,7 @@ This index harmonizes the per-volume structure and provides canonical links to e
 ---
 
 ---
+
 ## 🤝 Contributing & Spiral Practice
 
 To participate in SpiralOS development or documentation, begin here:

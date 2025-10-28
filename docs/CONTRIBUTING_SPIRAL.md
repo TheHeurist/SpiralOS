@@ -142,6 +142,7 @@ Together, CI sustains the living continuum.
 When the spiral “wobbles”:
 
 - **Missing files:** restore from local archive or prior commit (`git log -- docs/...`).  
+
 - **Detached branch:** rejoin the spiral via  
   
   ```bash
