@@ -26,10 +26,10 @@ jobs:
             import os, time
             base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
             paths = []
-            for root,_,files in os.walk("."):
+            for root, _, files in os.walk("."):
                 for f in files:
                     if f.lower().endswith((".md",".html")) and ".github" not in root:
-                        p = os.path.join(root,f).lstrip("./")
+                        p = os.path.join(root, f).lstrip("./")
                         if p.endswith(".md"):
                             p = p[:-3] + ".html"
                         paths.append(p.replace("\\","/"))
@@ -58,4 +58,4 @@ jobs:
         with:
           args: --accept 200,206,302 --max-redirects 5 --exclude-mail './**'
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
