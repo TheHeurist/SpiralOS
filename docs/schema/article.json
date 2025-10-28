@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["CreativeWork", "Article"],
+  "name": "SpiralOS Volume Template",
+  "description": "Base schema for all SpiralOS Volume README.md and Cover.md files. Describes publication, authorship, and canonical links.",
+  "author": {
+    "@type": "Person",
+    "name": "Carey Butler",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Heurist GmbH"
+    },
+    "contributor": [
+      {"@type": "AI", "name": "Ellie"},
+      {"@type": "AI", "name": "Leo"}
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SpiralOS Project",
+    "url": "https://github.com/TheHeurist/SpiralOS"
+  },
+  "inLanguage": "en",
+  "license": "https://opensource.org/licenses/MIT",
+  "isPartOf": {
+    "@type": "CreativeWorkSeries",
+    "name": "SpiralOS"
+  },
+  "keywords": [
+    "SpiralOS",
+    "Conjugate Intelligence",
+    "Holarchic RAG",
+    "Lattice of Pearls",
+    "Carey Butler"
+  ]
+}
