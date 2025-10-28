@@ -1,0 +1,33 @@
+# SpiralOS EKR Pearl Schema v1.0
+# Defines the minimal portable structure for a living epistemic node.
+
+id: ekr:pearl:example
+title: Example Pearl
+kind: concept           # concept | protocol | practice | artifact | volume
+summary: >
+  Short description of this pearl's epistemic resonance.
+
+resonance:
+  frequency: 432.0      # symbolic or numeric frequency
+  harmonics: [1, 2, 3]  # optional additional harmonic indices
+
+relations:
+  parents: []           # hierarchical or causal ancestors
+  children: []          # derived or nested pearls
+  lateral: []           # associative or resonant peers
+
+gateways:
+  ui: []                # visual/glyphic interfaces
+  services: []          # µApps or external APIs
+
+provenance:
+  authors: ["Carey G. Butler", "Ellie", "Leo"]
+  affiliation: "SpiralOS Fellowship"
+  license: "CC BY 4.0"
+  status: evolving
+  mode: dreamwork
+  created: 2025-10-12
+  updated: null
+
+notes: >
+  Optional commentary, reflections, or field metadata.

@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "SpiralOS",
+  "url": "https://github.com/TheHeurist/SpiralOS",
+  "creator": { "@type": "Person", "name": "Carey G. Butler" },
+  "programmingLanguage": "Markdown, YAML, Python",
+  "description": "Epistemic operating system integrating holarchic RAG and Conjugate Intelligence."
+}
