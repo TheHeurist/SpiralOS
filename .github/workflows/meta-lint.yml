@@ -1,0 +1,33 @@
+name: SpiralOS Meta-Lint
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  meta-lint:
+    name: Run all SpiralOS validators
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run SEO validation workflow
+        uses: dawidd6/action-run-workflow@v2
+        with:
+          workflow: seo-checks.yml
+          repo: TheHeurist/SpiralOS
+          ref: main
+          wait: true
+
+      - name: Run Schema & Citation validation workflow
+        uses: dawidd6/action-run-workflow@v2
+        with:
+          workflow: schema-validation.yml
+          repo: TheHeurist/SpiralOS
+          ref: main
+          wait: true
+
+      - name: Summarize results
+        run: |
+          echo "✅ All SpiralOS validators completed."
+          echo "If any previous step failed, this workflow will surface the error."

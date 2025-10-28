@@ -7,19 +7,34 @@ on:
 
 jobs:
   validate-jsonld:
+    name: Validate JSON-LD and JSON syntax
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
-      - name: Validate JSON syntax
+      - name: Validate JSON-LD and JSON files
         run: |
           set -e
-          find docs -type f -name "*.jsonld" -o -name "structured-data.jsonld" | while read f; do
+          find docs -type f \( -name "*.jsonld" -o -name "*.json" -o -name "structured-data.json" \) | while read f; do
             echo "Checking $f"
             jq empty "$f"
           done
+
+  validate-yaml:
+    name: Validate YAML schemas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install yamllint
+        run: sudo apt-get update && sudo apt-get install -y yamllint
+      - name: Validate all YAML files
+        run: |
+          set -e
+          yamllint -d "{extends: default, rules: {line-length: disable}}" docs/
+
   validate-citation:
+    name: Validate CITATION.cff
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -27,14 +42,16 @@ jobs:
         uses: citation-file-format/cffconvert-github-action@v2
         with:
           args: "--validate"
+
   validate-dois:
+    name: Check DOI reachability
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Check DOI reachability
         run: |
           set -e
-          DOIS=$(grep -RhoE "zenodo\\.org/records/[0-9]{6,}" docs | sort -u || true)
+          DOIS=$(grep -RhoE "zenodo\\.org/records/[0-9]{6,}" docs CITATION.cff || true)
           for d in $DOIS; do
             echo "Checking https://$d"
             code=$(curl -s -o /dev/null -w "%{http_code}" "https://$d")

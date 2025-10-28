@@ -10,47 +10,41 @@ permissions:
   contents: write
 
 jobs:
-  sitemap:
+  validate:
+    name: Validate Sitemap and Structured Data
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate sitemap (static repo fallback)
+      - name: Check sitemap.xml exists and is well-formed
         run: |
-          python - << 'PY'
-            import os, time
-            base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
-            paths = []
-            for root,_,files in os.walk("."):
-                for f in files:
-                    if f.lower().endswith((".md",".html")) and ".github" not in root:
-                        p = os.path.join(root,f).lstrip("./")
-                    if p.endswith(".md"):
-                        p = p[:-3] + ".html"
-                    paths.append(p.replace("\\","/"))
-                    urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
-                    print("""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n%s\n</urlset>"""%urls)
-                    PY > sitemap.xml
-
-      - name: Commit sitemap.xml if changed
-        run: |
-          git config user.name  "seo-bot"
-          git config user.email "seo-bot@users.noreply.github.com"
-          git add sitemap.xml
-          if git diff --cached --quiet; then
-            echo "No sitemap changes."
-          else
-            git commit -m "chore(seo): refresh sitemap.xml"
-            git push
+          if [ ! -f docs/seo/sitemap.xml ]; then
+            echo "❌ sitemap.xml missing"; exit 1
           fi
+          xmllint --noout docs/seo/sitemap.xml
+
+      - name: Check sitemap.json syntax
+        run: |
+          if [ ! -f docs/seo/sitemap.json ]; then
+            echo "❌ sitemap.json missing"; exit 1
+          fi
+          jq empty docs/seo/sitemap.json
+
+      - name: Validate structured-data JSON-LD
+        run: |
+          for f in docs/seo/*.json docs/_includes/*.json; do
+            echo "Validating $f"
+            jq empty "$f"
+          done
 
   links:
+    name: Link integrity check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Link check
+      - name: Check all links
         uses: lycheeverse/lychee-action@v1
         with:
           args: --accept 200,206,302 --max-redirects 5 --exclude-mail './**'
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
