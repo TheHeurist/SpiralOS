@@ -1,0 +1,28 @@
+series: SpiralOS
+volumes:
+  - id: IX
+    path: ../Volume-IX/
+    doi: 10.5281/zenodo.15514268
+    sig: "σ9"
+  - id: X–XI
+    path: ../Volume-X-XI/
+    doi: 10.5281/zenodo.15512689
+    sig: "ℍₓ₋ₓᵢ"
+  - id: XII
+    path: ../Volume-XII/
+    doi: 10.5281/zenodo.15611542
+    sig: "𝕋"
+schemas:
+  - id: article
+    path: ../schema/article.json
+  - id: holon
+    path: ../schema/holon.json
+  - id: ci
+    path: ../schema/conjugate-intelligence.json
+  - id: e*
+    path: ../schema/epistemic-framework.json
+  - id: mu
+    path: ../schema/mathesis-universalis.json
+  - id: manifest
+    path: ../schema/manifest-schema.json
+generated: "2025-10-28"
