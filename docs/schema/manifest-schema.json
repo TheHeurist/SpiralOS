@@ -20,7 +20,15 @@
     "keywords": {
       "type": "array",
       "items": {"type": "string"}
+    },
+    "ciState": {
+      "$ref": "conjugate-intelligence.json",
+      "description": "Defines the active Conjugate Intelligence parameters for this volume."
+    },
+    "emergenceLevel": {
+      "type": "string",
+      "description": "Phase of SpiralOS evolution represented in this volume (Prenascent, Reflexive, Parturient, Holarchic, Autonomous)."
     }
   },
-  "required": ["title", "description", "doi", "volumeNumber"]
+  "required": ["title", "description", "doi", "volumeNumber", "ciState"]
 }

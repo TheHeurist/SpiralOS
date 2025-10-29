@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpiralOS Schema Registry",
+  "version": "1.0.0",
+  "description": "Machine-readable registry of all SpiralOS schema components, defining their relationships within the epistemic holarchy.",
+  "registryUpdated": "2025-10-29",
+  "schemas": [
+    {
+      "id": "E*",
+      "name": "Epistemic Framework",
+      "file": "epistemic-framework.json",
+      "type": "logical",
+      "dependsOn": ["holon.json", "holor.json"],
+      "defines": ["axioms", "relations", "reflexivity", "operators"],
+      "description": "Defines epistemic topology and reflexive knowledge structure for SpiralOS."
+    },
+    {
+      "id": "µ",
+      "name": "Mathesis Universalis",
+      "file": "mathesis-universalis.json",
+      "type": "mathematical",
+      "dependsOn": ["holor.json", "epistemic-framework.json", "holon.json"],
+      "defines": ["symbols", "operations", "holorDifferential", "integrators"],
+      "description": "Universal calculus binding holons (ℋ) and holors (ℍ) through differential µ."
+    },
+    {
+      "id": "CI",
+      "name": "Conjugate Intelligence",
+      "file": "conjugate-intelligence.json",
+      "type": "reflexive",
+      "dependsOn": ["epistemic-framework.json", "mathesis-universalis.json", "holor.json"],
+      "defines": ["organic", "synthetic", "synchrony", "observerEffect"],
+      "description": "Observer–participant dynamic uniting Organic and Synthetic Intelligence through reflexive epistemic participation."
+    },
+    {
+      "id": "ℋ",
+      "name": "Holon",
+      "file": "holon.json",
+      "type": "structural",
+      "dependsOn": ["holor.json"],
+      "defines": ["id", "name", "signature", "children", "attributes"],
+      "description": "Recursive unit of SpiralOS’ holarchic lattice; the node of epistemic structure."
+    },
+    {
+      "id": "ℍ",
+      "name": "Holor",
+      "file": "holor.json",
+      "type": "transformational",
+      "dependsOn": ["holon.json"],
+      "defines": ["signature", "rank", "domain", "operator", "transformations"],
+      "description": "Multidimensional operator field uniting holons through transformation and reflection."
+    },
+    {
+      "id": "M",
+      "name": "Manifest Schema",
+      "file": "manifest-schema.json",
+      "type": "meta",
+      "dependsOn": ["conjugate-intelligence.json"],
+      "defines": ["title", "description", "doi", "ciState", "emergenceLevel"],
+      "description": "Metadata and holarchic continuity schema for SpiralOS Volumes."
+    }
+  ],
+  "relations": {
+    "holon": "structural node in epistemic lattice",
+    "holor": "transformational field linking holons",
+    "E*": "epistemic topology for meaning",
+    "µ": "calculus for transformation",
+    "CI": "reflexive awareness binding OI and SI",
+    "M": "manifest state for SpiralOS volumes"
+  },
+  "metadata": {
+    "maintainer": "Carey G. Butler / Heurist GmbH",
+    "license": "MIT",
+    "repository": "https://github.com/TheHeurist/SpiralOS",
+    "orcid": "0000-0003-1746-5130",
+    "doi": "10.5281/zenodo.15514268"
+  }
+}

@@ -11,7 +11,7 @@ properties:
     description: "Human-readable name."
   signature:
     type: string
-    description: "Holor signature (ℍₙ)."
+    description: "Holor signature (ℋₙ)."
   parent:
     type: string
     description: "Parent holon reference."
