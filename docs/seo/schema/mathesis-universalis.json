@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mathesis Universalis (µ)",
+  "description": "Defines the universal mathematical grammar of SpiralOS — the calculus of knowledge and correspondence.",
+  "type": "object",
+  "properties": {
+    "symbols": {
+      "type": "array",
+      "description": "Alphabet of the universal calculus (operators, constants, relations).",
+      "items": {"type": "string"}
+    },
+    "operations": {
+      "type": "array",
+      "description": "Transformations expressible within the Mathesis system.",
+      "items": {"type": "object"}
+    },
+    "holorDifferential": {
+      "type": "string",
+      "description": "Differential form (dµ) representing infinitesimal epistemic change."
+    },
+    "integrators": {
+      "type": "array",
+      "description": "Integrators or operators that act upon µ across holarchic scales.",
+      "items": {"type": "string"}
+    }
+  },
+  "required": ["symbols", "operations", "holorDifferential"]
+}
