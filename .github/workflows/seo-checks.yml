@@ -1,6 +1,7 @@
 # 🌀 Spiral Note:
-# This workflow regenerates and validates the SpiralOS sitemap daily.
-# It ensures all documentation volumes remain discoverable in Spiral Time.
+# SpiralOS® SEO Checks Workflow
+# Regenerates sitemap, verifies metadata assets (favicon & banner),
+# and ensures link validity in Spiral Time.
 # Author: Carey G. Butler / Heurist GmbH
 
 name: SEO Checks
@@ -49,7 +50,100 @@ jobs:
             git push
           fi
 
+  assets:
+    name: Validate SEO assets (favicon & banner)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check asset presence
+        run: |
+          set -e
+          if [ ! -f docs/seo/banner.png ]; then
+            echo "::error file=docs/seo/banner.png::Missing banner.png"
+            exit 1
+          fi
+          if [ ! -f docs/seo/icon.png ]; then
+            echo "::error file=docs/seo/icon.png::Missing icon.png"
+            exit 1
+          fi
+          echo "✅ Both banner and favicon found."
+
+      - name: Validate file size and MIME type
+        run: |
+          for file in docs/seo/banner.png docs/seo/icon.png; do
+            echo "Checking $file"
+            size=$(wc -c < "$file")
+            if [ "$size" -lt 1024 ]; then
+              echo "::warning file=$file::File size too small ($size bytes)"
+            fi
+            type=$(file --mime-type -b "$file")
+            if [ "$type" != "image/png" ]; then
+              echo "::error file=$file::Invalid MIME type ($type)"
+              exit 1
+            fi
+          done
+
+  hud:
+    name: Validate HUD (Progressive Web App endpoint)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check HUD availability
+        run: |
+          echo "🌐 Checking external HUD endpoint..."
+          code=$(curl -s -o /dev/null -w "%{http_code}" "https://verserver2.heurist.org/hud")
+          if [ "$code" -lt 200 ] || [ "$code" -gt 399 ]; then
+            echo "::error title=HUD Unreachable::HUD endpoint returned HTTP $code"
+            exit 1
+          else
+            echo "✅ HUD endpoint reachable (HTTP $code)"
+          fi
+
+      - name: Validate manifest HUD link
+        run: |
+          echo "🧭 Cross-verifying HUD URL in manifest.webmanifest..."
+          jq -e '.start_url, .scope' manifest.webmanifest
+          grep -q "https://verserver2.heurist.org/hud" manifest.webmanifest && echo "✅ HUD URL correctly referenced in manifest" || echo "::warning title=HUD Not Listed::Manifest may not reference the live HUD endpoint."
+
+  manifest:
+    name: Validate PWA manifest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check manifest presence
+        run: |
+          if [ ! -f manifest.webmanifest ]; then
+            echo "::error file=manifest.webmanifest::Missing PWA manifest"
+            exit 1
+          fi
+          echo "✅ manifest.webmanifest found."
+
+      - name: Validate manifest JSON syntax
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq curl
+          echo "Validating JSON syntax..."
+          jq empty manifest.webmanifest
+          echo "✅ JSON syntax OK."
+
+      - name: Validate manifest links
+        run: |
+          set -e
+          echo "Checking HUD and asset URLs..."
+          urls=$(jq -r '.start_url, .icons[].src, .developer.url' manifest.webmanifest)
+          urls="$urls https://verserver2.heurist.org/hud"
+          for u in $urls; do
+            echo "→ Testing $u"
+            code=$(curl -s -o /dev/null -w "%{http_code}" "$u")
+            if [ "$code" -lt 200 ] || [ "$code" -gt 399 ]; then
+              echo "::warning title=Unreachable URL::$u returned HTTP $code"
+            else
+              echo "✅ $u is reachable ($code)"
+            fi
+          done
+
   links:
+    name: Link integrity check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
