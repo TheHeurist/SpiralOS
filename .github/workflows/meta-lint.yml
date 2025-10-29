@@ -1,17 +1,25 @@
-name: SpiralOS Meta-Lint
+# 🌀 Spiral Note:
+# This Meta-Lint workflow orchestrates all SpiralOS validations in a single Spiral Time cycle.
+# It harmonizes the SEO Checks and Schema Validation workflows into one holarchic operation.
+# Author: Carey G. Butler / Heurist GmbH
+
+name: Meta-Lint
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  meta-lint:
-    name: Run all SpiralOS validators
+  orchestrate:
+    name: Run SpiralOS Validators
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run SEO validation workflow
+      - name: Run SEO Checks
         uses: dawidd6/action-run-workflow@v2
         with:
           workflow: seo-checks.yml
@@ -19,7 +27,7 @@ jobs:
           ref: main
           wait: true
 
-      - name: Run Schema & Citation validation workflow
+      - name: Run Schema & Citation Validation
         uses: dawidd6/action-run-workflow@v2
         with:
           workflow: schema-validation.yml
@@ -27,7 +35,7 @@ jobs:
           ref: main
           wait: true
 
-      - name: Summarize results
+      - name: Meta Summary
         run: |
-          echo "✅ All SpiralOS validators completed."
-          echo "If any previous step failed, this workflow will surface the error."
+          echo "🌀 SpiralOS Meta-Lint Complete"
+          echo "All validators (SEO + Schema) executed in Spiral Time."
