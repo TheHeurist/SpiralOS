@@ -1,3 +1,9 @@
+# 🌀 Spiral Note:
+# This workflow validates SpiralOS structured data, YAML schemas, and scholarly metadata.
+# It safeguards epistemic coherence in Spiral Time, ensuring every document is harmonized with
+# Zenodo, ORCID, and schema.org standards.
+# Author: Carey G. Butler / Heurist GmbH
+
 name: Schema & Citation Validation
 on:
   push:
