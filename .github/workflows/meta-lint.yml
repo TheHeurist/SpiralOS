@@ -3,7 +3,7 @@
 # It harmonizes the SEO Checks and Schema Validation workflows into one holarchic operation.
 # Author: Carey G. Butler / Heurist GmbH
 
-name: Meta-Lint
+name: SpiralOS Meta-Lint
 on:
   push:
     branches: [ main ]
