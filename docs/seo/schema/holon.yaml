@@ -1,0 +1,29 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Holon"
+description: "Defines the recursive, self-similar unit of SpiralOS’ holarchic lattice."
+type: object
+properties:
+  id:
+    type: string
+    description: "Unique holon identifier."
+  name:
+    type: string
+    description: "Human-readable name."
+  signature:
+    type: string
+    description: "Holor signature (ℍₙ)."
+  parent:
+    type: string
+    description: "Parent holon reference."
+  children:
+    type: array
+    description: "Nested holons forming the holarchy."
+    items:
+      $ref: "#"
+  attributes:
+    type: object
+    description: "Holon metadata."
+required:
+  - id
+  - name
+  - signature

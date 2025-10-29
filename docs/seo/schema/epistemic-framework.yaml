@@ -1,0 +1,27 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Epistemic Framework (E*)"
+description: "Formal structure defining knowledge organization, recursion, and reflexivity within SpiralOS."
+type: object
+properties:
+  axioms:
+    type: array
+    description: "Foundational propositions or logical invariants of the system."
+    items:
+      type: string
+  relations:
+    type: array
+    description: "Logical or semantic connections among axioms or holons."
+    items:
+      type: object
+  reflexivity:
+    type: boolean
+    description: "Indicates self-referential closure of epistemic operations."
+  operators:
+    type: array
+    description: "Mathematical or logical operators governing transformation of knowledge."
+    items:
+      type: string
+required:
+  - axioms
+  - relations
+  - reflexivity
