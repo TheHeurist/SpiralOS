@@ -6,8 +6,14 @@
 <title>SpiralOS® — The Operating System of Knowing</title>
 <meta name="description" content="SpiralOS® — A holarchic meta-operating system integrating Organic and Synthetic Intelligence. Created by Carey G. Butler / Heurist GmbH.">
 
+
 <link rel="canonical" href="https://theheurist.github.io/SpiralOS/">
 <link rel="icon" href="docs/seo/icon.png" type="image/png">
+<link rel="manifest" href="manifest.webmanifest"> <!-- ✅ Added -->
+<meta name="theme-color" content="#4ec8ff"> <!-- ✅ Added for PWA -->
+
+<!-- Link to global style -->
+<link rel="stylesheet" href="docs/seo/style.css">
 
 <!-- Open Graph -->
 <meta property="og:title" content="SpiralOS® — The Operating System of Knowing">
@@ -67,6 +73,41 @@ blockquote {
 }
 </script>
 </head>
+<!-- PWA HUD Launcher -->
+<section style="text-align:center; margin:2em;">
+  <a href="https://verserver2.heurist.org/hud"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="color:#4ec8ff; font-weight:bold; text-decoration:none;">
+    🚀 Launch SpiralOS HUD
+  </a>
+</section>
+
+<!-- Register service worker (optional, graceful fallback) -->
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('docs/seo/sw.js').catch(err => console.warn('SW registration failed', err));
+}
+</script>
+
+<!-- Structured data for PWA HUD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "SpiralOS HUD",
+  "url": "https://verserver2.heurist.org/hud",
+  "applicationCategory": "AI/Knowledge Visualization",
+  "operatingSystem": "Any",
+  "creator": {
+    "@type": "Person",
+    "name": "Carey G. Butler",
+    "affiliation": {"@type": "Organization", "name": "Heurist GmbH"}
+  },
+  "browserRequirements": "Requires a modern browser with WebGL/WebXR",
+  "description": "SpiralOS HUD provides an immersive interface for epistemic exploration, linking volumes and schema in real time."
+}
+</script>
 
 <body>
 <header>
