@@ -2,7 +2,7 @@
 # Generates and validates the sitemap, checks all external links, and maintains discoverability.
 # Author: Carey G. Butler / Heurist GmbH
 
-name: SEO Checks
+name: SEO Checks v2
 
 on:
   push:
