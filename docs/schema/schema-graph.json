@@ -1,0 +1,32 @@
+{
+  "name": "Generate Schema Graph",
+  "true": {
+    "workflow_dispatch": null,
+    "push": {
+      "branches": [
+        "main"
+      ],
+      "paths": [
+        "docs/schema/*.json"
+      ]
+    }
+  },
+  "jobs": {
+    "build-graph": {
+      "runs-on": "ubuntu-latest",
+      "steps": [
+        {
+          "uses": "actions/checkout@v4"
+        },
+        {
+          "name": "Build schema-graph.json",
+          "run": "python - <<'PY'\n    import json, os\n    base = \"docs/schema\"\n    nodes = []\n    edges = []\n    for f in os.listdir(base):\n        if f.endswith(\".json\") and f != \"schema-graph.json\":\n            path = os.path.join(base,f)\n            data = json.load(open(path))\n            name = data.get(\"title\",f)\n            nodes.append({\"id\":f,\"label\":name})\n    for k,v in data.get(\"properties\",{}).items():\n        if isinstance(v,dict) and \"$ref\" in v:\n            target = v[\"$ref\"].split(\"/\")[-1]\n            edges.append({\"source\":f,\"target\":target,\"label\":k})\n            graph = {\"nodes\":nodes,\"links\":edges}\n            json.dump(graph,open(os.path.join(base,\"schema-graph.json\"),\"w\"),indent=2)\nPY\n"
+        },
+        {
+          "name": "Commit graph",
+          "run": "git config user.name  \"codex-bot\"\ngit config user.email \"codex@users.noreply.github.com\"\ngit add docs/schema/schema-graph.json\nif git diff --cached --quiet; then\n  echo \"No graph changes.\"\nelse\n  git commit -m \"auto: regenerate schema-graph.json\"\n  git push\nfi\n"
+        }
+      ]
+    }
+  }
+}

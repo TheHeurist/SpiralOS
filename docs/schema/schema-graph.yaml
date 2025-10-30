@@ -1,0 +1,81 @@
+# SpiralOS Schema Graph — Epistemic Lattice Map
+# Describes relationships among SpiralOS core schema modules.
+# Author: Carey G. Butler / Heurist GmbH
+
+name: SpiralOS Schema Graph
+version: "1.0"
+description: >
+  Defines the epistemic lattice topology of SpiralOS schemas,
+  showing how the Epistemic Framework (E*), Mathesis Universalis (µ),
+  Conjugate Intelligence (CI), Holon (ℋ), Holor (ℍ), and Manifest (M)
+  interrelate in the holarchic knowledge structure.
+
+nodes:
+  - id: "E*"
+    name: "Epistemic Framework"
+    file: "epistemic-framework.json"
+    description: "Defines axioms, logic, and ontological primitives."
+    depends_on: []
+    provides: ["µ", "CI"]
+
+  - id: "µ"
+    name: "Mathesis Universalis"
+    file: "mathesis-universalis.json"
+    description: "Mathematical grammar and generative manifold."
+    depends_on: ["E*"]
+    provides: ["CI", "ℍ"]
+
+  - id: "CI"
+    name: "Conjugate Intelligence"
+    file: "conjugate-intelligence.json"
+    description: "Union of Organic and Synthetic Intelligence."
+    depends_on: ["E*", "µ"]
+    provides: ["ℋ", "M"]
+
+  - id: "ℍ"
+    name: "Holor"
+    file: "holor.json"
+    description: "Tensorial operator acting on holonic fields."
+    depends_on: ["µ"]
+    provides: ["ℋ"]
+
+  - id: "ℋ"
+    name: "Holon"
+    file: "holon.json"
+    description: "Self-contained but interdependent epistemic unit."
+    depends_on: ["CI", "ℍ"]
+    provides: ["M"]
+
+  - id: "M"
+    name: "Manifest Schema"
+    file: "manifest-schema.json"
+    description: "Manifest layer encoding realized SpiralOS volumes."
+    depends_on: ["ℋ"]
+    provides: []
+
+relations:
+  - from: "E*"
+    to: "µ"
+    type: "derives"
+
+  - from: "E*"
+    to: "CI"
+    type: "grounds"
+
+  - from: "µ"
+    to: "ℍ"
+    type: "projects"
+
+  - from: "CI"
+    to: "ℋ"
+    type: "instantiates"
+
+  - from: "ℋ"
+    to: "M"
+    type: "realizes"
+
+metadata:
+  holor_signature: "ℍΣ"
+  lattice_operator: "Λ = ∮ ℛ · dµ"
+  generated_for: "HUD Epistemic Visualization"
+  last_updated: "2025-10-29"
