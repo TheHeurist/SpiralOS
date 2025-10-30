@@ -45,7 +45,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate CITATION.cff
-        uses: citation-file-format/cffconvert-github-action@v2
+        uses: citation-file-format/cffconvert-github-action@v3
         with:
           args: "--validate"
 
