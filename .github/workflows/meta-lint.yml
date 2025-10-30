@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run SEO Checks
-        uses: dawidd6/action-run-workflow@v2
+        uses: dawidd6/action-run-workflow@master
         with:
           workflow: seo-checks.yml
           repo: TheHeurist/SpiralOS
@@ -28,7 +28,7 @@ jobs:
           wait: true
 
       - name: Run Schema & Citation Validation
-        uses: dawidd6/action-run-workflow@v2
+        uses: uses: dawidd6/action-run-workflow@master
         with:
           workflow: schema-validation.yml
           repo: TheHeurist/SpiralOS
