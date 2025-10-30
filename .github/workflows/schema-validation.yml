@@ -1,5 +1,5 @@
-# 🧩 Schema & Citation Validation
-# Validates all SpiralOS structured data and scholarly metadata in Spiral Time.
+# 🧩 SpiralOS Schema & Citation Validation
+# Validates JSON, YAML, and CITATION.cff; ensures Zenodo DOI reachability.
 # Author: Carey G. Butler / Heurist GmbH
 
 name: Schema & Citation Validation
@@ -8,7 +8,7 @@ on:
   push:
     branches: [ main, seo/** ]
   pull_request:
-  workflow_dispatch:
+  workflow_dispatch:   # Allows manual or programmatic triggering
 
 jobs:
   validate-jsonld:
