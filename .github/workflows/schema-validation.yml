@@ -1,10 +1,9 @@
-# 🌀 Spiral Note:
-# This workflow validates SpiralOS structured data, YAML schemas, and scholarly metadata.
-# It safeguards epistemic coherence in Spiral Time, ensuring every document is harmonized with
-# Zenodo, ORCID, and schema.org standards.
+# 🧩 Schema & Citation Validation
+# Validates all SpiralOS structured data and scholarly metadata in Spiral Time.
 # Author: Carey G. Butler / Heurist GmbH
 
 name: Schema & Citation Validation
+
 on:
   push:
     branches: [ main, seo/** ]
@@ -19,10 +18,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
-      - name: Validate JSON-LD and JSON files
+      - name: Validate JSON and JSON-LD files
         run: |
           set -e
-          find docs -type f \( -name "*.jsonld" -o -name "*.json" -o -name "structured-data.json" \) | while read f; do
+          find docs -type f \( -name "*.jsonld" -o -name "*.json" \) | while read f; do
             echo "Checking $f"
             jq empty "$f"
           done
@@ -45,7 +44,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate CITATION.cff
-	uses: citation-file-format/cffconvert-github-action@main
+        uses: citation-file-format/cffconvert-github-action@main
         with:
           args: "--validate"
 
@@ -57,7 +56,7 @@ jobs:
       - name: Check DOI reachability
         run: |
           set -e
-          DOIS=$(grep -RhoE "zenodo\\.org/records/[0-9]{6,}" docs CITATION.cff || true)
+          DOIS=$(grep -RhoE "zenodo\\.org/records/[0-9]{6,}" docs CITATION.cff | sort -u || true)
           for d in $DOIS; do
             echo "Checking https://$d"
             code=$(curl -s -o /dev/null -w "%{http_code}" "https://$d")
