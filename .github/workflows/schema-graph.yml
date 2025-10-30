@@ -24,13 +24,13 @@ jobs:
                       data = json.load(open(path))
                       name = data.get("title",f)
                       nodes.append({"id":f,"label":name})
-                  for k,v in data.get("properties",{}).items():
-                      if isinstance(v,dict) and "$ref" in v:
-                          target = v["$ref"].split("/")[-1]
-                          edges.append({"source":f,"target":target,"label":k})
-                          graph = {"nodes":nodes,"links":edges}
-                          json.dump(graph,open(os.path.join(base,"schema-graph.json"),"w"),indent=2)
-              PY
+              for k,v in data.get("properties",{}).items():
+                  if isinstance(v,dict) and "$ref" in v:
+                      target = v["$ref"].split("/")[-1]
+                      edges.append({"source":f,"target":target,"label":k})
+                      graph = {"nodes":nodes,"links":edges}
+                      json.dump(graph,open(os.path.join(base,"schema-graph.json"),"w"),indent=2)
+          PY
       - name: Commit graph
         run: |
           git config user.name  "codex-bot"
