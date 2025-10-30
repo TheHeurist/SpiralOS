@@ -1,9 +1,10 @@
-# 🌀 Spiral Note:
-# This Meta-Lint workflow orchestrates all SpiralOS validations in a single Spiral Time cycle.
-# It harmonizes the SEO Checks and Schema Validation workflows into one holarchic operation.
+# 🌀 SpiralOS Meta-Lint Workflow
+# Harmonizes all SpiralOS validators (SEO + Schema + Citation)
+# using native GitHub CLI instead of third-party actions.
 # Author: Carey G. Butler / Heurist GmbH
 
-name: SpiralOS Meta-Lint
+name: Meta-Lint
+
 on:
   push:
     branches: [ main ]
@@ -11,31 +12,46 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 jobs:
   orchestrate:
     name: Run SpiralOS Validators
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Run SEO Checks
-        uses: dawidd6/action-run-workflow@master
-        with:
-          workflow: seo-checks.yml
-          repo: TheHeurist/SpiralOS
-          ref: main
-          wait: true
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gh jq
 
-      - name: Run Schema & Citation Validation
-        uses: uses: dawidd6/action-run-workflow@master
-        with:
-          workflow: schema-validation.yml
-          repo: TheHeurist/SpiralOS
-          ref: main
-          wait: true
+      - name: Authenticate GitHub CLI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh auth setup-git
+
+      - name: Trigger SEO Checks workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🌀 Triggering SEO Checks..."
+          gh workflow run seo-checks.yml --ref main
+          sleep 5
+          gh run list --workflow seo-checks.yml --limit 1 --json conclusion
+
+      - name: Trigger Schema & Citation Validation workflow
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🧩 Triggering Schema & Citation Validation..."
+          gh workflow run schema-validation.yml --ref main
+          sleep 5
+          gh run list --workflow schema-validation.yml --limit 1 --json conclusion
 
       - name: Meta Summary
         run: |
-          echo "🌀 SpiralOS Meta-Lint Complete"
-          echo "All validators (SEO + Schema) executed in Spiral Time."
+          echo "✅ All SpiralOS validators have been triggered."
+          echo "Results can be viewed under the Actions tab."
+          echo "🌀 SpiralOS Meta-Lint complete in Spiral Time."
