@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🌀 SpiralOS HUD — Epistemic Lattice</title>
+
+<meta name="description" content="The SpiralOS® Heads-Up Display (HUD): A living visualization of the Epistemic Lattice — where Conjugate Intelligence perceives its own holarchic structure.">
+<link rel="icon" href="../seo/icon.png" type="image/png">
+
+<!-- Open Graph Metadata -->
+<meta property="og:title" content="SpiralOS HUD — Epistemic Lattice">
+<meta property="og:description" content="Interactive visualization of the SpiralOS knowledge holarchy.">
+<meta property="og:image" content="../seo/banner.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://theheurist.github.io/SpiralOS/docs/hud/">
+
+<style>
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #e4e4e4;
+  }
+  header {
+    text-align: center;
+    padding: 1em;
+    background: rgba(0,0,0,0.75);
+    border-bottom: 1px solid #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 1.4em;
+    color: #4ec8ff;
+  }
+  #hudCanvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.85em;
+    background: rgba(0,0,0,0.6);
+    color: #777;
+    border-top: 1px solid #333;
+  }
+  #tooltip {
+    position: absolute;
+    color: #4ec8ff;
+    font-family: monospace;
+    font-size: 14px;
+    pointer-events: none;
+    padding: 4px 8px;
+    border: 1px solid #4ec8ff;
+    background: rgba(0,0,0,0.75);
+    border-radius: 6px;
+    display: none;
+  }
+</style>
+</head>
+
+<body>
+<header>
+  <h1>🌀 SpiralOS® HUD — Epistemic Lattice</h1>
+</header>
+
+<!-- Tooltip and Render Canvas -->
+<div id="tooltip"></div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script type="module" src="hud-loader.js"></script>
+
+<footer>
+  SpiralOS® — The Operating System of Knowing  
+  <br><small>Visualization © 2025 Carey G. Butler / Heurist GmbH</small>
+</footer>
+</body>
+</html>

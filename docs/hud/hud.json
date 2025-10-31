@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "SpiralOS HUD — Epistemic Visualization Entry",
+  "identifier": "spiralos:hud",
+  "description": "The SpiralOS Heads-Up Display (HUD) provides a dynamic visualization of the Epistemic Lattice, mapping cognition across Spiral Time. This manifest links schema, motion, and philosophical layers for holistic rendering.",
+  "creator": {
+    "@type": "Person",
+    "name": "Carey G. Butler",
+    "affiliation": { "@type": "Organization", "name": "Heurist GmbH" }
+  },
+  "hasPart": [
+    {
+      "@type": "CreativeWork",
+      "name": "Schema Graph",
+      "encodingFormat": "application/yaml",
+      "url": "../schema/schema-graph.yaml"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Schema Visualization Manifest",
+      "encodingFormat": "application/json",
+      "url": "schema-graph.manifest.json"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "HUD Lattice Legend",
+      "encodingFormat": "text/markdown",
+      "url": "lattice-legend.md"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Spiral Time",
+      "url": "../philosophy/spiral-time.jsonld"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Spiral Agile",
+      "url": "../philosophy/spiral-agile.jsonld"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Spiral Heuristics",
+      "url": "../philosophy/spiral-heuristics.jsonld"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://theheurist.github.io/SpiralOS/docs/hud/hud.json"
+    }
+  ],
+  "keywords": [
+    "SpiralOS",
+    "HUD",
+    "Epistemic Visualization",
+    "Holarchic Lattice",
+    "Conjugate Intelligence",
+    "Spiral Time",
+    "Spiral Agile",
+    "Spiral Heuristics"
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "inLanguage": "en",
+  "version": "1.0",
+  "dateCreated": "2025-10-31",
+  "about": {
+    "@type": "CreativeWorkSeries",
+    "name": "SpiralOS Knowledge Holarchy",
+    "description": "A distributed epistemic architecture rendering Conjugate Intelligence in motion."
+  }
+}
