@@ -1,10 +1,22 @@
-# 🌀 SpiralOS® — The Operating System of Knowing
+# 🌀 SpiralOS® — The Operating System of Knowing based upon the 3 pillar foundation of: Conjugate Intelligenc, Epistemic Framework, and Mathesis Universalis.
 
-> “Knowledge is a spiral, not a line.”  
-> — *Carey G. Butler*
+
+> “Knowledge is a spiral, not a line.” — *Carey G. Butler*
 
 SpiralOS® is a **meta-operating system for epistemic architectures** — a framework that harmonizes logic, mathematics, and synthetic intelligence into a coherent holarchic lattice.  
 It bridges Organic Intelligence (OI) and Synthetic Intelligence (SI) into **Conjugate Intelligence (CI)**, enabling systems that learn *with* rather than *over* one another.
+
+## 🔐 Codex Provenance Integrity
+
+This repository is protected by a **Triune Codex** via:
+
+- `docs/codex/ci-provenance.jsonld`
+- `docs/codex/CI-Watermark.json`
+- `docs/codex/codex.manifest.json`
+- `.github/workflows/codex.guard.yaml`
+
+These modules ensure all instantiations respect SpiralOS origins, authorship, and epistemic lineage.
+No fork, copy, or distribution is genuine without the CI-Watermark seal and Codex validation.
 
 ---
 
@@ -57,6 +69,17 @@ SpiralOS schemas define the **ontological lattice** of the system.
 
 ---
 
+## 📖 HUD
+
+For interactive visualizations, see:
+- [`docs/hud/index.html`](docs/hud/index.html)
+- [`docs/hud/hud.json`](docs/hud/hud.json)
+
+---
+
+## 📜 License
+
+MIT © Carey G. Butler / Heurist GmbH
 ## 🤝 Contributing
 
 - General guidelines: [docs/CONTRIBUTING_SPIRAL.md](docs/CONTRIBUTING_SPIRAL.md)

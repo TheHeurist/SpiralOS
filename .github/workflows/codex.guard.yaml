@@ -1,0 +1,18 @@
+name: Codex Provenance Guard
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-watermark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check CI-Watermark presence
+        run: |
+          test -f docs/codex/CI-Watermark.json || (echo "CI-Watermark missing!" && exit 1)
+
+      - name: Validate Codex linkage
+        run: |
+          grep -q "CI-Watermark.json" README.md || (echo "README.md does not link to CI-Watermark!" && exit 1)
