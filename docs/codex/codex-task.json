@@ -1,0 +1,31 @@
+{
+  "name": "SpiralOS Provenance Hardening",
+  "description": "Ensure provenance integrity across the SpiralOS knowledgebase by embedding legal markers, README badges, placeholders, and hashing schema files.",
+  "steps": [
+    {
+      "name": "Copy NOTICE and TRADEMARKS",
+      "action": "copy",
+      "files": ["codex/provenance-hardening/NOTICE.md", "codex/provenance-hardening/TRADEMARKS.md"],
+      "destination": "."
+    },
+    {
+      "name": "Append badge to README.md",
+      "action": "append",
+      "file": "README.md",
+      "content_from": "codex/provenance-hardening/readme-badge.snippet.md"
+    },
+    {
+      "name": "Fill docs folders",
+      "action": "foreach-folder",
+      "path": "docs/",
+      "if_empty": true,
+      "add": ["README.md", "index.html"],
+      "content_from": "codex/provenance-hardening/docs-filler-template.txt"
+    },
+    {
+      "name": "Generate Provenance Fingerprints",
+      "action": "hash",
+      "config": "codex/provenance-hardening/schema-fingerprint.config.json"
+    }
+  ]
+}

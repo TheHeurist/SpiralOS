@@ -57,6 +57,11 @@
       "@type": "CreativeWork",
       "name": "Spiral Awareness",
       "url": "../codecies/spiral-awareness.jsonld"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "CI Provenance Codex",
+      "url": "../codex/ci-provenance.jsonld"
     }
   ],
   "distribution": [
