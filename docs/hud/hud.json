@@ -42,6 +42,21 @@
       "@type": "CreativeWork",
       "name": "Spiral Heuristics",
       "url": "../philosophy/spiral-heuristics.jsonld"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Spiral Causality",
+      "url": "../codecies/spiral-causality.jsonld"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Spiral Harmony",
+      "url": "../codecies/spiral-harmony.jsonld"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Spiral Awareness",
+      "url": "../codecies/spiral-awareness.jsonld"
     }
   ],
   "distribution": [
@@ -59,11 +74,14 @@
     "Conjugate Intelligence",
     "Spiral Time",
     "Spiral Agile",
-    "Spiral Heuristics"
+    "Spiral Heuristics",
+    "Spiral Causality",
+    "Spiral Harmony",
+    "Spiral Awareness"
   ],
   "license": "https://opensource.org/licenses/MIT",
   "inLanguage": "en",
-  "version": "1.0",
+  "version": "1.1",
   "dateCreated": "2025-10-31",
   "about": {
     "@type": "CreativeWorkSeries",

@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWorkSeries",
+  "name": "SpiralOS Codecies",
+  "identifier": "spiralos:codecies",
+  "description": "A corpus of philosophical codices forming the meta-layer of SpiralOS — principles by which knowing organizes itself.",
+  "hasPart": [
+    { "@id": "spiralos:codecies:spiral-causality" },
+    { "@id": "spiralos:codecies:spiral-harmony" },
+    { "@id": "spiralos:codecies:spiral-awareness" }
+  ],
+  "license": "https://opensource.org/licenses/MIT",
+  "inLanguage": "en",
+  "version": "1.0",
+  "dateCreated": "2025-10-31"
+}

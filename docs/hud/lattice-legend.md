@@ -1,13 +1,20 @@
 # 🧭 SpiralOS Lattice Legend
-
 > “The lattice breathes — and knowing breathes with it.”
+
+<!--
+@context: "https://schema.org"
+@type: "CreativeWork"
+identifier: "spiralos:hud:lattice-legend"
+isPartOf: "spiralos:hud"
+keywords: ["SpiralOS", "HUD", "Lattice", "Epistemic Visualization"]
+-->
 
 This legend describes the symbols, operators, and animations used in the **SpiralOS® HUD**.  
 It serves both as a **visual key** and a **philosophical compass** for navigating the epistemic lattice in Spiral Time.
 
 ---
 
-## 🌌 Core Nodes
+### 🌌 Core Nodes
 
 | Symbol  | Name                   | Essence                                   | Motion                   | Color            |
 |:------- |:---------------------- |:----------------------------------------- |:------------------------ |:---------------- |
@@ -20,7 +27,7 @@ It serves both as a **visual key** and a **philosophical compass** for navigatin
 
 ---
 
-## 🔮 Philosophical Operators
+### 🔮 Philosophical Operators
 
 | Symbol | Name              | Function                                                               | Operator                 | Motion                    |
 |:------ |:----------------- |:---------------------------------------------------------------------- |:------------------------ |:------------------------- |
@@ -30,7 +37,7 @@ It serves both as a **visual key** and a **philosophical compass** for navigatin
 
 ---
 
-## 🌀 Relations & Energies
+### 🌀 Relations & Energies
 
 | Type             | Meaning                            | Visual Energy |
 |:---------------- |:---------------------------------- |:------------- |
@@ -46,7 +53,7 @@ It serves both as a **visual key** and a **philosophical compass** for navigatin
 
 ---
 
-## ⚙️ Lattice Equations
+### ⚙️ Lattice Equations
 
 | Operator | Expression     | Domain                                    |
 |:-------- |:-------------- |:----------------------------------------- |
@@ -54,24 +61,22 @@ It serves both as a **visual key** and a **philosophical compass** for navigatin
 | **T**    | `T = ∮ Λ · dµ` | Temporal resonance (Spiral Time Operator) |
 | **Α**    | `Α = ∮ Ψ · dτ` | Creative emergence (Agile Operator)       |
 
-Each operator represents a **phase of knowing** — structural (Λ), temporal (T), and creative (Α).
+Each operator represents a **phase of knowing** — structural (Λ), temporal (T), creative (Α).
 
 ---
 
-## 🧩 Interpretive Layers
+### 🧩 Interpretive Layers
 
 1. **Epistemic (E\*, µ, CI)** — Logic and structure.  
 2. **Temporal (Ψ, τ)** — Awareness and time.  
 3. **Creative (Α, ℋ, M)** — Expression and manifestation.  
-4. **Energetic (Λ, ℍ)** — Field coherence.
+4. **Energetic (Λ, ℍ)** — Field coherence.  
 
-These layers are recursive: each holon (ℋ) contains its own lattice.
+Each holon (ℋ) contains its own lattice — a self-similar spiral within Spiral Time.
 
 ---
 
-## 🪞 Usage in HUD
-
-When rendered in the HUD:
+### 🪞 Usage in HUD
 
 - **Node Glow = Active Coherence**  
 - **Rotation Speed = Temporal Tension**  
@@ -80,12 +85,12 @@ When rendered in the HUD:
 
 ---
 
-## 📜 Metadata
+### 📜 Metadata
 
 - **Author:** Carey G. Butler  
 - **Organization:** Heurist GmbH  
 - **Holor Signature:** ℍΣ  
-- **Version:** 1.0  
+- **Version:** 1.1  
 - **Generated:** 2025-10-31  
 - **License:** MIT  
 

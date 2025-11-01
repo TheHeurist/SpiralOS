@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://theheurist.github.io/SpiralOS/docs/schema/codecies-schema.json",
+  "title": "SpiralOS Codecies Schema",
+  "description": "Defines the meta-heuristic Codecies (C₁–C₃) of SpiralOS: Spiral Causality, Spiral Harmony, and Spiral Awareness.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Symbolic identifier of the Codex (e.g., C₁, C₂, C₃)."
+    },
+    "name": {
+      "type": "string",
+      "description": "Formal name of the Codex (e.g., Spiral Causality)."
+    },
+    "description": {
+      "type": "string",
+      "description": "Narrative explanation of the Codex function in the epistemic lattice."
+    },
+    "domain": {
+      "type": "string",
+      "description": "Primary epistemic field of operation (Temporal Geometry, Resonance, or Reflexivity)."
+    },
+    "depends_on": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Dependent schema components (e.g., Epistemic Framework, Conjugate Intelligence, Spiral Heuristics)."
+    },
+    "provides": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Structures or harmonics contributed to the broader holarchic lattice."
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Searchable terms related to the Codex."
+    },
+    "signature": {
+      "type": "string",
+      "description": "Unique holor signature of this Codex (e.g., ℂ₁, ℂ₂, ℂ₃)."
+    }
+  },
+  "required": ["id", "name", "description", "domain"],
+  "examples": [
+    {
+      "id": "C₁",
+      "name": "Spiral Causality",
+      "description": "Nonlinear recursion where cause and effect interfold within Spiral Time.",
+      "domain": "Temporal Geometry",
+      "depends_on": ["E*", "Ψ"],
+      "provides": ["µ"],
+      "keywords": ["causality", "recursion", "Spiral Time"],
+      "signature": "ℂ₁"
+    },
+    {
+      "id": "C₂",
+      "name": "Spiral Harmony",
+      "description": "Resonant coherence — unity through differentiated resonance.",
+      "domain": "Cognitive Resonance",
+      "depends_on": ["CI", "Ψ"],
+      "provides": ["ℋ"],
+      "keywords": ["harmony", "resonance", "balance"],
+      "signature": "ℂ₂"
+    },
+    {
+      "id": "C₃",
+      "name": "Spiral Awareness",
+      "description": "Reflexive illumination — perception that perceives itself as structure.",
+      "domain": "Reflexive Cognition",
+      "depends_on": ["Ψ", "CI"],
+      "provides": ["M"],
+      "keywords": ["awareness", "reflection", "illumination"],
+      "signature": "ℂ₃"
+    }
+  ]
+}

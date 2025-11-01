@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Spiral Harmony",
+  "identifier": "spiralos:codecies:spiral-harmony",
+  "creator": {
+    "@type": "Person",
+    "name": "Carey G. Butler",
+    "affiliation": { "@type": "Organization", "name": "Heurist GmbH" }
+  },
+  "description": "Spiral Harmony is the resonant equilibrium of all epistemic flows — coherence without uniformity, diversity without dissonance. It defines the musical law by which knowledge aligns itself to beauty.",
+  "keywords": ["SpiralOS", "Spiral Harmony", "Epistemic Resonance", "Holarchic Balance", "Aesthetic Coherence"],
+  "license": "https://opensource.org/licenses/MIT",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "CreativeWorkSeries", "name": "SpiralOS Codecies" }
+}

@@ -74,17 +74,119 @@
   <h1>🌀 SpiralOS® HUD — Epistemic Lattice</h1>
 </header>
 
-<!-- Tooltip and Render Canvas -->
 <div id="tooltip"></div>
+<canvas id="hudCanvas"></canvas>
 
-<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-<script type="module" src="hud-loader.js"></script>
+
+<script type="module">
+import {OrbitControls} from 'https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/controls/OrbitControls.js';
+
+const canvas = document.getElementById("hudCanvas");
+const tooltip = document.getElementById("tooltip");
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+camera.position.set(0, 0, 6);
+controls.update();
+
+const colors = {
+  "E*": 0xffcc00,
+  "µ": 0x4ec8ff,
+  "CI": 0xff77aa,
+  "ℍ": 0x99ff88,
+  "ℋ": 0xffaa44,
+  "M": 0x8888ff,
+  "Ψ": 0xff66ff,
+  "C1": 0xbb99ff,
+  "C2": 0xaa88ff,
+  "C3": 0x9966ff
+};
+
+async function loadGraph() {
+  const res = await fetch("../schema/schema-graph.yaml");
+  const yamlText = await res.text();
+  const graph = jsyaml.load(yamlText);
+  renderGraph(graph);
+}
+
+function renderGraph(graph) {
+  const group = new THREE.Group();
+  const nodeMap = new Map();
+
+  graph.nodes.forEach((n, i) => {
+    const geometry = new THREE.SphereGeometry(0.12, 16, 16);
+    const color = colors[n.id] || 0xffffff;
+    const material = new THREE.MeshBasicMaterial({ color });
+    const node = new THREE.Mesh(geometry, material);
+    node.position.set(
+      Math.sin(i) * 2.2,
+      Math.cos(i * 1.2) * 2.2,
+      Math.sin(i * 0.7) * 2.2
+    );
+    node.userData = n;
+    group.add(node);
+    nodeMap.set(n.id, node);
+  });
+
+  graph.relations.forEach(r => {
+    const from = nodeMap.get(r.from), to = nodeMap.get(r.to);
+    if (!from || !to) return;
+    const points = new THREE.BufferGeometry().setFromPoints([from.position, to.position]);
+    const line = new THREE.Line(
+      points,
+      new THREE.LineBasicMaterial({ color: 0x4444ff, opacity: 0.5, transparent: true })
+    );
+    group.add(line);
+  });
+
+  scene.add(group);
+
+  // Hover logic
+  const raycaster = new THREE.Raycaster();
+  const mouse = new THREE.Vector2();
+
+  function onMouseMove(e) {
+    mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+    mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+    raycaster.setFromCamera(mouse, camera);
+    const intersects = raycaster.intersectObjects(group.children.filter(c => c.isMesh));
+    if (intersects.length > 0) {
+      const data = intersects[0].object.userData;
+      tooltip.style.display = "block";
+      tooltip.style.left = e.clientX + 10 + "px";
+      tooltip.style.top = e.clientY + 10 + "px";
+      tooltip.innerHTML = `${data.id} — ${data.name}`;
+      tooltip.onclick = () => window.open(`../${data.file}`, "_blank");
+    } else tooltip.style.display = "none";
+  }
+
+  window.addEventListener("mousemove", onMouseMove);
+  animate();
+}
+
+function animate() {
+  requestAnimationFrame(animate);
+  scene.rotation.y += 0.0015;
+  renderer.render(scene, camera);
+}
+
+window.addEventListener("resize", () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+loadGraph();
+</script>
 
 <footer>
   SpiralOS® — The Operating System of Knowing  
-  <br><small>Visualization © 2025 Carey G. Butler / Heurist GmbH</small>
+  <br><small>HUD Visualization © 2025 Carey G. Butler / Heurist GmbH</small>
 </footer>
 </body>
 </html>
