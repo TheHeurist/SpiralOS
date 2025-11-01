@@ -86,11 +86,37 @@
   ],
   "license": "https://opensource.org/licenses/MIT",
   "inLanguage": "en",
-  "version": "1.1",
+  "version": "1.2.0",
   "dateCreated": "2025-10-31",
   "about": {
     "@type": "CreativeWorkSeries",
     "name": "SpiralOS Knowledge Holarchy",
     "description": "A distributed epistemic architecture rendering Conjugate Intelligence in motion."
+  },
+
+  "provenance": {
+    "@type": "CreativeWork",
+    "name": "CI Provenance Verification",
+    "description": "Runtime linkage to Codex provenance guard and CI watermark integrity status.",
+    "source": "../codex/CI-Watermark.json",
+    "verifiedThrough": "../../.github/workflows/codex.guard.yaml",
+    "status": "pending",
+    "lastCheck": null,
+    "integrityHash": null
+  },
+
+  "verificationIndicator": {
+    "id": "ciVerification",
+    "label": "CI Verified",
+    "symbol": "✅",
+    "state": "unknown",
+    "updated": null
+  },
+
+  "maintainer": {
+    "@type": "Person",
+    "name": "Carey G. Butler",
+    "affiliation": { "@type": "Organization", "name": "Heurist GmbH" },
+    "email": "codex@spiralos.ai"
   }
 }
