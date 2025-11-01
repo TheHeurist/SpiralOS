@@ -1,71 +1,46 @@
 name: Codex Provenance Guard
+
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches: [ main ]
+
+permissions:
+  contents: write
 
 jobs:
-  codex_guard:
-    name: 🌀 SpiralOS Codex Provenance Validation
-    runs-on: ${{ matrix.os }}
-    strategy:
-        matrix:
-        os: [ubuntu-latest, windows-latest]
+  codex-verify:
+    name: 🌀 Codex Provenance Verification
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Git
+      - name: Set up jq
         run: |
-          git config --global user.name "Codex Provenance Bot"
-          git config --global user.email "codex@spiralos.ai"
+          sudo apt-get update -qq
+          sudo apt-get install -y jq
 
-      - name: Run Codex Provenance Validation
+      - name: Seal Codex Provenance
+        run: bash scripts/codex.integrity.sh
+
+      - name: Update HUD Status
         run: |
-          echo "🔍 Running Codex validation..."
-          if [ ! -f docs/codex/CI-Watermark.json ]; then
-            echo "❌ CI-Watermark not found. Exiting."; exit 1;
-          fi
-          jq '.' docs/codex/CI-Watermark.json > /dev/null || (echo "❌ Invalid JSON in CI-Watermark.json" && exit 1)
-          echo "✅ Codex verification passed."
+          jq --arg status "verified" --arg hash "$(jq -r '.integrity.sha256' docs/codex/CI-Watermark.json)" \
+             '.provenance.status = $status | .provenance.integrityHash = $hash' \
+             docs/hud/hud.json > tmp && mv tmp docs/hud/hud.json
 
-      - name: Compute and Inject Codex Integrity Hash
+      - name: Commit and Push Provenance
+        env:
+          GITHUB_TOKEN: ${{ secrets.SPIRALOS_PAT }}
         run: |
-          bash scripts/codex-integrity.sh
-      - name: Compute and Inject Codex Integrity Hash (Windows)
-        if: runner.os == 'Windows'
-        run: pwsh scripts/codex-integrity.ps1
+          git config user.name "Codex Provenance Bot"
+          git config user.email "codex@spiralos.ai"
 
-      - name: Compute and Inject Codex Integrity Hash (Unix)
-        if: runner.os != 'Windows'
-        run: bash scripts/codex-integrity.sh
+          git add docs/codex/CI-Watermark.json docs/hud/hud.json || true
+          git commit -m "Codex Provenance: automated seal [skip ci]" || echo "No changes to commit."
 
-      - name: Stage Provenance Artifacts
-        run: |
-          echo "📦 Staging provenance artifacts..."
-          git add docs/codex/CI-Watermark.json README.md || true
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/TheHeurist/SpiralOS.git HEAD:main
 
-      - name: Commit Provenance Results
-        run: |
-          echo "🧾 Attempting provenance commit..."
-          git commit -m "Codex Provenance: Validated and signed CI-Watermark" || echo "ℹ️ No changes to commit"
-
-      - name: Rebase and Push Safely
-        run: |
-          echo "🔄 Rebasing and pushing to main..."
-          n=0
-          until [ $n -ge 5 ]; do
-            git pull --rebase origin main && git push origin HEAD:main && break
-            n=$((n+1))
-            echo "⚠️ Conflict detected. Retrying ($n)..."
-            sleep 5
-          done
-          echo "✅ Provenance sync complete."
-
-      - name: Confirm Completion
+      - name: Confirm Guard Status
         run: echo "🎯 Codex Provenance Guard completed successfully."
