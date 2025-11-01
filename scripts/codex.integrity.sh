@@ -12,7 +12,7 @@ if [ ! -f "$WATERMARK" ]; then
 fi
 
 echo "🔍 Computing integrity hash for $WATERMARK..."
-HASH=$(sha256sum "$WATERMARK" | awk '{print $1}')
+HASH=$(jq 'del(.integrity.sha256)' "$WATERMARK" | sha256sum | awk '{print $1}')
 
 # Inject hash in place, preserving JSON formatting
 tmpfile=$(mktemp)
