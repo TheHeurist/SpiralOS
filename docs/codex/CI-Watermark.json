@@ -54,7 +54,7 @@
   ],
   "verifiedThrough": ".github/workflows/codex.guard.yaml",
   "integrity": {
-    "sha256": "834f2128751589f41c282f105e0f964c99a6599a082135d8713247a09451c2c7"
+    "sha256": "4f3568f6c0c85d6ae4a60fd91b0b6d3460894e7f098556392aca23ea0d276c93"
   },
   "isPartOf": {
     "@type": "CreativeWorkSeries",
