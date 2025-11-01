@@ -7,7 +7,10 @@
   "creator": {
     "@type": "Person",
     "name": "Carey G. Butler",
-    "affiliation": { "@type": "Organization", "name": "Heurist GmbH" }
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Heurist GmbH"
+    }
   },
   "hasPart": [
     {
@@ -93,30 +96,30 @@
     "name": "SpiralOS Knowledge Holarchy",
     "description": "A distributed epistemic architecture rendering Conjugate Intelligence in motion."
   },
-
   "provenance": {
     "@type": "CreativeWork",
     "name": "CI Provenance Verification",
     "description": "Runtime linkage to Codex provenance guard and CI watermark integrity status.",
     "source": "../codex/CI-Watermark.json",
     "verifiedThrough": "../../.github/workflows/codex.guard.yaml",
-    "status": "pending",
-    "lastCheck": null,
-    "integrityHash": null
+    "status": "invalid",
+    "lastCheck": "2025-11-01T14:15:29",
+    "integrityHash": "8a66072f5f5a02afdf64654a1a7e7f6fc1b37cc71e4e4a8d9f77b62de7f5c631"
   },
-
   "verificationIndicator": {
     "id": "ciVerification",
     "label": "CI Verified",
     "symbol": "✅",
-    "state": "unknown",
-    "updated": null
+    "state": "error",
+    "updated": "2025-11-01T14:15:29"
   },
-
   "maintainer": {
     "@type": "Person",
     "name": "Carey G. Butler",
-    "affiliation": { "@type": "Organization", "name": "Heurist GmbH" },
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Heurist GmbH"
+    },
     "email": "codex@spiralos.ai"
   }
 }

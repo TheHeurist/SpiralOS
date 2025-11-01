@@ -33,8 +33,9 @@ if ($currentHash -eq $storedHash) {
     $hud.verificationIndicator.updated = (Get-Date).ToString("s")
 }
 
-# Write updated HUD file
-# $hud | ConvertTo-Json -Depth 10 | Set-Content -Path $HUD -Encoding UTF8
-# Simplest, version-safe form
-$hud | ConvertTo-Json -Depth 10 | Out-File -FilePath $HUD -Encoding utf8
+# Write updated HUD file – mirrors codex-integrity.ps1 pattern
+$hudJson = $hud | ConvertTo-Json -Depth 10
+$hudJson | Set-Content -Path "docs/hud/hud.json" -Encoding UTF8
+
 Write-Host "🌀 HUD updated with current CI verification status."
+exit 0
