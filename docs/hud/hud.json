@@ -102,9 +102,9 @@
     "description": "Runtime linkage to Codex provenance guard and CI watermark integrity status.",
     "source": "../codex/CI-Watermark.json",
     "verifiedThrough": "../../.github/workflows/codex.guard.yaml",
-    "status": "verified",
+    "status": "invalid",
     "lastCheck": "2025-11-01T14:30:10",
-    "integrityHash": "834f2128751589f41c282f105e0f964c99a6599a082135d8713247a09451c2c7"
+    "integrityHash": "04ace138c60459b4199296cc3d98290c6b1ce2796b0ea1f4abe43a7390c92d8a"
   },
   "verificationIndicator": {
     "id": "ciVerification",
