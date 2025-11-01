@@ -34,5 +34,7 @@ if ($currentHash -eq $storedHash) {
 }
 
 # Write updated HUD file
-$hud | ConvertTo-Json -Depth 10 | Set-Content -Path $HUD -Encoding UTF8
+# $hud | ConvertTo-Json -Depth 10 | Set-Content -Path $HUD -Encoding UTF8
+# Simplest, version-safe form
+$hud | ConvertTo-Json -Depth 10 | Out-File -FilePath $HUD -Encoding utf8
 Write-Host "🌀 HUD updated with current CI verification status."
