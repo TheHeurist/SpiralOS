@@ -103,15 +103,15 @@
     "source": "../codex/CI-Watermark.json",
     "verifiedThrough": "../../.github/workflows/codex.guard.yaml",
     "status": "invalid",
-    "lastCheck": "2025-11-01T14:15:29",
-    "integrityHash": "8a66072f5f5a02afdf64654a1a7e7f6fc1b37cc71e4e4a8d9f77b62de7f5c631"
+    "lastCheck": "2025-11-01T14:26:29",
+    "integrityHash": "c19abcef300e2798d40f0022c7e9d109e71f3cce2f95fe97caccae9cb425df5d"
   },
   "verificationIndicator": {
     "id": "ciVerification",
     "label": "CI Verified",
     "symbol": "✅",
     "state": "error",
-    "updated": "2025-11-01T14:15:29"
+    "updated": "2025-11-01T14:26:29"
   },
   "maintainer": {
     "@type": "Person",

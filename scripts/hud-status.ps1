@@ -15,6 +15,8 @@ $hud = Get-Content $HUD -Raw | ConvertFrom-Json
 
 # Compute current hash to verify match
 $currentHash = (Get-FileHash -Algorithm SHA256 $Watermark).Hash.ToLower()
+# Refresh stored hash after any Codex reseal drift
+$wm = Get-Content $Watermark -Raw | ConvertFrom-Json
 $storedHash  = $wm.integrity.sha256.ToLower()
 
 if ($currentHash -eq $storedHash) {
@@ -33,9 +35,13 @@ if ($currentHash -eq $storedHash) {
     $hud.verificationIndicator.updated = (Get-Date).ToString("s")
 }
 
-# Write updated HUD file – mirrors codex-integrity.ps1 pattern
-$hudJson = $hud | ConvertTo-Json -Depth 10
-$hudJson | Set-Content -Path "docs/hud/hud.json" -Encoding UTF8
+## Write updated HUD file (cross-version safe)
+#$hudJson = $hud | ConvertTo-Json -Depth 10
+#[IO.File]::WriteAllText($HUD, $hudJson, [Text.Encoding]::UTF8)
+#
+#Write-Host "🌀 HUD updated with current CI verification status."
 
+# Write updated HUD file – legacy-compatible
+$hudJson = $hud | ConvertTo-Json -Depth 10
+Set-Content -Path "docs/hud/hud.json" -Value $hudJson
 Write-Host "🌀 HUD updated with current CI verification status."
-exit 0
