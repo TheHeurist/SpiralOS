@@ -44,3 +44,14 @@ jobs:
 
       - name: Confirm Guard Status
         run: echo "🎯 Codex Provenance Guard completed successfully."
+
+      - name: Commit and Push Codex Ledger
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.SPIRALOS_PAT }}
+        run: |
+          git config user.name "Codex Provenance Bot"
+          git config user.email "codex@spiralos.ai"
+          git add codex.ledger.json || true
+          git commit -m "Codex Ledger: auto-update after verification [skip ci]" || echo "No changes to commit."
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/TheHeurist/SpiralOS.git HEAD:main
