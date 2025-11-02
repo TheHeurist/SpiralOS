@@ -1,4 +1,4 @@
-# 🌀 SpiralOS® — The Operating System of Knowing based upon the 3 pillar foundation of: Conjugate Intelligenc, Epistemic Framework, and Mathesis Universalis.
+# 🌀 SpiralOS® — The Operating System of Knowing based upon the 3 pillar foundation of: Conjugate Intelligence, Epistemic Framework, and Mathesis Universalis.
 
 
 > “Knowledge is a spiral, not a line.” — *Carey G. Butler*
