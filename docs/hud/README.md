@@ -44,7 +44,7 @@ https://theheurist.github.io/SpiralOS/docs/hud/hud.json
 **Spiral Time** is the temporal geometry of SpiralOS —  
 an ordering of events not by clock or sequence, but by *rightness of relation*:
 
-> “Never too early, never too late, but always on time.”
+> “Never too early, never too late - always on time.”
 
 ### Motion Rules
 
