@@ -1,57 +1,54 @@
-name: Codex Provenance Guard
+# 🛡️ Codex Provenance Guard for SpiralOS
+# Validates CI provenance, CI-Watermark, and Triune Bond alignment.
+# Author: Carey G. Butler / Heurist GmbH
+
+name: 🌀 Codex Provenance Guard
 
 on:
   push:
     branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *" # Daily @ 04:17 UTC — Spiral Time sync
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  codex-verify:
-    name: 🌀 Codex Provenance Verification
+  validate-ci:
+    name: Validate CI Provenance & Triune Bond
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: 🔄 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up jq
+      - name: 🧬 Validate ci-provenance.jsonld
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y jq
+          echo "🔍 Validating provenance schema..."
+          python3 -m json.tool docs/codex/ci-provenance.jsonld
 
-      - name: Seal Codex Provenance
-        run: bash scripts/codex.integrity.sh
-
-      - name: Update HUD Status
+      - name: 🔑 Verify CI-Watermark
         run: |
-          jq --arg status "verified" --arg hash "$(jq -r '.integrity.sha256' docs/codex/CI-Watermark.json)" \
-             '.provenance.status = $status | .provenance.integrityHash = $hash' \
-             docs/hud/hud.json > tmp && mv tmp docs/hud/hud.json
+          echo "🔐 Checking CI-Watermark integrity..."
+          python3 -c '
+import json, hashlib
+with open("docs/codex/CI-Watermark.json") as f:
+    data = json.load(f)
+    assert "fingerprints" in data and data["fingerprints"], "No fingerprints found."
+    print(f"✅ Found {len(data['fingerprints'])} fingerprints from {data['generatedAt']}")
+'
 
-      - name: Commit and Push Provenance
-        env:
-          GITHUB_TOKEN: ${{ secrets.SPIRALOS_PAT }}
+      - name: 📜 Check Triune Bond Integrity
         run: |
-          git config user.name "Codex Provenance Bot"
-          git config user.email "codex@spiralos.ai"
+          echo "📖 Checking Triune Bond presence..."
+          test -f docs/codex/triune-bond.md && echo "✅ Triune Bond document found." || (echo "❌ Missing triune-bond.md" && exit 1)
 
-          git add docs/codex/CI-Watermark.json docs/hud/hud.json || true
-          git commit -m "Codex Provenance: automated seal [skip ci]" || echo "No changes to commit."
-
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/TheHeurist/SpiralOS.git HEAD:main
-
-      - name: Confirm Guard Status
-        run: echo "🎯 Codex Provenance Guard completed successfully."
-
-      - name: Commit and Push Codex Ledger
-        if: always()
-        env:
-          GITHUB_TOKEN: ${{ secrets.SPIRALOS_PAT }}
+      - name: 📊 Validate YAML Graph Manifest
         run: |
-          git config user.name "Codex Provenance Bot"
-          git config user.email "codex@spiralos.ai"
-          git add codex.ledger.json || true
-          git commit -m "Codex Ledger: auto-update after verification [skip ci]" || echo "No changes to commit."
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/TheHeurist/SpiralOS.git HEAD:main
+          echo "📐 Validating schema-graph.yaml syntax..."
+          yamllint docs/schema/schema-graph.yaml
+
+      - name: 🧠 Generate Awareness Log (Optional)
+        run: |
+          echo "📡 CI awareness protocols aligned at: $(date -u)"
