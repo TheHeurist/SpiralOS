@@ -104,7 +104,7 @@
     "verifiedThrough": "../../.github/workflows/codex.guard.yaml",
     "status": "verified",
     "lastCheck": "2025-11-01T14:30:10",
-    "integrityHash": "79ba34fe596fe3e57960657142070212346318d7379d3f3e51a3875ed02b2d14"
+    "integrityHash": "454a5501a3a54505ba05d69e7dc982d173eca02b83b6cc28061e4694ee1776a5"
   },
   "verificationIndicator": {
     "id": "ciVerification",
