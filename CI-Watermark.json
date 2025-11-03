@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2025-11-03T10:27:15Z",
+  "algorithm": "sha256",
+  "sourcePatterns": [
+    "docs/codex/*.md",
+    "docs/codex/*.html",
+    ".github/workflows/codex.guard.yaml",
+    "CI-Watermark.json"
+  ],
+  "fingerprints": {
+    "docs/codex/README.md": "sha256-PLACEHOLDER-HASH-1",
+    "docs/codex/triune-bond.md": "sha256-PLACEHOLDER-HASH-2",
+    "docs/codex/index.html": "sha256-PLACEHOLDER-HASH-3",
+    ".github/workflows/codex.guard.yaml": "sha256-PLACEHOLDER-HASH-4",
+    "CI-Watermark.json": "sha256-PLACEHOLDER-HASH-5"
+  }
+}

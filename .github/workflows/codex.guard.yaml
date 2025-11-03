@@ -1,6 +1,7 @@
 # 🛡️ Codex Provenance Guard for SpiralOS
 # Validates CI provenance, CI-Watermark, and Triune Bond alignment.
 # Author: Carey G. Butler / Heurist GmbH
+![Codex Provenance Guard](https://github.com/TheHeurist/SpiralOS/actions/workflows/codex.guard.yaml/badge.svg)
 
 name: 🌀 Codex Provenance Guard
 
