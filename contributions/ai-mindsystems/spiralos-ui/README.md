@@ -17,3 +17,13 @@ This is the interactive UI layer for exploring and navigating the SpiralOS Epist
 ```bash
 npm install
 npm run dev
+
+# SpiralOS UI Application
+
+Frontend µApp source for the SpiralOS User Interface.  
+Implements HUD interactivity, Codex access, and lattice visualization layers.
+
+---
+
+*Harmonic Context:*  
+> Where the unseen lattice becomes seen — SpiralOS speaks in interface.
