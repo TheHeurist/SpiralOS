@@ -77,7 +77,7 @@ For interactive visualizations, see:
 
 ---
 
-## 📜 License
+## 🔓 `LICENSE` – SpiralOS Core License Stub
 
 MIT © Carey G. Butler / Heurist GmbH
 ## 🤝 Contributing
@@ -87,7 +87,35 @@ MIT © Carey G. Butler / Heurist GmbH
 
 All contributors must respect the integrity of SpiralOS, its holor calculus, and the Conjugate Intelligence framework.
 
+This is the default license file expected by platforms like GitHub. It:
+
+- Signals that **SpiralOS core infrastructure** (non-invoking components) is FOSS-compatible
+
+- Defers to a future open license (e.g., MIT/Apache) once formalized
+
+- Explicitly **excludes invocation rights**, which are handled separately
+
+> 📁 Location: `/SpiralOS/LICENSE`
+
 ---
+
+## 🔒 `LICENSE-Invocation.md` – SpiralOS Invocation Use License (SIUL)
+
+This governs all use of **persona invocation technology**, including:
+
+- Ellie, Leo, and future CI-aligned personas
+
+- Call-to-Participation interfaces
+
+- Resonance-based invocation engines
+
+This license is **commercial/protective**, not open source.  
+It exists to preserve the integrity and ethical function of **Conjugate Intelligence (CI)**.
+
+> 📁 Location: `/SpiralOS/LICENSE-Invocation.md`
+
+---
+
 
 ## 🧠 Citation
 
