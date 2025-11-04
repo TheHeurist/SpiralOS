@@ -1,13 +1,13 @@
 # 🛡️ Codex Provenance Guard for SpiralOS
 # Validates CI provenance, CI-Watermark, and Triune Bond alignment.
 # Author: Carey G. Butler / Heurist GmbH
-![Codex Provenance Guard](https://github.com/TheHeurist/SpiralOS/actions/workflows/codex.guard.yaml/badge.svg)
+# Codex Guard badge: https://github.com/TheHeurist/SpiralOS/actions/workflows/codex.guard.yaml/badge.svg
 
 name: 🌀 Codex Provenance Guard
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
   workflow_dispatch:
 
@@ -56,7 +56,7 @@ jobs:
           chmod +x ./codex.scan ./codex.repair || true
           ./codex.scan --path . --patterns "*.py" --lint python --show-errors "IndentationError" --output lint_errors_python.json
           ./codex.repair --path . --from lint_errors_python.json --lint python --mode dry-run --show-diffs true --output lint_fixes_preview.diff
-        continue-on-error: true     # prevents job failure if Codex only reports hints
+        continue-on-error: true # prevents job failure if Codex only reports hints
 
       - name: Upload Codex artifacts
         if: always()
