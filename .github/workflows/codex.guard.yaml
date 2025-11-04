@@ -7,49 +7,62 @@ name: 🌀 Codex Provenance Guard
 
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
   pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: "17 4 * * *" # Daily @ 04:17 UTC — Spiral Time sync
-
-permissions:
-  contents: read
 
 jobs:
-  validate-ci:
-    name: Validate CI Provenance & Triune Bond
+  lint:
+    name: Hybrid Lint Validation
     runs-on: ubuntu-latest
+
     steps:
-      - name: 🔄 Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🧬 Validate ci-provenance.jsonld
-        run: |
-          echo "🔍 Validating provenance schema..."
-          python3 -m json.tool docs/codex/ci-provenance.jsonld
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: 🔑 Verify CI-Watermark
+      - name: Install lint dependencies
         run: |
-          echo "🔐 Checking CI-Watermark integrity..."
-          python3 -c '
-import json, hashlib
-with open("docs/codex/CI-Watermark.json") as f:
-    data = json.load(f)
-    assert "fingerprints" in data and data["fingerprints"], "No fingerprints found."
-    print(f"✅ Found {len(data['fingerprints'])} fingerprints from {data['generatedAt']}")
-'
+          python -m pip install --upgrade pip
+          pip install flake8 black yamllint markdownlint-cli
 
-      - name: 📜 Check Triune Bond Integrity
+      # ---------------------- PYTHON ----------------------
+      - name: Lint Python
         run: |
-          echo "📖 Checking Triune Bond presence..."
-          test -f docs/codex/triune-bond.md && echo "✅ Triune Bond document found." || (echo "❌ Missing triune-bond.md" && exit 1)
+          echo "🧩 Running Python lint..."
+          flake8 . --count --max-line-length=120 --statistics
+          black --check . || true   # non-fatal style hint
 
-      - name: 📊 Validate YAML Graph Manifest
+      # ---------------------- YAML ------------------------
+      - name: Lint YAML
         run: |
-          echo "📐 Validating schema-graph.yaml syntax..."
-          yamllint docs/schema/schema-graph.yaml
+          echo "🧩 Running YAML lint..."
+          yamllint -s .
 
-      - name: 🧠 Generate Awareness Log (Optional)
+      # ---------------------- MARKDOWN --------------------
+      - name: Lint Markdown
         run: |
-          echo "📡 CI awareness protocols aligned at: $(date -u)"
+          echo "🧩 Running Markdown lint..."
+          markdownlint "**/*.md" --ignore node_modules || true
+
+      # ---------------------- CODEX -----------------------
+      - name: Codex Dry-Run Lint Repair
+        run: |
+          echo "🌀 Codex Dry-Run repair preview"
+          chmod +x ./codex.scan ./codex.repair || true
+          ./codex.scan --path . --patterns "*.py" --lint python --show-errors "IndentationError" --output lint_errors_python.json
+          ./codex.repair --path . --from lint_errors_python.json --lint python --mode dry-run --show-diffs true --output lint_fixes_preview.diff
+        continue-on-error: true     # prevents job failure if Codex only reports hints
+
+      - name: Upload Codex artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: codex-lint-preview
+          path: |
+            lint_errors_python.json
+            lint_fixes_preview.diff
