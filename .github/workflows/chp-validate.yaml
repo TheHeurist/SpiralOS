@@ -1,0 +1,41 @@
+# 🌀 SpiralOS Call-Home Protocol Validator
+name: CHP Schema Validation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate CHP JSON schema
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install jsonschema
+        run: |
+          pip install jsonschema
+
+      - name: Generate test heartbeat
+        run: |
+          python scripts/call_home.py --dry-run > heartbeat.json
+
+      - name: Validate against schema
+        run: |
+          jsonschema -i heartbeat.json docs/schemas/chp-v1.json
+
+      - name: Upload validation artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chp-validation
+          path: heartbeat.json
