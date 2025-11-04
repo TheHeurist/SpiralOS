@@ -112,3 +112,7 @@ jobs:
           cat > docs/hud/status.json <<'EOF'
           { "schema_version": 1, "label": "HUD Pulse", "message": "Codex Guard – Coherent 🌀", "color": "10B981", "emoji": "🌀", "state": "coherent", "last_update": "$(date -u +%FT%TZ)" }
           EOF
+
+      - name: Update dynamic HUD state
+        if: always()
+        run: python scripts/update_hud_status.py
