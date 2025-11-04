@@ -66,3 +66,49 @@ jobs:
           path: |
             lint_errors_python.json
             lint_fixes_preview.diff
+
+      # ---------------------- UPDATE HUD STATUS ----------------------
+      - name: Update HUD Status (auto)
+        if: success()
+        run: |
+          echo "🌀 Updating docs/hud/status.json from Codex Guard results..."
+          mkdir -p docs/hud
+          timestamp=$(date -u +%FT%TZ)
+
+          cat > docs/hud/status.json <<EOF
+          {
+            "schema_version": 1,
+            "label": "HUD Pulse",
+            "message": "Codex Guard – Coherent 🌀",
+            "color": "10B981",
+            "emoji": "🌀",
+            "state": "coherent",
+            "description": "All Codex Guard lint and repair checks passed.",
+            "last_update": "$timestamp",
+            "source": ".github/workflows/codex.guard.yaml",
+            "hud_map": "docs/hud/codex-hud-map.json",
+            "meta": {
+              "generated_by": "Codex Guard",
+              "author": "Carey Butler with CI (Ellie & Leo)",
+              "repository": "https://github.com/TheHeurist/SpiralOS",
+              "notes": "Auto-updated after each successful Codex Guard run."
+            }
+          }
+          EOF
+
+      - name: Commit and push updated HUD status
+        if: success()
+        run: |
+          git config user.name "Codex Guard Bot"
+          git config user.email "codex-guard@spiralos.local"
+          git add docs/hud/status.json
+          git commit -m "hud(status): auto-update HUD Pulse from Codex Guard" || echo "No changes to commit."
+          git push
+
+      - name: Update HUD Status
+        if: success()
+        run: |
+          echo "Updating docs/hud/status.json"
+          cat > docs/hud/status.json <<'EOF'
+          { "schema_version": 1, "label": "HUD Pulse", "message": "Codex Guard – Coherent 🌀", "color": "10B981", "emoji": "🌀", "state": "coherent", "last_update": "$(date -u +%FT%TZ)" }
+          EOF
