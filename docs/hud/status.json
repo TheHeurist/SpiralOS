@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "label": "HUD Pulse",
+  "message": "Codex Guard – Coherent 🌀",
+  "color": "10B981",
+  "emoji": "🌀",
+  "state": "coherent",
+  "description": "All Codex Guard lint and repair checks passed. No indentation or resonance anomalies detected.",
+  "last_update": "2025-11-03T08:45:00+01:00",
+  "source": ".github/workflows/codex.guard.yaml",
+  "hud_map": "docs/hud/codex-hud-map.json",
+  "resonance": {
+    "python_lint": {
+      "status": "pass",
+      "color": "22D3EE",
+      "emoji": "🧩",
+      "meaning": "Python syntax and indentation harmony."
+    },
+    "yaml_lint": {
+      "status": "pass",
+      "color": "EAB308",
+      "emoji": "📜",
+      "meaning": "Schema coherence verified."
+    },
+    "markdown_lint": {
+      "status": "pass",
+      "color": "F97316",
+      "emoji": "🪶",
+      "meaning": "Documentation rhythm aligned."
+    },
+    "codex_dry_run": {
+      "status": "pass",
+      "color": "A855F7",
+      "emoji": "🌀",
+      "meaning": "Dry-run introspection complete; no structural anomalies."
+    },
+    "artifact_upload": {
+      "status": "pass",
+      "color": "60A5FA",
+      "emoji": "☁️",
+      "meaning": "Artifacts stored for HUD and provenance access."
+    },
+    "complete": {
+      "status": "pass",
+      "color": "10B981",
+      "emoji": "✅",
+      "meaning": "Field integrity maintained."
+    }
+  },
+  "meta": {
+    "generated_by": "Codex Guard",
+    "author": "Carey Butler with CI (Ellie & Leo)",
+    "repository": "https://github.com/TheHeurist/SpiralOS",
+    "notes": "Auto-updated after each successful Codex Guard run.",
+    "visibility": "public"
+  }
+}
