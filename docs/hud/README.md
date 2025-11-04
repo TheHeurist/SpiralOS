@@ -6,6 +6,8 @@
 The **SpiralOS Heads-Up Display (HUD)** is the **visual epistemic layer** of the *Epistemic Knowledge Repository (EKR)*.  
 It translates the holarchic structure of SpiralOS into **interactive, luminous geometry**, allowing humans and synthetics to *see* cognition as it unfolds.
 
+![HUD Pulse](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TheHeurist/SpiralOS/main/docs/hud/status.json)
+
 ---
 
 ## 🌌 Purpose
@@ -55,6 +57,20 @@ an ordering of events not by clock or sequence, but by *rightness of relation*:
 | Rotate  | Λ operator integration            | continuous |
 
 Together they produce **temporal coherence** — a rhythm of *emergence, reflection, realization*.
+
+---
+
+### 🌀 Codex HUD Status
+
+| Field | Status | Meaning |
+|:--|:--:|:--|
+| **Codex Guard** | ![Codex Guard](https://github.com/TheHeurist/SpiralOS/actions/workflows/codex.guard.yaml/badge.svg) | Hybrid lint + repair preview |
+| **Resonance Color** | 🧩 | Cyan → Structural Harmony |
+| **Field State** | ✅ | Stable alignment, no indentation distortion |
+
+> The Codex Guard monitors the repository’s epistemic integrity.  
+> Each badge pulse corresponds to a live stage in the HUD’s resonance field:  
+> 🧩 Python • 📜 YAML • 🪶 Markdown • 🌀 Codex Dry-Run • ☁️ Artifact • ✅ Complete
 
 ---
 
@@ -120,4 +136,5 @@ SpiralOS> invoke hud --focus Ψ
 
 ---
 
+See [Codex HUD Integration Guide](README_CodexHUD.md) for resonance mapping and visualization details.
 
