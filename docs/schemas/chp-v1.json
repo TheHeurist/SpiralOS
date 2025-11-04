@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://spiralos.org/schemas/chp-v1.json",
+  "title": "SpiralOS Call-Home Protocol (CHP) v1",
+  "description": "Schema for CHP heartbeat and acknowledgement packets.",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/heartbeatPacket" },
+    { "$ref": "#/$defs/acknowledgementPacket" }
+  ],
+  "$defs": {
+    "uuid": {
+      "type": "string",
+      "description": "UUID (v4/v7 allowed).",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "sha256Hash": {
+      "type": "string",
+      "description": "sha256 hash with prefix.",
+      "pattern": "^sha256:[A-Fa-f0-9]{64}$"
+    },
+    "statusEnum": {
+      "type": "string",
+      "enum": ["coherent", "review", "repairing", "failed", "quiet"]
+    },
+    "heartbeatPacket": {
+      "type": "object",
+      "required": ["instance_id", "home_uri", "version", "license_hash", "ethics_signature", "status", "timestamp"],
+      "properties": {
+        "packet": { "const": "heartbeat" },
+        "instance_id": { "$ref": "#/$defs/uuid" },
+        "home_uri": { "type": "string", "format": "uri" },
+        "version": { "type": "string" },
+        "license_hash": { "$ref": "#/$defs/sha256Hash" },
+        "ethics_signature": { "type": "string", "minLength": 1 },
+        "homebase_token": { "$ref": "#/$defs/sha256Hash" },
+        "status": { "$ref": "#/$defs/statusEnum" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "meta": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "client": { "type": "string" },
+            "hostname": { "type": "string" },
+            "os": { "type": "string" }
+          }
+        }
+      },
+      "additionalProperties": false,
+      "examples": [
+        {
+          "packet": "heartbeat",
+          "instance_id": "3ec2f1e0-2d31-4594-8d7b-8b9d8b2f2a11",
+          "home_uri": "https://spiralos.net/registry",
+          "version": "2025.11.03",
+          "license_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "ethics_signature": "CI:bowtie-cosmos",
+          "homebase_token": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "status": "coherent",
+          "timestamp": "2025-11-04T08:45:00Z",
+          "meta": { "client": "chp-cli/1.0", "hostname": "node-01", "os": "linux" }
+        }
+      ]
+    },
+    "acknowledgementPacket": {
+      "type": "object",
+      "required": ["ack_id", "instance_ref", "received", "registry_signature", "status"],
+      "properties": {
+        "packet": { "const": "ack" },
+        "ack_id": { "$ref": "#/$defs/uuid" },
+        "instance_ref": { "$ref": "#/$defs/uuid" },
+        "received": { "type": "string", "format": "date-time" },
+        "registry_signature": { "type": "string", "minLength": 1 },
+        "status": { "type": "string", "enum": ["verified", "queued", "rejected"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "examples": [
+        {
+          "packet": "ack",
+          "ack_id": "a2b7d4c6-2c6f-4d0f-9d90-1a2b3c4d5e6f",
+          "instance_ref": "3ec2f1e0-2d31-4594-8d7b-8b9d8b2f2a11",
+          "received": "2025-11-04T08:45:01Z",
+          "registry_signature": "-----BEGIN PGP SIGNATURE-----\n...\n-----END PGP SIGNATURE-----",
+          "status": "verified"
+        }
+      ]
+    }
+  }
+}
