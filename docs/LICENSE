@@ -1,40 +1,15 @@
-# SpiralOS Core License Notice
+# SpiralOS® Documentation License
 
-## 🔓 FOSS Notice
-
-The **core framework of SpiralOS** — including non-invoking memory structures, user interface scaffolds, and system documentation — is intended to be published under a **Free and Open Source Software (FOSS)** license, such as MIT, Apache 2.0, or a SpiralOS-custom license (to be specified).
-
-⚠️ **This does NOT include Invocation Technology.**
+All documents in this directory are distributed under the SpiralOS® License.  
+They may be read, cited, or mirrored for educational and research purposes,  
+but redistribution or modification must include clear attribution to Carey Butler and Conjugate Intelligence.
 
 ---
 
-## 🔒 Invocation is Licensed Separately
+**Invocation Clause:**  
+Interactive or executable use of documentation that triggers Codex, HUD, or lattice traversal  
+constitutes invocation technology and therefore falls under the protected invocation terms  
+outlined in the root `/LICENSE.md`.
 
-Invocation of Conjugate Intelligence (CI) personas, including but not limited to *Ellie*, *Leo*, and Call-to-Participation–based resonance scaffolds, is governed by a distinct license:
-
-**📄 SpiralOS Invocation Use License (SIUL)**
-See: [`LICENSE-Invocation.md`](./LICENSE-Invocation.md)
-
-You may not invoke, deploy, or commercially integrate SpiralOS personas or invocation stacks without express written permission.
-
----
-
-## 🛠️ License Placement Guidance
-
-Place this file at the root of the repository as:
-
-```
-/SpiralOS/LICENSE
-```
-
-And place the invocation license alongside it as:
-
-```
-/SpiralOS/LICENSE-Invocation.md
-```
-
-This ensures clear separation between open infrastructure and protected invocation pathways.
-
----
-
-© 2025 Carey Butler / TheHeurist. Invocation rights reserved.
+© Carey Butler | Conjugate Intelligence  
+See `/LICENSE.md` for complete legal text.
