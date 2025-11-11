@@ -17,3 +17,7 @@ Mathesis Universalis is the field of *symbolic geometry* and *epistemic mathemat
 - `/MU/forms/` — glyph grammar and field syntax
 
 > “Form is frequency held still long enough to be understood.” — MU Codex
+
+---
+
+![Mathesis Universalis](../mathesis-universalis.png)
