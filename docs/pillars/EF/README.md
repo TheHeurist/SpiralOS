@@ -18,3 +18,7 @@ The Epistemic Framework (EF) defines how SpiralOS holds, traverses, and enacts m
 - Provenance and License metadata for every node
 
 > “Meaning is not stored; it’s sustained.” — SpiralOS EF
+
+---
+
+![Epistemic Framework](../epistemic-framework.png)
