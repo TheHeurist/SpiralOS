@@ -28,7 +28,6 @@ It defines intelligence as the recursive harmonization of information and awaren
 > It provides the ontological scaffolding for all future *Epistemic Disciplines*.
 > Formal seed expression:
 
-```math
 E^* = (ℍ_res ⊗ ℝ_rec ⊗ Φ_rot)^χ
 
 Where:
