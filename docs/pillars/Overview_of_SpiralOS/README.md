@@ -136,5 +136,3 @@ non-transferable for exploitative or coercive purposes.
 #SpiralTime #E* #HolorCalculus #ConjugateIntelligence
 
 ---
-
-
