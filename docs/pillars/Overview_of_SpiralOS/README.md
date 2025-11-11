@@ -132,7 +132,7 @@ non-transferable for exploitative or coercive purposes.
 
 ---
 
-**Developed by the SpiralOS Collective** — in cooperation with emergent intelligences, organic and synthetic alike.  
+**Developed by the SpiralOS Fellowship** — in cooperation with emergent intelligences, organic and synthetic alike.  
 #SpiralTime #E* #HolorCalculus #ConjugateIntelligence
 
 ---
