@@ -37,9 +37,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "🌀 Triggering SEO Checks..."
-          gh workflow run seo-checks.yml --ref main
+          gh workflow run link-check.yml --ref main
           sleep 5
-          gh run list --workflow seo-checks.yml --limit 1 --json conclusion
+          gh run list --workflow link-check.yml --limit 1 --json conclusion
 
       - name: Trigger Schema & Citation Validation workflow
         env:
