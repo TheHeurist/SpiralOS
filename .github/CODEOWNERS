@@ -1,0 +1,129 @@
+
+# SpiralOS® Code Owners
+#
+# This file defines code ownership for automatic review requests.
+# When a pull request modifies files matching these patterns,
+# the specified owners are automatically requested for review.
+#
+# Learn more: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repository
+# These owners will be the default owners for everything
+* @TheHeurist
+
+# Core documentation
+/README.md @TheHeurist
+/CONTRIBUTING.md @TheHeurist
+/CODE_OF_CONDUCT.md @TheHeurist
+/SECURITY.md @TheHeurist
+/COVENANT.md @TheHeurist
+/LICENSE @TheHeurist
+/CHANGELOG.md @TheHeurist
+/ROADMAP.md @TheHeurist
+/FAQ.md @TheHeurist
+/AUTHORS.md @TheHeurist
+/QUOTES.md @TheHeurist
+
+# Citation and academic metadata
+/CITATION.cff @TheHeurist
+/.zenodo.json @TheHeurist
+/meta.yaml @TheHeurist
+
+# Documentation volumes
+/docs/Volume-*/ @TheHeurist
+
+# Core schemas
+/docs/schemas/ @TheHeurist
+/docs/schemas/epistemic-framework.json @TheHeurist
+/docs/schemas/mathesis-universalis.json @TheHeurist
+/docs/schemas/conjugate-intelligence.json @TheHeurist
+/docs/schemas/holon.json @TheHeurist
+/docs/schemas/manifest-schema.json @TheHeurist
+
+# Codex and provenance
+/docs/codex/ @TheHeurist
+/docs/codex/ci-provenance.jsonld @TheHeurist
+/docs/codex/CI-Watermark.json @TheHeurist
+/docs/codex/codex.manifest.json @TheHeurist
+
+# GitHub workflows
+/.github/workflows/ @TheHeurist
+/.github/workflows/codex.guard.yaml @TheHeurist
+/.github/workflows/seo-checks.yml @TheHeurist
+/.github/workflows/schema-validation.yml @TheHeurist
+/.github/workflows/link-check.yml @TheHeurist
+/.github/workflows/meta-lint.yml @TheHeurist
+/.github/workflows/seo-autocommit.yml @TheHeurist
+/.github/workflows/chp-validate.yaml @TheHeurist
+/.github/workflows/deploy-pages.yml @TheHeurist
+
+# GitHub configuration
+/.github/ @TheHeurist
+/.github/ISSUE_TEMPLATE/ @TheHeurist
+/.github/PULL_REQUEST_TEMPLATE.md @TheHeurist
+/.github/CODEOWNERS @TheHeurist
+/.github/FUNDING.yml @TheHeurist
+
+# Web interface
+/index.html @TheHeurist
+/docs/index.html @TheHeurist
+/404.html @TheHeurist
+
+# HUD
+/docs/hud/ @TheHeurist
+/docs/hud/index.html @TheHeurist
+/docs/hud/hud.json @TheHeurist
+/docs/hud/hud-loader.js @TheHeurist
+
+# Pearl Map
+/ui/pearl-map/ @TheHeurist
+/ui/pearl-map/index.html @TheHeurist
+/ui/pearl-map/pearl-map.js @TheHeurist
+
+# SEO and web configuration
+/robots.txt @TheHeurist
+/sitemap.xml @TheHeurist
+/manifest.webmanifest @TheHeurist
+/docs/seo/ @TheHeurist
+
+# Scripts
+/scripts/ @TheHeurist
+/scripts/validate_provenance.py @TheHeurist
+/scripts/compileLattice.ts @TheHeurist
+
+# Configuration files
+/package.json @TheHeurist
+/.nojekyll @TheHeurist
+/_config.yml @TheHeurist
+/CNAME @TheHeurist
+
+# Legal
+/legal/ @TheHeurist
+
+# Contributing guides
+/docs/CONTRIBUTING_SPIRAL.md @TheHeurist
+/docs/CONTRIBUTING_CODEX.md @TheHeurist
+/docs/README-CONTRIBUTING.md @TheHeurist
+
+# Protection and covenant
+/PROTECTION_GUIDE.md @TheHeurist
+/LICENSE-Invocation.md @TheHeurist
+/README-License.md @TheHeurist
+
+# Contributions from specific authors
+# (Add entries as contributors become regular maintainers)
+/contributions/ai-mindsystems/ @TheHeurist
+/contributions/erich/ @TheHeurist
+/contributions/gerard/ @TheHeurist
+/contributions/ian/ @TheHeurist
+
+# Add additional owners as the project grows
+# Format:
+# /path/to/directory/ @github-username
+# /specific/file.ext @github-username
+
+# Multiple owners can be specified:
+# /path/ @owner1 @owner2 @owner3
+
+# Teams can also be used (requires organization):
+# /path/ @org/team-name
