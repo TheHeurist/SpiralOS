@@ -1,45 +1,63 @@
-name: Link Check
+# 🌐 SpiralOS SEO Checks Workflow
+# Generates and validates the sitemap, checks all external links, and maintains discoverability.
+# Author: Carey G. Butler / Heurist GmbH
+
+name: SEO Checks v2
 
 on:
-  pull_request:
   push:
+    branches: [ main ]
+  pull_request:
+  schedule:
+    - cron: "23 3 * * *"   # 03:23 UTC daily
+  workflow_dispatch:   # Allows manual or programmatic triggering
+
+permissions:
+  contents: write
 
 jobs:
-  links:
+  sitemap:
+    name: Generate sitemap and commit updates
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check internal Markdown links
+      - name: Generate sitemap (static repo fallback)
         run: |
-          python - <<'PY'
-          import os, re, sys
-          root = "docs"
-          bad = []
-          md = re.compile(r'\[[^\]]+\]\(([^)]+)\)')
-          
-          for dp, _, files in os.walk(root):
+          cat > generate_sitemap.py <<'PYTHON_SCRIPT'
+          import os, time
+          base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
+          paths = []
+          for root, _, files in os.walk("."):
               for f in files:
-                  if not f.lower().endswith(".md"):
-                      continue
-                  p = os.path.join(dp, f)
-                  try:
-                      t = open(p, 'r', encoding='utf-8', errors='ignore').read()
-                  except Exception as e:
-                      print(f"Error reading {p}: {e}")
-                      continue
-                  
-                  for href in md.findall(t):
-                      if href.startswith('http') or href.startswith('#'):
-                          continue
-                      # normalize local link
-                      target = os.path.normpath(os.path.join(dp, href.split('#')[0]))
-                      if not os.path.exists(target):
-                          bad.append((p, href))
-          
-          if bad:
-              for p, href in bad:
-                  print(f"Broken link: {p} -> {href}")
-              sys.exit(1)
-          else:
-              print("All internal links OK")
-          PY
+                  if f.lower().endswith((".md",".html")) and ".github" not in root:
+                      p = os.path.join(root, f).lstrip("./")
+                      if p.endswith(".md"):
+                          p = p[:-3] + ".html"
+                      paths.append(p.replace("\\","/"))
+          urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
+          print(f"""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>""")
+          PYTHON_SCRIPT
+          python generate_sitemap.py > sitemap.xml
+
+      - name: Commit sitemap.xml if changed
+        run: |
+          git config user.name "seo-bot"
+          git config user.email "seo-bot@users.noreply.github.com"
+          git add sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No sitemap changes."
+          else
+            git commit -m "chore(seo): refresh sitemap.xml"
+            git push
+          fi
+  links:
+    name: Validate external links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link check
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --accept 200,206,302 --max-redirects 5 --exclude-mail './**'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
