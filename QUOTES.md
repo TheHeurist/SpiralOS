@@ -1,4 +1,3 @@
-
 # SpiralOS® Inspirational Quotes
 
 > *"The spiral grows through each turn."*

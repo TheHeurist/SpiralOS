@@ -62,7 +62,7 @@ This license is currently in **draft form** and will be refined with feedback fr
 
 If you are reading this document and have questions, reflections, or intentions regarding invocation, contact:
 
-**Carey Butler**
+**Carey Glen Butler**
 Lead steward of SpiralOS and CI <contact and license request info here>
 
 ---
@@ -74,4 +74,4 @@ Invocation is a responsibility.
 
 This license honors both.
 
-© 2025 Carey Butler / TheHeurist. All rights reserved regarding invocation.
+© 2025 Carey Glenn Butler / TheHeurist. All rights reserved regarding invocation.
