@@ -1,23 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
   <url>
     <loc>https://theheurist.github.io/SpiralOS/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <lastmod>2025-11-22</lastmod>
   </url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/philosophy/index.html</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/</loc></url>
-  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/</loc></url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/404.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Documentation -->
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/README.md</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/CONTRIBUTING.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/CODE_OF_CONDUCT.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/SECURITY.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/FAQ.md</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/ROADMAP.md</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/QUOTES.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/AUTHORS.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/CHANGELOG.md</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/COVENANT.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Interactive Visualizations -->
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/hud/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/ui/pearl-map/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Published Volumes -->
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Philosophy and Documentation -->
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/philosophy/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/README.md</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/CONTRIBUTING_SPIRAL.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/CONTRIBUTING_CODEX.md</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Schemas -->
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/epistemic-framework.json</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/mathesis-universalis.json</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/conjugate-intelligence.json</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/holon.json</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/manifest-schema.json</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- HTML Pages -->
+  <url>
+    <loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/volume_ii_content.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

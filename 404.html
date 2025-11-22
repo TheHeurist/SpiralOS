@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | SpiralOS®</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="The page you're looking for cannot be found. Navigate back to SpiralOS® — The Operating System of Knowing.">
+  <meta name="robots" content="noindex, nofollow">
+  
+  <style>
+    :root {
+      --ink: #0b3d91;
+      --bg: #fbfbfd;
+      --muted: #60646c;
+      --card: #ffffff;
+      --accent: #1e66f5;
+      --spiral-gradient: linear-gradient(135deg, #1e66f5 0%, #4a3f7a 50%, #0b3d91 100%);
+    }
+    
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: #111;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    
+    .container {
+      max-width: 600px;
+      text-align: center;
+    }
+    
+    .spiral-icon {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      background: var(--spiral-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: rotate 20s linear infinite;
+    }
+    
+    @keyframes rotate {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    
+    h1 {
+      font-size: 3rem;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    
+    p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      line-height: 1.8;
+    }
+    
+    .quote {
+      font-style: italic;
+      color: var(--accent);
+      margin: 2rem 0;
+      padding: 1rem;
+      border-left: 4px solid var(--accent);
+      background: rgba(30, 102, 245, 0.05);
+      border-radius: 4px;
+      text-align: left;
+    }
+    
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.875rem 1.5rem;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(30, 102, 245, 0.3);
+    }
+    
+    .nav-link:hover {
+      background: var(--ink);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(11, 61, 145, 0.4);
+    }
+    
+    .nav-link.secondary {
+      background: white;
+      color: var(--accent);
+      border: 2px solid var(--accent);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav-link.secondary:hover {
+      background: var(--accent);
+      color: white;
+    }
+    
+    .search-box {
+      margin: 2rem 0;
+      padding: 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+    }
+    
+    .search-input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: 2px solid #e0e8ff;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+    }
+    
+    .search-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .helpful-links {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+      text-align: left;
+    }
+    
+    .helpful-links h3 {
+      color: var(--ink);
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+    }
+    
+    .helpful-links ul {
+      list-style: none;
+    }
+    
+    .helpful-links li {
+      margin-bottom: 0.75rem;
+    }
+    
+    .helpful-links a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .helpful-links a:hover {
+      color: var(--ink);
+      text-decoration: underline;
+    }
+    
+    .footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    
+    @media (min-width: 768px) {
+      .nav-links {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="spiral-icon">🌀</div>
+    
+    <h1>404</h1>
+    <h2>Page Not Found</h2>
+    
+    <p>
+      The page you're looking for has spiraled into the unknown. 
+      Perhaps it was never here, or perhaps it's waiting to be discovered at a different turn of the spiral.
+    </p>
+    
+    <div class="quote">
+      "Knowledge is a spiral, not a line." — Carey G. Butler
+    </div>
+    
+    <div class="search-box">
+      <input 
+        type="text" 
+        class="search-input" 
+        placeholder="Search SpiralOS documentation..." 
+        id="searchInput"
+        onkeypress="handleSearch(event)"
+      >
+    </div>
+    
+    <div class="nav-links">
+      <a href="/" class="nav-link">
+        <span>🏠</span>
+        <span>Return Home</span>
+      </a>
+      <a href="/docs/" class="nav-link secondary">
+        <span>📚</span>
+        <span>Documentation</span>
+      </a>
+    </div>
+    
+    <div class="helpful-links">
+      <h3>Popular Pages</h3>
+      <ul>
+        <li><a href="/">🌀 SpiralOS® Home</a></li>
+        <li><a href="/docs/">📖 Documentation Index</a></li>
+        <li><a href="/docs/Volume-VIII/">📘 Volume VIII: The Riemann Return</a></li>
+        <li><a href="/docs/Volume-IX/">📘 Volume IX: The Reflexive Node</a></li>
+        <li><a href="/docs/hud/">🎯 HUD Visualization</a></li>
+        <li><a href="/ui/pearl-map/">🗺️ Pearl Map</a></li>
+        <li><a href="https://github.com/TheHeurist/SpiralOS">💻 GitHub Repository</a></li>
+        <li><a href="https://github.com/TheHeurist/SpiralOS/discussions">💬 Discussions</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer">
+      <p>
+        <strong>SpiralOS®</strong> — The Operating System of Knowing<br>
+        © 2025 Carey G. Butler / Heurist GmbH | MIT License
+      </p>
+    </div>
+  </div>
+  
+  <script>
+    function handleSearch(event) {
+      if (event.key === 'Enter') {
+        const query = document.getElementById('searchInput').value;
+        if (query.trim()) {
+          // Redirect to GitHub search
+          window.location.href = `https://github.com/TheHeurist/SpiralOS/search?q=${encodeURIComponent(query)}`;
+        }
+      }
+    }
+    
+    // Try to provide suggestions based on the URL
+    window.addEventListener('DOMContentLoaded', () => {
+      const path = window.location.pathname;
+      console.log('404 page loaded for:', path);
+      
+      // Could implement fuzzy matching or suggestions here
+      // For now, just log the failed path for debugging
+    });
+  </script>
+</body>
+</html>
