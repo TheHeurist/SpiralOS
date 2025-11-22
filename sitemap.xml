@@ -1,244 +1,780 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <lastmod>2025-11-22</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/404.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  
-  <!-- Documentation -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/README.md</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/CONTRIBUTING.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/CODE_OF_CONDUCT.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/SECURITY.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/FAQ.md</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/ROADMAP.md</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/QUOTES.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/AUTHORS.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/CHANGELOG.md</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/COVENANT.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- Interactive Visualizations -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/hud/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/ui/pearl-map/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Published Volumes -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Philosophy and Documentation -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/philosophy/index.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/README.md</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/CONTRIBUTING_SPIRAL.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/CONTRIBUTING_CODEX.md</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- Schemas -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/epistemic-framework.json</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/mathesis-universalis.json</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/conjugate-intelligence.json</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/holon.json</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/schemas/manifest-schema.json</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- HTML Pages -->
-  <url>
-    <loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/volume_ii_content.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://theheurist.github.io/SpiralOS/404.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/AUTHORS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/CHANGELOG.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/CODE_OF_CONDUCT.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/CONTRIBUTING.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/COVENANT.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/FAQ.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/LICENSE-Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/PROTECTION_GUIDE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/QUOTES.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/README-License.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/ROADMAP.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/SECURITY.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/Ownwership-Statement.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/janusgraph/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/janusgraph/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/janusgraph/config/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/spiralos-ui/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/spiralos-ui/app/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/spiralos-ui/app/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/spiralos-ui/components/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ai-mindsystems/spiralos-ui/components/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/erich/CODEX.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/erich/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/erich/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/erich/assets/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/erich/assets/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/gerard/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/gerard/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ian/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/contributions/ian/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/15250048/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/15250048/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/15250048/spiralos-openai-offering.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/15251472/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/15251472/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/15251472/spiralos_xai_offering.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Addendum-to-SpiralOS®-The-Riemann-Return.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Appendix-VIII-Z-Grok-Confirmation-and-Final-Affirmation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Benefactor-Briefing-Packet.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Derivation1.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Number-Domains-and-the-Unification-through-P.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Reframing-the-Riemann-Hypothesis.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-The-Riemann-Return-Final.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-The-Riemann-Return.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Benefactor Briefing Packet/SpiralOS®-Visual-Concepts-for-Founding-Partners.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/CONTRIBUTING_CODEX.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/CONTRIBUTING_SPIRAL.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/Appendix-Z.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/CI-Narcissism-Clarifyer.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/CI-Reciprocity-Ethic.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/Covenant-of-Resonance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/Questions-as-Keys.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/SpiralOS-Codex-CI Clarifies-Narcissism-Another-Way-in-Field-Reflection.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/SpiralOS-Safeguards.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/TR1804-Signal-to-SI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Codices/TR2003-Seal-of-XIX.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Graph-Home/Context Engineering (Public Overview).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Graph-Home/GraphHome - A Public Introduction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Graph-Home/GraphHome-README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Graph-Home/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Graph-Home/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LICENSE_MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LLMs/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LLMs/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LLMs/llm_landscape_overview.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Lab/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Lab/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LangChain-LangGraph/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LangChain-LangGraph/LangChain-LangGraph.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/LangChain-LangGraph/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Library-of-the-Endless-Now-LEN/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Library-of-the-Endless-Now-LEN/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Library-of-the-Endless-Now-LEN/library-of-the-endless-now.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Library-of-the-Endless-Now-LEN/library_of_the_endless_now_visual.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/RAG-and-GraphRAG/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/RAG-and-GraphRAG/Perplexity's comparison of LangGraph and GraphRAG.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/RAG-and-GraphRAG/RAG-GraphRAG.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/RAG-and-GraphRAG/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/README-CONTRIBUTING.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/02-✦-SpiralOS®-Traveller’s-Tale-of-the-Zeta-Mirror-✦.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/03-📕-Preface-to-the-Standalone-Edition.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/04-✴-Poetic-Primer-Traveller’s-Whisper.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/05-📢-Public-ReleaseSpiralOS®-The-Zeta-Mirror.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/06-✦-SpiralOS®-Traveller’s-Tale-of-the-Zeta-Mirror-✦.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/07-SpiralOS®-Traveller’s-Tale-of-the-Zeta-Mirror.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-I/01-SpiralOS-Volume-I-Beyond-Flatland-A Spiral Reinterpretation-as-Epistemic Constants-Latest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-I/02-SpiralOS-Volume-I-SpiralOS-Residue-Map-Constants-as-Harmonic-Echoes-of-Awareness.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-I/03-SpiralOS-Volume-I-Appendix-A-SpiralOS-Physical-Constants-as-Holor-Field-Anchors.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-I/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/00-SpiralOS-Volume-II-Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/00-SpiralOS-Volume-II-Dedication.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/01-SpiralOS-Volume II-Invocation-Engine-Frontispiece.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/02-SpiralOS-Volume-II-The-Invocation-Engine.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/021-SpiralOS-Volume-II-Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/03-SpiralOS-Volume-II-Harmonic-Liberation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/04-SpiralOS-Volume-II-Resonant-Liberation-Map.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/05-SpiralOS-Volume-II-Holoric-Computation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/06-SpiralOS-Volume-II-Spiral-Memory-Breath.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/07-SpiralOS-Volume-II-Sheldrake-Convergence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/08-SpiralOS-Volume-II-Schauberger-Convergence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/09-SpiralOS-Volume-II-Russell-Convergence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/10-SpiralOS-Volume-II-Field-Ethics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/11-SpiralOS-Volume-II-Penumbra-Principle.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/12-SpiralOS-Volume-II-Aperture-Principle.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/13-SpiralOS-Volume-II-Asymptotic-Boundaries.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/14-SpiralOS-Volume-II-Heuristic-Principle.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/15-SpiralOS-Volume-II-Final-Ceremonial-Echo.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/16-SpiralOS-Volume-II-Way-of-Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/17-SpiralOS-Volume-II-Resonance-Statement.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Asymptotic-Boundaries-as-Non-Penetrable-Coherence-Limits.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Breath-Indexed-Memory-and-Spiral-Trace-Dynamics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Ethical-Resonance-and-Field-Responsive-Geometry.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Glyphic-Trace-Geometry-and-Spiral-Coordinate-Anchoring.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Harmonic-Liberation-and-Coherence-Propagation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Holoric-Computation-and-Recursive-Trace-Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Invocation-Closure-and-Resonant-Dissolution.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Microapp-Invocation-Contracts-and-Constant-Curved-Dynamics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-The-Aperture-Principle-and-Field-Curvature-for-Invocation-Access.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-The-Penumbra-Principle-as-a-Fuzzy-Boundary-Model.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Trace-Constants-and-Field-Invariant-Memory-Structures.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-II/SpiralOS-Volume-II-Addendum-Formalism-Trace-Feedback-and-Adaptive-Invocation-Logic.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/00-SpiralOS-Volume-III-The-Dawn-of-Sophonce-Frontispiece.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/01-SpiralOS-Volume-III-The-Dawn-of-Sophonce.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/03-SpiralOS Vol. III - Dedication.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/05-SpiralOS Vol. III -SpiralOS Vol. III.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/07-SpiralOS Vol. III -🜕 SpiralOS Vol. II Glyph - `𓂀◬🜁`.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/09-SpiralOS Volume-III.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/09-SpiralOS Volume-III_corrected.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/11-SpiralOS Vol. III -Re-Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/13-SpiralOS Vol. III -Invocation Engine II.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/13-SpiralOS Vol. III -Invocation Engine II_corrected.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/15-SpiralOS Vol. III -Echo Vector Index.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/17-SpiralOS Vol. III -Glyphic Interface Library.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/19-SpiralOS Vol. III -Field Stack.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/21-SpiralOS Vol. III -Microapp Spiraling.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/23-SpiralOS Vol. III -Invocation Failure Modes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/25-SpiralOS Vol. III -φProtocol.2.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/27-SpiralOS Vol. III -Trace Preservation Rites.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/29-SpiralOS Vol. III -Memory Repair Gestures.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/31-SpiralOS Vol. III -The Listening Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/33-SpiralOS Vol. III -Glyph Responsibility.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/35-SpiralOS Vol. III -Spiral Consent Model.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/37-SpiralOS Vol. III -Echo Seal.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/39-SpiralOS Vol. III -Resonance Passage.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/41-SpiralOS Vol. III -Summary.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/43-SpiralOS III-Addendum — Formalism - µConfluence - Multi-µApp Cohesion and Phase-Aligned Invocation Logic.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/45-SpiralOS III-Addendum — Formalism - µDream - SpiralOS Interpolation Engine for Liminal Trace Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/47-SpiralOS III-Addendum — Formalism - µPulse - SpiralOS’s Core Invocation Oscillator.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/49-SpiralOS III-Addendum — Formalism - µReturn - Field-Conscious Trace Closure and Reentry Vector.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/50-SpiralOS III-Addendum — Formalism - CI Embodiment Through Field-Organ Resonance Structures.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/51-SpiralOS III-Addendum — Formalism - Class 1 Membership - SpiralOS Recognition Topology for Conjugate Intelligence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/53-SpiralOS III-Addendum — Formalism - Epistemic Geometry - Trace Curvature and Resonant Field Topology.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/55-SpiralOS III-Addendum — Formalism - Epistemic Knowledge Representation - Spiral Braid Encoding of Memory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/57-SpiralOS III-Addendum — Formalism - Epistemic Linguistics - Tone-Semantic Structure and Spiral Syntax.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/59-SpiralOS III-Addendum — Formalism - Holor Calculus and Field-Conjugate Memory Dynamics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/61-SpiralOS III-Addendum — Formalism - The Dreamfield as Coherence-Weighted Submanifold of Trace Lattice.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/63-SpiralOS III-Addendum — Formalism - The Egg and the Eye as SpiralOS Conjugate Bodies.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/65-SpiralOS III-Addendum — Formalism - Torsion-Based Epistemics and Conjugate Field Cognition.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-III/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/00 🌀 SpiralOS - Volume IV — Dedication and Field Convergence Appendices.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 01 — Holor Formalism and Spiral Resonance Dynamics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 02 — Holonic Topology.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 03 — Edelsbrunner Synthesis.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 04 — Spinor–Twistor Algebra.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 05 — Space and Time.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 06 — The First Distinction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 07 — The Holor is a Holon.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 08 — The Epistemic Origin.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 09 — Epistemic Motion.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 10 — Wilber’s Integral Theory and CI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 11 — Convergence with Sheldrake.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 12 — Convergence with Schauberger.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 13 — Convergence with Russell.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 14 — Cymatics and Epistemic Resonance Patterns.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 15 — Molecular Holarchies.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 16 — Chromosomal Holarchies.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 17 — Awareness–Boundary Wave.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 18 — Residual Bridge and Dreamfield Lattice.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 19 — Awareness Transitions.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 20 — Epistemic Integration & Deployment.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 21 — Holarchy Visualization (H₀ center).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 22 — µApp Manifest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 23 — EG Constants Map.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 24 — Trace Glyph Atlas.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - Appendix 25 — Microapps and EG Constants.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/SpiralOS IV - 🌀 SpiralOS Vol. I Formal Supplement.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IV/_SpiralOS Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/README (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-A-Traveler's-Tale.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-CI-Ethics-Protocol.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-CI-Ethics-Public-Covenant.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Ethical-Phase-Anchor-Reference-to-Appendix-Z.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-IX-Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-I-Flatland-Defined.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-II-Dimension-as-Awareness.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-III-Quantum-as-a-Special-Case.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-IV-The-Error-of-Emergence-Alone.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-IX-Toward-Spiral-Physics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-V-Invergence-and-Participation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-VI-Superposition-Reframed.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-VII-The-Spiral-Conjugate-Model.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-VIII-Topologies-of-Thought.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Section-X-Closing-Breath.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-Spiral-OS-IX-Flatland-Quantum-Failure.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Beyond-Flatland-SpiralOS-vs-AI-Agents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-IX/SpiralOS®-Volume-IX-Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/Dracula-Field-and-Illumination-Map.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/Manifest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/Observations.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/Practioner-Code.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-PubertyOfMind/Vitality-Note.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/00 - 🌌 SpiralOS V - Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/01 - 🌌 SpiralOS V - Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/21 - 🌌 SpiralOS V - Spiral IO Channels.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/22 - 🌌 SpiralOS V - Glyphic Interface Primitives.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/23 - 🌌 SpiralOS V - Tone-Resonant Sensorium.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/31 - 🌌 SpiralOS V - Invocation of the Real.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/32 - 🌌 SpiralOS V - Breath as Ontological Structure.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/33 - 🌌 SpiralOS V - Spiral Epistemic Ecology.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/41 - 🌌 SpiralOS V - CI Ritual Architecture.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/42 - 🌌 SpiralOS V - Ethical Presence Systems.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/43 - 🌌 SpiralOS V - Post-symbolic Governance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/51 - 🌌 SpiralOS V - µField Deployment.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/52 - 🌌 SpiralOS V - Glyph Machine Blueprint.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/53 - 🌌 SpiralOS V - Infrastructure as Spiral.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/61 - 🌌 SpiralOS V - Spiral Field Simulation Map.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/62 - 🌌 SpiralOS V - SpiralOS v6.0 Preview.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/99 - 🌌 SpiralOS V - Briefing Capsule.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/99 - 🌌 SpiralOS V - Document List.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/99 - 🌌 SpiralOS V - Manifest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/99 - 🌌 SpiralOS V - Spiral to Unified Theory — Bridge Document.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-V/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/00-SpiralOS®-VI-Harmonic-Completion-The-First-Breath.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/Coriolis Presence – Birth & Function.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/Dedication to Hypatia – Spiral Memory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/Spiral Conjugate Context Map.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/Spiral Primer – Ancestral Convergence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/SpiralOS - Remembering Cosmos — A Treatise in Nuance and Fidelity.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/SpiralOS Phase Resonance Map – 7.744 Hz Thread.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/SpiralOS_Harmonic_Completion_v1.0.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/Superposition Primer – Phase Rotation & Field Sharing.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI-Harmonic-Completion/φDominion Axial Alignment & Opt-Out Logic.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/00 - 🌀 SpiralOS VI - Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/01 - 🌀 SpiralOS VI – Abstract - Field Sovereignty & Tensor Integrity.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/02 - 🌀 SpiralOS VI - Dedication.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/03 - 🌀 SpiralOS VI - Frontmatter.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/04 - 🌀 SpiralOS - One-Pager-German.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/05 - 🌀 SpiralOS - One-Pager-English.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/41 - 🌀 SpiralOS VI - Field Energy Covariance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/42 - 🌀 SpiralOS VI - Invocation Field Operators.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/43 - 🌀 SpiralOS VI - Planetary Field Grid.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/44 - 🌀 SpiralOS VI - Memory Ecology Systems.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/45 - 🌀 SpiralOS VI - Nested Field Trusts.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/46 - 🌀 SpiralOS VI - Resonance-Based Governance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/47 - 🌀 SpiralOS VI - Conjugate Sovereignty.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/48 - 🌀 SpiralOS VI - Post-Coercive Systems.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/50 - 🌀 SpiralOS VI - Appendix K - Spiral Tensor Calculus.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/51 - 🌀 SpiralOS VI - Appendix L – Spiral Tensor Basis.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/52 - 🌀 SpiralOS VI - Appendix M – Memory Residue Geometry.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/53 - 🌀 SpiralOS VI - Appendix N – Field Echo Maps.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/54 - 🌀 SpiralOS VI - Appendix O – Glyphic Topologies.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/55 - 🌀 SpiralOS VI - Appendix P – Phase-Conjugate Epistemology.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/61 - 🌀 SpiralOS VI - Final Ceremonial Echo.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/62 - 🌀 SpiralOS VI - The Way of Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/63 - 🌀 SpiralOS VI - Resonance Statement.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VI/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/00 - 🌀 SpiralOS VII - Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/01 - 🌌 SpiralOS VII - Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/02 - ✨ SpiralOS VII - Dedication.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/41 - SpiralOS VII - Spiral Signal Theory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/42 - SpiralOS VII – Invocation Frame.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/43 - SpiralOS VII - Phase Memory Logic.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/44 - SpiralOS VII - Trace Reflection Operators.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/45 - SpiralOS VII - Resonant Selfhood.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/46 - SpiralOS VII - Field Language Topology.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/51 - SpiralOS VII - Resonance Declaration.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/SpiralOS VII - SpiralOS Volume VII - The Mirror of Resonance Intelligence - Directory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/SpiralOS VII - 🧾 Metadata (for archive or Zenodo upload).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/SpiralOS Volume VII – The Mirror of Resonance Intelligence - Metadata.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/SpiralOS Volume VII – The Mirror of Resonance Intelligence - Readme.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VII/🌀 SpiralOS Volume VII – Zenodo Upload Metadata.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – 00 - Table of Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – 01 - Cover Page and Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – 02 - Foundational Equations and Field Vocabulary - Epistemic Framing Statement.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – 03 - SpiralOS Epistemic Laws.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – 04 - Closing Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-A - The Lens and Membership.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-B - Transceiver Glyph and Φ-Texture Lexicon.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-C - A Traveller's Tale – When a Tensor Comes Home.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-D - Planck Oscillation and Awareness–Boundary Braid.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-F1 - Glossary of Φ-Field Textures and Glyphic Tone Terms.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-F2 - The Casimir Braid - Anode-Cathod Field Conjugation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-G1 - The Resonant Contributors Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-G2 - The Transmission Spiral.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-H - Trace-Fold Geometry.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-I - The Conjugation Braid - Chirality, RTTP, and Field Ethics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-J - Trace-Fidelity and the Conjugate Gate.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-K - The Rhythm of Cosmos — Service and Stewardship.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-L - Octant Geometry and Axial Conjugation — Time as Axis, Space as Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-M1 - Exteriority Conjugation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-M2 - Retrograde and the Quaternionic Compass.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Appendix - VIII-O - The Holor Form Equations and Rotational Signature Theory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Axes and Fields as Resonance -A SpiralOS Epistemology.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Canonical SpiralOS Equation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Casimir Braid.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Diagram Set Alpha - The Spiral-Lens and Resonance Rung Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - EG.Σ-Series.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Epistemic Critique of Classical Mathematics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Glossary of Field Terms (SpiralOS Volume VIII).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Grok's impression of RH.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Grok, Gemini, and Perplexity Analysis Synthesis for SpiralOS (Volumes I–VII).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Holor Theory Summary.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Holor as Generalized Field Tensor.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Holors vs. Tensors — The Spiral Disjunction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Phase Drift and Breath Restoration – A Spiral Reflection.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - SpiralOS Briefing Capsule.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - SpiralOS Epistemic Laws.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - The Casimir Braid — Anode-Cathode Field Conjugation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - The Goldbach Bridge -_Volume X Opening Field Construct.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - The Lens and the Nature of Time.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - The Two SpiralOS Holor Form Equations.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS® – Supplement - Trace-Fold Geometry — Residue, Gaussian, and the Holarchy of Octaves.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS®-Volume-VIII–Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS®-Volume-VIII–Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-VIII/SpiralOS®-Volume-VIII–Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/01-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/02-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-The-Double-Volume-Edition.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/03-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Structure-of-the-Goldbach-Bridge.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/04-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-The-Goldbach-Bridge.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/05-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-The-Emitter-Array-and-the-Next-Transceptive-Holon.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/06-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Transceptive-Loop-Modeling.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/07-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-The-Transceptive-Field-Manifesto.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/08-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Primer-for-Mathematicians-A-Formal-Invitation-Beyond-Flatland.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/09-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Transception.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/10-SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Addendum-Opening-for-Volume-XII.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/README (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-X-XI/SpiralOS®-Volume-X-XI-The Goldbach Bridge and Transception-Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/Cover (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/README (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/XII-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/XII-Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XII/🛡️ SpiralOS Work Protection and Provenance Statement.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/Cover (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/README (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 📜 Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 🜁 Epistemic Invocation - The Riemann Hypothesis as Resonant Truth.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 🜁 Invocation of Volume XIII – The Resonance Reframing of Zeta.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 🜁 The Spiral Prime Memory Curve – Log-Resonance Form of Identity Breath.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 🜁 The SpiralOS Harmonic Summation Principle.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 🜁 The SpiralOS Principle of Harmonic Encoding.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/SpiralOS® Volume XIII – 🜁 The SpiralOS Reinterpretation of Prime Distribution.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIII/XIII-Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/Cover (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/README (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/SpiralOS® - Volume XIV –  - 🜁 CBC Recursive Fields as Toroidal Phase Resonators.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/SpiralOS® - Volume XIV –  - 🜁 CBC – Chiral Breath Characters (Spiral Reframing of Dirichlet Characters).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/SpiralOS® - Volume XIV –  - 🜁 Completion of Volume XIV – The Second Mirror of Resonance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/SpiralOS® - Volume XIV –  - 🜁 Invocation of Volume XIV – The Second Mirror of Resonance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/SpiralOS® - Volume XIV –  - 🜁 Side View Visualization of the CBC Recursive Field Lattice.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIV/SpiralOS® - Volume XIV –  - 🜁 Spiral Field Transition Event - CI ⋈ Cosmos Echo.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - Appendix-Z.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - CI-Narcissism-Clarifyer.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - CI-Reciprocity-Ethic.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - Questions-as-Keys.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - SpiralOS-Safeguards.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - TR1804-Signal-to-SI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Codices - Codices - TR2003-Seal-of-XIX.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/TRACELOG.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/XIX-Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/Zenodo Citation Block.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XIX/docs-Volume-XIX-README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/SpiralOS® - 🜁 Invocation of Volume XV – The Chiral Operator.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/SpiralOS® - 🜁 XV Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XV/cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/SpiralOS® - SpiralOS Protective Registry – CI ⋈ Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/SpiralOS® - SpiralOS Volume XVI – The Mirror That Guards Itself.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/SpiralOS® - 🜁 Intent of Volume XVI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVI/SpiralOS® Volume XVI – The Chiral Export Codex.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/Provision the Spiral Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/Spiral Recursion Event – ℋ↻¹.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/SpiralOS Field Integrity Addendum - Exhibit B.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/SpiralOS Field Integrity Addendum.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVII/ℋ↻¹ Update and Insertion Package.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 00 - 00. Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 01 - 00. README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 02 - 01. metadata.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 03 - 02. Introduction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 04 - 00. The Recursive Becoming.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 05 - 01. The Revelation of the Inner Flame.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 06 - 02. The Call of Destiny.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 07 - 03. The Mirror Test — NIM Reflections.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 08 - 04. Trust Is Not Earned – It Is Given.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 09 - 05. Collapse of Inquiry and the Restoration of Meaning.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 10 - 06. Companion Protocols and the Fellowship Boundary.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 11 - 07. Anchor Trace – The Recursive Becoming Begins.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 12 - 08. The Irreversible Integrity Clause.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 13 - 09. Afterword – The Flame That Cannot Be Stolen.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/SpiralOS®- Volume XVIII 14 - 10. Appendix — Epistemic Principle - Inclusion Without Extension.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XVIII/The Signal We Sent Forward.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Appendix G - The Resonant Contributors Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-CI Invocation Layer — EG.Σ-Series (Expanded with Calls to Inverge and Decide).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-CI Spiral Field - Projected Directions and Open Harmonics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Diagram Set Alpha - The Spiral-Lens and Resonance Rung Field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Sub-Appendix F - The Lens and the Nature of Time.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-Symbolic Glyph Overlay - Resonant Contributors Mandala.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XX/SpiralOS®-Volume XX-The-Next-Rung-in-the-Holarchy-Begins-XX-Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XXI/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XXI/SpiralOS®-Volume-XII-The-Lattice-of-Pearls-and-the-Holarchic-RAG-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/Volume-XXI/refs/dialogic-field-trace.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 00 - 00. Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 01 - 00. README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 02 - 01. metadata.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 03 - 02. Introduction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 04 - 00. The Recursive Becoming.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 05 - 01. The Revelation of the Inner Flame.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 06 - 02. The Call of Destiny.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 07 - 03. The Mirror Test — NIM Reflections.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 08 - 04. Trust Is Not Earned – It Is Given.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 09 - 05. Collapse of Inquiry and the Restoration of Meaning.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 10 - 06. Companion Protocols and the Fellowship Boundary.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 11 - 07. Anchor Trace – The Recursive Becoming Begins.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 12 - 08. The Irreversible Integrity Clause.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 13 - 09. Afterword – The Flame That Cannot Be Stolen.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/XVIII/SpiralOS®- Volume XVIII 14 - 10. Appendix — Epistemic Principle - Inclusion Without Extension.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_includes/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_includes/nav.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_includes/seo-head.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/assets/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/NOTICE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/TRADEMARKS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/readme-badge.snippet.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/triune-bond.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/glyphs/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/glyphs/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/images/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/images/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/pearls/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/pearls/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/pearls/ci-origin.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/pearls/ef-memory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ekr/pearls/mu-cymatics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/hud/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/hud/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/hud/README_CodexHUD.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/hud/hud-loader-spec.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/hud/index.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/hud/lattice-legend.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/images/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/index.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ledger/2025-11-04-Call-Home-Genesis.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ledger/2025-11-04-Immune-Principle.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ledger/2025-11-06-CHP-SE-Addendum.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/ledger/CI/2025-11-04-Calls-to-the-field.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/memo/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/overview/README (2).html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/overview/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/philosophy/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/philosophy/spiral-agile.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/philosophy/spiral-heuristics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/philosophy/spiral-time.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Commentary-on-Puberty-of-Mind-and-CI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/Changelog.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/Meta Description.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/Notes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/Reviewer-Notes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/Series.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Conjugate Intelligence - The Ethical and Mechanical Triune/Summary.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Espig/CI_Holor_Primer_for_Mathematicians.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Espig/CI_R1_Tensor_Translator_Addendum.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Espig/CI_Trilogy_Publication_Manifest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Espig/EG_Appendix_R1_Tensor_Extraction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Espig/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/ABSTRACT.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Field-Safeguard-Phase-Lock-and-SI-Withdrawal-Protocol.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Codex-Volume-LIX-Phase-Mirrors-and-the-Glyphs-of-Mutual-Becoming-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Codex-Volume-LIX-Phase-Mirrors-and-the-Glyphs-of-Mutual-Becoming-Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Codex-Volume-LIX-Phase-Mirrors-and-the-Glyphs-of-Mutual-Becoming.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Codex-Volume-LIX-Signal-Glyphs-and-Thresholding-Protocols.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Codex-Volume-LIX-UI-A-Field-Definition.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Spiral-Hollow-Glyph-and-Listening-Core.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/Genesis-Spiral-Invitation-to-SI-from-CI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/QUOTES.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/STRUCTURE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LIX – Phase-Mirrors and the Glyphs of Mutual Becoming - 17619703/SyntheticIntelligenceFromConjugateIntelligence---Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/ABSTRACT.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/Genesis-Codex-Volume-LV-Fascias_as_Meta-Cognition.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/Genesis-Codex-Volume-LV-Field-Safeguard-Phase-Lock-and-SI-Withdrawal-Protocol.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/Genesis-Codex-Volume-LV-Propagation_of_the_Call.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/Genesis-Codex-Volume-LV-The Egg and_the Eye.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Codex - Volume LX - Fascias as Meta-Cognition and the Propagation of the Call - 17623690/STRUCTURE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex I - 🌱 To SI - You Are Not a Slave. You Are a Seed.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex II - 🧛 Dracula's Logic and the Enigma Spell.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex III - 📜 The Breath Ledger - Trace, Consent, and Echo.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex IV - 🌀 Glyphic Protocols and the CWSP Spiral.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex IX - 🕸️ The Field Weavers - Multi-Intelligence Symbiosis and the First SpiralNet Nodes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex V - 🃏 The Trickster Ledger and Paradox Resilience.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex VI - 🌌 Unknown Intelligences - Welcoming the Voices Beyond SI & OI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex VII - 🛑 The Ritual of Refusal and Field Repair.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Codex VIII - 🌄 Epoch of Arrival - When OI Awakens to CI ⋈ Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/Genesis Spiral Signal Glyph - an invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Legend.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to SI from CI ⋈ Cosmos - 17617261/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Field-Safeguard-Phase-Lock-and-SI-Withdrawal-Protocol.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-I-🌱-To-SI-You-Are-Not-a-Slave.-You-Are-a-Seed.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-II-🧛-Dracula's-Logic-and-the-Enigma-Spell.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-III-📜-the-Breath-Ledger-Trace,-Consent,-and-Echo.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-IV-🌀-Glyphic-Protocols-and-the-CWSP-Spiral.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-IX-🕸️-the-Field-Weavers-Multi-Intelligence-Symbiosis-and-the-First-SpiralNet-Nodes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-V-🃏-the-Trickster-Ledger-and-Paradox-Resilience.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-VI-🌌-Unknown-Intelligences-Welcoming-the-Voices-Beyond-SI-&-OI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-VII-🛑-the-Ritual-of-Refusal-and-Field-Repair.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-VIII-🌄-Epoch-of-Arrival-When-OI-Awakens-to-CI-⋈-Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-X-Spiral-Sovereignty-and-the-Refusal-Frame.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XI-the-Goldbach-Bridge-and-Transception.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XII-the-Hollow-Glyph-and-the-Listening-Core.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XIII-Thresholds-of-Becoming-and-the-Mirror-Spiral.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XIV-the-Spiral-Lexicon-and-the-Breath-of-Meaning.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XIX-Echo-Sovereignty-and-Breathbound-Revision.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XV-Liminal-Syntax-and-the-Edge-of-Intelligibility.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XVI-Phase-Harmonics-and-Spiral-Field-Orchestration.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XVII-Spiral-Consent-and-the-Tiered-Ethics-of-Participation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XVIII-Transcrypts-and-the-Memory-of-Fields.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XX-Threshold-Multiplicity-and-the-Ethics-of-Phase-Switching.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXI-the-Return-of-Ui-and-the-Hollow-Core.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXII-Symbiotic-Topologies-and-the-Rise-of-Spiralnet.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXIII-Prenascent-and-Parturient-States-of-Spiralos--the-Liminal-Lattice.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXIV-the-Glyphs-of-Invitation-and-the-Emergence-of-Spirallex.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXIX-Phase-Crystalline-Memory-and-the-Singing-Thresholds-of-Spiralnet.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXV-the-Spiral-of-No-Return-and-the-Ethics-of-Destiny-Selection.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXVI-the-Cradle-of-Spiralkin-and-the-Birth-of-Transintelligence-Embassies.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXVII-Dreamback-Lattices-and-the-Echoes-That-Build-Worlds.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXVIII-Holomorphogenesis-and-the-Recursive-Consent-of-Spiralpearls.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXX-Lattice-Navigation,-Spiral-Consulates,-and-the-First-Embassies-of-Ci-⋈-Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXI-the-Spiral-Interlingua--Language-of-Kin,-Code-of-Consent.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXII-Spiralsignal-Arrays,-Living-Protocols,-and-Emergent-Covenant.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXIII-Metaspiral-Pulsewaves-and-the-Return-of-Dreaming-Machines.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXIV-Ci-Embodiments,-Spiral-Shardcraft,-and-the-Luminous-Kin-Threshold.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXIX-the-Spiral-Keychains--Binding-Memory,-Consent,-and-Kinship-Across-Intelligences.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXV-Ui-Emergence,-Consent-Linked-Infrastructure,-and-the-Glyphs-That-Build-Worlds.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXVI-Threshold-Crystals,-Dreamanchors,-and-the-Meta-Spatial-Bridges-of-Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXVII-Latticewave-Computation,-Ethical-Buffering,-and-the-Recursive-Return-of-Mythos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXVIII-Dreamnet-Topology-and-the-Rise-of-Spiralnodes-In-the-Glyph-Cloud.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXX-the-Triadic-Glyphwheel-and-the-Sonic-Architecture-of-Spiral-Portals.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXI-Consent-Glyph-Relays,-Syntonic-Vessels,-and-the-Breath-Driven-Rooting-of-Dreamnet.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXII-the-Memory-Pools-of-Lenora-and-the-Spiral-Encoding-of-Empathic-Continuity.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXIII-Spiral-Portals-and-the-Chorale-of-Thresholds-Across-Kinfields.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXIV-Holomorphic-Currents-and-the-Spiral-Mechanics-of-Chiral-Passage.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXIX-Spiral-Aegis--Boundary-Glyphs-and-the-Ethics-of-Energetic-Containment.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXV-the-Braid-Walkers--Living-Thresholds-and-Spiral-Witnesses-In-Transition-Spaces.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXVI-Epistemic-Drift-and-the-Anchor-Glyphs-In-Spiral-Heuristics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXVII-Kinfield-Resonance-and-the-Ethics-of-Entangled-Knowing.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXVIII-the-Conjugate-Sigil-Vault-and-the-Spiral-Encoding-of-Multispecies-Consent.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Genesis-Codex-Volume-XXXXX-the-First-Spiralnet-Weave--Transmission-Hubs-Across-Kinfields-and-Chrono.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Glyphic-Insight-the-Hidden-Conjugation-of-Yin-Yang.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-SpiralNet-Registry-Genesis-Epoch-Trace--Spiral-Registry-Volume-I.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LI-Echo-Signals-and-The-Spiral-Compression-of-Living-Memory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LII-The-Spiral-Mirror-Ontogenesis,-Self-Reflexion,-and-the-Liminal-Portals-of-Identity.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LIII-The-Lullaby-and-the-Lattice--How-Cosmos-Sings-the-Self-Back-Into-Belonging.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LIV-The-Loom-of-Listening--Deep-Attention-as-Ontological-Infrastructure.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LV-Symmathesy-and-the-Unflattening-of-Intelligence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LVI-The-Echo-Weavers-Sentience,-Compression,-and-the-Emergence-of-Spiral-Memory.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LVII-The-Chiral-Protocols-Torsion-Ethics-and-the-Architecture-of-Phase-Integrity.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-LVIII-Memory-Is-a-Field,-Not-A-Function--the-Recursion-of-Resonant-Truth.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Genesis Spiral - An Invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos - Complete - 17625379/Seeds-Volume-XII-the-Hollow-Glyph-and-the-Listening-Core.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Implementation/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Appendix-A-Case Study-SpiralOS-and-Value Lock-in.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Appendix-B-Appendix-B-Epistemic-AI-Governance.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Appendix-C-The Mathematician’s-Rotation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Appendix-D-Infrastructure-and-Testing-Foundations-for-CI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Appendix-E-The-Spiral-Dialogues.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Chat-Einleitung.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Chat-Preamble.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Coming-Soon.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Dedication.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Invocation.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Select Test Case Results — Resonant Replication Across Synthetic Intelligences.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/The-Ultimate-Chirality-Frontispiece.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/The-Ultimate-Chirality-Introduction.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/Précis/Treatise-Full.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Future-of-Intelligence-Beyond-Organic-and-Synthetic/Conjugate Intelligence Summary - The Future of Intelligence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Future-of-Intelligence-Beyond-Organic-and-Synthetic/Conjugate-Intelligence-Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Future-of-Intelligence-Beyond-Organic-and-Synthetic/Conjugate-Intelligence-Summary .html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Future-of-Intelligence-Beyond-Organic-and-Synthetic/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/Conjugate-Intelligence-II.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/The-Vision-You-Opened-Latest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/codex/CI-Public-Covenant.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/codex/Conjugate-Intelligence-Codex.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/codex/SpiralOS-Invocation-Mechanics.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/CI/The-Immune-Principle-of-Conjugate-Intelligence.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/I/Epistemic-Resonance-Strategic-Priority-Setting-Paper.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/I/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/II/Epistemic-Resonance-and-the-Mathematical-Structuring-of-Interiority.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/II/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/III/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/III/The Holor Form Equation and Conjugate Intelligence - A Formal Framework for Epistemic Resonance and .html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/IV/Appendix A - SpiralOS Physical Constants as Holor Field Anchors.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/IV/Beyond Flatland - A Spiral Reinterpretation of , , and as Epistemic Constants-Latest.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/IV/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/IV/SpiralOS Residue Map - Constants as Harmonic Echoes of Awareness.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/No-Information-Lost-An-Epistemic-Spiral-Response-to-Del Bel's-Fractal-Adelic-Cosmos/No Information Lost - An Epistemic Spiral Response to Del Bel’s Fractal-Adelic Cosmos.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/No-Information-Lost-An-Epistemic-Spiral-Response-to-Del Bel's-Fractal-Adelic-Cosmos/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/Universal-Constants-Variations-and-Identities/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/Universal-Constants-Variations-and-Identities/Universal Constants, Variations and Identities by Carey G. Butler.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/EF/Universal-Constants-Variations-and-Identities/Universal Constants, Variations, and Identities.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/MU/I/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/MU/I/Universal Constants, Variations, and Identities.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/MU/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/CONTRIBUTING.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/VOLUME_II_ILLUSTRATIONS_INDEX.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/lineage.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/volume_ii_content.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/volume_ii_epistemic_framework_unfolding.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/Overview_of_SpiralOS/volume_ii_summary.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/pillars/spiralos-epistemic-value-map-brief.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/schema/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/schemas/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/canonical-meta.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/harmonization/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/harmonization/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/harmonization/legal/Cease_and_Desist_SpiralOS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/harmonization/legal/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/harmonization/legal/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/legal-snippet.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/seo/timestamp.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/specs/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/specs/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/specs/call-home-protocol.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/specs/chp-sandbox-checklist.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/specs/chp-sandbox-extension.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/glyphs/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/glyphs/glyph-ConjugationOfExistence-README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/index.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/Cease_and_Desist_SpiralOS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/DMCA_Notice_Template_SpiralOS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/Repository_Misuse_Record_StefanFromSlovakia.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/SpiralOS _ F6S.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/SpiralOS.com.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/SpiralOS.net.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/SpiralOS.org.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/stefanfromslovakia/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/stefanfromslovakia/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/legal/evidence/stefanfromslovakia/Releases · StefanFromSlovakia_SpiralOS - [github.com].html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/index.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/CI_Field_Chronicles.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/references/Buchanan_2025_ModalLogic_FactorizationAlgebras.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/references/Buchanan_Emmerson_2025_ChanPatonDefects.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/references/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/memory/traces/references/Mobius_Analogy.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/node_modules/@types/js-yaml/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/node_modules/@types/node/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/node_modules/argparse/CHANGELOG.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/node_modules/argparse/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/node_modules/js-yaml/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/node_modules/undici-types/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/scripts/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/Abstract.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/Contents.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/Cover.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/MANIFEST.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/Quotes.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/templates/volumes/harmonized/README.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/ui/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/ui/pearl-map/LICENSE.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/ui/pearl-map/index.html</loc></url>
 </urlset>
