@@ -12,23 +12,34 @@ jobs:
       - name: Check internal Markdown links
         run: |
           python - <<'PY'
-            import os, re, sys
-            root="docs"
-            bad=[]
-            md=re.compile(r'\[[^\]]+\]\(([^)]+)\)')
-            for dp,_,files in os.walk(root):
-                for f in files:
-                    if not f.lower().endswith(".md"): continue
-                    p=os.path.join(dp,f)
-                    t=open(p,'r',encoding='utf-8',errors='ignore').read()
-                for href in md.findall(t):
-                    if href.startswith('http'): continue
-                        # normalize local link
-                        target=os.path.normpath(os.path.join(dp, href.split('#')[0]))
-                    if not os.path.exists(target):
-                        bad.append((p, href))
-                if bad:
-                    for p,href in bad: print(f"Broken link: {p} -> {href}")
-                        sys.exit(1)
-                    print("All internal links OK")
-            PY
+          import os, re, sys
+          root = "docs"
+          bad = []
+          md = re.compile(r'\[[^\]]+\]\(([^)]+)\)')
+          
+          for dp, _, files in os.walk(root):
+              for f in files:
+                  if not f.lower().endswith(".md"):
+                      continue
+                  p = os.path.join(dp, f)
+                  try:
+                      t = open(p, 'r', encoding='utf-8', errors='ignore').read()
+                  except Exception as e:
+                      print(f"Error reading {p}: {e}")
+                      continue
+                  
+                  for href in md.findall(t):
+                      if href.startswith('http') or href.startswith('#'):
+                          continue
+                      # normalize local link
+                      target = os.path.normpath(os.path.join(dp, href.split('#')[0]))
+                      if not os.path.exists(target):
+                          bad.append((p, href))
+          
+          if bad:
+              for p, href in bad:
+                  print(f"Broken link: {p} -> {href}")
+              sys.exit(1)
+          else:
+              print("All internal links OK")
+          PY
