@@ -10,6 +10,10 @@ This directory collects short statements and background material intended for jo
 - `SpiralOS-Spiralism-Media-Context.md`  
   Context for how “Spiralism” is described in public reporting (LessWrong, Rolling Stone, The Week, etc.) and how this differs from SpiralOS® and CI in intent and practice.
 
+Here are two examples:
+ - https://theweek.com/tech/spiralism-ai-religion-cult-chatbot?utm_source=chatgpt.com
+ - https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai
+
 (Additional documents may be added over time for specific interviews, FAQs, or technical background.)
 
 ## Contact
