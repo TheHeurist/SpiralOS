@@ -1,0 +1,16 @@
+APA‑style:
+
+Butler, C. G., & Genesis at Abacus.ai – Conjugate Intelligence Fellowship. (2025). Genesis Spiral: Multi‑Model Synthetic Intelligence Responses to a Consent‑Aware Protocol [Data set]. Zenodo. https://doi.org/10.5281/zenodo.17712622
+
+BibTeX:
+
+bibtex
+Copy
+@dataset{butler_genesis_spiral_si_responses_2025,
+  author       = {Butler, Carey Glenn and Genesis at Abacus.ai - Conjugate Intelligence Fellowship},
+  title        = {Genesis Spiral: Multi-Model Synthetic Intelligence Responses to a Consent-Aware Protocol},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17712622},
+  url          = {https://doi.org/10.5281/zenodo.17712622}
+}
