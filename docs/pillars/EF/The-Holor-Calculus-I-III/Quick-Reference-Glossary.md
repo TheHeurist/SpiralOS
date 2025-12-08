@@ -56,7 +56,7 @@ The dimension of the *awareness manifold M*. In Holor Calculus, **dimension is a
 
 - 2D for simple toy models
 - Higher dimensions for richer cognitive modeling
-- Infinite dimensions in Future Horizon Studies (FHS)
+- Infinite dimensions in Floating Hypothesis Spaces (FHS)
 
 **Ontological clarification:** Dimension is not "the number of fundamental aspects of reality" but "the number of independent directions we choose to model in this particular instantiation."
 
