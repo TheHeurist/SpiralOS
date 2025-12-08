@@ -13,3 +13,5 @@ yarn-error.log*
 .idea/
 .DS_Storenode_modules/
 .next/
+
+.fake

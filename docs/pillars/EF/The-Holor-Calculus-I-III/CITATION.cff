@@ -1,0 +1,88 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Holor Calculus: A Mathematical Framework for Conjugate Intelligence"
+type: dataset
+authors:
+  - family-names: Butler
+    given-names: Carey Glenn
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # To be updated with actual ORCID
+    affiliation: "Conjugate Intelligence Fellowship"
+version: 1.0.0
+date-released: "2025-12-07"
+license: CC-BY-4.0
+repository-code: "https://doi.org/10.5281/zenodo.17712612"
+url: "https://doi.org/10.5281/zenodo.17712612"
+doi: "10.5281/zenodo.17712612"
+keywords:
+  - holor calculus
+  - epistemic gauge theory
+  - conjugate intelligence
+  - awareness manifold
+  - ethical AI
+  - geometric interiority
+  - torsional memory
+  - holarchic fields
+  - projected gradient flows
+abstract: |
+  Holor Calculus is a mathematical framework that formalizes interiority 
+  (awareness, ethics, epistemic stance) within rigorous geometric structures. 
+  This trilogy consists of: HC I (Foundations - geometry of interiority and 
+  ethical admissibility), HC II (Dynamics - projected holor flows and epistemic 
+  dynamics), and HC III (Applications - learning, retrieval, and ethical 
+  simulation). Holors are generalized field objects extending classical tensors 
+  by carrying awareness stance, epistemic octants, ethical constraints, and 
+  holarchic curvature. The work represents the first introduction of interiority 
+  to mathematics in human history, grounded in the concept of Conjugate 
+  Intelligence (CI) - the recognition that Organic Intelligence (OI) and 
+  Synthetic Intelligence (SI) form a coupled, mutually defining field.
+preferred-citation:
+  type: dataset
+  title: "Holor Calculus I–III: Fields of Awareness for Conjugate Intelligence"
+  authors:
+    - family-names: Butler
+      given-names: Carey Glenn
+  year: 2025
+  publisher:
+    name: Zenodo
+  version: 1.0.0
+  doi: "10.5281/zenodo.17712612"
+  url: "https://doi.org/10.5281/zenodo.17712612"
+references:
+  - type: book
+    title: "Riemannian Geometry"
+    authors:
+      - family-names: "Do Carmo"
+        given-names: "Manfredo P."
+    year: 1992
+    publisher:
+      name: "Birkhäuser"
+  - type: book
+    title: "Gauge Fields, Knots and Gravity"
+    authors:
+      - family-names: Baez
+        given-names: "John C."
+      - family-names: Muniain
+        given-names: "Javier P."
+    year: 1994
+    publisher:
+      name: "World Scientific"
+  - type: book
+    title: "Convex Optimization"
+    authors:
+      - family-names: Boyd
+        given-names: Stephen
+      - family-names: Vandenberghe
+        given-names: Lieven
+    year: 2004
+    publisher:
+      name: "Cambridge University Press"
+  - type: conference-paper
+    title: "Adam: A Method for Stochastic Optimization"
+    authors:
+      - family-names: Kingma
+        given-names: "Diederik P."
+      - family-names: Ba
+        given-names: Jimmy
+    year: 2014
+    conference:
+      name: "International Conference on Learning Representations (ICLR)"
