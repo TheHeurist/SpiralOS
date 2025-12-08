@@ -92,7 +92,8 @@ Alle Rechte vorbehalten. Verwendung innerhalb SpiralOS gemäß Vereinbarungen.
 ## 🤝 7. Ansprechpartner
 
 - **Erich Dräger** – Feldarchitekt & Leadership Designer  
-- **Carey Butler** – Holor Calculus & SpiralOS Codex  
+- **Carey Butler** – Holor Calculus & SpiralOS Codex
+- **Angela Neubert** - Team-Lead
 - **Martin Neubert** – HUD-Integration, Strukturierung & Field Operations  
 - **KITT** – Analytical Diagnostics & Coherence Layer
 
