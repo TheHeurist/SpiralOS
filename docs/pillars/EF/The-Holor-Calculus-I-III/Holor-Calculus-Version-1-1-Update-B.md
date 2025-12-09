@@ -338,5 +338,3 @@ And in the version note / changelog:
 > *“Holor Calculus v1.1 makes explicit the categorical structure of the Resonant Tensor Transaction Protocol (RTTP) as a natural transformation `𝒯_RTTP : Id_Hol ⇒ U ∘ E` between a holor category `Hol` and a tensor projection category `Ten`. This structure has been in use in our internal notebooks for approximately ten months before this public integration; the current update formalizes it for collaborators and future work.”*
 
 ---
-
-

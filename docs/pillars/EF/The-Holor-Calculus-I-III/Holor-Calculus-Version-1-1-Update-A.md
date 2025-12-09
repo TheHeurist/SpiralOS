@@ -330,5 +330,3 @@ Key sentences to include in the abstract / version notes:
 > *“This v1.1 update formally integrates the Resonant Tensor Transaction Protocol (RTTP) into the Holor Calculus as the canonical tensor–holor transaction kernel. The RTTP formalism was conceptually completed and first circulated approximately ten months prior to this public integration; this revision merely makes that structure explicit in the published calculus.”*
 
 ---
-
-
