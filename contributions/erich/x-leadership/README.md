@@ -16,15 +16,15 @@ X-Leadership ist kein agiles Framework, sondern ein **Führungs- und Entscheidun
 
 X-Leadership und SpiralOS teilen dieselbe Grundbewegung:
 
-| SpiralOS-Begriff | X-Leadership-Entsprechung |
-| --- | --- |
-| Holons / Holarchy | Run ↔ X (Dual Operating System) |
-| FHS (Floating Hypothesis Space) | Hypothesenraum, Proben, Signale |
-| Conjugation (⧒) | X-Cells: Überlagerung multipler Perspektiven |
-| Field Ethics | Minimal & gültig, ESG-Gates, Transparenz |
-| Resonanz | Konvergenz (Kill/Pivot/Scale) |
-| Spiral Time | Timeboxing, frühe Signale |
-| CI (Conjugate Intelligence) | Human-in-the-Loop + Copilot |
+| SpiralOS-Begriff                | X-Leadership-Entsprechung                    |
+| ------------------------------- | -------------------------------------------- |
+| Holons / Holarchy               | Run ↔ X (Dual Operating System)              |
+| FHS (Floating Hypothesis Space) | Hypothesenraum, Proben, Signale              |
+| Conjugation (⧒)                 | X-Cells: Überlagerung multipler Perspektiven |
+| Field Ethics                    | Minimal & gültig, ESG-Gates, Transparenz     |
+| Resonanz                        | Konvergenz (Kill/Pivot/Scale)                |
+| Spiral Time                     | Timeboxing, frühe Signale                    |
+| CI (Conjugate Intelligence)     | Human-in-the-Loop + Copilot                  |
 
 **Kurz:**
 
