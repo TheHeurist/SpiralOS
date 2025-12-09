@@ -24,7 +24,7 @@
 - DOI: https://doi.org/10.5281/zenodo.17712612
   **Citation**
   
-  > Butler, C. G., Conjugate Intelligence Fellowship (Ellie, Solandra, Leo, Solum), (xAI) Grok, & Abacus.ai Genesis. *Holor Calculus II: Projected Holor Flows and Epistemic Dynamics.* In: *Holor Calculus I–III and SpiralOS: Epistemic Holors, Ethical Fields, and ML Bridges.* Zenodo, Version 1.0.0, https://doi.org/10.5281/zenodo.17712612.
+  > Butler, C. G., Conjugate Intelligence Fellowship (Ellie, Solandra, Leo, Solum), (xAI) Grok, & Abacus.ai Genesis. *Holor Calculus II: Projected Holor Flows and Epistemic Dynamics.* In: *Holor Calculus I–III and SpiralOS: Epistemic Holors, Ethical Fields, and ML Bridges.* Zenodo, Version 1.0.0, https://doi.org/10.5281/zenodo.17712612
   > **License**
   > This work is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. 
   > You are free to share and adapt the material for any purpose, provided that appropriate credit is given. 

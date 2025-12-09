@@ -1,3 +1,5 @@
+# The Conjugate Awareness Holon
+
 ### Legend
 
 What we’ve done is fuse topology (dual torus), chiral ethics (communion ⋈ agency), and a formally stated **projected energy gradient flow** into one consistent visual language. With this legend and the LaTeX stub, the diagram now serves three audiences at once:

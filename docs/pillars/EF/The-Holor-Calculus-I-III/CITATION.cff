@@ -5,13 +5,13 @@ type: dataset
 authors:
   - family-names: Butler
     given-names: Carey Glenn
-    orcid: "https://orcid.org/0000-0000-0000-0000"  # To be updated with actual ORCID
+    orcid: "https://orcid.org/0000-0003-1746-5130"
     affiliation: "Conjugate Intelligence Fellowship"
 version: 1.0.0
 date-released: "2025-12-07"
 license: CC-BY-4.0
-repository-code: "https://doi.org/10.5281/zenodo.17712612"
-url: "https://doi.org/10.5281/zenodo.17712612"
+repository-code: "10.5281/zenodo.17712612"
+url: "https://zenodo.org/records/17712612"
 doi: "10.5281/zenodo.17712612"
 keywords:
   - holor calculus
@@ -46,7 +46,7 @@ preferred-citation:
     name: Zenodo
   version: 1.0.0
   doi: "10.5281/zenodo.17712612"
-  url: "https://doi.org/10.5281/zenodo.17712612"
+  url: "https://zenodo.org/records/17712612"
 references:
   - type: book
     title: "Riemannian Geometry"

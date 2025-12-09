@@ -57,7 +57,7 @@ See: DOI: https://doi.org/10.5281/zenodo.17712612
 ```
 Carey Glenn Butler. (2025). Holor Calculus: A Mathematical Framework 
 for Conjugate Intelligence (Version 1.0.0) [Data set]. Zenodo. 
-https://doi.org/[TO BE ASSIGNED]
+https://doi.org/10.5281/zenodo.17712612
 
 Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
 https://creativecommons.org/licenses/by/4.0/

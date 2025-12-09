@@ -511,7 +511,7 @@ The **Holor Signature Equation (HSE)** is the requirement:
 
 **PDE Classification: HSE as Constraint Equation**
 
-The Holor Signature Equation (HSE) is a **constraint equation**, analogous to the Gauss law in electromagnetism, rather than an evolution equation like heat or wave equations.
+The Holor Signature Equation (HSE) is a **constraint equation**, analogous to the Gauss law in electromagnetism, rather than an evolution equation like heat or wave equations.  
 [Conceptually, HSE, also used in other contexts as "Holormorphic Signature Equation" plays a role *analogous* to a holomorphicity condition (it constrains ‘how’ awareness flows, not just where it is).]
 
 **Precise Classification:**
@@ -522,7 +522,7 @@ The Holor Signature Equation (HSE) is a **constraint equation**, analogous to th
 
 Instead, HSE is best understood as a **Gauss-law-type constraint**:
 
-**HSE[H](x) = Residual(x) ≈ 0**
+**HSE[X] = Residual(x) ≈ 0**
 
 **Analogy with Physics:**
 

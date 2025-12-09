@@ -6,4 +6,5 @@ These may include figures, icons, or diagrams that support field visualization a
 ---
 
 *Harmonic Context:*  
+
 > Form and meaning entwined — assets as the aesthetic membrane of intelligence.

@@ -1,4 +1,4 @@
-Octant Conjugation Spiral
+# Octant Conjugation Spiral
 
 - **Eight wedges:** Epistemic octants (\mathcal{O}_1,\dots,\mathcal{O}_8); each wedge is a coarse stance in the octant lattice (communion/agency × interior/exterior × epistemic/mechanical).
 

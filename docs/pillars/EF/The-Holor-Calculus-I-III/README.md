@@ -412,7 +412,7 @@ HC-Trilogy-Zenodo-v1.0/
   $$
   ...
   $$
-
+  
   ) syntax
 
 - Compatible with most Markdown renderers (GitHub, Zenodo viewer, Pandoc, etc.)
