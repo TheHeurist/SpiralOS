@@ -66,3 +66,5 @@ Octant Conjugation as a Spiral ...
   }
   \label{fig:octant-spiral}
 \end{figure}
+
+---

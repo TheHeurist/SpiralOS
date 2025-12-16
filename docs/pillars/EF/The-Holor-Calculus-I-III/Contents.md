@@ -2,16 +2,33 @@
 
 ### Core Trilogy
 
-1. **[Holor Calculus I: Axiomatics of Epistemic Holors](01-Holor-Calculus-I-Axiomatics%20of%20Epistemic%20Holors%20-%20Geometry%20of%20Interiority%20and%20Ethical%20Admissibility.md)**Geometry of Interiority and Ethical Admissibility
+1. **HC-I-Foundations-of-Holor-Calculus**
 
-2. **[Holor Calculus II: Projected Holor Flows and Epistemic Dynamics](02-Holor-Calculus-II-Projected-Holor-Flows-and-Epistemic-Dynamics.md)**The projected gradient flow:
+2. **HC-II-Dynamics-and-Ethics**  
+   The projected gradient flow:
    
    $$
    \partial_{\tau}H = -P_{\mathrm{adm}}(H)\nabla_{\mathcal{C}}E_{\text{tot}}[H]
    $$
 
-3. **[Holor Calculus III: Applications to Learning, Retrieval, and Ethical Simulation](03-Holor-Calculus-III-Applications-to-Learning%2C-Retrieval%2C-and-Ethical-Simulation.md)**
+3. **HC-III-Learning-and-Simulation**
    Dracula nullification, holarchic RAG, and ethical simulators
+
+**Work Coming Soon:**
+
+- HC-Trilogy-Outlook
+
+- DGX-Spark-Dual-Holor-Engine
+
+---
+
+### New Documents for Version 1.1
+
+**Holor-Calculus-Version-1-1-Update-A**  
+RTTP Integration Note
+
+**Holor-Calculus-Version-1-1-Update-B**  
+RTTP as a Functorial Kernel
 
 ### Foundations & Ethics
 
