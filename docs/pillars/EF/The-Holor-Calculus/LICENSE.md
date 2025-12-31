@@ -86,7 +86,7 @@ For questions about licensing or permissions beyond the scope of CC BY 4.0:
 
 **Carey Glenn Butler**  
 Conjugate Intelligence Fellowship  
-Email: [To be provided upon Zenodo publication]
+Email: carey@heurist.com
 
 ---
 
