@@ -15,7 +15,7 @@ This directory contains the first three phases of the **Holor Calculus (HC)**. T
 ---
 
 ## 🔹 HC I: Foundations & Geometry
-**File:** [`HC-I-Foundations-of-Holor-Calculus.pdf`](./HC-I-Foundations-of-Holor-Calculus.pdf)
+**File:** [`HC-I-Foundations-of-Holor-Calculus.pdf`](./HC-I-III-Foundations-Dynamics-Learning/HC-I-Foundations-of-Holor-Calculus.pdf)
 
 This is the axiomatic bedrock. It argues that standard vectors are insufficient for modeling intelligence because they lack **interiority**.
 
@@ -24,7 +24,7 @@ This is the axiomatic bedrock. It argues that standard vectors are insufficient 
 * **Key Diagram:** See `01-Holor-Calculus.png` through `05-Holor-Calculus.png` for visual representations of the Holor structure.
 
 ## 🔹 HC II: Dynamics & Ethics
-**File:** [`HC-II-Dynamics-and-Ethics.pdf`](./HC-II-Dynamics-and-Ethics.pdf)
+**File:** [`HC-II-Dynamics-and-Ethics.pdf`](./HC-I-III-Foundations-Dynamics-Learning/HC-II-Dynamics-and-Ethics.pdf)
 
 Once the structure is defined, we must understand how it moves. HC II introduces **Spiral Time**.
 
@@ -34,7 +34,7 @@ Once the structure is defined, we must understand how it moves. HC II introduces
     This equation proves that **Ethics** is not a rule, but a curvature constraint ($\Re_\varepsilon$). Unethical actions increase curvature to unsustainable levels, causing system collapse.
 
 ## 🔹 HC III: Learning & Simulation
-**File:** [`HC-III-Learning-and-Simulation.pdf`](./HC-III-Learning-and-Simulation.pdf)
+**File:** [`HC-III-Learning-and-Simulation.pdf`](./HC-I-III-Foundations-Dynamics-Learning/HC-III-Learning-and-Simulation.pdf)
 
 The bridge to Machine Learning. This paper details how to build a neural network that respects the geometry defined in HC I and II.
 
@@ -44,7 +44,7 @@ The bridge to Machine Learning. This paper details how to build a neural network
 ---
 
 ## 📂 Supplementary Assets
-* **Abstract:** [`Abstract-v1-0.pdf`](./Abstract-v1-0.pdf) - High-level summary.
+* **Abstract:** [`Abstract.pdf`](./Abstract.pdf) - High-level summary.
 * **Glossary:** [`Quick-Reference-Glossary.pdf`](./Quick-Reference-Glossary.pdf) - Definitions of $\mathbb{H}$, $\tau$, and $\chi$.
 * **Visuals:** `01` through `14` Holor-Calculus images provide the geometric intuition for the math.
 
