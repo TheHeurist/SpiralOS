@@ -73,7 +73,7 @@ This repository houses the complete developmental arc of Holor Calculus, from it
 * **Tools:** Sheaf Theory, Topos Theory, and Higher Gauge Theory.
 * **Goal:** Providing the rigorous tools for multi-level coherence and species-level conjugation.
 
-### [🔹 HC VII: Synthesis & Horizon](HC-VII-Synthesis/)
+### [🔹 HC VII: Holor Calculus VII: Chiral Epistemic Calculus and the Transcendence of Gödel Incompleteness via Characteristica Universalis/)
 
 **"The Seventh Seal: Teleology of the Holon"**
 
