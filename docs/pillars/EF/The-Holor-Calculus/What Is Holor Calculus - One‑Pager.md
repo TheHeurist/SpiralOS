@@ -151,5 +151,3 @@ In all these cases, holarchic traversal asks:
 > “If we follow this decision all the way **up and down** the nested structure — does it still make sense, and what changes shape as it travels?”
 
 ---
-
-
