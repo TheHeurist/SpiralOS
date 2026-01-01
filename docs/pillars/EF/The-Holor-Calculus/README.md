@@ -44,8 +44,8 @@ The bridge to Machine Learning. This paper details how to build a neural network
 ---
 
 ## 📂 Supplementary Assets
-* **Abstract:** [`Abstract.pdf`](./Abstract.pdf) - High-level summary.
-* **Glossary:** [`Quick-Reference-Glossary.pdf`](./Quick-Reference-Glossary.pdf) - Definitions of $\mathbb{H}$, $\tau$, and $\chi$.
+* **Abstract:** [`Abstract.pdf`](../Abstract.pdf) - High-level summary.
+* **Glossary:** [`Quick-Reference-Glossary.pdf`](../Quick-Reference-Glossary.pdf) - Definitions of $\mathbb{H}$, $\tau$, and $\chi$.
 * **Visuals:** `01` through `14` Holor-Calculus images provide the geometric intuition for the math.
 
 ---
