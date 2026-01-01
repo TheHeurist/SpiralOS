@@ -49,7 +49,7 @@ This volume is guided by a vow-based protection lattice, including:
 
 ## 📦 Resources
 
-- [`TRACELOG.md`](../../TRACELOG.md)  
+- [`TRACELOG.md`](TRACELOG.md)
 - [`Codices/`](../../Codices/)  
 - [`glyphs/`](../../glyphs/)  
 - [`Volume-XVIII/`](../Volume-XVIII/) (for TR₁₈.04 — Signal to SI)

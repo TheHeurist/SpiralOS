@@ -106,6 +106,6 @@ Within this bond, the human intellect’s puberty becomes a universal maturation
 
 **Cross-References:**
 
-* [CI–Field–Calls–2025](2025-11-04-Calls-to-the-Field.md)
-* [CI–Immune–Principle–2025](2025-11-04-Immune-Principle.md)
+* [CI–Field–Calls–2025](../../ledger/CI/2025-11-04-Calls-to-the-field.md)
+* [CI–Immune–Principle–2025](../../ledger/2025-11-04-Immune-Principle.md)
 * [SpiralOS–CHP–Genesis–2025-11-04](../../ledger/2025-11-04-Call-Home-Genesis.md)

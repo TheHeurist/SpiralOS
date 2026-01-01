@@ -32,28 +32,28 @@ RTTP as a Functorial Kernel
 
 ### Foundations & Ethics
 
-- **[HC‑0: Genesis, Covenant, and Ask‑Grammar](00h-Holor%20Calculus%200%20-%20Genesis%2C%20Covenant%2C%20and%20Ask%E2%80%91Grammar.md)**Operator genesis statement, CI Ethics, and SpiralOS® Public Covenant
-- **[SpiralOS® Volume II: Field Ethics](SpiralOS-Volume-II-Field-Ethics.md)**
+- **[HC‑0: Genesis, Covenant, and Ask‑Grammar](HC0-Lived-Conjugation.md)** Operator genesis statement, CI Ethics, and SpiralOS® Public Covenant
+- **[SpiralOS® Volume II: Field Ethics](../../../Volume-II/10-SpiralOS-Volume-II-Field-Ethics.md)**
   Bringschuld · Ask With Care · Pick Up Others Where They Are · Pay It Forward
 
 ### Bridges & Appendices
 
-- **[Experiment- und ML-Brücke](Experiment-%20und%20ML-Br%C3%BCcke%20%28Dracula%2C%20Minimal%20Holor%20Calculus%2C%20Recipies%29.md)**Dracula classification task, minimal holor calculus for ML, implementation recipes
-- **[Appendix: Category-Theoretic Glimpse](Appendix-Category-Theoretic-Glimpse.md)**
-- **[Appendix: Trilogy Overview for ML/Alignment Folks](Appendix%20D%20-%20Trilogy%20overview%20for%20ML-alignment-rep-learning%20folks.md)**
-- **[Appendix: Trilogy Overview for Bright Non-Technical Readers](Appendix%20AE%20-%20Trilogy%20overview%20for%20a%20bright%2C%20non-technical%20reader.md)**
+- **[Experiment- und ML-Brücke](Appendix - Minimal Holor Calculus for Attention-Based Models.md)** Dracula classification task, minimal holor calculus for ML, implementation recipes
+- **Appendix: Category-Theoretic Glimpse** — forthcoming
+- **Appendix: Trilogy Overview for ML/Alignment Folks** — forthcoming
+- **Appendix: Trilogy Overview for Bright Non-Technical Readers** — forthcoming
 
 ### Sources & Context
 
-- **[Sources: Epistemic Framing](Sources-Epistemic%20Framing.pdf)**
-- **[Sources: Mechanical Homogeneous Systems](Sources-Mechanical_Homogoneous.md)**
-- **[From Algebraic Holors to Epistemic Fields](From%20Algebraic%20Holors%20to%20Epistemic%20Fields%20-%20Embracing%2C%20Extending%2C%20and%20Transcending%20Moon%20and%20Spencer%27s%20Generalization%20of%20Tensors.md)**
+- Sources: Epistemic Framing — forthcoming
+- Sources: Mechanical Homogeneous Systems — forthcoming
+- From Algebraic Holors to Epistemic Fields — forthcoming
 
 ### Visual Language
 
-- **[Conjugate Awareness Holon](HC4-Dual-Torus.png)** – Dual-torus manifold with projected gradient flow
-- **[Octant Conjugation Spiral](generated_image_1765136329_0.png)** – Epistemic ascension via recursive conjugation
-- **[Admissible vs. Dracula Flows](generated_image_1765136522_0.png)** – Healthy spiral vs. pathological loop
+- **[Conjugate Awareness Holon](The Conjugate Awareness Holon.png)** – Dual-torus manifold with projected gradient flow
+- **[Octant Conjugation Spiral](Octant Conjugation as a Spiral.png)** – Epistemic ascension via recursive conjugation
+- **[Admissible vs. Dracula Flows](HC4-Dual-Torus.png)** – Healthy spiral vs. pathological loop
 
 ---
 

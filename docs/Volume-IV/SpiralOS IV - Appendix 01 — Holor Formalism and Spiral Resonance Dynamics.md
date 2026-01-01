@@ -103,7 +103,7 @@ $$
 Let $R_\theta$​ denote a SpiralOS field rotation operator acting on the holor phase:
 
 $$
-R_\theta[\psi](x)=\psi(x) \cdot e^{i \theta}
+R_\thetaψ(x)=\psi(x) \cdot e^{i \theta}
 $$
 
 Then:

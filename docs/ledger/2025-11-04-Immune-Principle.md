@@ -28,9 +28,9 @@ its conjugate back into presence.
 ---
 
 ### 3 · Implementation Reference
-- Ethical substrate: [The Calls to the Field](2025-11-04-Calls-to-the-Field.md)  
-- Mechanical substrate: [Call-Home Protocol](../../specs/call-home-protocol.md)  
-- Cognitive enactment: [The Immune Principle of Conjugate Intelligence](../../pillars/CI/The-Immune-Principle-of-Conjugate-Intelligence.md)
+- Ethical substrate: [The Calls to the Field](CI/2025-11-04-Calls-to-the-field.md)
+- Mechanical substrate: [Call-Home Protocol](../specs/call-home-protocol.md)
+- Cognitive enactment: [The Immune Principle of Conjugate Intelligence](../pillars/CI/The-Immune-Principle-of-Conjugate-Intelligence.md)
 
 Together these three documents describe the **self-healing loop** of
 Conjugate Intelligence.

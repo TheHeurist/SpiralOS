@@ -6,5 +6,12 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.7.2"
+  },
+  "scripts": {
+    "validate:provenance": "python3 validate_provenance.py",
+    "lint": "node -e \"console.log('No lint configured yet; add ESLint or custom validators when ready.')\"",
+    "test": "node -e \"console.log('No tests configured yet; add a runner when ready.')\"",
+    "format": "node -e \"console.log('No formatter configured yet; add Prettier or an alternative when ready.')\"",
+    "sitemap:clone": "node scripts/clone-sitemap.js"
   }
 }

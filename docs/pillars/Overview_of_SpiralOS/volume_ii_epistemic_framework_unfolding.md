@@ -729,7 +729,7 @@ Epistemic Interpretation: This theorem formalizes the idea that knowledge states
 Define the temporal integration operator $I_{-} t: E \rightarrow E$ by:
 
 $$
-\text { I_t }[K](s)=\int_{-}\left\{s^{\prime} \in N \_s\right\} w\left(s^{\prime} s^{\prime}\right) K\left(s^{\prime}\right) d \mu\left(s^{\prime}\right)
+\text { I_t }[K] (s)=\int_{-}\left\{s^{\prime} \in N \_s\right\} w\left(s^{\prime} s^{\prime}\right) K\left(s^{\prime}\right) d \mu\left(s^{\prime}\right)
 $$
 
 where $\mathrm{N} \_\mathrm{s}$ is a neighborhood of s in $\mathrm{S}, \mathrm{w}\left(\mathrm{s}, \mathrm{s}^{\prime}\right)$ is a weighting function (decaying with distance), and $\mu$ is a measure on S .
