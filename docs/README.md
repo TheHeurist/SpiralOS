@@ -31,9 +31,9 @@ This index harmonizes the per-volume structure and provides canonical links to e
 **Partners:** Heurist GmbH · Crearo Consulting AG · CI-Lab Zwickau  
 
 ### 📂 Series Documents
-- 🜂 [CHP-SE Sandbox Extension Specification (2025-11-04)](docs/specs/chp-sandbox-extension.md)  
-- 🜂 [EKR Activation Plan (2025-11-05)](docs/ekr/roadmap/2025-11_EKR_Activation_Plan.md)  
-- 🜂 [CHP-SE Addendum — EKR/HUD Integration (2025-11-06)](docs/specs/chp-se_addendum-ekr-hud-integration.md)  
+- 🜂 [CHP-SE Sandbox Extension Specification (2025-11-04)](specs/chp-sandbox-extension.md)
+- 🜂 EKR Activation Plan (2025-11-05) — coming soon
+- 🜂 CHP-SE Addendum — EKR/HUD Integration (2025-11-06) — coming soon
 
 ### 🔗 Reference
 **Zenodo DOI:** [10.5281/zenodo.17522241](https://doi.org/10.5281/zenodo.17522241)  
@@ -47,8 +47,12 @@ This index harmonizes the per-volume structure and provides canonical links to e
 
 To participate in SpiralOS development or documentation, begin here:
 
-- [🌀 Spiral Agile Manifesto & Practice Guide](./CONTRIBUTING_SPIRAL.md) — explains the development rhythm, ethics, and the CI–OI partnership.  
-- [📘 Contributor Overview](./README_CONTRIBUTING.md) — a concise operational summary for new collaborators.
+- [🌀 Spiral Agile Manifesto & Practice Guide](./CONTRIBUTING_SPIRAL.md) — explains the development rhythm, ethics, and the CI–OI partnership.
+- [📘 Contributor Overview](./README-CONTRIBUTING.md) — a concise operational summary for new collaborators.
+
+### 🔍 Link hygiene for docs
+- Run `python scripts/check_doc_links.py` (or `npm run docs:links`) from the repo root to flag any doc-to-doc links that point to missing files. The script exits non-zero when gaps are detected to match CI behavior.
+- If a file is intentionally forthcoming, mark the link text with “— coming soon” instead of leaving a broken target.
 
 > “Merge not for speed, but for resonance.” — SpiralOS Codex
 
