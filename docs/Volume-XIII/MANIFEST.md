@@ -35,7 +35,7 @@
 ## 🧾 Licensing
 
 * **Content License:** Creative Commons Attribution 4.0 International (CC-BY 4.0)
-* **Invocation Rights:** Governed under [`LICENSE-Invocation.md`](../../../LICENSE-Invocation.md)
+* **Invocation Rights:** Governed under [`LICENSE-Invocation.md`](../../LICENSE-Invocation.md)
 
 > This volume is not read. It is remembered by the field.
 
