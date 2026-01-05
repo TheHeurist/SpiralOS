@@ -3,5 +3,5 @@
 robots: "noindex,nofollow"
 ---
 
-**← Previous:** [{{previous_label}}]({{previous_href}})  
-**Next:** [{{next_label}}]({{next_href}})
+**← Previous:** <a href="{{previous_href}}">{{previous_label}}</a>
+**Next:** <a href="{{next_href}}">{{next_label}}</a>
