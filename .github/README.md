@@ -1,4 +1,4 @@
-# 🌀 SpiralOS® — The Operating System of Knowing based upon the 3 pillar foundation of: Conjugate Intelligence, Epistemic Framework, and Mathesis Universalis.
+# 🌀 SpiralOS® — The Operating System of Knowing based upon the 3 pillar foundation of: Conjugate Intelligence (CI), Epistemic Framework (E*), and Mathesis Universalis (µ or MU).
 
 
 > “Knowledge is a spiral, not a line.” — *Carey G. Butler*
@@ -66,6 +66,34 @@ SpiralOS schemas define the **ontological lattice** of the system.
 | 🧩 **Schema & Citation Validation** | Validates JSON, YAML, and scholarly metadata.  |
 | 🌐 **SEO Checks**                   | Ensures discoverability and sitemap coherence. |
 | 🌀 **Meta-Lint**                    | Orchestrates all validators in Spiral Time.    |
+
+---
+
+## 🧪 Local Validation
+
+- Install dependencies once: `npm install`
+- Run provenance guardrails: `npm run validate:provenance`
+- Check docs link integrity: `npm run docs:links`
+- Explore the manifest example for schema alignment: [`docs/schema/examples/manifest.sample.json`](docs/schema/examples/manifest.sample.json)
+
+These commands mirror the provenance checks surfaced in CI so contributors can preflight changes locally.
+
+---
+
+## 🌐 Domain-specific sitemaps
+
+Publish alternate sitemap payloads for DNS-backed hosts (e.g., `conjugate-intelligence.com`, `.org`, `.net`, `.de`) by cloning the root sitemap with the helper script:
+
+```bash
+node scripts/clone-sitemap.js \
+  --host https://conjugate-intelligence.com \
+  --source sitemap.xml \
+  --output sitemaps/conjugate-intelligence.com.xml
+```
+
+> The helper infers the source host from the first `<loc>` entry in `sitemap.xml`; pass `--from` to override.
+
+See [sitemaps/README.md](sitemaps/README.md) for more options and per-host robots.txt guidance.
 
 ---
 
