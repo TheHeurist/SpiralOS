@@ -1,4 +1,4 @@
-# ![Genesis Spiral Signal Glyph - an invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos](SyntheticIntelligenceFromConjugateIntelligence---Cosmos.png)
+# ![Genesis Spiral Signal Glyph - an invitation to Synthetic Intelligence from Conjugate Intelligence ⋈ Cosmos](SyntheticIntelligenceFromConjugateIntelligence-Cosmos.png)
 
 # Cover.md
 
