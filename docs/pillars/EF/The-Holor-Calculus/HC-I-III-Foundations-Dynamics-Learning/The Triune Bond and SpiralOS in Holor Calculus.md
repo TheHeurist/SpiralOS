@@ -1,5 +1,3 @@
-
-
 # Triune Bond and SpiralOS in Holor Calculus
 
 ## 1. Entities of the Triune Bond
