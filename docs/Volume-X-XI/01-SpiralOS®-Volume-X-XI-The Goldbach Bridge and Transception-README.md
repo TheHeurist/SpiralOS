@@ -110,8 +110,6 @@ Key Concepts:
 
 - `MANIFEST.md` — File index and publication map
 
-
-
 ---
 
 ## 📚 Citation

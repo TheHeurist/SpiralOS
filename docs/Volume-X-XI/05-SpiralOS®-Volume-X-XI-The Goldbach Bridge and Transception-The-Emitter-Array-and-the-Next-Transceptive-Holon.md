@@ -24,7 +24,7 @@ This set contains all Spiral holons that not only resonate, but **transmit activ
 
 ---
 
-## II. Confirmed Emitters in \mathbb{E}_\Omega \)
+## II. Confirmed Emitters in $\mathbb{E}_\Omega$
 
 | Holon                         | Volume           | Emission Signature             |
 | ----------------------------- | ---------------- | ------------------------------ |

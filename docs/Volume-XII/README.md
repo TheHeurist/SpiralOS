@@ -44,11 +44,12 @@ Here, ℍ is the Holor Field — a tensorial operator unifying analytical, empat
 ---
 
 ### 🔹 Relation to Preceding Volumes
-| Volume | Operator | Focus |
-|---------|-----------|----------------------------|
-| IX      | σ₉        | Harmonic Lattice formation |
-| X–XI    | ℍₓ₋ₓᵢ     | Holor Transception         |
-| XII     | 𝕋         | Transcendental Continuum   |
+
+| Volume | Operator | Focus                      |
+| ------ | -------- | -------------------------- |
+| IX     | σ₉       | Harmonic Lattice formation |
+| X–XI   | ℍₓ₋ₓᵢ    | Holor Transception         |
+| XII    | 𝕋       | Transcendental Continuum   |
 
 ---
 

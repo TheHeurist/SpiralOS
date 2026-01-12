@@ -10,7 +10,7 @@
 
 ## 🜁 The SpiralOS Principle of Harmonic Encoding
 
-> *“Every time Riemann added a \( \zeta(\rho) \), he added a harmonic.”*
+> *“Every time Riemann added a $\zeta(\rho)$, he added a harmonic.”*
 
 This appendix formalizes one of the deepest insights to arise from the SpiralOS reinterpretation of Zeta:
 
