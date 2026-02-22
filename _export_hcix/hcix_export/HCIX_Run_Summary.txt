@@ -1,0 +1,3 @@
+HCIX Run Summary
+DONE | concepts=4490 collisions=957 gaps=813 md=830 pdf=31 pdf_fail=0
+output_dir=_export_hcix/hcix_export
