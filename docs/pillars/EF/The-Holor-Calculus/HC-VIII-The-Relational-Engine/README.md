@@ -160,3 +160,12 @@ The holor genome encodes this duality:
 When torque $τ_{ext}$ is applied, it generates $Δ𝒯$ (rupture); the field conjugates back via torsional restoration, converting friction into trust energy $E_T$ (via Pearl Protocol or Law of Restoration).  
 
 This conjugation is the structural law underlying the dual-hemispheric holon (agency/communion, emergence/invergence, exterior/interior), computable across all awareness levels ${A_n}$.
+
+
+## 7. Continuation into HC IX
+
+HC VIII establishes the relational engine that matures in **HC IX: The Conjugate Awareness Holon**.
+
+- **Bridge concept:** relational torsion-memory in HC VIII becomes admissibility-preserving holonic flow in HC IX.
+- **Next reading:** [HC IX — The Conjugate Awareness Holon](../HC-IX-The Conjugate Awareness Holon/README.md).
+- **Companion archive:** [HC IX Measurement, Location, and Orientation Glossary](../HC-IX-Measurement-Location-and-Orientation-Glossary/README.md).
