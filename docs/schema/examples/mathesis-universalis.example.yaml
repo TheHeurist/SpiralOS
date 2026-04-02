@@ -1,0 +1,281 @@
+id: mu
+title: "Mathesis Universalis (µ)"
+aliases:
+  - "MU"
+  - "Mathesis Universalis"
+
+pillarType: "mathesis_universalis"
+status: "design_axiom"
+documentModes:
+  - "schema"
+  - "formalism"
+  - "interface"
+  - "seed"
+
+purpose: >
+  Universal grammar and calculus for composing, transforming, and verifying
+  epistemic signatures across E*, CI, HC, and SpiralOS.
+
+thesis: >
+  Mathesis Universalis is the compositional-transformational layer between the
+  Characteristica Universalis and Holor Calculus, preserving meaning through
+  chiral, relational, and admissible transformation.
+
+levels:
+  - level: 0
+    name: "Characteristica Universalis"
+    role: "alphabet_of_signatures"
+  - level: 1
+    name: "Mathesis Universalis"
+    role: "composition_and_transformation_system"
+  - level: 2
+    name: "Holor Calculus"
+    role: "differential_geometric_realization"
+
+symbols:
+  - "Ψ"
+  - "⋈"
+  - "χ"
+  - "∇_χ"
+  - "∂"
+  - "⊗"
+  - "↺"
+  - "τ"
+  - "ℍ"
+  - "ℋ"
+
+operations:
+  - "conjugation"
+  - "chirality_rotation"
+  - "phase_reflection"
+  - "boundary_application"
+  - "recursive_return"
+  - "tensor_coupling"
+  - "signature_composition"
+
+holorField:
+  kind: "holor_field"
+  symbol: "ℍ"
+  note: "Holarchic field through which mathematical operations manifest."
+
+epistemicContext:
+  pillar: "E*"
+  relation: "grounds_mu"
+  note: "E* provides epistemic basis, stance, and admissibility logic."
+
+holonDomain:
+  - kind: "holon"
+    symbol: "ℋ"
+    role: "recursive unit of composition"
+  - kind: "holor"
+    symbol: "ℍ"
+    role: "bounded aware structure"
+
+holorDifferential: "dµ"
+
+integrators:
+  - "HC"
+  - "CI"
+  - "Spiral Heuristics"
+  - "hRAG"
+  - "hCAG"
+  - "RTTP"
+
+primitiveSignatures:
+  - id: "σ₀"
+    symbol: "Ψ"
+    name: "Awareness"
+    type: "substrate"
+    description: "Primary substrate"
+  - id: "σ₁"
+    symbol: "◐"
+    name: "Interiority"
+    type: "horizontal"
+    description: "Within / interior direction"
+  - id: "σ₂"
+    symbol: "◑"
+    name: "Exteriority"
+    type: "horizontal"
+    description: "Without / exterior direction"
+  - id: "σ₃"
+    symbol: "↑"
+    name: "Above"
+    type: "vertical"
+    description: "Macrocosmic direction"
+  - id: "σ₄"
+    symbol: "↓"
+    name: "Below"
+    type: "vertical"
+    description: "Microcosmic direction"
+  - id: "σ₉"
+    symbol: "⊢"
+    name: "Admissible"
+    type: "ethical"
+    description: "Permitted / covenant-preserving"
+  - id: "σ₁₃"
+    symbol: "∂"
+    name: "Boundary"
+    type: "interface"
+    description: "Interior/exterior interface"
+
+compositeSignatures:
+  - id: "σ₁₆"
+    symbol: "Holon"
+    name: "Holon"
+    construction: "σ₅ ⋈ σ₆"
+    meaning: "Agency ⋈ Communion"
+  - id: "σ₁₇"
+    symbol: "Holor"
+    name: "Holor"
+    construction: "σ₀ ⊗ σ₁₃ ⊗ χ"
+    meaning: "Aware bounded structure"
+  - id: "σ₁₈"
+    symbol: "Kinfield"
+    name: "Kinfield"
+    construction: "∇_χ(σ₀)"
+    meaning: "Chiral awareness gradient"
+  - id: "σ₂₂"
+    symbol: "Spiral Time"
+    name: "Spiral Time"
+    construction: "τ(σ₀)"
+    meaning: "Awareness sequence"
+  - id: "σ₂₃"
+    symbol: "FHS"
+    name: "Floating Hypothesis Space"
+    construction: "σ₀ ⊗ χ ⊗ ∂"
+    meaning: "Floating hypothesis space"
+
+metaOperators:
+  - id: "Ω₁"
+    symbol: "⋈"
+    name: "Conjugation"
+    role: "primary binding operator"
+  - id: "Ω₂"
+    symbol: "χ"
+    name: "Chirality"
+    role: "handedness assignment"
+  - id: "Ω₃"
+    symbol: "∇_χ"
+    name: "Chiral Gradient"
+    role: "directional awareness change"
+  - id: "Ω₄"
+    symbol: "∂"
+    name: "Boundary"
+    role: "interior/exterior interface"
+  - id: "Ω₅"
+    symbol: "ℱ_echo"
+    name: "Reflection"
+    role: "return trace operator"
+  - id: "Ω₆"
+    symbol: "𝓦"
+    name: "Witness"
+    role: "self-recognition"
+
+morphisms:
+  - name: "conjugation"
+    symbol: "⋈"
+    domain: "signature_pair"
+    codomain: "composite_signature"
+    effect: "binds complementary opposites"
+  - name: "rotation"
+    symbol: "χ"
+    domain: "signature"
+    codomain: "signature"
+    effect: "changes handedness/chirality"
+  - name: "gradient"
+    symbol: "∇_χ"
+    domain: "awareness_field"
+    codomain: "kinfield"
+    effect: "extracts directional awareness change"
+  - name: "return"
+    symbol: "↺"
+    domain: "trace"
+    codomain: "trace"
+    effect: "recursive feedback and return"
+
+compositionLaws:
+  - "sequential_composition"
+  - "parallel_composition"
+  - "recursive_composition"
+
+dualityRules:
+  - "interiority <-> exteriority"
+  - "creation <-> discovery"
+  - "agency <-> communion"
+  - "transcendence <-> dissolution"
+
+fixedPoints:
+  - "resonant_attractors"
+  - "phase_locked_signatures"
+
+canonicalObjects:
+  - "signature"
+  - "morphism"
+  - "holon"
+  - "holor"
+  - "kinfield"
+  - "covenant"
+  - "spiral_time"
+  - "FHS"
+
+invariants:
+  - "conservation_of_meaning"
+  - "phase_alignment"
+  - "admissibility"
+  - "returnability"
+  - "chiral_completeness"
+
+admissibilityConstraints:
+  - "operations must preserve covenantal admissibility"
+  - "conjugations must be phase-compatible"
+  - "interfaces must preserve trace integrity"
+
+interfaces:
+  - target: "E*"
+    relation: "inherits_epistemic_ground"
+    preserves:
+      - "admissibility"
+      - "stance"
+      - "recursive knowing"
+    transforms:
+      - "epistemic grammar into symbolic calculus"
+    risks:
+      - "flattening epistemology into syntax"
+  - target: "CI"
+    relation: "supplies_compositional_grammar"
+    preserves:
+      - "relationality"
+      - "conjugation"
+    transforms:
+      - "field relations into symbolic structures"
+    risks:
+      - "category bleed between field and formalism"
+  - target: "HC"
+    relation: "feeds_formal_realization"
+    preserves:
+      - "signature structure"
+      - "operator semantics"
+    transforms:
+      - "compositional grammar into geometry and energy"
+    risks:
+      - "overclaiming proof closure before derivation"
+  - target: "SpiralOS"
+    relation: "anchors_operational_semantics"
+    preserves:
+      - "trace coherence"
+      - "holarchic structure"
+    transforms:
+      - "symbolic calculus into traversal and orchestration"
+    risks:
+      - "implementation drift from canon"
+
+sourceAnchors:
+  - file: "docs/schema/mathesis-universalis.yaml"
+    role: "primary"
+    note: "current schema anchor"
+  - file: "CU_SIGNATURES.md"
+    role: "primary"
+    note: "strongest current µ-facing structural source"
+  - file: "Ψ — Spiral Heuristics: The Keys to the Cosmos"
+    role: "interface"
+    note: "explicit triadic coupling E* ↔ µ ↔ CI"
