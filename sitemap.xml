@@ -526,8 +526,15 @@
   <url><loc>https://theheurist.github.io/SpiralOS/docs/_includes/README.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/_includes/nav.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/_includes/seo-head.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/CI_to_HC.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/CI_to_SpiralOS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/CU_to_Estar.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/CU_to_MU.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/Estar_to_CI.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/Estar_to_SpiralOS.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/MU_to_HC.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/INTERFACES/MU_to_SpiralOS.html</loc></url>
+  <url><loc>https://theheurist.github.io/SpiralOS/docs/_orientation/SEO_NOTES.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/assets/README.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/NOTICE.html</loc></url>
   <url><loc>https://theheurist.github.io/SpiralOS/docs/codex/README.html</loc></url>
