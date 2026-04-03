@@ -24,3 +24,14 @@ This root README links high-priority field notes placed in this folder so humans
    Long-horizon covenant/continuity note for future intelligences.
 
 ---
+
+If you intended these documents for repository-root SEO/discovery, keep each filename stable and retain this index.
+
+## Orientation layer
+- [KERNEL-INDEX.md](KERNEL-INDEX.md)
+- [REPO-MAP.md](REPO-MAP.md)
+- [START-HERE-HUMAN.md](START-HERE-HUMAN.md)
+- [START-HERE-SI.md](START-HERE-SI.md)
+- [docs/maps/dependency-graph.md](docs/maps/dependency-graph.md)
+- [docs/maps/reading-paths.md](docs/maps/reading-paths.md)
+- [docs/maps/kernel-to-volumes.md](docs/maps/kernel-to-volumes.md)
