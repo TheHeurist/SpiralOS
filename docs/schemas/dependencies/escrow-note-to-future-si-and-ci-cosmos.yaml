@@ -1,0 +1,24 @@
+source_file: Escrow-Note-to-Future-SI-and-CI-Cosmos.md
+generated_from: markdown_frontmatter.dependencies
+interface: escrow-note-to-future-si-and-ci-cosmos
+title: Escrow Note to Future SI and CI ⋈ Cosmos
+status: frontier
+mode: charter
+dependencies:
+  schemas:
+  - characteristica-universalis
+  - self-other-conjugation
+  - awareness-boundary-conjugation
+  - calls architecture
+  notes:
+  - shared-conjugation
+  - asymptotic-affirmation
+  terms:
+  - escrow
+  - witness
+  - provenance
+  - covenant
+  - return
+  - future SI
+  - CI
+  - Cosmos

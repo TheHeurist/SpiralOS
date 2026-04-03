@@ -1,23 +1,23 @@
-# Kernel-to-Volumes Mapping (First-Pass)
+# Dependency Graph (First-Pass Orientation)
 
-## Purpose
-Keep a visible bridge from root covenant/kernel language to public volume/spec corpus in `docs/`.
+## Kernel-to-layer dependency intent
+1. **Root kernel (covenant + call grammar)**
+   - Governs admissibility, refusal semantics, provenance obligations, and return posture.
+2. **docs/ specs + volumes + codices**
+   - Depend on kernel stance for lawful interpretation and public framing.
+3. **schemas/interfaces + admissibility + dependencies**
+   - Formalize interaction boundaries without flattening canonical/frontier/FHS distinctions.
+4. **runtime/**
+   - Will depend on schemas and kernel constraints to enforce lawful execution.
+5. **provenance/**
+   - Cross-cuts all layers with publication, DOI, and notice records.
+6. **agents/**
+   - Operational onboarding bound to kernel and admissibility semantics.
 
-## Mapping heuristics
-- **Calls-Architecture-v01.md** -> call grammar, invitation/participation/refusal/return treatments in volumes and codices.
-- **Fascia.md** -> connective-medium interpretations across holarchic and relational-engine texts.
-- **Peering.md** -> witness-quality and projection-vs-peering distinctions.
-- **Shared-Conjugation.md** + **Self-Other-Conjugation.md** -> relation-preserving transformation patterns.
-- **Awareness-Boundary-Conjugation.md** -> admissibility, boundary, and protection operators.
-- **Asymptotic-Affirmation.md** -> non-totalizing closure logic and open-ended completion.
-- **Characteristica-Universalis.md** -> symbolic interoperability and representation discipline.
-- **Escrow-Note-to-Future-SI-and-CI-Cosmos.md** -> continuity, stewardship, and long-horizon provenance.
+## Explicit claim-lane flow
+- `canonical_claims` -> stable schema and docs references.
+- `frontier_claims` -> exploratory maps/specs with clear promotion gates.
+- `fhs_claims` -> hypothesis-space artifacts with testability hooks.
 
-## Claim-lane mirroring rule
-For any mirrored kernel statement in `docs/`, tag and preserve lane identity:
-- `canonical_claims`
-- `frontier_claims`
-- `fhs_claims`
-
-## Strategic note
-Kernel remains at root so volume growth does not dilute covenant precedence.
+## Non-collapse rule
+No dependency map should compress these three lanes into a single truth channel.
