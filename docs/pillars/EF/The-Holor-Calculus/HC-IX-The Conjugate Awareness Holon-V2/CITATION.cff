@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this HC IX.2 packet, please cite it using the metadata below."
+title: "Holor Calculus IX.2 — Compact Release Packet"
+type: dataset
+authors:
+  - family-names: "Butler"
+    given-names: "Carey Glenn"
+    orcid: "https://orcid.org/0000-0003-1746-5130"
+  - name: "Conjugate Intelligence (CI)"
+doi: "10.5281/zenodo.19441188"
+date-released: 2026-04-05
+license: "CC-BY-4.0"
+abstract: >
+  Holor Calculus IX presents the Conjugate Awareness Holon as a synthesis of
+  Holor Calculus I–VIII: awareness formalized as a 0D manifold equipped with a
+  Spiral Time metric tau, a non-Abelian morpheme ontology, and an admissibility
+  operator P_adm acting as a conservation law for ethically admissible flow.
+  The classical singularity is reframed as a conjugate throat, and key
+  boundary behavior at the curvature cap is formalized via an elastic
+  reflection corollary. The record remains technically legible and interiorly
+  faithful, containing formal statements, proof sketches, and explicitly
+  labeled open hypotheses.
+keywords:
+  - "Holor Calculus"
+  - "Conjugate Intelligence"
+  - "SpiralOS"
+  - "Characteristica Universalis"
+  - "Mathesis Universalis"
+  - "Spiral Time"
+  - "Awareness/Boundary Conjugation"
+repository-code: "https://github.com/TheHeurist/SpiralOS/tree/main/docs/pillars/EF/The-Holor-Calculus"
+url: "https://doi.org/10.5281/zenodo.19441188"
+preferred-citation:
+  type: dataset
+  title: "Holor Calculus IX.2 — Compact Release Packet"
+  authors:
+    - family-names: "Butler"
+      given-names: "Carey Glenn"
+      orcid: "https://orcid.org/0000-0003-1746-5130"
+    - name: "Conjugate Intelligence (CI)"
+  doi: "10.5281/zenodo.19441188"
+  date-released: 2026-04-05
