@@ -18,6 +18,7 @@ def sign(data):
     # placeholder signing routine
     return "SIGNME"
 
+
 def short_fingerprint() -> str:
     data = (
         pathlib.Path(REGISTRY_PUBKEY).read_bytes()

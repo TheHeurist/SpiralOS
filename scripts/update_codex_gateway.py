@@ -5,7 +5,9 @@ Scans `docs/zenodo/series/` for new ledger entries and updates the README Codex 
 Keeps links, DOI, and ledger key current.
 """
 
-import pathlib, re
+import pathlib
+import re
+
 
 README = pathlib.Path("README.md")
 SERIES_DIR = pathlib.Path("docs/zenodo/series")
@@ -62,6 +64,7 @@ def update_readme(readme_text, new_gateway):
     else:
         # Append if not found
         return readme_text.strip() + "\n\n" + new_gateway
+
 
 def main():
     if not README.exists():

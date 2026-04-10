@@ -2,7 +2,13 @@
 """Import CHP-SE provenance bundle into Global Registry ledger and emit a receipt.
 Verifies bundle structure and emits coherence_receipt.json with signature placeholder.
 """
-import argparse, json, tarfile, tempfile, pathlib, hashlib, datetime
+import argparse
+import datetime
+import hashlib
+import json
+import pathlib
+import tarfile
+import tempfile
 
 
 GLOBAL_LEDGER = pathlib.Path("./global-ledger")
@@ -39,7 +45,7 @@ def main():
                 "bundle": pathlib.Path(args.src).name,
                 "counts": {"heartbeats": len(hb), "acks": len(acks)},
                 "global_fingerprint": "sha256:" + sha256f(pathlib.Path(args.src)),
-                "registry_signature": "SIGNME" # replace with real signature
+                "registry_signature": "SIGNME"  # replace with real signature
             }
     pathlib.Path(args.out).write_text(json.dumps(receipt, indent=2))
     print(f"Wrote {args.out}")

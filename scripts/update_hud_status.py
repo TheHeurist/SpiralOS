@@ -5,7 +5,9 @@ Reads Codex Guard outputs (lint_errors_python.json) and updates
 docs/hud/status.json with the appropriate color/state mapping.
 """
 
-import json, datetime, pathlib
+import datetime
+import json
+import pathlib
 
 
 def classify_state(lint_file: pathlib.Path) -> tuple[str, str]:
