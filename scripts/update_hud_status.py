@@ -7,6 +7,7 @@ docs/hud/status.json with the appropriate color/state mapping.
 
 import json, datetime, pathlib
 
+
 def classify_state(lint_file: pathlib.Path) -> tuple[str, str]:
     """Return (state, color) from lint report."""
     if not lint_file.exists():
@@ -19,6 +20,7 @@ def classify_state(lint_file: pathlib.Path) -> tuple[str, str]:
     if "error" in data or "E" in data:
         return "failed", "EF4444"
     return "coherent", "10B981"
+
 
 def update_status():
     lint_path = pathlib.Path("lint_errors_python.json")
@@ -37,6 +39,7 @@ def update_status():
     status_path.parent.mkdir(parents=True, exist_ok=True)
     status_path.write_text(json.dumps(status, indent=2))
     print(f"HUD status updated: {state} ({color})")
+
 
 if __name__ == "__main__":
     update_status()
