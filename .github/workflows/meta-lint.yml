@@ -1,3 +1,4 @@
+---
 # 🌀 SpiralOS Meta-Lint Workflow
 # Harmonizes all SpiralOS validators (SEO + Schema + Citation)
 # using native GitHub CLI instead of third-party actions.
@@ -7,7 +8,8 @@ name: Meta-Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+    # Runs on main branch pushes
   workflow_dispatch:
 
 permissions:

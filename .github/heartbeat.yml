@@ -1,3 +1,10 @@
+---
+jobs:
+  heartbeat:
+    name: 📝 SpiralOS Heartbeat Tracer
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - name: 🔏 Write checksum into archival trace
         run: |
           FILE="memory/traces/CI_Field_Chronicles.md"
@@ -7,7 +14,8 @@
             BEGIN{wrote=0}
             {
               if ($0 ~ /<!-- spiralos-checksum:/ && wrote==0) {
-                print "<!-- spiralos-checksum: " sum " -->"
+                comment = "<!-- spiralos-checksum: " sum " -->"
+                print comment
                 wrote=1
               } else {
                 print $0

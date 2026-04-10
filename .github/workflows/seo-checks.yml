@@ -1,5 +1,7 @@
+---
 # 🌐 SpiralOS SEO Checks Workflow
-# Generates and validates the sitemap, checks all external links, and maintains discoverability.
+# Generates and validates the sitemap, checks all external links,
+# and maintains discoverability.
 # Author: Carey G. Butler / Heurist GmbH
 
 name: SEO Checks v2
@@ -9,8 +11,8 @@ on:
     branches: [main]
   pull_request:
   schedule:
-    - cron: "23 3 * * *" # 03:23 UTC daily
-  workflow_dispatch: # Allows manual or programmatic triggering
+    - cron: "23 3 * * *"  # 03:23 UTC daily
+  workflow_dispatch:  # Allows manual or programmatic triggering
 
 permissions:
   contents: write
@@ -25,17 +27,25 @@ jobs:
         run: |
           python - <<'PY'
           import os, time
-          base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
-           paths = []
-           for root, _, files in os.walk("."):
-                for f in files:
-                  if f.lower().endswith((".md",".html")) and ".github" not in root:
-                         p = os.path.join(root, f).lstrip("./")
-            if p.endswith(".md"):
-                p = p[:-3] + ".html"
-            paths.append(p.replace("\\","/"))
-            urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
-            print(f"""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>""")
+          base = os.getenv("BASE_URL",\
+                           "https://theheurist.github.io/SpiralOS").rstrip("/")
+          paths = []
+          for root, _, files in os.walk("."):
+              for f in files:
+                  if (f.lower().endswith((".md", ".html")) and
+                      ".github" not in root):
+                      p = os.path.join(root, f).lstrip("./")
+                      if p.endswith(".md"):
+                          p = p[:-3] + ".html"
+                      paths.append(p.replace("\\", "/"))
+          urls = "\\n".join(
+              f"  <url><loc>{base}/{p}</loc></url>"
+              for p in sorted(set(paths)))
+          xml = (f"""<?xml version="1.0" encoding="UTF-8"?>
+          <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+          {urls}
+          </urlset>""")
+          print(xml)
             PY > sitemap.xml
       - name: Commit sitemap.xml if changed
         run: |
