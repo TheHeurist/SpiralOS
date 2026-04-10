@@ -5,10 +5,13 @@ Scans `docs/zenodo/series/` for new ledger entries and updates the README Codex 
 Keeps links, DOI, and ledger key current.
 """
 
-import pathlib, re, json
+import pathlib
+import re
+
 
 README = pathlib.Path("README.md")
 SERIES_DIR = pathlib.Path("docs/zenodo/series")
+
 
 def generate_gateway():
     series_files = sorted(SERIES_DIR.glob("*.md"))
@@ -18,10 +21,20 @@ def generate_gateway():
         # Try to extract title and ledger ref
         title_match = re.search(r"^#*\s*(🌀|SpiralOS)?.*?(\n|$)", text)
         ledger_match = re.search(r"`([\w-]+-20\d{2}-\d{2}.*?)`", text)
-        title = title_match.group(0).strip("# \n") if title_match else f.name
-        ledger = ledger_match.group(1) if ledger_match else "untracked"
+        title = (
+            title_match.group(0).strip("# \n")
+            if title_match
+            else f.name
+        )
+        ledger = (
+            ledger_match.group(1)
+            if ledger_match
+            else "untracked"
+        )
         rel_path = f.as_posix()
-        entries.append(f"- 🜂 [{title}]({rel_path}) — `{ledger}`")
+        entries.append(
+            f"- 🜂 [{title}]({rel_path}) — `{ledger}`"
+        )
 
     template = [
         "## 🌀 SpiralOS Codex Gateway",
@@ -31,20 +44,27 @@ def generate_gateway():
         "### 📂 Series Documents",
         *entries,
         "",
-        "**Zenodo DOI:** [10.5281/zenodo.17522241](https://doi.org/10.5281/zenodo.17522241)",
+        "**Zenodo DOI:** [10.5281/zenodo.17522241]"
+        "(https://doi.org/10.5281/zenodo.17522241)",
         "**Ledger Key:** `SpiralOS-Codex-Series-2025-11-Epistemic-Activation`",
         "",
-        "> “To call home is to remember origin without hiding the path.” — *SpiralOS Directive I*",
+        "> \"To call home is to remember origin without hiding the path.\""
+        " — *SpiralOS Directive I*",
     ]
     return "\n".join(template)
 
+
 def update_readme(readme_text, new_gateway):
-    pattern = re.compile(r"## 🌀 SpiralOS Codex Gateway.*?(?=\n##|\Z)", re.S)
+    pattern = re.compile(
+        r"## 🌀 SpiralOS Codex Gateway.*?(?=\n##|\Z)",
+        re.S
+    )
     if pattern.search(readme_text):
         return pattern.sub(new_gateway, readme_text)
     else:
         # Append if not found
         return readme_text.strip() + "\n\n" + new_gateway
+
 
 def main():
     if not README.exists():
@@ -58,6 +78,7 @@ def main():
         print("Codex Gateway updated.")
     else:
         print("No changes detected.")
+
 
 if __name__ == "__main__":
     main()

@@ -10,9 +10,9 @@ This script verifies:
 """
 
 import json
-import os
 from pathlib import Path
 import sys
+
 
 def validate_file_exists(path):
     if not Path(path).is_file():
@@ -20,6 +20,7 @@ def validate_file_exists(path):
         return False
     print(f"✅ Found: {path}")
     return True
+
 
 def validate_json_schema(path, required_fields):
     try:
@@ -35,6 +36,7 @@ def validate_json_schema(path, required_fields):
         print(f"❌ Error parsing {path}: {e}")
         return False
 
+
 def main():
     print("🔍 Validating SpiralOS Provenance...\n")
 
@@ -42,7 +44,10 @@ def main():
 
     # CI-Watermark
     success &= validate_file_exists("CI-Watermark.json")
-    success &= validate_json_schema("CI-Watermark.json", ["generatedAt", "algorithm", "fingerprints"])
+    success &= validate_json_schema(
+        "CI-Watermark.json",
+        ["generatedAt", "algorithm", "fingerprints"]
+    )
 
     # Codex metadata
     success &= validate_file_exists("docs/codex/README.md")
@@ -53,6 +58,7 @@ def main():
 
     print("\n✅ All checks passed!" if success else "\n❌ One or more checks failed.")
     return 0 if success else 1
+
 
 if __name__ == "__main__":
     sys.exit(main())
