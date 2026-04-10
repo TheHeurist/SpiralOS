@@ -25,6 +25,8 @@ jobs:
   build:
     name: Build site
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -42,21 +44,21 @@ jobs:
           echo "  - Pearl Map interface"
           echo "  - Schema registry"
           echo "  - 404 error page"
-          
+
           # Verify critical files exist
           if [ ! -f "index.html" ]; then
             echo "❌ Error: index.html not found!"
             exit 1
           fi
-          
+
           if [ ! -f "404.html" ]; then
             echo "⚠️  Warning: 404.html not found!"
           fi
-          
+
           if [ ! -f ".nojekyll" ]; then
             echo "⚠️  Warning: .nojekyll not found! Jekyll may process the site."
           fi
-          
+
           echo "✅ Build preparation complete!"
 
       - name: Upload artifact
@@ -71,6 +73,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     needs: build
     steps:
       - name: Deploy to GitHub Pages

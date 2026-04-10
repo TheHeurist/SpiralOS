@@ -21,6 +21,8 @@ jobs:
   sitemap:
     name: Generate sitemap and commit updates
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Generate sitemap (static repo fallback)
@@ -62,6 +64,8 @@ jobs:
   links:
     name: Validate external links
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Link check
