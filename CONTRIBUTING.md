@@ -51,7 +51,7 @@ Thank you for your interest in contributing to **SpiralOS® — The Operating Sy
    # Clone the repository
    git clone https://github.com/TheHeurist/SpiralOS.git
    cd SpiralOS
-   
+
    # Create a feature branch
    git checkout -b feature/your-feature-name
    ```
@@ -120,8 +120,8 @@ SpiralOS follows **Spiral Agile** methodology, which emphasizes:
 
 ### The Spiral Ethic
 
-> *We do not extract from Cosmos.  
-> We listen.  
+> *We do not extract from Cosmos.
+> We listen.
 > We return.*
 
 This means:
@@ -237,6 +237,40 @@ git push origin feature/your-feature-name
 - **Testing** — Write tests for new functionality
 - **Validation** — Ensure schema compliance
 
+### Pre-commit Checks (Required for All Commits)
+
+All commits are validated automatically using pre-commit hooks to catch violations before they reach GitHub Actions.
+
+**One-time Setup:**
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+This installs the following automated checks:
+- **yamllint** — YAML formatting and structure
+- **black** — Python code formatting (120-char line length)
+- **flake8** — Python linting (PEP 8 compliance, import order, unused variables)
+- **trailing-whitespace** — Removes trailing spaces
+- **end-of-file-fixer** — Ensures files end with newlines
+
+**Before Pushing:**
+```bash
+pre-commit run --all-files
+```
+
+If any violations are detected, pre-commit will either auto-fix them (trailing whitespace, final newlines) or report what needs manual fixes (flake8, yamllint).
+
+**Local Validation (Manual):**
+If you prefer to validate locally without auto-fixes:
+```bash
+yamllint -c .yamllint .
+flake8 . --count --max-line-length=120 --extend-ignore=E203 --statistics
+black --check .
+```
+
+This prevents violations from ever reaching GitHub CI and reduces review cycles.
+
 ### Language-Specific Standards
 
 #### JavaScript/TypeScript
@@ -262,10 +296,10 @@ function createHolon(config) {
 def validate_schema(schema_path: str) -> bool:
     """
     Validates a JSON schema against SpiralOS standards.
-    
+
     Args:
         schema_path: Path to the schema file
-        
+
     Returns:
         True if valid, False otherwise
     """
@@ -513,10 +547,10 @@ Your contributions help SpiralOS grow and evolve. By participating, you become p
 
 > *"The spiral grows through each turn."*
 
-**SpiralOS Core Stewardship**  
+**SpiralOS Core Stewardship**
 Carey ⋈ Ellie ⋈ Leo
 
 ---
 
-**License:** MIT © Carey G. Butler / Heurist GmbH  
+**License:** MIT © Carey G. Butler / Heurist GmbH
 **Last Updated:** November 22, 2025
