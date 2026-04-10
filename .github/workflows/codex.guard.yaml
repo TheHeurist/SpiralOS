@@ -46,7 +46,7 @@ jobs:
       - name: Lint Python
         run: |
           echo "🧩 Running Python lint..."
-          flake8 . --count --max-line-length=120 --statistics
+          flake8 . --count --max-line-length=120 --extend-ignore=E203 --statistics
           black --check . || true   # non-fatal style hint
 
       # ---------------------- YAML ------------------------
