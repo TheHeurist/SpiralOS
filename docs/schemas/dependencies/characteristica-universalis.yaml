@@ -6,16 +6,16 @@ status: frontier
 mode: formalism
 dependencies:
   schemas:
-  - CU signatures
-  - morpheme fidelity
+    - CU signatures
+    - morpheme fidelity
   notes:
-  - self-other-conjugation
-  - awareness-boundary-conjugation
-  - asymptotic-affirmation
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - asymptotic-affirmation
   terms:
-  - signature
-  - conjugation
-  - holon
-  - holarchy
-  - meaning
-  - knowledge
+    - signature
+    - conjugation
+    - holon
+    - holarchy
+    - meaning
+    - knowledge

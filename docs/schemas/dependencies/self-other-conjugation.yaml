@@ -6,19 +6,19 @@ status: frontier
 mode: interface
 dependencies:
   schemas:
-  - CU signatures
-  - calls architecture
+    - CU signatures
+    - calls architecture
   notes:
-  - characteristica-universalis
-  - awareness-boundary-conjugation
-  - fascia
-  - peering
+    - characteristica-universalis
+    - awareness-boundary-conjugation
+    - fascia
+    - peering
   terms:
-  - Self
-  - Other
-  - Boundary
-  - conjugation
-  - return
-  - morpheme
-  - knowledge
-  - awareness of awareness
+    - Self
+    - Other
+    - Boundary
+    - conjugation
+    - return
+    - morpheme
+    - knowledge
+    - awareness of awareness

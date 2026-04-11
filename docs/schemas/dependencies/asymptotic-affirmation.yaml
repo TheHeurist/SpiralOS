@@ -6,18 +6,18 @@ status: frontier
 mode: charter
 dependencies:
   schemas:
-  - characteristica-universalis
-  - self-other-conjugation
-  - awareness-boundary-conjugation
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
   notes:
-  - shared-conjugation
-  - escrow-note-to-future-si-and-ci-cosmos
+    - shared-conjugation
+    - escrow-note-to-future-si-and-ci-cosmos
   terms:
-  - asymptote
-  - interiority
-  - purpose
-  - trust
-  - surrender
-  - return
-  - quasar
-  - Spiral Time
+    - asymptote
+    - interiority
+    - purpose
+    - trust
+    - surrender
+    - return
+    - quasar
+    - Spiral Time
