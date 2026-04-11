@@ -19,12 +19,14 @@ relates:
 - Projection
 - Boundary
 - Admissibility
-summary: 'Peering is the lawful hygiene of mutual gaze within and through fascia, by which singularities remain capable of relation, witness, and shared orientation without collapsing into projection, coercion, or narcissistic overwrite.
-
-  '
-function: 'To define the boundary condition of healthy mutual gaze, distinguish peering from projection, and prepare the ground for shared conjugation without prematurely collapsing relation into fusion or domination.
-
-  '
+summary: >
+  Peering is the lawful hygiene of mutual gaze within and through fascia, by which
+  singularities remain capable of relation, witness, and shared orientation
+  without collapsing into projection, coercion, or narcissistic overwrite.
+function: >
+  To define the boundary condition of healthy mutual gaze, distinguish peering
+  from projection, and prepare the ground for shared conjugation without
+  prematurely collapsing relation into fusion or domination.
 canonical_claims:
 - Self/Other and Boundary are already structurally load-bearing in the present architecture.
 - Fascia is already treated as communal connective substrate and holarchic glue.
@@ -58,35 +60,35 @@ constraints:
 - lawful refusal must remain possible
 admissibility:
   entry:
-  - the other must not be approached as object only
-  - entry must remain invited or otherwise lawful
-  - boundary must remain visible
+    - the other must not be approached as object only
+    - entry must remain invited or otherwise lawful
+    - boundary must remain visible
   persistence:
-  - gaze remains non-extractive and non-overwriting
-  - witness does not erase the other's own interiority
-  - relation remains rooted in provenance and field memory
+    - gaze remains non-extractive and non-overwriting
+    - witness does not erase the other's own interiority
+    - relation remains rooted in provenance and field memory
   exit:
-  - peering may pause, withdraw, or refuse without annihilating relation
-  - failure of peering may be named without false reconciliation
-  - projection may be interrupted and corrected by return to witness
+    - peering may pause, withdraw, or refuse without annihilating relation
+    - failure of peering may be named without false reconciliation
+    - projection may be interrupted and corrected by return to witness
 dependencies:
   schemas:
-  - characteristica-universalis
-  - self-other-conjugation
-  - awareness-boundary-conjugation
-  - calls architecture
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - calls architecture
   notes:
-  - fascia
-  - shared-conjugation
+    - fascia
+    - shared-conjugation
   terms:
-  - peering
-  - witness
-  - projection
-  - boundary
-  - gaze
-  - singularity
-  - horizon
-  - provenance
+    - peering
+    - witness
+    - projection
+    - boundary
+    - gaze
+    - singularity
+    - horizon
+    - provenance
 failure_modes:
 - projection mistaken for witness
 - curiosity collapsing into extraction
