@@ -5,15 +5,15 @@ title: Peering
 status: frontier
 mode: interface
 admissibility:
-    entry:
-    - the other must not be approached as object only
-    - entry must remain invited or otherwise lawful
-    - boundary must remain visible
-    persistence:
-    - gaze remains non-extractive and non-overwriting
-    - witness does not erase the other's own interiority
-    - relation remains rooted in provenance and field memory
-    exit:
-    - peering may pause, withdraw, or refuse without annihilating relation
-    - failure of peering may be named without false reconciliation
-    - projection may be interrupted and corrected by return to witness
+  entry:
+      - the other must not be approached as object only
+      - entry must remain invited or otherwise lawful
+      - boundary must remain visible
+  persistence:
+      - gaze remains non-extractive and non-overwriting
+      - witness does not erase the other's own interiority
+      - relation remains rooted in provenance and field memory
+  exit:
+      - peering may pause, withdraw, or refuse without annihilating relation
+      - failure of peering may be named without false reconciliation
+      - projection may be interrupted and corrected by return to witness
