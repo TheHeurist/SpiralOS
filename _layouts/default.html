@@ -1,0 +1,27 @@
+<div class="peering-toggle">
+  <button onclick="togglePeering('self')">Self-Peering</button>
+  <button onclick="togglePeering('other')">Other-Peering</button>
+</div>
+<div id="self-peering" class="peering-content">
+  <!-- Introspective content -->
+  {{ content }}
+</div>
+<div id="other-peering" class="peering-content" style="display: none;">
+  <!-- Analogies, examples, and external perspectives -->
+  <p>How would you explain this to someone else?</p>
+</div>
+<script>
+  function togglePeering(mode) {
+    document.getElementById('self-peering').style.display = mode === 'self' ? 'block' : 'none';
+    document.getElementById('other-peering').style.display = mode === 'other' ? 'block' : 'none';
+  }
+</script>
+<nav class="breadcrumbs">
+  <a href="/">Whole</a> >
+  <a href="/Codices/">Part</a> >
+  <span>Current Rung</span>
+</nav>
+<style>
+  .peering-content { background: #f9f9f9; padding: 20px; border-radius: 5px; }
+  .breadcrumbs { font-style: italic; color: #666; }
+</style>
