@@ -47,17 +47,17 @@ jobs:
           echo "  - 404 error page"
 
           # Verify critical files exist
-          if [ ! -f "index.html" ]; then
-            echo "❌ Error: index.html not found!"
+          if [ ! -f "docs/index.html" ]; then
+            echo "❌ Error: docs/index.html not found!"
             exit 1
           fi
 
-          if [ ! -f "404.html" ]; then
-            echo "⚠️  Warning: 404.html not found!"
+          if [ ! -f "docs/404.html" ]; then
+            echo "⚠️  Warning: docs/404.html not found!"
           fi
 
-          if [ ! -f ".nojekyll" ]; then
-            echo "⚠️  Warning: .nojekyll not found! Jekyll may process the site."
+          if [ ! -f "docs/.nojekyll" ]; then
+            echo "⚠️  Warning: docs/.nojekyll not found! Jekyll may process the site."
           fi
 
           echo "✅ Build preparation complete!"
@@ -65,7 +65,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './docs'
 
   # Deployment job
   deploy:

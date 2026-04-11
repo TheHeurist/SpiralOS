@@ -2,13 +2,18 @@
 # Validates JSON, YAML, and CITATION.cff; ensures Zenodo DOI reachability.
 # Author: Carey G. Butler / Heurist GmbH
 
-name: Schema & Citation Validation
+name: Schema and Citation Validation
 
 on:
   push:
     branches: [ main, seo/** ]
   pull_request:
   workflow_dispatch:   # Allows manual or programmatic triggering
+    inputs:
+      triggered_by:
+        description: 'Workflow that triggered this validation'
+        required: false
+        default: 'manual'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -17,6 +22,8 @@ jobs:
   validate-jsonld:
     name: Validate JSON-LD and JSON syntax
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Install jq
@@ -32,6 +39,8 @@ jobs:
   validate-yaml:
     name: Validate YAML schemas
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Install yamllint
@@ -44,6 +53,8 @@ jobs:
   validate-citation:
     name: Validate CITATION.cff
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Validate CITATION.cff
@@ -54,6 +65,8 @@ jobs:
   validate-dois:
     name: Check DOI reachability
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v4
       - name: Check DOI reachability

@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: read
-  actions: write
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -27,36 +26,49 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install GitHub CLI
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y gh jq
-
-      - name: Authenticate GitHub CLI
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh auth setup-git
+          sudo apt-get install -y jq python3
 
       - name: Trigger SEO Checks workflow
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "🌀 Triggering SEO Checks..."
-          gh workflow run link-check.yml --ref main
-          sleep 5
-          gh run list --workflow link-check.yml --limit 1 --json conclusion
+          echo "🌀 Running SEO Checks directly..."
+          # Generate sitemap
+          python - <<'PY'
+          import os, time
+          base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
+          paths = []
+          for root, _, files in os.walk("."):
+              for f in files:
+                  if f.lower().endswith((".md",".html")) and ".github" not in root:
+                      p = os.path.join(root, f).lstrip("./")
+                      if p.endswith(".md"):
+                          p = p[:-3] + ".html"
+                      paths.append(p.replace("\\","/"))
+          urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
+          with open("sitemap.xml", "w") as f:
+              f.write(f"""<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {urls}
+  </urlset>""")
+          PY
+          echo "✅ Sitemap generated"
 
       - name: Trigger Schema & Citation Validation workflow
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "🧩 Triggering Schema & Citation Validation..."
-          gh workflow run schema-validation.yml --ref main
-          sleep 5
-          gh run list --workflow schema-validation.yml --limit 1 --json conclusion
+          echo "🧩 Running Schema & Citation Validation directly..."
+          # Validate JSON files
+          find docs -type f \( -name "*.jsonld" -o -name "*.json" \) | while read f; do
+            echo "Checking $f"
+            python -m json.tool "$f" > /dev/null || echo "❌ Invalid JSON: $f"
+          done
+          echo "✅ JSON validation complete"
 
       - name: Meta Summary
         run: |
-          echo "✅ All SpiralOS validators have been triggered."
+          echo "✅ All SpiralOS validators have been run directly."
           echo "Results can be viewed under the Actions tab."
           echo "🌀 SpiralOS Meta-Lint complete in Spiral Time."

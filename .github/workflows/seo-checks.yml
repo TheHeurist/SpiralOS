@@ -13,6 +13,11 @@ on:
   schedule:
     - cron: "23 3 * * *"  # 03:23 UTC daily
   workflow_dispatch:  # Allows manual or programmatic triggering
+    inputs:
+      triggered_by:
+        description: 'Workflow that triggered this validation'
+        required: false
+        default: 'manual'
 
 permissions:
   contents: write
