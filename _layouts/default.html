@@ -1,27 +1,85 @@
-<div class="peering-toggle">
-  <button onclick="togglePeering('self')">Self-Peering</button>
-  <button onclick="togglePeering('other')">Other-Peering</button>
-</div>
-<div id="self-peering" class="peering-content">
-  <!-- Introspective content -->
-  {{ content }}
-</div>
-<div id="other-peering" class="peering-content" style="display: none;">
-  <!-- Analogies, examples, and external perspectives -->
-  <p>How would you explain this to someone else?</p>
-</div>
-<script>
-  function togglePeering(mode) {
-    document.getElementById('self-peering').style.display = mode === 'self' ? 'block' : 'none';
-    document.getElementById('other-peering').style.display = mode === 'other' ? 'block' : 'none';
-  }
-</script>
-<nav class="breadcrumbs">
-  <a href="/">Whole</a> >
-  <a href="/Codices/">Part</a> >
-  <span>Current Rung</span>
-</nav>
-<style>
-  .peering-content { background: #f9f9f9; padding: 20px; border-radius: 5px; }
-  .breadcrumbs { font-style: italic; color: #666; }
-</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | SpiralOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+      /* Self/Other-Peering Styles */
+      .peering-toggle { margin: 20px 0; text-align: center; }
+      .peering-content { background: #f9f9fa; padding: 20px; border-radius: 5px; margin: 10px 0; }
+      .peering-content.hidden { display: none; }
+      /* START-HERE Styles */
+      .kernel-anchors { background: #eef; padding: 10px; border-radius: 5px; margin-bottom: 20px; }
+      .claim-lane { font-style: italic; color: #666; }
+      .breadcrumbs { font-style: italic; color: #666; margin-bottom: 10px; }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation: Holarchic Structure -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/">SpiralOS</a>
+        <div class="navbar-nav">
+          <a class="nav-link" href="/">Home (Whole)</a>
+          <a class="nav-link" href="/Codices/">Codices (Part)</a>
+          <a class="nav-link" href="/Graph-Home/">Graph Home (Context)</a>
+          <a class="nav-link" href="/LLMs/">LLMs</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Container for Content -->
+    <div class="container mt-4">
+      <!-- Breadcrumbs: Holarchic Path -->
+      <div class="breadcrumbs">
+        <a href="/">Whole</a> >
+        <a href="{{ page.url | remove: 'index.html' }}">Current Rung</a>
+      </div>
+
+      <!-- Kernel Anchors: START-HERE Alignment -->
+      <div class="kernel-anchors">
+        <strong>Entry Protocol:</strong> {{ page.entry_protocol | default: "relational_kernel" }} |
+        <strong>Claim Lane:</strong> <span class="claim-lane">{{ page.claim_lane | default: "canonical_claims" }}</span>
+      </div>
+
+      <!-- Peering Toggle: Self/Other-Peering -->
+      <div class="peering-toggle">
+        <button class="btn btn-sm btn-outline-primary" onclick="togglePeering('self')">Self-Peering</button>
+        <button class="btn btn-sm btn-outline-primary" onclick="togglePeering('other')">Other-Peering</button>
+      </div>
+
+      <!-- Self-Peering Content (Default) -->
+      <div id="self-peering" class="peering-content">
+        {{ content }}
+      </div>
+
+      <!-- Other-Peering Content (Hidden by Default) -->
+      <div id="other-peering" class="peering-content hidden">
+        <h3>Other-Peering Perspective</h3>
+        <p>How would you explain this to someone unfamiliar with SpiralOS?</p>
+        <blockquote>
+          <p><strong>Analogy:</strong> [Add an analogy here, e.g., "This concept is like a fractal—each rung contains the pattern of the whole."]</p>
+          <p><strong>Example:</strong> [Add a concrete example here, e.g., "Imagine a ladder where each step is also a ladder."]</p>
+        </blockquote>
+        <p>What questions might someone ask to understand this better?</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-5 p-3 bg-light">
+      <div class="container">
+        <p>© {{ site.time | date: "%Y" }} SpiralOS. All rights reserved.</p>
+        <p class="claim-lane">Knowledge is self/other-peering at holonic and holarchic rungs.</p>
+      </div>
+    </footer>
+
+    <!-- Peering Toggle Script -->
+    <script>
+      function togglePeering(mode) {
+        document.getElementById('self-peering').classList.toggle('hidden', mode === 'other');
+        document.getElementById('other-peering').classList.toggle('hidden', mode === 'self');
+      }
+    </script>
+  </body>
+</html>
