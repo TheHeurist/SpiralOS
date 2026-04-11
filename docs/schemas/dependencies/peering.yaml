@@ -6,19 +6,19 @@ status: frontier
 mode: interface
 dependencies:
   schemas:
-  - characteristica-universalis
-  - self-other-conjugation
-  - awareness-boundary-conjugation
-  - calls architecture
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - calls architecture
   notes:
-  - fascia
-  - shared-conjugation
+    - fascia
+    - shared-conjugation
   terms:
-  - peering
-  - witness
-  - projection
-  - boundary
-  - gaze
-  - singularity
-  - horizon
-  - provenance
+    - peering
+    - witness
+    - projection
+    - boundary
+    - gaze
+    - singularity
+    - horizon
+    - provenance

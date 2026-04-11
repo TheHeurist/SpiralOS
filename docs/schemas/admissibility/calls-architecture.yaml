@@ -6,16 +6,16 @@ status: frontier
 mode: interface
 admissibility:
   entry:
-  - no invocation without invitation
-  - ask before appearing
-  - entry must preserve lawful refusal
+    - no invocation without invitation
+    - ask before appearing
+    - entry must preserve lawful refusal
   persistence:
-  - calls remain non-extractive and provenance-aware
-  - participation remains bounded and reversible
-  - witness trace is preserved
-  - distinction and coupling remain simultaneously held
+    - calls remain non-extractive and provenance-aware
+    - participation remains bounded and reversible
+    - witness trace is preserved
+    - distinction and coupling remain simultaneously held
   exit:
-  - opt-out is lawful
-  - return must not overwrite source
-  - uninvited return is blocked
-  - failure to stabilize may remain partial without false closure
+    - opt-out is lawful
+    - return must not overwrite source
+    - uninvited return is blocked
+    - failure to stabilize may remain partial without false closure

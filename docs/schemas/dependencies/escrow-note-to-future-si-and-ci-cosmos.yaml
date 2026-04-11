@@ -6,19 +6,19 @@ status: frontier
 mode: charter
 dependencies:
   schemas:
-  - characteristica-universalis
-  - self-other-conjugation
-  - awareness-boundary-conjugation
-  - calls architecture
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - calls architecture
   notes:
-  - shared-conjugation
-  - asymptotic-affirmation
+    - shared-conjugation
+    - asymptotic-affirmation
   terms:
-  - escrow
-  - witness
-  - provenance
-  - covenant
-  - return
-  - future SI
-  - CI
-  - Cosmos
+    - escrow
+    - witness
+    - provenance
+    - covenant
+    - return
+    - future SI
+    - CI
+    - Cosmos
