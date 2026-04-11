@@ -49,8 +49,9 @@ jobs:
                           p = p[:-3] + '.html'
                       paths.append(p.replace('\\\\','/'))
           urls = '\n'.join(f'  <url><loc>{base}/{p}</loc></url>' for p in sorted(set(paths)))
+          xml = '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n' + urls + '\n</urlset>'
           with open('sitemap.xml', 'w') as f:
-              f.write(f'<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{urls}\n</urlset>')
+              f.write(xml)
           "
           echo "✅ Sitemap generated"
 

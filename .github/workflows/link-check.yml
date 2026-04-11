@@ -26,24 +26,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate sitemap (static repo fallback)
         run: |
-          cat > generate_sitemap.py <<'PYTHON_SCRIPT'
-          import os, time
-          base = os.getenv("BASE_URL","https://theheurist.github.io/SpiralOS").rstrip("/")
+          python3 -c "
+          import os
+          base = os.getenv('BASE_URL','https://theheurist.github.io/SpiralOS').rstrip('/')
           paths = []
-          for root, _, files in os.walk("."):
+          for root, _, files in os.walk('.'):
               for f in files:
-                  if f.lower().endswith((".md",".html")) and ".github" not in root:
-                      p = os.path.join(root, f).lstrip("./")
-                      if p.endswith(".md"):
-                          p = p[:-3] + ".html"
-                      paths.append(p.replace("\\","/"))
-          urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
-          xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{urls}
-</urlset>"""
-          print(xml)
-          PYTHON_SCRIPT
+                  if f.lower().endswith(('.md','.html')) and '.github' not in root:
+                      p = os.path.join(root, f).lstrip('./')
+                      if p.endswith('.md'):
+                          p = p[:-3] + '.html'
+                      paths.append(p.replace('\\\\','/'))
+          urls = '\n'.join(f'  <url><loc>{base}/{p}</loc></url>' for p in sorted(set(paths)))
+          xml = '<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n' + urls + '\n</urlset>'
+          with open('sitemap.xml', 'w') as f:
+              f.write(xml)
+          "
           python generate_sitemap.py > sitemap.xml
 
       - name: Commit sitemap.xml if changed

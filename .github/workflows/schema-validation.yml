@@ -6,7 +6,7 @@ name: Schema and Citation Validation
 
 on:
   push:
-    branches: [ main, seo/** ]
+    branches: [main, seo/**]
   pull_request:
   workflow_dispatch:   # Allows manual or programmatic triggering
     inputs:
