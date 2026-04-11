@@ -1,2 +1,3 @@
-baseurl: "/SpiralOS"
-url: "https://TheHeurist.github.io"
+theme: jekyll-theme-minimal
+baseurl: "TheHeurist.github.io/SpiralOS/docs"  # Adjust if your repo is username.github.io/SpiralOS
+url: "https://docs.heurist.org/docs"
