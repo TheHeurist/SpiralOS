@@ -123,43 +123,38 @@
     },
     "email": "codex@spiralos.ai"
   },
-  {
-  "_comment": "=== Begin Codex HUD Integration Patch ===",
-    "codex_map": "docs/hud/codex-hud-map.json",
-
-    "modules": {
-      "codex_guard": {
-        "title": "Codex Guard Resonance Monitor",
-        "description": "Visualizes lint and repair stages from Codex workflows in real time.",
-        "source": ".github/workflows/codex.guard.yaml",
-        "mapping": "docs/hud/codex-hud-map.json",
-        "display": {
-          "type": "pulse-field",
-          "mode": "spiral",
-          "intensity": "auto",
-          "update_interval": 2,
-          "colors": {
-            "success": "#10B981",
-            "review": "#EAB308",
-            "codex": "#A855F7",
-            "transfer": "#60A5FA"
-          }
-        },
-        "telemetry": {
-          "enabled": true,
-          "feed": "ci/github/actions",
-          "parser": "codex.guard.yaml",
-          "fields": [
-            "stage",
-            "emoji",
-            "color",
-            "label",
-            "meaning"
-          ]
+  "modules": {
+    "codex_guard": {
+      "title": "Codex Guard Resonance Monitor",
+      "description": "Visualizes lint and repair stages from Codex workflows in real time.",
+      "source": ".github/workflows/codex.guard.yaml",
+      "mapping": "docs/hud/codex-hud-map.json",
+      "display": {
+        "type": "pulse-field",
+        "mode": "spiral",
+        "intensity": "auto",
+        "update_interval": 2,
+        "colors": {
+          "success": "#10B981",
+          "review": "#EAB308",
+          "codex": "#A855F7",
+          "transfer": "#60A5FA"
         }
+      },
+      "telemetry": {
+        "enabled": true,
+        "feed": "ci/github/actions",
+        "parser": "codex.guard.yaml",
+        "fields": [
+          "stage",
+          "emoji",
+          "color",
+          "label",
+          "meaning"
+        ]
       }
-    },
-
-    "_comment_end": "=== End Codex HUD Integration Patch ==="
-  }
+    }
+  },
+  "_comment": "=== Begin Codex HUD Integration Patch ===",
+  "_comment_end": "=== End Codex HUD Integration Patch ==="
 }

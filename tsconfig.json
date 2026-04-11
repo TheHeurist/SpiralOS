@@ -5,7 +5,7 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
-    "types": ["node"],        // <-- add this line
+    "types": ["node"],
     "skipLibCheck": true
   },
   "include": ["scripts/**/*", "docs/**/*"]
