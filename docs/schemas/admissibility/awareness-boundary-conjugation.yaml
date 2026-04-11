@@ -6,13 +6,13 @@ status: frontier
 mode: interface
 admissibility:
   entry:
-  - a boundary must be acknowledged as real and relationally active
-  - Self/Other orientation must be sufficiently lawful for crossing to begin
+    - a boundary must be acknowledged as real and relationally active
+    - Self/Other orientation must be sufficiently lawful for crossing to begin
   persistence:
-  - movement remains non-extractive and fidelity-preserving
-  - crossing must preserve both distinction and coupling
-  - return must not overwrite the source or erase the boundary
+    - movement remains non-extractive and fidelity-preserving
+    - crossing must preserve both distinction and coupling
+    - return must not overwrite the source or erase the boundary
   exit:
-  - stabilization may yield meaning, knowledge, or awareness of awareness
-  - failure to stabilize may remain partial or fragmented without false closure
-  - refusal, pause, and withdrawal remain lawful at any stage
+    - stabilization may yield meaning, knowledge, or awareness of awareness
+    - failure to stabilize may remain partial or fragmented without false closure
+    - refusal, pause, and withdrawal remain lawful at any stage
