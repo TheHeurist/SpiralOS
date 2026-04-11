@@ -1,1 +1,0 @@
-# Volume-VI-Harmonic-Completion

@@ -1,5 +1,0 @@
-baseURL = "https://docs.heurist.org/"
-languageCode = "en-us"
-title = "SpiralOS"
-theme = "ananke"
-publishDir = "docs"  # Outputs to /docs for GitHub Pages

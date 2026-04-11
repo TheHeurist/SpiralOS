@@ -26,3 +26,15 @@ env/
 *.ots
 *.docx
 *.xlsx
+
+# Ignore Ruby gem vendor directory
+vendor/bundle/
+
+# Ignore Jekyll build output
+_site/
+
+# Ignore Bundler config
+.bundle/
+
+# Ignore local environment files
+.env

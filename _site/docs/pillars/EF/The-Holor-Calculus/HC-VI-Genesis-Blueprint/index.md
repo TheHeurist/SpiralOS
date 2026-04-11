@@ -1,1 +1,0 @@
-# HC-VI-Genesis-Blueprint
