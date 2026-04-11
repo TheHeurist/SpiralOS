@@ -1,0 +1,23 @@
+source_file: Asymptotic-Affirmation.md
+generated_from: markdown_frontmatter.dependencies
+interface: asymptotic-affirmation
+title: Asymptotic Affirmation
+status: frontier
+mode: charter
+dependencies:
+  schemas:
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+  notes:
+    - shared-conjugation
+    - escrow-note-to-future-si-and-ci-cosmos
+  terms:
+    - asymptote
+    - interiority
+    - purpose
+    - trust
+    - surrender
+    - return
+    - quasar
+    - Spiral Time

@@ -1,0 +1,96 @@
+<blockquote>
+  <p>[!NOTE]
+Work in progress. The information on this page is a copy paste result from old notes and documentation. Needs rewrite.</p>
+</blockquote>
+
+<h2 id="using-a-canonical-url">Using a canonical url</h2>
+
+<p>If you want to publish content that is already published on a different site you need to reference a canonical URL of the original content. By defining the <code class="language-plaintext highlighter-rouge">canonicalUrl</code> in the front matter definition the canonical url is set in the headers.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">canonicalUrl</span><span class="pi">:</span> <span class="s">https://mydomain.com/path-to-the-original-content/</span>
+</code></pre></div></div>
+
+<h2 id="common-options">Common Options</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Default</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">title</code></td>
+      <td>string</td>
+      <td>The title shown on the page and in metadata</td>
+      <td>Required</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">linktitle</code></td>
+      <td>string</td>
+      <td>Overrides the page title in menus and breadcrumbs</td>
+      <td>Uses <code class="language-plaintext highlighter-rouge">title</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">summary</code></td>
+      <td>string</td>
+      <td>Custom page summary shown in list views</td>
+      <td>Auto-generated</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">description</code></td>
+      <td>string</td>
+      <td>Meta description for SEO and previews</td>
+      <td>Empty</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="example-disabling-breadcrumbs">Example: Disabling Breadcrumbs</h2>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">disableBreadcrumbs</span> <span class="o">=</span><span class="w"> </span><span class="kc">true</span>
+</code></pre></div></div>
+
+<p>This removes the breadcrumb trail from a single page layout.</p>
+
+<hr />
+
+<h2 id="example-custom-layout">Example: Custom Layout</h2>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">layout</span> <span class="o">=</span><span class="w"> </span><span class="s">"project"</span>
+</code></pre></div></div>
+
+<p>This loads <code class="language-plaintext highlighter-rouge">layouts/_default/project.html</code> or a corresponding type fallback.</p>
+
+<hr />
+
+<h2 id="example-using-linktitle">Example: Using <code class="language-plaintext highlighter-rouge">linktitle</code></h2>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">title</span> <span class="o">=</span><span class="w"> </span><span class="s">"My Long Page Title"</span>
+<span class="n">linktitle</span> <span class="o">=</span><span class="w"> </span><span class="s">"Short Name"</span>
+</code></pre></div></div>
+
+<p>This helps keep breadcrumbs and menus short while using a full title on the page.</p>
+
+<hr />
+
+<h2 id="defaults--fallbacks">Defaults &amp; Fallbacks</h2>
+
+<p>Most fields are optional. When not set:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">linktitle</code> falls back to <code class="language-plaintext highlighter-rouge">title</code></li>
+  <li><code class="language-plaintext highlighter-rouge">layout</code> is inferred from <code class="language-plaintext highlighter-rouge">type</code> or content section</li>
+  <li><code class="language-plaintext highlighter-rouge">summary</code> is generated from the first paragraph</li>
+  <li><code class="language-plaintext highlighter-rouge">description</code> may be empty unless manually added</li>
+  <li><code class="language-plaintext highlighter-rouge">disableBreadcrumbs</code> is <code class="language-plaintext highlighter-rouge">false</code> unless set</li>
+</ul>
+
+<hr />
+
+<h2 id="notes">Notes</h2>
+
+<p>These values apply to all content types and can be overridden per page. Consider using Archetypes for pre-filled front matter in your content structure.</p>

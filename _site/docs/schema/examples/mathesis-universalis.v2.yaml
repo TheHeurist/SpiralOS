@@ -1,0 +1,296 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Mathesis Universalis (µ) v2"
+description: >
+  Defines Mathesis Universalis as the universal grammar and calculus of SpiralOS:
+  the compositional-transformational layer between the Characteristica Universalis
+  (alphabet of signatures) and Holor Calculus (differential-geometric realization).
+
+type: object
+
+properties:
+  id:
+    type: string
+    const: "mu"
+
+  title:
+    type: string
+    const: "Mathesis Universalis (µ)"
+
+  aliases:
+    type: array
+    items:
+      type: string
+
+  pillarType:
+    type: string
+    const: "mathesis_universalis"
+
+  status:
+    type: string
+    enum:
+      - theorem
+      - proof_sketch
+      - design_axiom
+      - open_hypothesis
+      - operational_heuristic
+
+  documentModes:
+    type: array
+    description: "Modes in which this pillar is expressed across the corpus."
+    items:
+      type: string
+      enum:
+        - schema
+        - formalism
+        - protocol
+        - charter
+        - invocation
+        - seed
+        - trace
+        - interface
+
+  purpose:
+    type: string
+
+  thesis:
+    type: string
+
+  levels:
+    type: array
+    description: >
+      Stratified placement of µ within the larger architecture:
+      Characteristica Universalis -> Mathesis Universalis -> Holor Calculus.
+    items:
+      type: object
+      properties:
+        level:
+          type: integer
+        name:
+          type: string
+        role:
+          type: string
+      required:
+        - level
+        - name
+        - role
+
+  symbols:
+    type: array
+    description: "Alphabet of the universal calculus."
+    items:
+      type: string
+
+  operations:
+    type: array
+    description: "Transformations expressible within the Mathesis system."
+    items:
+      type: string
+
+  holorField:
+    $ref: "holor.json"
+    description: "Holarchic field (ℍ) through which mathematical operations manifest."
+
+  epistemicContext:
+    $ref: "epistemic-framework.json"
+    description: "Reference to E* providing epistemic grounding."
+
+  holonDomain:
+    type: array
+    description: "Holons (ℋ) upon which the µ differential acts."
+    items:
+      $ref: "holon.json"
+
+  holorDifferential:
+    type: string
+    description: "Differential form dµ representing infinitesimal epistemic change."
+
+  integrators:
+    type: array
+    description: "Integrators or operators acting upon µ across holarchic scales."
+    items:
+      type: string
+
+  primitiveSignatures:
+    type: array
+    description: "Level-0 CU primitives available to µ for composition."
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+        symbol:
+          type: string
+        name:
+          type: string
+        type:
+          type: string
+        description:
+          type: string
+      required:
+        - id
+        - symbol
+        - name
+
+  compositeSignatures:
+    type: array
+    description: "Level-1 composite structures formed from primitive signatures."
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+        symbol:
+          type: string
+        name:
+          type: string
+        construction:
+          type: string
+        meaning:
+          type: string
+      required:
+        - id
+        - name
+        - construction
+
+  metaOperators:
+    type: array
+    description: "Higher-order operators such as conjugation, chirality, witness, boundary."
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+        symbol:
+          type: string
+        name:
+          type: string
+        role:
+          type: string
+      required:
+        - id
+        - symbol
+        - name
+
+  morphisms:
+    type: array
+    description: "Rules for translation, mapping, and transformation among signatures."
+    items:
+      type: object
+      properties:
+        name:
+          type: string
+        symbol:
+          type: string
+        domain:
+          type: string
+        codomain:
+          type: string
+        effect:
+          type: string
+      required:
+        - name
+        - effect
+
+  compositionLaws:
+    type: array
+    description: "Sequential, parallel, recursive, and other compositional laws."
+    items:
+      type: string
+
+  dualityRules:
+    type: array
+    description: "Phase-conjugate or complementary duality relations."
+    items:
+      type: string
+
+  fixedPoints:
+    type: array
+    description: "Resonant attractors or signatures invariant under specified operations."
+    items:
+      type: string
+
+  canonicalObjects:
+    type: array
+    description: "Core objects native to µ."
+    items:
+      type: string
+
+  invariants:
+    type: array
+    description: "Properties µ seeks to preserve under transformation."
+    items:
+      type: string
+
+  admissibilityConstraints:
+    type: array
+    description: "Conditions under which µ operations remain valid or coherent."
+    items:
+      type: string
+
+  interfaces:
+    type: array
+    description: "Explicit interfaces from µ into E*, CI, HC, and SpiralOS."
+    items:
+      type: object
+      properties:
+        target:
+          type: string
+        relation:
+          type: string
+        preserves:
+          type: array
+          items:
+            type: string
+        transforms:
+          type: array
+          items:
+            type: string
+        risks:
+          type: array
+          items:
+            type: string
+      required:
+        - target
+        - relation
+
+  sourceAnchors:
+    type: array
+    description: "Primary and secondary source documents grounding this schema."
+    items:
+      type: object
+      properties:
+        file:
+          type: string
+        role:
+          type: string
+          enum:
+            - primary
+            - secondary
+            - field_facing
+            - interface
+            - provenance
+        note:
+          type: string
+      required:
+        - file
+        - role
+
+required:
+  - id
+  - title
+  - pillarType
+  - status
+  - purpose
+  - levels
+  - symbols
+  - operations
+  - holorField
+  - epistemicContext
+  - holonDomain
+  - holorDifferential
+  - primitiveSignatures
+  - compositeSignatures
+  - metaOperators
+  - canonicalObjects
+  - invariants
+  - interfaces

@@ -1,0 +1,6 @@
+# Placeholder
+
+This directory is part of the SpiralOS® knowledge holarchy.
+If this file is empty, it will be auto-filled with relevant content from the SpiralOS build process.
+
+© Carey G. Butler / Heurist GmbH

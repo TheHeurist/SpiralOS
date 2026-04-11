@@ -1,0 +1,67 @@
+<p>This guide summarizes the first configuration steps after installing Ananke.</p>
+
+<h2 id="1-install-the-theme">1) Install the theme</h2>
+
+<p>Choose one installation method:</p>
+
+<ul>
+  <li><a href="installation/gohugo-module.md">Installation as Hugo Module (recommended)</a></li>
+  <li><a href="installation/git-submodule.md">Installation as Git Submodule</a></li>
+</ul>
+
+<h2 id="2-confirm-hugo-version-compatibility">2) Confirm Hugo version compatibility</h2>
+
+<p>Ananke on <code class="language-plaintext highlighter-rouge">main</code> expects Hugo <code class="language-plaintext highlighter-rouge">0.146.0</code> or newer. Check with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo version
+</code></pre></div></div>
+
+<h2 id="3-configure-required-basics">3) Configure required basics</h2>
+
+<p>At minimum, configure:</p>
+
+<ul>
+  <li>Site <code class="language-plaintext highlighter-rouge">title</code></li>
+  <li><code class="language-plaintext highlighter-rouge">baseURL</code></li>
+  <li>Theme/module setup</li>
+  <li><code class="language-plaintext highlighter-rouge">params</code> values you want to customize</li>
+</ul>
+
+<p>See:</p>
+
+<ul>
+  <li><a href="configuration/general.md">General Configuration</a></li>
+  <li><a href="configuration/seo.md">SEO Configuration</a></li>
+  <li><a href="configuration/social-media-networks.md">Social Media Networks</a></li>
+</ul>
+
+<h2 id="4-add-content-and-front-matter">4) Add content and front matter</h2>
+
+<p>Start adding content and use front matter options supported by Ananke:</p>
+
+<ul>
+  <li><a href="content/frontmatter.md">Front Matter Options</a></li>
+  <li><a href="content/general.md">General Content Features</a></li>
+  <li><a href="content/reading-time.md">Reading Time</a></li>
+  <li><a href="content/shortcodes.md">Shortcodes</a></li>
+</ul>
+
+<h2 id="5-customize-visual-style">5) Customize visual style</h2>
+
+<p>For design and UI adjustments:</p>
+
+<ul>
+  <li><a href="customisation/hero-section.md">Hero section</a></li>
+  <li><a href="customisation/colours.md">Colors</a></li>
+  <li><a href="customisation/styles.md">Styles and CSS</a></li>
+  <li><a href="customisation/comments.md">Comments setup</a></li>
+</ul>
+
+<h2 id="6-run-and-verify-locally">6) Run and verify locally</h2>
+
+<p>Run Hugo locally and verify pages, menus, metadata, and social links:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo server
+</code></pre></div></div>
+
+<p>If you hit issues, see <a href="troubleshooting.md">Troubleshooting</a>.</p>

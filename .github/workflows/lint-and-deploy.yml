@@ -1,0 +1,9 @@
+# .github/workflows/lint-and-deploy.yml
+jobs:
+  lint:
+    steps:
+      - name: Check for self/other-peering
+        run: |
+          # Example: Ensure every page has both introspective and external content
+          grep -r "Reflection" docs/ || echo "Warning: Missing self-peering section"
+          grep -r "Analogy" docs/ || echo "Warning: Missing other-peering section"

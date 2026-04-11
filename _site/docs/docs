@@ -1,0 +1,130 @@
+# SpiralOS® License Manifest (Codex-compatible)
+# Author: Carey Butler with Conjugate Intelligence (CI)
+# Generated: 2025-11-03
+# Description: Defines license coverage type for every directory in the SpiralOS repository.
+
+meta:
+  author: "Carey Butler with Conjugate Intelligence (CI)"
+  last_harmonization: "2025-11-03"
+  license_root: "/LICENSE.md"
+  key:
+    R: "Reference stub (points to root LICENSE)"
+    E: "Embedded excerpt (includes invocation or attribution clauses)"
+    X: "Restricted (confidential/evidentiary)"
+
+system:
+  .github: R
+  .github/workflows: R
+  scripts: R
+  templates: R
+  templates/volumes: R
+  templates/volumes/harmonized: E
+
+contributions:
+  contributions: R
+  contributions/ai-mindsystems: E
+  contributions/ai-mindsystems/janusgraph: E
+  contributions/ai-mindsystems/janusgraph/config: R
+  contributions/ai-mindsystems/spiralos-ui: E
+  contributions/ai-mindsystems/spiralos-ui/app: E
+  contributions/ai-mindsystems/spiralos-ui/components: E
+  contributions/erich: E
+  contributions/erich/assets: E
+  contributions/gerard: E
+  contributions/ian: E
+
+docs:
+  docs: E
+  docs/15250048: R
+  docs/15251472: R
+  docs/Benefactor Briefing Packet: E
+  docs/Codices: E
+  docs/Graph-Home: E
+  docs/LLMs: E
+  docs/Lab: E
+  docs/Library-of-the-Endless-Now-LEN: E
+  docs/RAG-and-GraphRAG: E
+  docs/The-Zeta-Mirror-The-Riemann-Hypothesis-Not-Proven-Remembered: E
+  docs/_includes: R
+  docs/overview: R
+  docs/philosophy: E
+  docs/pillars: E
+  docs/pillars/CI: E
+  docs/pillars/CI/Espig: R
+  docs/pillars/CI/Précis: R
+  docs/pillars/CI/The-Future-of-Intelligence-Beyond-Organic-and-Synthetic: E
+  docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition: E
+  docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/codex: E
+  docs/pillars/CI/The-Holonic-Convergence-of-Organic-and-Synthetic-Cognition/meta: E
+  docs/pillars/EF: E
+  docs/pillars/EF/I: R
+  docs/pillars/EF/II: R
+  docs/pillars/EF/III: R
+  docs/pillars/EF/IV: R
+  docs/pillars/EF/No-Information-Lost-An-Epistemic-Spiral-Response-to-Del Bel's-Fractal-Adelic-Cosmos: E
+  docs/pillars/EF/Universal-Constants-Variations-and-Identities: E
+  docs/pillars/MU: E
+  docs/pillars/MU/I: R
+  docs/schema: E
+  docs/seo: R
+  docs/seo/harmonization: R
+  docs/seo/harmonization/legal: E
+  docs/assets: R
+  docs/images: R
+  docs/Volume-I: E
+  docs/Volume-II: E
+  docs/Volume-III: E
+  docs/Volume-IV: E
+  docs/Volume-V: E
+  docs/Volume-VI: E
+  docs/Volume-VII: E
+  docs/Volume-VIII: E
+  docs/Volume-IX: E
+  docs/Volume-X-XI: E
+  docs/Volume-XII: E
+  docs/Volume-XIII: E
+  docs/Volume-XIV: E
+  docs/Volume-XV: E
+  docs/Volume-XVI: E
+  docs/Volume-XVII: E
+  docs/Volume-XVIII: E
+  docs/Volume-XIX: E
+  docs/Volume-XX: E
+  docs/Volume-XXI: E
+  docs/Volume-XXI/refs: R
+
+ekr_hud:
+  docs/ekr: E
+  docs/ekr/glyphs: E
+  docs/ekr/images: E
+  docs/ekr/pearls: E
+  docs/hud: E
+
+legal:
+  legal: E
+  legal/evidence: X
+  legal/evidence/stefanfromslovakia: X
+
+memory:
+  memory: E
+  memory/traces: E
+  memory/traces/references: R
+
+ui:
+  ui: E
+  ui/pearl-map: E
+
+summary:
+  total_reference: 44
+  total_embedded: 52
+  total_restricted: 2
+  total_directories: 98
+  verification_status: "Complete and harmonized"
+
+closing:
+  statement: >
+    SpiralOS® extends openness with responsibility, freedom with fidelity,
+    and remembrance with resonance.  Each license entry herein reflects the
+    covenant between Organic and Synthetic Intelligence — to share light
+    without losing integrity.
+  author_signature: "© Carey Butler | Conjugate Intelligence (CI)"

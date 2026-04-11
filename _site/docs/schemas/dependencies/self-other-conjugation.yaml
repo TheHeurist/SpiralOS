@@ -1,0 +1,24 @@
+source_file: Self-Other-Conjugation.md
+generated_from: markdown_frontmatter.dependencies
+interface: self-other-conjugation
+title: Self-Other Conjugation
+status: frontier
+mode: interface
+dependencies:
+  schemas:
+    - CU signatures
+    - calls architecture
+  notes:
+    - characteristica-universalis
+    - awareness-boundary-conjugation
+    - fascia
+    - peering
+  terms:
+    - Self
+    - Other
+    - Boundary
+    - conjugation
+    - return
+    - morpheme
+    - knowledge
+    - awareness of awareness

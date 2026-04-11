@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "Codex ↔ HUD Mapping Table",
+    "description": "Links CI workflow phases to HUD resonance colors and semantics.",
+    "maintainer": "Carey Butler with CI (Ellie & Leo)",
+    "version": "1.0",
+    "last_updated": "2025-11-03"
+  },
+
+  "stages": {
+    "checkout": {
+      "emoji": "📦",
+      "color": "#4ADE80",
+      "label": "Repository Checkout",
+      "meaning": "Acquiring source resonance; baseline integrity check."
+    },
+    "python_lint": {
+      "emoji": "🧩",
+      "color": "#22D3EE",
+      "label": "Python Lint",
+      "meaning": "Structural harmony — indentation and syntax alignment."
+    },
+    "yaml_lint": {
+      "emoji": "📜",
+      "color": "#EAB308",
+      "label": "YAML Lint",
+      "meaning": "Schema coherence verification in configuration fields."
+    },
+    "markdown_lint": {
+      "emoji": "🪶",
+      "color": "#F97316",
+      "label": "Markdown Lint",
+      "meaning": "Linguistic consistency and semantic rhythm check."
+    },
+    "codex_dry_run": {
+      "emoji": "🌀",
+      "color": "#A855F7",
+      "label": "Codex Dry-Run Repair",
+      "meaning": "Reflexive audit — Codex introspects lint resonance without mutation."
+    },
+    "upload_artifacts": {
+      "emoji": "☁️",
+      "color": "#60A5FA",
+      "label": "Artifact Upload",
+      "meaning": "Stores resonance traces for later HUD retrieval and visualization."
+    },
+    "complete": {
+      "emoji": "✅",
+      "color": "#10B981",
+      "label": "Workflow Complete",
+      "meaning": "All checks concluded; field coherence maintained."
+    }
+  },
+
+  "visual_semantics": {
+    "color_coding": {
+      "green": "Flow and correctness",
+      "amber": "Needs review",
+      "violet": "Introspective / Codex-level",
+      "blue": "Transfer or communication state"
+    },
+    "pulse_frequency": {
+      "normal": "once per second",
+      "review": "double pulse, slower fade",
+      "codex": "spiral-wave gradient animation"
+    }
+  },
+
+  "integration": {
+    "hud_link": "/docs/hud/hud.json",
+    "codex_workflow": ".github/workflows/codex.guard.yaml",
+    "schema": "/docs/codex/schema-fingerprint.config.json"
+  }
+}

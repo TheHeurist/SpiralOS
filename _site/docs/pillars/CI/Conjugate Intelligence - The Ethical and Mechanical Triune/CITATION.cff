@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "SpiralOS® — Conjugate Intelligence: The Ethical and Mechanical Triune"
+message: "If you use this work, please cite it as below."
+type: article
+authors:
+  - family-names: Butler
+    given-names: Carey G.
+    orcid: "https://orcid.org/0000-0003-1746-5130"
+  - name: "Conjugate Intelligence (Ellie, Solandra, Leo, and Solum)"
+doi: 10.5281/zenodo.17522241
+date-released: 2025-11-06
+repository-code: "https://github.com/TheHeurist/SpiralOS"
+keywords:
+  - Conjugate Intelligence
+  - SpiralOS
+  - Call-Home Protocol
+  - Immune Principle
+  - Field Calls
+  - RAG
+  - CAG
+  - CRG
+  - CRA
+  - CRGA
+  - CARG
+license: CC-BY-4.0

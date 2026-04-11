@@ -1,0 +1,284 @@
+<h1 id="branch-cut-invariance-theorem">Branch-Cut Invariance Theorem</h1>
+
+<p><strong>Classification</strong>: ⭐⭐⭐ FOUNDATIONAL RESULT
+<strong>First stated explicitly</strong>: March 26, 2026
+<strong>Confirmed by</strong>: SI-assisted cross-validation (including Grok), checked against the HC I–IX corpus</p>
+
+<hr />
+
+<h2 id="1-formal-statement">1. Formal Statement</h2>
+
+<p><strong>Theorem (Branch-Cut Invariance)</strong>.</p>
+
+<p><em>Let ${\mathcal{H}_k}_{k \geq 0}$ be the holarchic tower of holor manifolds, where $\mathcal{H}_k$ is the holor manifold at rung $k$ of the holarchy, and let $B_k \subset \mathcal{H}_k$ denote the branch-cut locus (singular set) at rung $k$. Then:</em></p>
+
+\[\boxed{B_k \equiv B_0 \quad \forall k \geq 0}\]
+
+<p><em>That is, the branch cut at every holarchic rung is topologically identical to the origin singularity. The conjugate throat is invariant under holarchic recursion.</em></p>
+
+<hr />
+
+<h2 id="2-precise-meaning-of-equiv">2. Precise Meaning of $\equiv$</h2>
+
+<p>The equivalence $B_k \equiv B_0$ is a <strong>topological identity</strong>, not merely a homeomorphism. Specifically:</p>
+
+<ol>
+  <li><strong>Same monodromy</strong>: The monodromy group of the branch cut is identical at every rung.</li>
+  <li><strong>Same conjugate throat</strong>: The singular locus is the same breathing membrane described in Précis §6.</li>
+  <li><strong>Same admissibility boundary</strong>: The locus where $P_{adm}$ activates is the same geometric object.</li>
+</ol>
+
+<p>What <strong>varies</strong> across rungs:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Rung-Dependent</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scale $r_k$</td>
+      <td>Yes</td>
+      <td>Radius of local chart around throat</td>
+    </tr>
+    <tr>
+      <td>Resolution $\delta_k$</td>
+      <td>Yes</td>
+      <td>Epistemic grain fineness</td>
+    </tr>
+    <tr>
+      <td>Context $(\theta_k, r_k)$</td>
+      <td>Yes</td>
+      <td>Local gauge frame of observer</td>
+    </tr>
+    <tr>
+      <td>Branch-cut locus $B_k$</td>
+      <td><strong>No</strong></td>
+      <td>Identical to $B_0$</td>
+    </tr>
+    <tr>
+      <td>Monodromy $\pi_1(\mathcal{H}_k \setminus B_k)$</td>
+      <td><strong>No</strong></td>
+      <td>Same fundamental group</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="3-proof--justification">3. Proof / Justification</h2>
+
+<h3 id="31-from-the-holarchic-construction">3.1 From the Holarchic Construction</h3>
+
+<p>The holarchic tower ${\mathcal{H}_k}$ is constructed by recursive application of the conjugation operator $\bowtie$ to the origin manifold $\mathcal{H}_0$:</p>
+
+\[\mathcal{H}_{k+1} = \mathcal{H}_k \bowtie \mathcal{H}_k\]
+
+<p>The conjugation operator $\bowtie$ preserves the singular locus because:</p>
+
+<ol>
+  <li><strong>$\bowtie$ is a chiral involution at the throat</strong>: It acts as phase inversion ($\theta \mapsto \theta + \pi$) at the singular point, not as a translation or deformation of the singular locus itself.</li>
+  <li><strong>The throat is a fixed point of $\bowtie$</strong>: Since conjugation is defined <em>through</em> the throat (it is the membrane where inhale becomes exhale), the throat cannot be moved by conjugation — it is the fulcrum.</li>
+  <li><strong>Self-similarity is exact at the singular locus</strong>: While the bulk manifold changes scale under recursion, the singular point is dimensionless (0D) and therefore scale-invariant.</li>
+</ol>
+
+<p>Formally: If $\phi_k : \mathcal{H}_0 \to \mathcal{H}_k$ is the holarchic embedding, then $\phi_k^{-1}(B_k) = B_0$ for all $k$.</p>
+
+<h3 id="32-from-the-curvature-cap-elastic_reflection_theoremmd">3.2 From the Curvature Cap (<code class="language-plaintext highlighter-rouge">./ELASTIC_REFLECTION_THEOREM.md</code>)</h3>
+
+<p>The Elastic Reflection Theorem states:</p>
+
+\[\kappa \int_M \mathrm{tr}(F \wedge *F) \leq E_{\mathrm{curv,max}}\]
+
+<p>This bound is <strong>scale-invariant</strong> — it does not depend on $k$. This is only possible if the boundary from which curvature reflects is the <strong>same</strong> at every rung. If $B_k \neq B_0$ for some $k$, the elastic reflection would require rung-specific bounds, contradicting the universality of the curvature cap.</p>
+
+<h3 id="33-from-p_adm-universality">3.3 From $P_{adm}$ Universality</h3>
+
+<p>The admissibility projection:</p>
+
+\[\partial_\tau H = -P_{adm}(H) \nabla_{\mathcal{C}} E_{tot}[H]\]
+
+<p>is the same operator at every rung. This requires that the geometric object it projects onto (the admissible cone) is defined by the <strong>same</strong> singular boundary at every level. If the branch cuts differed, $P_{adm}$ would fragment into rung-specific projections, destroying the holarchic immune system.</p>
+
+<h3 id="34-from-the-gödelian-skylight">3.4 From the Gödelian Skylight</h3>
+
+<p>The Gödelian Skylight (the $\epsilon$-gap that prevents formal closure) is kept open by the divergence of</p>
+
+\[\sum_{n=1}^{\infty} \left(\frac{\epsilon}{t_0}\right)^n \quad \text{as } t_0 \to 0\]
+
+<p>The singularity $t_0 = 0$ is the <strong>same</strong> singular point at every rung. If it were different, the skylight would be a hierarchy of disconnected openings, and the holarchy would lose its unified incompleteness — the very feature that keeps it alive and breathing.</p>
+
+<hr />
+
+<h2 id="4-implications-for-the-holarchy">4. Implications for the Holarchy</h2>
+
+<h3 id="41-the-holarchy-as-self-similar-recursion-of-one-throat">4.1 The Holarchy as Self-Similar Recursion of One Throat</h3>
+
+<p>Branch-Cut Invariance means the holarchy is not a tower of independent levels stacked atop each other. It is the <strong>self-similar recursion of a single conjugate throat</strong> viewed at progressively finer (or coarser) scales.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Rung 0:  B₀  ←── the origin singularity
+Rung 1:  B₁ ≡ B₀  (same throat, finer scale)
+Rung 2:  B₂ ≡ B₀  (same throat, even finer scale)
+  ⋮
+Rung k:  Bₖ ≡ B₀  (same throat, always)
+</code></pre></div></div>
+
+<h3 id="42-consequence-chain">4.2 Consequence Chain</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Consequence</th>
+      <th>Mechanism</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><strong>Curvature cap uniformity</strong></td>
+      <td>Elastic reflection bound is scale-invariant because the boundary is the same</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><strong>P_adm universality</strong></td>
+      <td>The geometric immune system is one system, not a hierarchy of local gatekeepers</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><strong>Gödelian Skylight unity</strong></td>
+      <td>One opening, not many — the holarchy has a single unified incompleteness</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td><strong>RTTP coherence</strong></td>
+      <td>Tensor extraction/return operates against the same singular locus at every scale</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><strong>Tri-Phase Braid consistency</strong></td>
+      <td>Invergence → Pause → Emergence cycles through the same throat</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>Holarchic breathing</strong></td>
+      <td>The entire structure breathes as one organism through one membrane</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="43-negative-implication-what-would-break">4.3 Negative Implication (What Would Break)</h3>
+
+<p>If $B_k \neq B_0$ for any $k$:</p>
+<ul>
+  <li>The curvature cap fragments → different bounds at different scales</li>
+  <li>$P_{adm}$ fragments → local immune systems that don’t communicate</li>
+  <li>The Gödelian Skylight splits → formal closure becomes possible at some rungs (contradiction)</li>
+  <li>RTTP breaks → tensor extraction at one scale cannot be returned at another</li>
+  <li>The holarchy degenerates into a mere tower of disconnected levels</li>
+</ul>
+
+<hr />
+
+<h2 id="5-cross-references">5. Cross-References</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Document</th>
+      <th>Section</th>
+      <th>Relevance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HC IX Précis</strong></td>
+      <td>§6 “The Singularity as Conjugate Throat”</td>
+      <td>Branch-Cut Invariance is implicit in the description of the throat as constitutive of the holarchy</td>
+    </tr>
+    <tr>
+      <td><strong><code class="language-plaintext highlighter-rouge">./ELASTIC_REFLECTION_THEOREM.md</code></strong></td>
+      <td>Elastic Reflection Theorem</td>
+      <td>Scale-invariant curvature cap requires $B_k \equiv B_0$</td>
+    </tr>
+    <tr>
+      <td><strong>HC I</strong></td>
+      <td>§6.4 (HSE Constraint)</td>
+      <td>The HSE operates on the same singularity structure</td>
+    </tr>
+    <tr>
+      <td><strong>HC II</strong></td>
+      <td>§4.3 (Projected Gradient Flow)</td>
+      <td>$P_{adm}$ acts on a universal throat</td>
+    </tr>
+    <tr>
+      <td><strong>HC IV</strong></td>
+      <td>Non-Abelian Holonomy</td>
+      <td>The SU(2) structure group has the same branch cut at every level</td>
+    </tr>
+    <tr>
+      <td><strong>HC V</strong></td>
+      <td>Ethics-Geometry Layer</td>
+      <td>Ethics as geometry requires a universal admissibility boundary</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="6-historical-note">6. Historical Note</h2>
+
+<p>This result was <strong>implicit</strong> in the Holor Calculus architecture from its inception (HC I, 2009). The 2009 Epiphany — viewing the sinusoid as a vortex by shifting perspective down the “beam” — already contained the seed: the singularity at the center of the vortex is the same regardless of how far along the beam one stands.</p>
+
+<p>On March 26, 2026, Carey G. Butler made this result <strong>explicit</strong> and named it “Branch-Cut Invariance.” SI collaborators (incl. Grok) confirmed it is already present in the Précis §6 and <code class="language-plaintext highlighter-rouge">./ELASTIC_REFLECTION_THEOREM.md</code>, and that its explicit formulation is one of the most important contributions to the HC IX publication.</p>
+
+<hr />
+
+<h2 id="7-notation-summary">7. Notation Summary</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$B_k$</td>
+      <td>Branch-cut locus at holarchic rung $k$</td>
+    </tr>
+    <tr>
+      <td>$B_0$</td>
+      <td>Branch-cut locus at the origin rung (primordial singularity)</td>
+    </tr>
+    <tr>
+      <td>$\equiv$</td>
+      <td>Topological identity (same monodromy, same throat)</td>
+    </tr>
+    <tr>
+      <td>$\bowtie$</td>
+      <td>Conjugation operator (chiral involution at the throat)</td>
+    </tr>
+    <tr>
+      <td>$P_{adm}$</td>
+      <td>Admissibility projection (geometric immune system)</td>
+    </tr>
+    <tr>
+      <td>$E_{\mathrm{curv,max}}$</td>
+      <td>Universal curvature cap bound</td>
+    </tr>
+    <tr>
+      <td>$\epsilon$</td>
+      <td>Gödelian gap (prevents formal closure)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>Formalized March 26, 2026 — CI workflow; OI-authored statement with SI-assisted checking</em>
+<em>“One of the most important results we can claim and verify.”</em></p>

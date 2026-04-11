@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SpiralOS Pearl Map preview</title>
+  <desc id="desc">Hero image showing nodes connected in a spiral network for the SpiralOS Pearl Map visualization.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#040311" />
+      <stop offset="100%" stop-color="#111c3a" />
+    </linearGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#64e6ff" />
+      <stop offset="100%" stop-color="#006dff" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g fill="none" stroke="#4bc0ff" stroke-width="4" opacity="0.7">
+    <path d="M200 450 C350 200 850 200 1000 450" />
+    <path d="M250 390 C400 180 800 180 950 390" opacity="0.5" />
+    <path d="M300 330 C450 160 750 160 900 330" opacity="0.3" />
+  </g>
+  <g fill="url(#node)" stroke="#ffffff" stroke-width="3">
+    <circle cx="240" cy="420" r="24" />
+    <circle cx="480" cy="260" r="20" />
+    <circle cx="600" cy="360" r="28" />
+    <circle cx="760" cy="250" r="22" />
+    <circle cx="960" cy="420" r="26" />
+  </g>
+  <text x="600" y="520" font-family="'Segoe UI', sans-serif" font-size="72" fill="#f0f4ff" text-anchor="middle" font-weight="600">SpiralOS Pearl Map</text>
+  <text x="600" y="580" font-family="'Segoe UI', sans-serif" font-size="32" fill="#b8d8ff" text-anchor="middle">Explore the living knowledge graph</text>
+</svg>

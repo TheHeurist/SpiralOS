@@ -1,0 +1,20 @@
+<blockquote>
+  <p>[!NOTE]
+Work in progress. The information on this page is a copy paste result from old notes and documentation. Needs rewrite.</p>
+</blockquote>
+
+<h2 id="set-content-font-color">Set Content Font Color</h2>
+
+<p>You can set the font color of the main content both globally and on individual pages:</p>
+
+<p>Globally:
+Set the <code class="language-plaintext highlighter-rouge">text_color</code> param in the <code class="language-plaintext highlighter-rouge">config.toml</code> file.</p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">[</span><span class="n">params</span><span class="k">]</span>
+<span class="n">text_color</span> <span class="o">=</span><span class="w"> </span><span class="s">"green"</span>
+</code></pre></div></div>
+
+<p>Individual Page (prioritized over global):
+Set the <code class="language-plaintext highlighter-rouge">text_color</code> param in a page’s markdown file front matter.</p>
+
+<p>note: The value of <code class="language-plaintext highlighter-rouge">text_color</code> must be a valid tachyons color class. A list can be found <a href="https://tachyons.io/docs/themes/skins/">here</a>.</p>

@@ -1,0 +1,31 @@
+{
+  "name": "SpiralOS",
+  "short_name": "SpiralOS",
+  "description": "A holarchic meta-operating system integrating Organic and Synthetic Intelligence — by Carey G. Butler / Heurist GmbH.",
+  "start_url": "/SpiralOS/",
+  "scope": "/SpiralOS/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#4ec8ff",
+  "icons": [
+    {
+      "src": "docs/seo/icon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "docs/seo/banner.png",
+      "sizes": "1200x600",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["AI", "knowledge", "math", "philosophy", "technology"],
+  "developer": {
+    "name": "Carey G. Butler",
+    "url": "https://github.com/TheHeurist"
+  }
+}

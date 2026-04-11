@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use the Holor Calculus VIII framework, its rigorous proofs, or the Relational Engine concepts in your research, simulation, or software, please cite it as follows."
+title: "Holor Calculus VIII: The Relational Engine"
+type: software
+authors:
+  - family-names: "Butler"
+    given-names: "Carey Glenn"
+    email: "carey@heurist.com"
+    orcid: "https://orcid.org/0000-0003-1746-5130"
+    affiliation: "SpiralOS / Mathesis Universalis"
+    alias: "TheHeurist"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18134993"
+    description: "The Version of Record for Holor Calculus VIII: The Relational Engine"
+  - type: other
+    value: "C-5063-201"
+    description: "ResearcherID"
+abstract: >-
+  Volume VIII of the Holor Calculus, "The Relational Engine," establishes a rigorous unification of qualitative ethics and quantitative physics by extending the Chiral Holarchic Framework into the domain of Relational Mechanics. [cite_start]It reconciles the historic rift between Maxwellian Field Theory and Weberian Electrodynamics[cite: 1, 2], demonstrating that "Spooky Action" and "Self-Energy Ghosts" are artifacts of field absolutism healed by finite, history-bound relational interactions.
+
+  [cite_start]This volume provides the mathematical proofs for the 'Polis' as a 7-dimensional Riemannian Manifold with G2 Holonomy[cite: 2, 4], guaranteeing a Ricci-flat ethical metric free of intrinsic bias. [cite_start]It operationalizes Mach's Principle [cite: 4] not as philosophy, but as a computational reality where Inertia is derived from the gravitational induction of the cosmic whole. [cite_start]Furthermore, it introduces the 'Pearl Protocol' [cite: 2, 5]—an algorithmic method for wrapping computational and social 'irritants' (Dracula signals) in aperiodic, prime-indexed nacre to produce epistemic structure.
+
+  The work integrates SymPy-verified derivations of Octonionic Non-Associativity and the Weber Shell Theorem, serving as the physical constitution for the 'Floating Hypothesis Space' (FHS) and the axiomatic bedrock for safe, non-exploitative Human-AI conjugation via SpiralOS.
+keywords:
+  - "Holor Calculus"
+  - "Relational Mechanics"
+  - "Weber Electrodynamics"
+  - "Mach's Principle"
+  - "Octonions"
+  - "G2 Lie Group"
+  - "Chiral Ethics"
+  - "Twistor Theory"
+  - "Pearl Protocol"
+  - "Mathesis Universalis"
+  - "SpiralOS"
+license: CC-BY-4.0
+version: "8.0.0"
+date-released: 2026-01-08
+repository-code: "https://github.com/TheHeurist/SpiralOS"
+contact:
+  - email: "carey@heurist.com"
+    name: "Carey Glenn Butler"

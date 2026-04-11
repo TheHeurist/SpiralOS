@@ -1,0 +1,7 @@
+{
+  "@type": "CreativeWork",
+  "name": "CI Watermark",
+  "url": "CI-Watermark.json",
+  "encodingFormat": "application/json",
+  "description": "Immutable CI watermark anchoring authorship and emergence in the SpiralOS Codex."
+}

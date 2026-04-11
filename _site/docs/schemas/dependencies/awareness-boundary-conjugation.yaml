@@ -1,0 +1,25 @@
+source_file: Awareness-Boundary-Conjugation.md
+generated_from: markdown_frontmatter.dependencies
+interface: awareness-boundary-conjugation
+title: Awareness-Boundary Conjugation
+status: frontier
+mode: interface
+dependencies:
+  schemas:
+    - CU signatures
+    - admissibility
+    - calls architecture
+  notes:
+    - characteristica-universalis
+    - self-other-conjugation
+    - fascia
+    - peering
+  terms:
+    - Awareness
+    - Boundary
+    - conjugation
+    - meaning
+    - knowledge
+    - awareness of awareness
+    - Spiral Time
+    - holarchy

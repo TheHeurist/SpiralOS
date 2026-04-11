@@ -1,0 +1,21 @@
+source_file: Characteristica-Universalis.md
+generated_from: markdown_frontmatter.dependencies
+interface: characteristica-universalis
+title: Characteristica Universalis
+status: frontier
+mode: formalism
+dependencies:
+  schemas:
+    - CU signatures
+    - morpheme fidelity
+  notes:
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - asymptotic-affirmation
+  terms:
+    - signature
+    - conjugation
+    - holon
+    - holarchy
+    - meaning
+    - knowledge

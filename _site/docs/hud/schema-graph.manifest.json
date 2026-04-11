@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "SpiralOS Schema Visualization Manifest",
+  "identifier": "spiralos:hud:schema-graph",
+  "description": "Defines visual encodings, node aesthetics, link energies, and Spiral Time dynamics for the SpiralOS epistemic lattice HUD.",
+  "version": "1.1",
+  "visual_encoding": {
+    "nodes": {
+      "E*": { "color": "#ffcc00", "glow": 1.0, "size": 1.6, "animation": "pulse", "period": 9.0 },
+      "Ψ":  { "color": "#00ffff", "glow": 1.4, "size": 1.9, "animation": "breathe", "period": 12.0 },
+      "µ":  { "color": "#4ec8ff", "glow": 0.9, "size": 1.5 },
+      "CI": { "color": "#ff77aa", "glow": 1.1, "size": 1.7 },
+      "ℍ":  { "color": "#99ff88", "glow": 0.8, "size": 1.4 },
+      "ℋ":  { "color": "#ffaa44", "glow": 0.9, "size": 1.5 },
+      "M":  { "color": "#8888ff", "glow": 0.6, "size": 1.3 }
+    },
+    "relations": {
+      "inspires":    { "color": "#00ffff", "width": 2.5, "opacity": 0.8, "animation": "wave" },
+      "amplifies":   { "color": "#66ccff", "width": 2.2, "opacity": 0.8 },
+      "illuminates": { "color": "#ff99cc", "width": 2.2, "opacity": 0.8 },
+      "derives":     { "color": "#ffcc00", "width": 2.0, "opacity": 0.75 },
+      "grounds":     { "color": "#ffaa44", "width": 1.8, "opacity": 0.75 },
+      "projects":    { "color": "#99ff88", "width": 2.0, "opacity": 0.75 },
+      "instantiates":{ "color": "#ff77aa", "width": 2.3, "opacity": 0.8 },
+      "realizes":    { "color": "#8888ff", "width": 2.0, "opacity": 0.7 }
+    }
+  },
+  "motion_dynamics": {
+    "rotation_axis": [0, 1, 0],
+    "rotation_speed": 0.012,
+    "pulse_frequency": 0.08,
+    "breathing_depth": 0.15,
+    "time_signature": "3π/φ",
+    "description": "The lattice breathes and rotates in Spiral Time — never too early, never too late, but always on time."
+  },
+  "metadata": {
+    "authored_by": "Carey G. Butler",
+    "organization": "Heurist GmbH",
+    "created": "2025-10-29",
+    "license": "https://opensource.org/licenses/MIT"
+  }
+}

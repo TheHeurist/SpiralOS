@@ -1,0 +1,95 @@
+/* SpiralOS® — Unified Dark Mode Theme */
+/* Author: Carey G. Butler / Heurist GmbH */
+
+:root {
+  --bg-dark: #000;
+  --bg-panel: rgba(0, 0, 0, 0.45);
+  --text-light: #e4e4e4;
+  --accent: #4ec8ff;
+  --border: #333;
+}
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: radial-gradient(circle at 25% 25%, #121212, #000);
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #111;
+  color: var(--text-light);
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+header h1 {
+  color: var(--accent);
+  margin: 0;
+  padding: 0.7em;
+  font-size: 1.6em;
+}
+
+nav {
+  padding: 0.5em 0 1em 0;
+}
+nav a {
+  color: #bbb;
+  margin: 0 0.8em;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover { color: var(--accent); }
+
+main {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  background: var(--bg-panel);
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+th, td {
+  padding: 0.6em;
+  border-bottom: 1px solid var(--border);
+}
+blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--accent);
+  padding-left: 1em;
+  margin: 1.5em 0;
+}
+
+code, pre {
+  background: #111;
+  border: 1px solid var(--border);
+  padding: 0.3em 0.6em;
+  border-radius: 4px;
+  color: #9cf;
+  overflow-x: auto;
+}
+
+footer {
+  padding: 2em;
+  border-top: 1px solid var(--border);
+  font-size: 0.9em;
+}
+
+@media (max-width: 700px) {
+  nav { display: flex; flex-wrap: wrap; justify-content: center; }
+  main { padding: 1em; }
+  table, th, td { font-size: 0.9em; }
+}
+
+/* SpiralOS Animus — faint pulse effect */
+@keyframes pulse {
+  0%, 100% { color: var(--accent); }
+  50% { color: #9df; }
+}
+h1 span.pulse { animation: pulse 4s infinite ease-in-out; }

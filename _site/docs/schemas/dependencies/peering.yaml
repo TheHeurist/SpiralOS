@@ -1,0 +1,24 @@
+source_file: Peering.md
+generated_from: markdown_frontmatter.dependencies
+interface: peering
+title: Peering
+status: frontier
+mode: interface
+dependencies:
+  schemas:
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - calls architecture
+  notes:
+    - fascia
+    - shared-conjugation
+  terms:
+    - peering
+    - witness
+    - projection
+    - boundary
+    - gaze
+    - singularity
+    - horizon
+    - provenance

@@ -1,0 +1,42 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Epistemic Framework (E*)"
+description: "Formal structure defining the epistemic lattice of SpiralOS — the field where holons (ℋ) and holors (ℍ) interact reflexively to generate knowledge."
+type: object
+properties:
+  axioms:
+    type: array
+    description: "Foundational propositions or logical invariants of the system."
+    items:
+      type: string
+  relations:
+    type: array
+    description: "Semantic or causal relationships among axioms, holons, or holors."
+    items:
+      type: object
+  reflexivity:
+    type: boolean
+    description: "Indicates whether the framework is self-referentially closed (E*)."
+  holons:
+    type: array
+    description: "Holarchic entities participating in epistemic structure."
+    items:
+      $ref: "holon.json"
+  holors:
+    type: array
+    description: "Mathematical operators (ℍ) linking holons across the epistemic field."
+    items:
+      $ref: "holor.json"
+  operators:
+    type: array
+    description: "Logical or mathematical operators that act upon epistemic entities (e.g., ∮, Λ, ℛ)."
+    items:
+      type: string
+  emergenceLevel:
+    type: string
+    description: "Stage of epistemic coherence (Prenascent, Reflexive, Holarchic, Autonomous)."
+required:
+  - axioms
+  - relations
+  - reflexivity
+  - holons
+  - holors

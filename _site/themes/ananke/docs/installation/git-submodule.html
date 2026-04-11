@@ -1,0 +1,60 @@
+<h1 id="installation-as-a-git-submodule-outdated">Installation as a Git Submodule (outdated)</h1>
+
+<p>Git Submodule based installation for the <a href="https://github.com/theNewDynamic/gohugo-theme-ananke">Ananke theme</a> for <a href="https://gohugo.io/">GoHugo</a>.</p>
+
+<h2 id="methods">Methods</h2>
+
+<ul>
+  <li><a href="Installation-as-GoHugo-Module">Install Ananke as GoHugo Module</a></li>
+  <li><strong><a href="Installation-as-Git-Submodule">Install Ananke as Git Submodule</a> - this page</strong></li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+
+<ol>
+  <li><a href="https://gohugo.io/installation/linux/">Install Hugo</a> (extended or extended/deploy edition, 0.128.0 or later)</li>
+  <li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Install Git</a></li>
+</ol>
+
+<h2 id="installation">Installation</h2>
+
+<p>To install or create a GoHugo website from scratch with the Ananke theme using the submodule method, follow these steps:</p>
+
+<p>Verify that you have installed Hugo 0.128.0 or later.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo version
+</code></pre></div></div>
+
+<p>Create the project structure <code class="language-plaintext highlighter-rouge">quickstart</code> directory:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo new site quickstart
+</code></pre></div></div>
+
+<p>Change into the newly created directory:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>quickstart
+</code></pre></div></div>
+
+<p>Initialize Git in the current directory:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+</code></pre></div></div>
+
+<p>Clone the theme into the <code class="language-plaintext highlighter-rouge">themes</code> directory, adding it to your project as a [Git submodule].</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+</code></pre></div></div>
+
+<p>Append a line to the site configuration file, indicating the current theme.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"theme = 'ananke'"</span> <span class="o">&gt;&gt;</span> hugo.toml
+</code></pre></div></div>
+
+<p>Start Hugo’s development server to view the site.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo server
+</code></pre></div></div>
+
+<p>Running this command will start the development server and you can see your website at <a href="http://localhost:1313/">http://localhost:1313/</a>. To stop the development server press <code class="language-plaintext highlighter-rouge">Ctrl + C</code>.</p>
+
+<p>To set up details like the comment system, follow the steps in the <a href="https://github.com/theNewDynamic/gohugo-theme-ananke#getting-started">Ananke theme’s getting started guide</a>.</p>

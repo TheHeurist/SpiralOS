@@ -1,0 +1,33 @@
+<p>The reading time displayed in <code class="language-plaintext highlighter-rouge">layouts/_default/single.html</code> can now be configured via a <code class="language-plaintext highlighter-rouge">reading_speed</code> parameter, instead of always using Hugo’s computed <code class="language-plaintext highlighter-rouge">.ReadingTime</code>. (<a href="https://github.com/theNewDynamic/gohugo-theme-ananke/commit/39e2145985954eac07dd343a456f5696c8f9e9d6" title="theme(fix): add configurability to reading time display · theNewDynamic/gohugo-theme-ananke@39e2145 · GitHub">GitHub</a>)</p>
+
+<ul>
+  <li>The theme still only shows reading time when <code class="language-plaintext highlighter-rouge">show_reading_time = true</code> is enabled (page param or section param). (<a href="https://github.com/theNewDynamic/gohugo-theme-ananke/commit/39e2145985954eac07dd343a456f5696c8f9e9d6" title="theme(fix): add configurability to reading time display · theNewDynamic/gohugo-theme-ananke@39e2145 · GitHub">GitHub</a>)</li>
+  <li>
+    <p>The displayed value is now computed like this:</p>
+
+    <ul>
+      <li>Default (no config): use Hugo’s <code class="language-plaintext highlighter-rouge">.ReadingTime</code> as before. (<a href="https://github.com/theNewDynamic/gohugo-theme-ananke/commit/39e2145985954eac07dd343a456f5696c8f9e9d6" title="theme(fix): add configurability to reading time display · theNewDynamic/gohugo-theme-ananke@39e2145 · GitHub">GitHub</a>)</li>
+      <li>With config: compute reading time as <code class="language-plaintext highlighter-rouge">ceil(WordCount / .Site.Params.reading_speed)</code> and pass the resulting integer into the existing <code class="language-plaintext highlighter-rouge">readingTime</code> i18n string. (<a href="https://github.com/theNewDynamic/gohugo-theme-ananke/commit/39e2145985954eac07dd343a456f5696c8f9e9d6" title="theme(fix): add configurability to reading time display · theNewDynamic/gohugo-theme-ananke@39e2145 · GitHub">GitHub</a>)</li>
+    </ul>
+  </li>
+  <li>This follows the approach described in GoHugo’s <code class="language-plaintext highlighter-rouge">ReadingTime</code> documentation, including the multilingual use case. (<a href="https://gohugo.io/methods/page/readingtime/" title="ReadingTime">gohugo.io</a>)</li>
+</ul>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>You can set <code class="language-plaintext highlighter-rouge">reading_speed</code> globally or per language. In multilingual sites, the recommended approach is language-specific <code class="language-plaintext highlighter-rouge">params.reading_speed</code>. (<a href="https://gohugo.io/methods/page/readingtime/" title="ReadingTime">gohugo.io</a>)</p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">[</span><span class="n">languages</span><span class="k">]</span>
+  <span class="k">[</span><span class="n">languages</span><span class="k">.</span><span class="n">en</span><span class="k">.</span><span class="n">params</span><span class="k">]</span>
+    <span class="n">reading_speed</span> <span class="o">=</span><span class="w"> </span><span class="mi">228</span>
+  <span class="k">[</span><span class="n">languages</span><span class="k">.</span><span class="n">de</span><span class="k">.</span><span class="n">params</span><span class="k">]</span>
+    <span class="n">reading_speed</span> <span class="o">=</span><span class="w"> </span><span class="mi">179</span>
+</code></pre></div></div>
+
+<h2 id="notes">Notes</h2>
+
+<ul>
+  <li>GoHugo’s default assumption is 212 words per minute (and 500 for CJK languages) when using <code class="language-plaintext highlighter-rouge">.ReadingTime</code>; setting <code class="language-plaintext highlighter-rouge">reading_speed</code> lets you align the displayed value with your own targets per language. (<a href="https://gohugo.io/methods/page/readingtime/" title="ReadingTime">gohugo.io</a>)</li>
+  <li>PR #801 proposed this feature for language params; the final implementation landed via commit <code class="language-plaintext highlighter-rouge">39e2145</code> (referencing #801) and applies the <code class="language-plaintext highlighter-rouge">reading_speed</code> override through <code class="language-plaintext highlighter-rouge">.Site.Params.reading_speed</code>. (<a href="https://github.com/theNewDynamic/gohugo-theme-ananke/pull/801" title="Support reading_speed language param in single.html by D14rn · Pull Request #801 · theNewDynamic/gohugo-theme-ananke · GitHub">GitHub</a>)</li>
+</ul>
+

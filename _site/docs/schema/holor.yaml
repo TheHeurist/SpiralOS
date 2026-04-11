@@ -1,0 +1,31 @@
+$schema: "https://json-schema.org/draft/2020-12/schema"
+title: "Holor (ℍ)"
+description: "Defines the holarchic mathematical entity — a multidimensional operator uniting holons within the epistemic lattice."
+type: object
+properties:
+  signature:
+    type: string
+    description: "Unique holor signature (ℍₙ) corresponding to its holarchic layer or lattice index."
+  rank:
+    type: integer
+    description: "Dimensional order of the holor (scalar, vector, tensor, etc.)."
+  domain:
+    type: string
+    description: "Mathematical space or epistemic manifold the holor acts upon."
+  operator:
+    type: string
+    description: "Functional operator associated with the holor (e.g., ∇ℍ, Λ, ℛ)."
+  components:
+    type: array
+    description: "Constituent tensors or holons composing the holor."
+    items:
+      type: string
+  transformations:
+    type: array
+    description: "Allowed morphisms or reflexive operations within the holor’s manifold."
+    items:
+      type: string
+required:
+  - signature
+  - rank
+  - domain

@@ -1,0 +1,47 @@
+<h2 id="installing-the-ananke-theme-for-hugo">Installing the Ananke Theme for Hugo</h2>
+
+<blockquote>
+  <p>[!NOTE]
+This post was published and might have updates at <a href="https://kollitsch.dev/posts/installing-ananke-theme-hugo/">kollitsch.dev</a></p>
+</blockquote>
+
+<p>If you’re following the <a href="https://gohugo.io/getting-started/quick-start/">Hugo Quickstart guide</a>, you’ll notice that it currently recommends installing the Ananke theme as a <strong>Git submodule</strong>. While this is a valid approach, Hugo also offers a more powerful alternative: <strong>Hugo Modules</strong>, which leverage Go’s module system for better dependency management.</p>
+
+<p>There are two primary ways to install Ananke:</p>
+
+<ol>
+  <li><strong>Hugo Module</strong> — Uses Hugo’s built-in Go module system to fetch and manage the theme as a package.</li>
+  <li><strong>Git Submodule</strong> <em>(Legacy Method)</em> — Links the theme repository as a submodule inside your Hugo project.</li>
+</ol>
+
+<h3 id="comparison-hugo-module-vs-git-submodule">Comparison: Hugo Module vs. Git Submodule</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Pros</th>
+      <th>Cons</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="Installation-as-GoHugo-Module"><strong>Hugo Module</strong></a> <em>(Preferred)</em></td>
+      <td>Easier version management, automatic updates, better integration</td>
+      <td>Requires Go installed and initial setup</td>
+    </tr>
+    <tr>
+      <td><a href="Installation-as-Git-Submodule"><strong>Git Submodule</strong></a> <em>(Legacy Method)</em></td>
+      <td>Simple if you’re already using Git</td>
+      <td>Requires manual updates, can be tricky with Git workflows</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Recommendation:</strong> The <strong>Hugo Module approach is preferred</strong>, as it provides a more flexible and future-proof way to manage themes.</p>
+
+<p>For step-by-step installation instructions, refer to these <strong>work-in-progress</strong> sample repositories:</p>
+<ul>
+  <li><strong>Hugo Module installation (preferred):</strong> <a href="https://github.com/davidsneighbour/gohugo-theme-ananke-template-mod">gohugo-theme-ananke-template-mod</a></li>
+  <li><strong>Git Submodule installation (Legacy Method):</strong> <a href="https://github.com/davidsneighbour/gohugo-theme-ananke-template-submod">gohugo-theme-ananke-template-submod</a></li>
+</ul>

@@ -1,0 +1,8 @@
+{
+  "include": [
+    "docs/schema/*.json",
+    "docs/philosophy/*.jsonld",
+    "docs/hud/schema-graph.yaml"
+  ],
+  "output": "docs/PROVENANCE.FINGERPRINTS.json"
+}

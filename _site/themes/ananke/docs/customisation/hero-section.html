@@ -1,0 +1,37 @@
+<blockquote>
+  <p>[!NOTE]
+Work in progress. The information on this page is a copy paste result from old notes and documentation. Needs rewrite.</p>
+</blockquote>
+
+<h2 id="change-the-hero-background">Change the hero background</h2>
+
+<p>For any page or post you can add a featured image by including the local path in front matter (see content in the <code class="language-plaintext highlighter-rouge">exampleSite/content/en/_readme.md</code> file for examples): <code class="language-plaintext highlighter-rouge">featured_image = '/images/gohugo-default-sample-hero-image.jpg'</code></p>
+
+<h2 id="featured-image-as-page-resources">Featured image as Page Resources</h2>
+
+<p>If user is using <a href="https://gohugo.io/content-management/page-resources/">Page Resources</a>, the theme will try and match the <code class="language-plaintext highlighter-rouge">featured_image</code> from with a page resource of type <code class="language-plaintext highlighter-rouge">image</code> and use its relative permalink. If no <code class="language-plaintext highlighter-rouge">featured_image</code> is set, the theme will look for a Page Resource of type <code class="language-plaintext highlighter-rouge">image</code> whose filepath includes either <code class="language-plaintext highlighter-rouge">cover</code> or <code class="language-plaintext highlighter-rouge">feature</code></p>
+
+<h2 id="other-hero-settings">Other hero settings</h2>
+
+<p>If you would like to hide the header text on the featured image on a page, set <code class="language-plaintext highlighter-rouge">omit_header_text</code> to <code class="language-plaintext highlighter-rouge">true</code>. See <code class="language-plaintext highlighter-rouge">exampleSite/content/en/contact.md</code> for an example.</p>
+
+<p>You don’t need an image though. The default background color is black, but you can change the color, by changing the default color class in the config.toml file. Choose a background color from any on the <a href="https://tachyons.io/docs/themes/skins/">Tachyons</a> library site, and preface it with “bg-“</p>
+
+<p>example: <code class="language-plaintext highlighter-rouge">background_color_class = "bg-blue"</code> or <code class="language-plaintext highlighter-rouge">background_color_class = "bg-gray"</code></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>The default fitting and alignment for the featured image is <code class="language-plaintext highlighter-rouge">cover bg-top</code>, but can be changed using the <code class="language-plaintext highlighter-rouge">featured_image_class</code>.  Choose a fitting and alignment style for the featured image using Tachyons classes such as “cover</td>
+      <td>contain” for fitting and “bg-top</td>
+      <td>bg-center</td>
+      <td>bg-bottom” for alignment.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>example: <code class="language-plaintext highlighter-rouge">featured_image_class = "cover bg-center"</code> or <code class="language-plaintext highlighter-rouge">featured_image_class = "contain bg-top"</code></p>
+
+<p>The default cover backdrop for the featured image is <code class="language-plaintext highlighter-rouge">bg-black-60</code>, but can be changed using the <code class="language-plaintext highlighter-rouge">cover_dimming_class</code>.  Choose a color dimming class for the page or site header from any on the <a href="https://tachyons.io/docs/themes/skins/">Tachyons</a> library site, preface it with “bg-“ and add the value such as “-X0” where X is in [1,9]</p>
+
+<p>example: <code class="language-plaintext highlighter-rouge">cover_dimming_class = "bg-black-20"</code> or <code class="language-plaintext highlighter-rouge">cover_dimming_class = "bg-white-40"</code></p>

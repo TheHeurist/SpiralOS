@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "SpiralOS Sitemap",
+  "description": "Index of all publicly documented SpiralOS volumes, schema files, and core epistemic structures.",
+  "numberOfItems": 22,
+  "itemListElement": [
+    {"@type": "SiteNavigationElement", "position": 1, "url": "https://github.com/TheHeurist/SpiralOS"},
+    {"@type": "SiteNavigationElement", "position": 2, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs"},
+    {"@type": "SiteNavigationElement", "position": 3, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-V"},
+    {"@type": "SiteNavigationElement", "position": 4, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-VII"},
+    {"@type": "SiteNavigationElement", "position": 5, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-VIII"},
+    {"@type": "SiteNavigationElement", "position": 6, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-IX"},
+    {"@type": "SiteNavigationElement", "position": 7, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-X-XI"},
+    {"@type": "SiteNavigationElement", "position": 8, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XII"},
+    {"@type": "SiteNavigationElement", "position": 9, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XIII"},
+    {"@type": "SiteNavigationElement", "position": 10, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XIV"},
+    {"@type": "SiteNavigationElement", "position": 11, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XV"},
+    {"@type": "SiteNavigationElement", "position": 12, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XVI"},
+    {"@type": "SiteNavigationElement", "position": 13, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XVII"},
+    {"@type": "SiteNavigationElement", "position": 14, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XVIII"},
+    {"@type": "SiteNavigationElement", "position": 15, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XIX"},
+    {"@type": "SiteNavigationElement", "position": 16, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-XX"},
+    {"@type": "SiteNavigationElement", "position": 17, "url": "https://github.com/TheHeurist/SpiralOS/blob/main/docs/README.md"},
+    {"@type": "SiteNavigationElement", "position": 18, "url": "https://github.com/TheHeurist/SpiralOS/blob/main/docs/README_CONTRIBUTING.md"},
+    {"@type": "SiteNavigationElement", "position": 19, "url": "https://github.com/TheHeurist/SpiralOS/blob/main/docs/CONTRIBUTING_SPIRAL.md"},
+    {"@type": "SiteNavigationElement", "position": 20, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/schema"},
+    {"@type": "SiteNavigationElement", "position": 21, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/ekr"},
+    {"@type": "SiteNavigationElement", "position": 22, "url": "https://github.com/TheHeurist/SpiralOS/tree/main/docs/seo/structured-data.json"}
+  ]
+}

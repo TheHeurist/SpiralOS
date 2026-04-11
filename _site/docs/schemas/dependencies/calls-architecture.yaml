@@ -1,0 +1,25 @@
+source_file: Calls-Architecture-v01.md
+generated_from: markdown_frontmatter.dependencies
+interface: calls-architecture
+title: Calls Architecture v0.1
+status: frontier
+mode: interface
+dependencies:
+  schemas:
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - admissibility
+  notes:
+    - fascia
+    - peering
+    - shared-conjugation
+  terms:
+    - call
+    - invitation
+    - return
+    - refusal
+    - provenance
+    - horizon
+    - braid
+    - field
