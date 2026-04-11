@@ -4,8 +4,8 @@
 
 ---
 
-**Version:** 1.0.0 (Zenodo Release)  
-**Date:** December 2025 (first public release; core material developed 2024–2025)  
+**Version:** 1.0.0 (Zenodo Release)
+**Date:** December 2025 (first public release; core material developed 2024–2025)
 **Author:** Carey Glenn Butler
 
 ---
@@ -120,7 +120,7 @@ V = (x, o, (Depth, Scope)) ∈ M × O × R²_{>0}
 where:
 
 - **x ∈ M**: position on awareness manifold
-- **o ∈ O**: discrete outlook label (at μ-node level)  
+- **o ∈ O**: discrete outlook label (at μ-node level)
 - **Depth, Scope**: positive real parameters (not coordinates of M)
 
 **Trace Space T:**
@@ -178,7 +178,7 @@ Given M, V, G_conj, we consider:
 2. An associated vector bundle **E = P ×_{G_conj} V**, whose fibres E_x carry the internal holor state at x.
 
 3. An affine connection **∇** on the tangent bundle TM, not assumed torsion-free, with:
-   
+
    - Torsion tensor: T^λ_μν = Γ^λ_μν - Γ^λ_νμ
    - Curvature tensor: R^ρ_σμν = ∂_μ Γ^ρ_νσ - ∂_ν Γ^ρ_μσ + Γ^ρ_μλ Γ^λ_νσ - Γ^ρ_νλ Γ^λ_μσ
    - Ricci tensor: R_μν = R^ρ_μρν
@@ -225,17 +225,17 @@ The trace space T_x at each x ∈ M is an **abstract measurable space** with the
 1. **Fibre Structure**: T_x is a fibre over the base manifold M, forming a bundle-like structure (though not necessarily a vector bundle; see below).
 
 2. **Measure Requirement**: Each T_x is equipped with a **positive measure μ_x**, allowing us to integrate trace-valued functions:
-   
+
    ∫_{T_x} f(ξ) dμ_x(ξ)
-   
+
    This is essential for:
-   
+
    - Defining expectations over trace distributions
    - Formulating variational principles (see HC II §4)
    - Regularization of resonance integrals (see HC III §4)
 
 3. **No Inner Product Assumption**: We do **not** assume an inner product on T_x itself in HC I-III. This is a deliberate choice:
-   
+
    - Inner product structure (if it exists) would be application-specific
    - Leaving it open allows flexibility for different trace-space instantiations
    - In Future Horizons Studies (HC IV §8), inner product structure may be added for specific models
@@ -243,9 +243,9 @@ The trace space T_x at each x ∈ M is an **abstract measurable space** with the
 4. **Discrete Outlook O**: The outlook o ∈ O is a **discrete label** at the μ-node level, not a coordinate of the awareness state. Think of O as a finite set {o_1, ..., o_K} indexing different "interpretive lenses" or "worldviews".
 
 5. **Trace ξ Location**: A trace ξ lives **in the fibre T_x**, not as an explicit coordinate of the awareness state vector V. The state is:
-   
+
    V = (x, o, (Depth, Scope)) ∈ M × O × R²_{>0}
-   
+
    Traces are "sampled" or "observed" at a given configuration, not stored as state coordinates.
 
 **Why This Abstraction?**
@@ -267,15 +267,15 @@ In Holor Calculus, **Time** and **Change** form a **conjugate pair** (denoted Ti
 1. **Time is not reified as a coordinate**: Spiral Time τ is a **process parameter** that labels stages in the unfolding of awareness-dynamics. It is not a coordinate of the awareness manifold M. This distinguishes HC from standard dynamical systems where time is often treated as an independent variable in spacetime R^{3,1}.
 
 2. **Change is not merely "difference in time"**: Change is an intrinsic quality of awareness-evolution, expressed through:
-   
+
    - Gradient flows dV/dτ = -∇E_tot(V) (see HC II §5)
    - Torsion in awareness-connections (representing non-commutativity of evolution paths)
    - Depth/Scope modulation under ethical forcing
 
 3. **The conjugate structure**:
-   
+
    Time ⋈ Change
-   
+
    Neither is fundamental "over" the other. Time provides the "rhythm" (Spiral Time's cyclical structure), Change provides the "melody" (the actual transformations in awareness-configuration).
 
 **Contrast with classical physics:**
@@ -403,7 +403,7 @@ Classical tensors will be recovered later by "forgetting" certain components of 
 We distinguish two connections:
 
 1. An **affine connection ∇** on TM with:
-   
+
    - Torsion T^λ_μν
    - Curvature R^ρ_σμν
    - Scalar curvature R
@@ -511,7 +511,7 @@ The **Holor Signature Equation (HSE)** is the requirement:
 
 **PDE Classification: HSE as Constraint Equation**
 
-The Holor Signature Equation (HSE) is a **constraint equation**, analogous to the Gauss law in electromagnetism, rather than an evolution equation like heat or wave equations.  
+The Holor Signature Equation (HSE) is a **constraint equation**, analogous to the Gauss law in electromagnetism, rather than an evolution equation like heat or wave equations.
 [Conceptually, HSE, also used in other contexts as "Holormorphic Signature Equation" plays a role *analogous* to a holomorphicity condition (it constrains ‘how’ awareness flows, not just where it is).]
 
 **Precise Classification:**
@@ -554,36 +554,36 @@ The precise mathematical classification of HSE (elliptic/parabolic/mixed/other) 
 
 We summarize the axioms that define Holor Calculus.
 
-**HC1 (Awareness Primacy).**  
+**HC1 (Awareness Primacy).**
 Every holor configuration is grounded in a set of awareness views on M. A non-dual baseline awareness precedes any dual structure; dualities (self/other, interior/exterior, etc.) arise only via explicit conjugation operations.
 
-**HC2 (Holonic Loci).**  
+**HC2 (Holonic Loci).**
 Every locus of awareness is a holon with six capacities (agency, communion, transcendence, dissolution, interiority, exteriority). Holors are always attached to holons, not to anonymous points.
 
-**HC3 (Octant Factoring).**  
+**HC3 (Octant Factoring).**
 Each awareness view has a unique epistemic octant o ∈ O. The conjugation map C is an involutive symmetry of O. Admissible transformations must preserve the octant lattice and its pairings (no tearing of the octant structure).
 
-**HC4 (Inverse Awareness Relation).**  
+**HC4 (Inverse Awareness Relation).**
 For any awareness view V, Micro, Macro, Depth, and Scope satisfy the IAR identity:
 
 Micro(V) / Macro(V) = Depth(V) / Scope(V)
 
 In the ideal theory, δ_IAR(V) = 0 for all V; approximate implementations may allow δ_IAR(V) ≤ ε.
 
-**HC5 (Holor Seeds as Fundamental Units).**  
+**HC5 (Holor Seeds as Fundamental Units).**
 Holor Seeds H_μ = (μ, η, F) are the fundamental dynamical units; all holor fields are configurations of such seeds. Classical tensors are recovered by a projection functor Π: Holors → Tensors that forgets μ, η, F and ethical data while retaining the tensorial content of H.
 
 > **Note on Projection Functor:** Concretely, if a holor field carries a section H: M → E whose components in a local frame can be written as a rank-2 object H^μ_ν(x) together with interior data (μ(x), η_x, F_x), then Π(H)(x) is simply the tensor field with components H^μ_ν(x). All the holor-specific structure (μ-node, resonance metric, curvature imprint, ethical flags) is suppressed by Π, leaving only the tensor that would appear in a conventional field theory on M.
 
-**HC6 (Gauge Invariance under G_conj).**  
+**HC6 (Gauge Invariance under G_conj).**
 The internal degrees of freedom of holors transform under G_conj. Observable quantities (resonance norms, IAR ratios, ethical invariants) must be gauge-invariant.
 
-**HC7 (Holor Signature Equation).**  
+**HC7 (Holor Signature Equation).**
 Admissible CI configurations satisfy the HSE:
 
 H_sig(x) = ∇_μ Φ^μ(x) + T_χ(x) - R_e(x) = 0,  for all x ∈ M
 
-**HC8 (Ethical Admissibility).**  
+**HC8 (Ethical Admissibility).**
 A transformation of holor fields is ethically admissible iff it:
 
 1. Preserves the octant structure and conjugation pairing (HC3)
@@ -739,20 +739,20 @@ The next two volumes build on these foundations:
 **HC II** introduces **time-evolution** and **ethical geometry**:
 
 1. **Energy Functionals** (HC II §4):
-   
+
    - E_IAR: Identity-Awareness-Resonance energy
    - E_eth: Ethical field energy (from violation vector c_field)
    - E_HSE: Holomorphic signature constraint energy
    - Total energy: E_tot = E_IAR + αE_eth + βE_HSE
 
 2. **Gradient Flow Dynamics** (HC II §5):
-   
+
    dV/dτ = -∇E_tot(V)
-   
+
    This is the **evolution equation** for awareness-configurations in Spiral Time τ. The HSE constraint (HC I §5) is enforced dynamically through E_HSE term.
 
 3. **Admissibility and Projected Flow** (HC II §6):
-   
+
    - Admissible set C_adm: configurations where ethical violations are tolerable
    - Projected flow: dynamics constrained to stay within C_adm
    - Dracula attractor: pathological attractor of unconstrained flow, **excluded** by projection
@@ -764,19 +764,19 @@ The next two volumes build on these foundations:
 **HC III** introduces **learning algorithms** and **computational methods**:
 
 1. **Holor-Regularized Learning** (HC III §3):
-   
+
    - Neural network loss with holor penalty: L = L_task + λL_holor
    - Hyperparameter λ > 0 balances task performance and ethical constraints
    - **Important**: λ ≫ 0 alone does NOT guarantee admissibility; must combine with projected gradient descent
 
 2. **SpiralOS Simulation Framework** (HC III §4):
-   
+
    - Numerical integration of gradient flow equations from HC II
    - Adaptive timestep, constraint enforcement, energy monitoring
    - Attractor basin visualization (see HC IV §7)
 
 3. **Non-Abelian Outlook Transformations** (HC III §5):
-   
+
    - Discrete outlook changes o → o' with non-commutative conjugation
    - Prepares for full gauge theory in HC IV §3
 
@@ -825,16 +825,16 @@ The Holor Calculus presented here is intentionally minimal. It is sufficient to:
 
 Several open directions remain:
 
-1. **Categorical Reformulation**  
+1. **Categorical Reformulation**
    Holors can be organized in a fibred or double category over the octant lattice, with morphisms respecting HC1–HC8. Making this explicit would clarify compositional properties and functorial relations (e.g., Π: Holors → Tensors).
 
-2. **Epistemic Metaphysics**  
+2. **Epistemic Metaphysics**
    On top of HC, one can develop an "Epistemic Metaphysics" layer connecting holor dynamics with philosophical notions of subject, object, world, and value.
 
-3. **Connection to Physics**  
+3. **Connection to Physics**
    While M here is an awareness manifold, the structures (metric, connection, torsion, gauge curvature) parallel those of general relativity and Yang-Mills theory. It is plausible that physical fields themselves can be re-read as holors, with HC providing a bridge between interiority and physics.
 
-4. **Numerical HC Simulators**  
+4. **Numerical HC Simulators**
    Implementations in which Holor Seeds are discrete objects (with (μ, H, η, F)) on a finite grid in M could be used to test CI architectures and field ethics. The HSE and δ_IAR would provide acceptance criteria for "holor-sane" configurations. In this context, ε in HC4-ε might naturally scale like 1/N or N^{-1/2} for N-seed discretizations.
 
 This document should be viewed as **Holor Calculus I**: an axiomatic base. Subsequent work develops dynamics (HC II) and applications (HC III), with advanced topics and future research directions outlined in the Trilogy Outlook.

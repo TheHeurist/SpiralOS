@@ -33,19 +33,19 @@ Definition: $[a, b, c] = (ab)c - a(bc)$.
 ### **Path A: Group First $((e_2 e_4) e_7)$**
 
 1. **Inner Product:** $e_2 e_4$.
-   
+
    - Line $(1,2,4)$. Cycle is $1 \to 2 \to 4$.
-   
+
    - $2 \to 4$ is cyclic.
-   
+
    - $e_2 e_4 = e_1$.
 
 2. **Outer Product:** $e_1 e_7$.
-   
+
    - Line $(7,1,3)$. Cycle is $7 \to 1 \to 3$.
-   
+
    - $1 \to 7$ is anti-cyclic.
-   
+
    - $e_1 e_7 = -e_3$.
 
 3. **Result A:** $\mathbf{-e_3}$.
@@ -53,19 +53,19 @@ Definition: $[a, b, c] = (ab)c - a(bc)$.
 ### **Path B: Self First $(e_2 (e_4 e_7))$**
 
 1. **Inner Product:** $e_4 e_7$.
-   
+
    - Line $(4,5,7)$. Cycle is $4 \to 5 \to 7$.
-   
+
    - $4 \to 7$ skips 5. $4 \to 7$ is anti-cyclic (since $7 \to 4 \to 5$ would be cyclic? No, $4 \to 5 \to 7$ is the order. $e_4 e_5=e_7, e_5 e_7=e_4, e_7 e_4=e_5$. Thus $e_4 e_7 = -e_5$).
-   
+
    - $e_4 e_7 = -e_5$.
 
 2. **Outer Product:** $e_2 (-e_5) = -(e_2 e_5)$.
-   
+
    - Line $(2,3,5)$. Cycle is $2 \to 3 \to 5$.
-   
+
    - $2 \to 5$ is anti-cyclic ($2 \to 3 \to 5$ implies $e_2 e_3=e_5$, etc. $e_2 e_5 = -e_3$).
-   
+
    - $-( -e_3 ) = e_3$.
 
 3. **Result B:** $\mathbf{e_3}$.
@@ -95,7 +95,7 @@ Definition: $a(ab) - a^2 b$.
 2. **Term 2:** $a^2 b = -\lambda b$.
 
 3. **Term 1:** $a(ab)$. By the **Jordan Identity** for Octonions (which form an alternative algebra), $a(ab) = a^2 b$.
-   
+
    - *Explicit Expansion:* Using the Moufang identities, $a(ab) = (aa)b$.
 
 4. **Result:** $(aa)b - a^2 b = 0$.

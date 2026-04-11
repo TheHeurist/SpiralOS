@@ -1,7 +1,7 @@
 # HC IX Glossary Archive
 
-**Status**: ✅ **COMPLETE** (v1.5)  
-**Last Updated**: 2026-02-25  
+**Status**: ✅ **COMPLETE** (v1.5)
+**Last Updated**: 2026-02-25
 **Total Size**: 6.8 MB (23 files)
 
 ## Publication Metadata
@@ -70,8 +70,8 @@ HC_IX_GLOSSARY/
 
 ## Publication Status
 
-**Ready for Zenodo**: Yes  
-**Target**: Phase 1 - Glossary publication  
+**Ready for Zenodo**: Yes
+**Target**: Phase 1 - Glossary publication
 **Dependencies**: None - self-contained archive
 
 ## References

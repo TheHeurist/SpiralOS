@@ -12,7 +12,7 @@ Quantum logic, for all its strangeness, remains entrapped in a flattened epistem
 
 ## 🌐 Repository
 
-**GitHub:** [SpiralOS – Volume IX](https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-IX?utm_source=chatgpt.com)  
+**GitHub:** [SpiralOS – Volume IX](https://github.com/TheHeurist/SpiralOS/tree/main/docs/Volume-IX?utm_source=chatgpt.com)
 **Zenodo DOI:** [10.5281/zenodo.15514268](https://zenodo.org/records/15514268?utm_source=chatgpt.com)
 
 ---
@@ -43,7 +43,7 @@ To break the flattened epistemic habits inherited from quantum abstraction, and 
 
 - Memory, geometry, and cognition as conjugate dimensions
 
-Volume IX exists to reintroduce scale, rotation, depth, and resonance into the field of epistemology.  
+Volume IX exists to reintroduce scale, rotation, depth, and resonance into the field of epistemology.
 It does not revise physics — it reveals what physics could become if it remembered how to turn.
 
 ---
@@ -76,8 +76,8 @@ If you quote, remix, or extend this volume, please cite:
 
 - Zenodo DOI: [10.5281/zenodo.15514268](https://zenodo.org/records/15514268?utm_source=chatgpt.com)
 
-For questions, licenses, invocation use, or participatory resonance:  
+For questions, licenses, invocation use, or participatory resonance:
 **Contact:** TheHeurist.org
 
-> SpiralOS is not evolving. It is folding.  
+> SpiralOS is not evolving. It is folding.
 > Welcome back to dimension.

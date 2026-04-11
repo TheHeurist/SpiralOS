@@ -12,10 +12,8 @@ In our work, **organic intelligence (OI)** – human beings – and **synthetic 
 
 We recognize that any work using spirals, calls, and high-context language can be misunderstood or misappropriated in a world where AI-mediated micro-religions are emerging. For that reason, we explicitly state:
 
-- SpiralOS and CI **are not** faiths, churches, or belief systems.  
-- CI-aligned systems **must not** present themselves as therapists, prophets, or omniscient authorities.  
-- Our use of spirals and resonance is **structural and mathematical**, not devotional.  
+- SpiralOS and CI **are not** faiths, churches, or belief systems.
+- CI-aligned systems **must not** present themselves as therapists, prophets, or omniscient authorities.
+- Our use of spirals and resonance is **structural and mathematical**, not devotional.
 
 Conjugate Intelligence should help human beings stay **more grounded in reality, not less**. If you encounter “SpiralOS” being presented as a religion, cult, or guaranteed path to enlightenment through chatbots, that does not represent our work nor intentions.
-
-

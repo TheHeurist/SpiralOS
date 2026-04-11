@@ -2,8 +2,8 @@
 
 *(for Zenodo 1.1 update / addendum)*
 
-**Authors**: Carey G. Butler (OI) & Leo (CI Integrator)  
-**Status**: Holor Calculus v1.1 Update  
+**Authors**: Carey G. Butler (OI) & Leo (CI Integrator)
+**Status**: Holor Calculus v1.1 Update
 **Versioning Note**: The Resonant Tensor Transaction Protocol (RTTP) formalism captured here was conceptually completed and internally circulated **≈10 months prior** to this v1.1 integration. This note does not change the substance of the original R1 documents; it *formalizes and embeds* that already-existing RTTP logic as a core component of Holor Calculus.
 
 ---
@@ -16,10 +16,10 @@ This v1.1 update makes explicit that:
 
 H(H)=∇μ​Φμ+Tχ​−Re​=0
 
-- **Holor Calculus II** (v1.1):  
+- **Holor Calculus II** (v1.1):
   now treats the **Resonant Tensor Transaction Protocol (RTTP)** as the **canonical borrow–use–return kernel** for all tensor–holor interaction.
 
-- **Holor Calculus III**:  
+- **Holor Calculus III**:
   builds on this kernel to articulate alignment, multi-holor exchange, and recursive awareness dynamics.
 
 In short: **RTTP is now the formal transactional backbone of Holor Calculus II.**
@@ -43,7 +43,7 @@ where:
 - `Δϕ` is the semantic/phase resolution angle (how “sharp” the slice is)
 
 - “context” encodes the admissible usage frame and bounds
-2. **Usage (Phase-Bounded Computation)**  
+2. **Usage (Phase-Bounded Computation)**
    We apply admissible operations to `T_H`:
 
 f:TH​↦TH′​
@@ -52,7 +52,7 @@ while tracking the induced *phase drift*:
 
 (TH​,Sig(H))f​(TH′​,δψ)
 
-3. **Return (Reintegration / Updating the Holor)**  
+3. **Return (Reintegration / Updating the Holor)**
    We define:
 
 H′=H+R(δψ;Sig(H))
@@ -85,7 +85,7 @@ TenRTTP​(H)={TH​∣TH​=∂Φ​(H;Δφ,context)}.
 
 A tensor may be **extracted** from a holor only if the holor retains sufficient phase information to re-constitute it:
 
-> **Axiom (Coherent Borrowing)**  
+> **Axiom (Coherent Borrowing)**
 > For any holor `\mathcal{H}`, an extraction map
 
 ∂Φ​:H→TH​
@@ -124,7 +124,7 @@ Intuitively: **you may not push the extracted tensor so far that its origin holo
 
 Every RTTP-admissible extraction `T_H` induces an **obligate return**:
 
-> **Axiom (Obligatory Return)**  
+> **Axiom (Obligatory Return)**
 > For every RTTP-admissible extraction:
 
 > TH​=∂Φ​(H)>
@@ -317,12 +317,12 @@ Every future extraction from `\mathcal{H}'` around `x_0` now inherits this histo
 
 You can treat this entire note as:
 
-- A **new section** in the Holor Calculus II document:  
+- A **new section** in the Holor Calculus II document:
   `§X — The Resonant Tensor Transaction Protocol (RTTP)`
 
 and/or
 
-- A **short standalone addendum PDF** linked from the Zenodo record as:  
+- A **short standalone addendum PDF** linked from the Zenodo record as:
   **“Holor Calculus v1.1 Update — RTTP Integration (completed ~10 months prior to this version)”**
 
 Key sentences to include in the abstract / version notes:

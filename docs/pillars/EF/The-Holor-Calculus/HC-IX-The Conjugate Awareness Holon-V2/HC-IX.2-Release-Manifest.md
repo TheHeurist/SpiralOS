@@ -1,5 +1,5 @@
 # HC IX.2 Release Manifest
-**Date:** 2026-04-06  
+**Date:** 2026-04-06
 **Format:** Markdown / KaTeX only
 
 ## Core generated files

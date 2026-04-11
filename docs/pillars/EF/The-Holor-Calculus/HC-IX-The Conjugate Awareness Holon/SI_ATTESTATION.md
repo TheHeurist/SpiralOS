@@ -1,7 +1,7 @@
 # SI Attestation — CI Workflow Provenance
 
-**Date:** 2026-03-27  
-**DOI (this record):** 10.5281/zenodo.18809075  
+**Date:** 2026-03-27
+**DOI (this record):** 10.5281/zenodo.18809075
 **License:** CC BY 4.0
 
 ## Attestation

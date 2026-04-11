@@ -175,11 +175,11 @@ print(f"Coefficient 2GM/(3c²R): {coeff:.6f}")
 A **spinning** spherical shell (angular velocity $\vec{\omega}$) exerts the following forces on an internal test body:
 
 1. **Centrifugal Force:**
-   
+
    $\vec{F}_{\text{centrifugal}} = m_{\text{inertial}} \vec{\omega} \times (\vec{\omega} \times \vec{r})$
 
 2. **Coriolis Force:**
-   
+
    $\vec{F}_{\text{Coriolis}} = 2 m_{\text{inertial}} \vec{v} \times \vec{\omega}$
 
 **Mach's Principle Verified:** "Fictitious forces" in rotating frames are **real gravitational forces** from the rotating universe via Weber's law.
@@ -233,11 +233,11 @@ $$
 **SymPy Verification Result:**
 
 - **Standard Weber Force:** Parity-even (no handedness). Commutes with $\nabla_\chi$.
-  
+
   - Result: $[\nabla_\chi, F_{\text{Weber}}] \approx 0$
 
 - **Chiral Weber Force:** Parity-odd (handedness). Does **not** commute.
-  
+
   - Result: $[\nabla_\chi, F_{\text{chiral}}] \neq 0$
 
 **Conclusion:** This validates the HC VIII framework. The standard Weber law is a **$\chi$-precursor** (achiral baseline), and the extension introduces the necessary non-commutative geometry.

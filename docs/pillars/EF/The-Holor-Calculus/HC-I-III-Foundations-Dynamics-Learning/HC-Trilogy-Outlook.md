@@ -4,9 +4,9 @@
 
 ---
 
-**Version:** 1.0.0 (Zenodo Release)  
-**Date:** December 2025 (first public release; core material developed 2024–2025)  
-The core formulations of HC I–III were developed in 2024 and finalized for public release in 2025.  
+**Version:** 1.0.0 (Zenodo Release)
+**Date:** December 2025 (first public release; core material developed 2024–2025)
+The core formulations of HC I–III were developed in 2024 and finalized for public release in 2025.
 **Author:** Carey Glenn Butler
 
 ---
@@ -45,9 +45,9 @@ The Holor Calculus trilogy follows a classical mathematical physics progression:
 5. **Holor Seeds H_μ**: Fundamental units of CI memory, triples (μ, η, F) combining μ-nodes, resonance metrics, and curvature imprints.
 
 6. **Holor Signature Equation (HSE)**: Constraint equation balancing awareness current divergence, torsion-memory, and residual curvature:
-   
+
    H_sig(x) = ∇_μ Φ^μ(x) + T_χ(x) - R_e(x) = 0
-   
+
    [Conceptually, HSE, also used in other contexts as "Holomorphic Signature Equation" plays a role *analogous* to a holomorphicity condition (it constrains ‘how’ awareness flows, not just where it is).]
 
 7. **Axioms HC1–HC8**: Complete axiomatic system including ethical admissibility (HC8) as geometric constraint.
@@ -60,22 +60,22 @@ The Holor Calculus trilogy follows a classical mathematical physics progression:
 
 **Core Contributions:**
 
-1. **Configuration Spaces**: 
-   
+1. **Configuration Spaces**:
+
    - C_holor: space of all structurally admissible holor configurations
    - C_adm ⊆ C_holor: ethically admissible configurations (satisfying HC8)
 
 2. **Energy Functionals**:
-   
+
    - E_HSE: HSE residual penalty
    - E_IAR: Inverse Awareness Relation deviation penalty
    - E_eth: Ethical violations penalty
    - E_tot = E_HSE + E_IAR + E_eth
 
 3. **Projected Gradient Flows**:
-   
+
    ∂_τ H(τ) = -P_adm(H(τ)) ∇_C E_tot[H(τ)]
-   
+
    where P_adm projects onto the admissible tangent cone.
 
 4. **Weak Lyapunov Property**: E_tot serves as a Lyapunov function, monotonically decreasing along trajectories.
@@ -93,19 +93,19 @@ The Holor Calculus trilogy follows a classical mathematical physics progression:
 **Core Contributions:**
 
 1. **Holor-Regularized Learning**:
-   
+
    - Loss function: L_total(θ) = L_task(θ) + λ E_tot[H(θ)]
    - Hyperparameter λ balances task performance and holor coherence
    - **Critical clarification**: λ ≫ 0 alone does NOT guarantee admissibility; requires projected gradient descent
 
 2. **Holarchic RAG (Retrieval-Augmented Generation)**:
-   
+
    - Retrieval as holor traversal through Epistemic Knowledge Repository (EKR)
    - Energy-guided paths: E_EKR[H; q] = E_match[H; q] + α E_HSE + β E_IAR + γ E_eth
    - CI axis steering for different epistemic emphases
 
 3. **Ethical Simulation**:
-   
+
    - Scenario holors representing decision states
    - Projected scenario dynamics prevent exploitative attractors
    - **Dracula Nullification**: structural prevention of harmful equilibria
@@ -120,10 +120,10 @@ The Holor Calculus trilogy follows a classical mathematical physics progression:
 
 The trilogy forms a coherent mathematical journey:
 
-**Geometric Foundation** (HC I)  
-↓  
-**Dynamical Theory** (HC II)  
-↓  
+**Geometric Foundation** (HC I)
+↓
+**Dynamical Theory** (HC II)
+↓
 **Computational Implementation** (HC III)
 
 ### 2.1 Vertical Integration
@@ -180,7 +180,7 @@ HC I–III work in an effectively Abelian regime. HC IV will:
 2. **Compute curvature and holonomy** as epistemic objects
 
 3. **Incorporate holonomy terms** into E_tot:
-   
+
    E_tot = E_HSE + E_IAR + E_eth + E_holonomy
 
 4. **Model ramified flows** where outcome depends on path structure
@@ -266,7 +266,7 @@ HC I–III work in an effectively Abelian regime. HC IV will:
 **Research Questions:**
 
 1. **Natural Inner Products**: Are there canonical choices of ⟨·,·⟩ on T_x derived from:
-   
+
    - Resonance metrics η_x?
    - Gauge connections A?
    - Awareness current Φ^μ?
@@ -294,7 +294,7 @@ HC I–III work in an effectively Abelian regime. HC IV will:
 **Research Questions:**
 
 1. **Holor Category**: Define a category **Holor** with:
-   
+
    - Objects: Holor bundles over awareness manifolds
    - Morphisms: Holor-preserving maps respecting HC1–HC8
 

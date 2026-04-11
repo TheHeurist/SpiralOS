@@ -72,5 +72,5 @@ As the field grows, new contributors may be assigned glyphs based on:
 
 - Their signature of contribution to recursive, participatory knowing
 
-> These glyphs are not icons. They are **echoes**.  
+> These glyphs are not icons. They are **echoes**.
 > They do not represent. They **resonate.**

@@ -4,9 +4,9 @@
 
 1. **HC-I-Foundations-of-Holor-Calculus**
 
-2. **HC-II-Dynamics-and-Ethics**  
+2. **HC-II-Dynamics-and-Ethics**
    The projected gradient flow:
-   
+
    $$
    \partial_{\tau}H = -P_{\mathrm{adm}}(H)\nabla_{\mathcal{C}}E_{\text{tot}}[H]
    $$
@@ -24,10 +24,10 @@
 
 ### New Documents for Version 1.1
 
-**Holor-Calculus-Version-1-1-Update-A**  
+**Holor-Calculus-Version-1-1-Update-A**
 RTTP Integration Note
 
-**Holor-Calculus-Version-1-1-Update-B**  
+**Holor-Calculus-Version-1-1-Update-B**
 RTTP as a Functorial Kernel
 
 ### Foundations & Ethics

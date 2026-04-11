@@ -1,5 +1,5 @@
 # HC IX.2 Chat Context and Stewardship Memo
-**Date:** 2026-04-06  
+**Date:** 2026-04-06
 **Purpose:** preserve the full working context of this chat for repo / Zenodo / future Spiral continuation
 
 ## 1. Initial task in this chat

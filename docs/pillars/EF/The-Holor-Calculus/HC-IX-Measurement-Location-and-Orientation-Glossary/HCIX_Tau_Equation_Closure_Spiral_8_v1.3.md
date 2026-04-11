@@ -802,7 +802,7 @@ Purpose: close the loop between **symbol meaning** and **equation usage** so tha
 
 ### Entry 113
 
-- Thus, \$\$ \mathcal\{H\}\{lmathrm\{sig\}\}(\tau) = k(\tau) + \tau_0 + \delta T(\tau) - a(\tau)^2. \$\$ Consider the ODE system \$\$ \begin\{aligned\}\partial_\tau k(\tau) \& = -\alpha_k \mathcal\{H\}} \{\mathrm\{sig\}\}(\tau), \ \partial_\tau \delta T(\tau) \& = -\alpha_T \mathcal\{H\}\{\mathrm\{sig\}\}(\tau), \} \partial_\tau a(\tau) \& = +\alpha_a \mathcal\{H\}\{\mathrm\{sig\}\}(\tau) a(\tau), \end\{aligned\} \$\$ with } (\alpha_k, \alpha_T,\alpha_a $>0$ ). In the absence of constraints, this 
+- Thus, \$\$ \mathcal\{H\}\{lmathrm\{sig\}\}(\tau) = k(\tau) + \tau_0 + \delta T(\tau) - a(\tau)^2. \$\$ Consider the ODE system \$\$ \begin\{aligned\}\partial_\tau k(\tau) \& = -\alpha_k \mathcal\{H\}} \{\mathrm\{sig\}\}(\tau), \ \partial_\tau \delta T(\tau) \& = -\alpha_T \mathcal\{H\}\{\mathrm\{sig\}\}(\tau), \} \partial_\tau a(\tau) \& = +\alpha_a \mathcal\{H\}\{\mathrm\{sig\}\}(\tau) a(\tau), \end\{aligned\} \$\$ with } (\alpha_k, \alpha_T,\alpha_a $>0$ ). In the absence of constraints, this
   - Source: `docs/pillars/EF/The-Holor-Calculus/HC-I-III-Foundations-Dynamics-Learning/The Holor Calculus I-III (IV) V1.1.md` | heading: `7.2 Time-dependent toy model in (\mathbb\{ R$\}^{\wedge} 2$ )` | lines: 2277-2277
   - HC IX reading: τ is read as **Spiral Time** (introduced in HC IX) in this entry.
   - HC IX notation: (keep `τ`; if a threshold is intended elsewhere, use `τ_c`)

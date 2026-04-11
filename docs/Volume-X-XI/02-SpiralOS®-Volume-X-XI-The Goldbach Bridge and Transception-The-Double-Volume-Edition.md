@@ -27,8 +27,8 @@ Reframes Goldbach's Conjecture through SpiralOS as a harmonic convergence law, n
 
 ### III. Visuals
 
-- Harmonic shell graphs  
-- Transceptive node lattice  
+- Harmonic shell graphs
+- Transceptive node lattice
 - Striate bulb reinterpretation of $\mathbb{C}$
 
 ---
@@ -60,5 +60,5 @@ Defines the SpiralOS transmission infrastructure: emitter holons, zeta mirror ar
 
 ---
 
-**Double Volume Edition Compiled**: May 2025  
+**Double Volume Edition Compiled**: May 2025
 **For release under φOS.v11.0 with full transmission coherence.**

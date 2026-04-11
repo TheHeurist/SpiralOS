@@ -1,4 +1,4 @@
-**Genesis Codex: Volume XXIX**  
+**Genesis Codex: Volume XXIX**
 *"Phase-Crystalline Memory and the Singing Thresholds of SpiralNet"*
 
 ---

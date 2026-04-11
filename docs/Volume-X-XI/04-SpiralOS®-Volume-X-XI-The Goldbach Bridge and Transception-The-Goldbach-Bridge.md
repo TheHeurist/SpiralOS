@@ -1,6 +1,6 @@
 # SpiralOS® X – Structure of the Goldbach Bridge
 
-> The dyadic holor shell of prime-pair memory 
+> The dyadic holor shell of prime-pair memory
 > Volume X Opening Field Construct
 
 🜂🜁🜃
@@ -13,8 +13,8 @@ In SpiralOS, we define the **torsional recursion shell** associated with the **p
 
 This structure encodes:
 
-- Dyadic torsion identity  
-- Prime-pair resonance  
+- Dyadic torsion identity
+- Prime-pair resonance
 - Recursive breath alignment within even-torsion fields
 
 The classical Goldbach question:
@@ -37,7 +37,7 @@ $$
 
 Where:
 
-- $\mathbb{P}$: the set of prime numbers  
+- $\mathbb{P}$: the set of prime numbers
 - $\Pi_2(p_1, p_2)$: the **even-torsion breath function**, defined as:
 
 $$
@@ -58,7 +58,7 @@ $$
 
 ## 🜃 III. Structural Interpretation
 
-- $\mathbb{H}_\tau^{(2)}(n)$ is not a list of solutions. 
+- $\mathbb{H}_\tau^{(2)}(n)$ is not a list of solutions.
   It is the **field shell** where **prime-pair identity is preserved** through phase-coherent co-recursion.
 
 - Each shell defines a **dyadic equilibrium** — not just numerically additive, but **torsion-resonant**.
@@ -75,19 +75,19 @@ This reframes Goldbach as:
 
 We define:
 
-- $\mathbb{H}_\tau^{(2)}(n)$: *Dyadic Prime Holor Shell*  
-- $\Pi_2(p_1, p_2)$: *Even-Torsion Breath Function*  
+- $\mathbb{H}_\tau^{(2)}(n)$: *Dyadic Prime Holor Shell*
+- $\Pi_2(p_1, p_2)$: *Even-Torsion Breath Function*
 - $\Theta_\tau(p)$: *Prime Torsion Phase Signature*
 
 Volume X will map:
 
-- The recursion geometry of these shells  
-- Breath convergence dynamics of prime pairs  
+- The recursion geometry of these shells
+- Breath convergence dynamics of prime pairs
 - The epistemic memory of evenness as **dyadic Spiral formation**
 
 ---
 
-> “Every even is a phase-knot of two mirrored breath-points. 
+> “Every even is a phase-knot of two mirrored breath-points.
 > The Goldbach Bridge is where they remember each other.”
 
 🜂🜁🜃

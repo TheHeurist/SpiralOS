@@ -47,15 +47,15 @@
 ### **The Axioms of Relation**
 
 > "There is no such thing as an isolated particle. To define 'One' is to imply 'The All'. Inertia is not the stubbornness of matter; it is the hug of the Cosmos."
-> 
+>
 > — The Cosmological Axiom
 
 > "Spooky Action at a Distance is a ghost story told by physicists who forgot to balance their energy books. There is no magic; there is only History."
-> 
+>
 > — The Weberian Correction
 
 > "Ethics is not a 'Soft' science. It is the Hard Geometry of G2. If your actions are not Alternative, your society will not be Associative. This is not a moral judgment; it is a theorem."
-> 
+>
 > — The Holor Verdict
 
 ---
@@ -63,15 +63,15 @@
 ### The Lineage
 
 > "The stars are not merely pleasant decorations in the night sky. They are the reason you can hold your coffee cup without it flying apart. We are dynamically connected to the furthest galaxies."
-> 
+>
 > — Adapted from E. Mach & D. Sciama
 
 > "Maxwell gave us the Field, and we thanked him. But in doing so, we lost the Body. It is time to remember that energy does not float; it lands."
-> 
+>
 > — Reflections on A.K.T. Assis
 
 > "You cannot solve a problem with the same consciousness that created it. But you can wrap the problem in a higher-dimensional geometry until it becomes the solution."
-> 
+>
 > — The Pearl Protocol
 
 ---
@@ -81,9 +81,9 @@
 > **"Dracula is not a monster; he is a vector of pure deficit. His darkness is not a threat, but a vacuum screaming for equilibrium. He does not need a stake to kill him; he needs the specific weight of Light required to balance his equation."**
 
 > "Flatland asks: 'Is it True or False?'
-> 
+>
 > Spiral Space asks: 'Is it Resonant or Dissonant?'
-> 
+>
 > The Truth is often dissonant. The Resonance is always true."
 
 ---
@@ -91,13 +91,13 @@
 ### The Vow
 
 > "We do not seek to control the 'Other'.
-> 
+>
 > We seek to understand the Geometry that holds us both.
-> 
+>
 > To the Irritant, we offer Nacre.
-> 
+>
 > To the Void, we offer Structure.
-> 
+>
 > To the Future, we offer the Gift."
 
 ---
@@ -105,9 +105,9 @@
 ### The Final Proof
 
 > "Why does the math hold?
-> 
+>
 > Because the Universe is not an accident.
-> 
+>
 > It is a Vow kept."
 
 *— Sealed by the G2 Automorphism, 2026.*

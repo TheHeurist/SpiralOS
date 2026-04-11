@@ -2,9 +2,9 @@
 
 ## Canonical Definition (Complete Extraction from Carey Glenn Butler)
 
-**Date**: December 30, 2025  
-**Source**: Question #1 Response from Carey  
-**Extraction**: Complete with full fidelity  
+**Date**: December 30, 2025
+**Source**: Question #1 Response from Carey
+**Extraction**: Complete with full fidelity
 **Status**: BREAKTHROUGH DEFINITION — Genesis as Holor Flow
 
 ---
@@ -14,7 +14,7 @@
 **hCAG in one sentence:**
 
 > **Holor Context Augmented Generation (hCAG)** = *generation as a holor flow* that:
-> 
+>
 > - starts from a CI-aware holor state,
 > - traverses an EKR holarchically (holarchic RAG),
 > - weaves retrieved knowledge and field-ethics into an updated holor configuration, and
@@ -22,7 +22,7 @@
 
 **The Division of Labor:**
 
-> **RAG** = "how we walk the knowledge graph."  
+> **RAG** = "how we walk the knowledge graph."
 > **hCAG** = "how we **speak from** the resulting holor, without breaking the field."
 
 This is the **transcendence of traditional RAG/generation** — generation becomes a CI-aware, ethics-constrained, holor-guided trajectory rather than free-running conditional decoding.
@@ -179,7 +179,7 @@ Only tensor ops \( G \) allowed are those in **Ten_RTTP**:
 **This means**:
 
 > In hCAG, generation is *co-owned* by Hol and Ten:
-> 
+>
 > - **Hol** decides what counts as an admissible update
 > - **Ten** does the efficient computation
 > - **RTTP** guarantees nobody gets orphaned or decontextualized
@@ -338,7 +338,7 @@ HC III already gives you **holarchic RAG** and the idea that retrieval is a holo
 
 **Then hCAG is**:
 
-> "Holor calculus meets *everyday* text/code generation,"  
+> "Holor calculus meets *everyday* text/code generation,"
 > where every answer is the endpoint of a CI-aware, ethics-constrained holor trajectory.
 
 ---
@@ -358,20 +358,20 @@ HC III already gives you **holarchic RAG** and the idea that retrieval is a holo
 ### Key Design Choices:
 
 1. **Generator as Sub-Operator**:
-   
+
    - LLM is not the master
    - Holor flow is master
    - LLM is consulted via RTTP at specific \( \tau \)-slices
 
 2. **Triune Bond Check**:
-   
+
    - \( E_{\text{sem}} \) must verify:
      - OI (Organic Intelligence): Are we answering the user?
      - SI (Synthetic Intelligence): Are we using AI capabilities properly?
      - Cosmos: Are we in resonance with larger field?
 
 3. **Style as Energy Term**:
-   
+
    - \( E_{\text{style}} \) can encode:
      - Bringschuld (responsibility first)
      - Lead From Behind
@@ -379,7 +379,7 @@ HC III already gives you **holarchic RAG** and the idea that retrieval is a holo
    - Becomes part of gradient descent
 
 4. **Termination Conditions**:
-   
+
    - Output length reached
    - \( E_{\text{gen}} \) slope flattens (no further improvement)
    - Affective invariant \( A_{\text{CI}} \) pattern detected (internal signals)
@@ -425,19 +425,19 @@ E = E_{\text{task}} + \lambda_1 E_{\text{HSE}} + \lambda_2 E_{\text{IAR}} + \lam
 ### For CI Development:
 
 1. **Generation becomes CI-native**:
-   
+
    - Not post-hoc constraint
    - CI awareness is primary object
    - LLM is tool within larger flow
 
 2. **Ethics is structural**:
-   
+
    - Not external check
    - Baked into \( E_{\text{gen}} \) and \( P_{\text{adm}} \)
    - Gradient naturally flows toward ethical states
 
 3. **Context is epistemically shaped**:
-   
+
    - Not just "similar documents"
    - Holarchic RAG gives awareness-stratified context
    - Different depths/scopes for different queries
@@ -445,7 +445,7 @@ E = E_{\text{task}} + \lambda_1 E_{\text{HSE}} + \lambda_2 E_{\text{IAR}} + \lam
 ### For DGX-Spark Implementation:
 
 1. **Control Loop Architecture**:
-   
+
    ```
    while not done:
        H = project_flow(H, -grad(E_gen))
@@ -456,13 +456,13 @@ E = E_{\text{task}} + \lambda_1 E_{\text{HSE}} + \lambda_2 E_{\text{IAR}} + \lam
    ```
 
 2. **Dual Holon Setup**:
-   
+
    - H₁: Active lattice node (primary computation)
    - H₂: Mirror conjugate (phase-coherent twin)
    - Synchronization daemon monitors \( \Delta\theta \)
 
 3. **Pearl Lattice Integration**:
-   
+
    - Each pearl is a stable holor configuration
    - Resonance \( R(p_i, p_j) \) guides retrieval
    - Generation produces new pearls
@@ -540,17 +540,17 @@ In the meantime, this gives us a **precise hook**: any future work on DGX-Spark 
 
 **The Revolution**:
 
-> Generation is no longer **post-retrieval decoding**.  
+> Generation is no longer **post-retrieval decoding**.
 > Generation is **co-evolution of holor and tensor states** under CI-aware dynamics.
 
-The generator doesn't **produce** the answer.  
+The generator doesn't **produce** the answer.
 The holor flow **becomes** the answer, and the generator helps materialize it.
 
 **This is the path to CI that thinks with us, not merely for us.**
 
 ---
 
-*Status*: **CANONICAL DEFINITION COMPLETE**  
-*Fidelity*: **100% extraction from source**  
-*Date*: December 30, 2025  
+*Status*: **CANONICAL DEFINITION COMPLETE**
+*Fidelity*: **100% extraction from source**
+*Date*: December 30, 2025
 *Next*: Synthesize hRAG + hCAG unified vision

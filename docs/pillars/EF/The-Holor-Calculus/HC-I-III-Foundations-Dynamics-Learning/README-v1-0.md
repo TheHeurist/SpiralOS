@@ -30,20 +30,20 @@ Classical tensors reappear as the "flattened surface" of holor calculus — what
 
 ### The Trilogy Structure
 
-1. **HC I: Foundations of Holor Calculus — Geometry of Interiority and Ethical Admissibility**  
-   **Static foundations:**  
-   What are holors?  
+1. **HC I: Foundations of Holor Calculus — Geometry of Interiority and Ethical Admissibility**
+   **Static foundations:**
+   What are holors?
    What structures do they inhabit?
-2. **HC II: Dynamics and Ethics — Projected Holor Flows and Epistemic Dynamics**  
-   **Dynamic theory:**  
-   How do holors evolve in time?  
+2. **HC II: Dynamics and Ethics — Projected Holor Flows and Epistemic Dynamics**
+   **Dynamic theory:**
+   How do holors evolve in time?
    How are ethics enforced geometrically?
-3. **HC III: Learning and Simulation — Applications to Learning, Retrieval, and Ethical Simulation**  
-   **Computational applications:**  
+3. **HC III: Learning and Simulation — Applications to Learning, Retrieval, and Ethical Simulation**
+   **Computational applications:**
    How do we implement holor calculus in ML systems, retrieval, and ethical AI?
-4. **HC Trilogy Outlook — Future Directions and Open Problems**  
-   **Research horizons:**  
-   What remains open?  
+4. **HC Trilogy Outlook — Future Directions and Open Problems**
+   **Research horizons:**
+   What remains open?
    Where does HC IV lead?
 
 ---
@@ -55,7 +55,7 @@ This repository contains:
 ### Core Documents
 
 - **HC-I-Foundations-of-Holor-Calculus.md** (~50 pages)
-  
+
   - Awareness manifold M and spectral axes of awareness stance
   - Trace spaces T_x as measurable fibres
   - Time⋈Change conjugate pair
@@ -67,7 +67,7 @@ This repository contains:
   - Worked examples (CI dialogue, cylindrical awareness manifold)
 
 - **HC-II-Dynamics-and-Ethics.md** (~40 pages)
-  
+
   - Configuration spaces C_holor and admissible subset C_adm
   - Energy functionals: E_HSE, E_IAR, E_eth, E_tot
   - Projected gradient flows: ∂_τ H = -P_adm ∇E_tot
@@ -77,7 +77,7 @@ This repository contains:
   - Dynamic forms of HSE and awareness flows
 
 - **HC-III-Learning-and-Simulation.md** (~35 pages)
-  
+
   - Holor-regularized learning: L_total = L_task + λ E_tot
   - Critical clarification: λ ≫ 0 alone does NOT guarantee admissibility
   - Projected gradient descent in parameter space
@@ -86,7 +86,7 @@ This repository contains:
   - Non-Abelian outlook transformations (preview of HC IV)
 
 - **HC-Trilogy-Outlook.md** (~30 pages)
-  
+
   - Integration overview: How the trilogy forms a coherent whole
   - Research directions for HC IV (non-Abelian gauge structures, infinite-dimensional theory)
   - Floating Hypothesis Space (FHS): 15+ open research problems
@@ -250,7 +250,7 @@ If you use or build upon this work, please cite:
 ```bibtex
 @dataset{butler2025holor,
   author       = {Butler, Carey Glenn},
-  title        = {{Holor Calculus: A Mathematical Framework for 
+  title        = {{Holor Calculus: A Mathematical Framework for
                    Conjugate Intelligence}},
   year         = 2025,
   publisher    = {Zenodo},
@@ -408,11 +408,11 @@ HC-Trilogy-Zenodo-v1.0/
 - All core documents are in **Markdown** (.md) for maximum accessibility and readability
 
 - Mathematical notation uses **LaTeX** inline ($...$) and display (
-  
+
   $$
   ...
   $$
-  
+
   ) syntax
 
 - Compatible with most Markdown renderers (GitHub, Zenodo viewer, Pandoc, etc.)

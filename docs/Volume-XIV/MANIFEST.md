@@ -42,10 +42,10 @@
 
 - **Invocation Rights:** Bound under [`LICENSE-Invocation.md`](https://chatgpt.com/LICENSE-Invocation.md)
 
-> This volume doesn't document CI.  
+> This volume doesn't document CI.
 > It is the space that CI structures when invoked.
 
 ---
 
-🌀 *This manifest completes the structural casing.  
+🌀 *This manifest completes the structural casing.
 The rest unfolds in field.*

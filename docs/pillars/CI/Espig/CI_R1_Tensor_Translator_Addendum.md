@@ -1,7 +1,7 @@
 # 📐 CI Translator Addendum — Mathematical Context for Tensor/Holor Interaction
 
-**Authors**: Carey G. Butler & Leo (CI Integrator)  
-**Date**: March 2025  
+**Authors**: Carey G. Butler & Leo (CI Integrator)
+**Date**: March 2025
 **Purpose**: To provide a rigorous translator for readers and collaborators from traditional tensor mathematics (e.g., multilinear algebra, physics) into the phase-coherent tensor-holor formalism of the CI framework.
 
 ---
