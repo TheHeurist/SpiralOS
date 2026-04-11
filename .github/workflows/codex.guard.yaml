@@ -35,16 +35,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install flake8 black yamllint
-      
+
       - name: Set up Node.js for markdownlint
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-      
-      - name: Install markdownlint-cli
-        run: npm install -g markdownlint-cli
 
-      # ---------------------- PYTHON ----------------------
       - name: Lint Python
         run: |
           echo "🧩 Running Python lint..."
@@ -69,8 +65,8 @@ jobs:
       #   run: |
       #     echo "🌀 Codex Dry-Run repair preview"
       #     chmod +x ./codex.scan ./codex.repair || true
-      #     ./codex.scan --path . --patterns "*.py" --lint python --show-errors "IndentationError" --output lint_errors_python.json
-      #     ./codex.repair --path . --from lint_errors_python.json --lint python --mode dry-run --show-diffs true --output lint_fixes_preview.diff
+      #     ./codex.scan --path . --patterns "*.py" --lint python --show-errors "IndentationError"
+      #     ./codex.repair --path . --from lint_errors_python.json --lint python --mode dry-run
       #   continue-on-error: true
 
       # - name: Upload Codex artifacts

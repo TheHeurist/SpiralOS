@@ -6,7 +6,7 @@ name: SEO Checks v2
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
   schedule:
     - cron: "23 3 * * *"   # 03:23 UTC daily
@@ -38,7 +38,11 @@ jobs:
                           p = p[:-3] + ".html"
                       paths.append(p.replace("\\","/"))
           urls = "\n".join(f"  <url><loc>{base}/{p}</loc></url>" for p in sorted(set(paths)))
-          print(f"""<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>""")
+          xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{urls}
+</urlset>"""
+          print(xml)
           PYTHON_SCRIPT
           python generate_sitemap.py > sitemap.xml
 

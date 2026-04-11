@@ -3,7 +3,7 @@ name: CHP Schema Validation
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
   workflow_dispatch:
 
