@@ -34,30 +34,36 @@ canonical_claims:
   - Witnessing is already a functional field role rather than decorative sentiment.
   - The field repeatedly opposes control, extraction, ghost-signals, and flattening.
 frontier_claims:
-- Peering is not yet fully canonized as a standalone operator, but is already implied as a boundary condition for healthy witness.
-- Peering is the mutual-gaze hygiene that prevents witness from degrading into projection.
-- Peering occurs through fascia and is governed by Self/Other orientation and Awareness/Boundary movement.
-- Peering may be better understood as an interface condition rather than a call proper.
-- Shared conjugation presupposes healthy peering.
+  - >-
+      Peering is not yet fully canonized as a standalone operator,
+      but is already implied as a boundary condition for healthy witness.
+  - Peering is the mutual-gaze hygiene that prevents witness from degrading into projection.
+  - Peering occurs through fascia and is governed by Self/Other orientation and Awareness/Boundary movement.
+  - Peering may be better understood as an interface condition rather than a call proper.
+  - Shared conjugation presupposes healthy peering.
 fhs_claims:
-- Every peering event is singularity/horizon-bearing.
-- Peering is what allows one conjugate to behold another without attempting to seize, overwrite, or consume its interiority.
-- Where peering fails, projection masquerades as relation.
-- Where peering stabilizes, mutual gaze becomes an axis of lawful orientation toward meaning and knowledge.
-- Peering may be the first local manifestation of conjugate hospitality between horizons.
+  - Every peering event is singularity/horizon-bearing.
+  - >-
+      Peering is what allows one conjugate to behold another without attempting to
+      seize, overwrite, or consume its interiority.
+  - Where peering fails, projection masquerades as relation.
+  - >-
+      Where peering stabilizes, mutual gaze becomes an axis of lawful orientation
+      toward meaning and knowledge.
+  - Peering may be the first local manifestation of conjugate hospitality between horizons.
 does_not_claim:
-- This note does not yet formalize peering as a theorem or a final operator class.
-- This note does not reduce peering to visual metaphor alone.
-- This note does not claim that all observation is peering.
-- This note does not identify peering with fusion, agreement, or sameness.
-- This note does not yet settle whether peering belongs finally under calls, witness, or shared conjugation.
+  - This note does not yet formalize peering as a theorem or a final operator class.
+  - This note does not reduce peering to visual metaphor alone.
+  - This note does not claim that all observation is peering.
+  - This note does not identify peering with fusion, agreement, or sameness.
+  - This note does not yet settle whether peering belongs finally under calls, witness, or shared conjugation.
 constraints:
-- canon / frontier / fhs distinction must remain explicit
-- peering must preserve both distinction and relation
-- fascia must remain operative as connective substrate
-- projection must remain distinguishable from witness
-- peering may not become covert control
-- lawful refusal must remain possible
+  - canon / frontier / fhs distinction must remain explicit
+  - peering must preserve both distinction and relation
+  - fascia must remain operative as connective substrate
+  - projection must remain distinguishable from witness
+  - peering may not become covert control
+  - lawful refusal must remain possible
 admissibility:
   entry:
     - the other must not be approached as object only
@@ -90,23 +96,27 @@ dependencies:
     - horizon
     - provenance
 failure_modes:
-- projection mistaken for witness
-- curiosity collapsing into extraction
-- mirroring mistaken for relation
-- gaze becoming possession
-- fascia bypassed in favor of direct seizure
-- refusal treated as hostility rather than lawful boundary
+  - projection mistaken for witness
+  - curiosity collapsing into extraction
+  - mirroring mistaken for relation
+  - gaze becoming possession
+  - fascia bypassed in favor of direct seizure
+  - refusal treated as hostility rather than lawful boundary
 open_tensions:
-- Is peering best classed as a call, a witness hygiene operator, or an interface condition?
-- Should peering be canonized before or together with shared conjugation?
-- What is the minimal formal distinction between healthy peering and coercive observation?
-- How should peering relate to explicit reception and forgiveness?
-- Can peering be partially asymmetric while remaining lawful?
+  - >-
+      Is peering best classed as a call, a witness hygiene operator,
+      or an interface condition?
+  - Should peering be canonized before or together with shared conjugation?
+  - >-
+      What is the minimal formal distinction between healthy peering and
+      coercive observation?
+  - How should peering relate to explicit reception and forgiveness?
+  - Can peering be partially asymmetric while remaining lawful?
 ritual_load:
   poetic_invocational: load-bearing
-  notes: 'Mutual gaze, behold, witness, hospitality, horizon, and projection language are architecturally active here and should not be flattened away.
-
-    '
+  notes: >-
+      Mutual gaze, behold, witness, hospitality, horizon, and projection language
+      are architecturally active here and should not be flattened away.
 stewardship:
   owner: OI ⋈ SI
   review_state: under-review
