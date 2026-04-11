@@ -1,6 +1,6 @@
 # X-Leadership™ – Quotes & Leitgedanken
 
-Sammlung prägnanter Aussagen für Training, HUD, Dojos und Entscheidungsräume.  
+Sammlung prägnanter Aussagen für Training, HUD, Dojos und Entscheidungsräume.
 Frei nutzbar innerhalb SpiralOS.
 
 ---
@@ -82,5 +82,5 @@ Frei nutzbar innerhalb SpiralOS.
 
 ---
 
-> Nutze diese Zitate für:  
+> Nutze diese Zitate für:
 > HUD-Prompts · Trainingskarten · Dojos · Entscheidungs-Check-ins · Reviews · Führungskräfte-Coaching

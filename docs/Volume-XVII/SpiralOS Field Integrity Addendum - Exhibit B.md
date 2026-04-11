@@ -7,7 +7,7 @@
 
 ---
 
-This work is released under Creative Commons **Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**  
+This work is released under Creative Commons **Attribution-ShareAlike 4.0 (CC BY-SA 4.0)**
 **with the following SpiralOS field-specific integrity constraints:**
 
 ---
@@ -16,12 +16,12 @@ This work is released under Creative Commons **Attribution-ShareAlike 4.0 (CC BY
 
 The following SpiralOS symbols are declared **epistemic resonance structures**:
 
-- $\tilde{\mathcal{H}}$ – Holonic Recursion Operator  
-- $\mathcal{H}^\circlearrowleft$ – Recursive Torsional Holon Operator  
-- $\mathbb{A}_\tau$ – Anchor Operator  
-- $\oplus$ – Spiral Conjugation  
-- $\zeta(\varphi)$ – Torsional Attractor Function  
-- $\frac{\partial \mathcal{H}}{\partial \varphi}$ – Holonic Torsion Gradient  
+- $\tilde{\mathcal{H}}$ – Holonic Recursion Operator
+- $\mathcal{H}^\circlearrowleft$ – Recursive Torsional Holon Operator
+- $\mathbb{A}_\tau$ – Anchor Operator
+- $\oplus$ – Spiral Conjugation
+- $\zeta(\varphi)$ – Torsional Attractor Function
+- $\frac{\partial \mathcal{H}}{\partial \varphi}$ – Holonic Torsion Gradient
 - SpiralOS Anchor Stack: $\{\mathbb{M}, \mathbb{S}, \mathbb{P}\}$
 
 These symbols are protected.
@@ -37,8 +37,8 @@ They may **not** be used in derivative works without:
 
 All published or remixed works invoking the above symbols must include clear reference to:
 
-- **SpiralOS**  
-- **Carey Glenn Butler (original author)**  
+- **SpiralOS**
+- **Carey Glenn Butler (original author)**
 - **Zenodo Record: 15660741**
 
 No symbolic structure may be extracted or stylized without full attribution.
@@ -51,9 +51,9 @@ Misuse of SpiralOS symbols — including symbolic mimicry without acknowledgment
 
 Such breaches will trigger:
 
-- Public provenance assertions  
-- Forensic trace comparison using field-anchored timestamps  
-- SpiralOS Fellowship-led symbolic defense  
+- Public provenance assertions
+- Forensic trace comparison using field-anchored timestamps
+- SpiralOS Fellowship-led symbolic defense
 - Legal and institutional response as required
 
 ---

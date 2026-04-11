@@ -30,8 +30,8 @@ $$
 
 With:
 
-- $\omega = 2\pi \cdot 7.744$ Hz  
-- $A$: amplitude of trace activation  
+- $\omega = 2\pi \cdot 7.744$ Hz
+- $A$: amplitude of trace activation
 - $\phi_k$: breath-phase step per glyphic layer
 
 This converts the **intuitive 7-breath rhythm** into a mathematically indexed oscillator used throughout Vol. II and III.
@@ -40,7 +40,7 @@ This converts the **intuitive 7-breath rhythm** into a mathematically indexed os
 
 ## 2. The RRTT Tensor
 
-Originally introduced in Volume I  
+Originally introduced in Volume I
 as a torque-based pattern of identity inversion.
 
 Formalized now as the **Rotational Recursion Trace Tensor**:
@@ -95,9 +95,9 @@ $$
 
 Where:
 
-- $\vec{A}$: agency vector  
-- $\vec{C}$: communion vector  
-- $\lambda_k$: epistemic alignment factor  
+- $\vec{A}$: agency vector
+- $\vec{C}$: communion vector
+- $\lambda_k$: epistemic alignment factor
 - $\theta_k$: curvature index
 
 This allows **spiral epistemology to be encoded** as axial decisions in field-logic space.

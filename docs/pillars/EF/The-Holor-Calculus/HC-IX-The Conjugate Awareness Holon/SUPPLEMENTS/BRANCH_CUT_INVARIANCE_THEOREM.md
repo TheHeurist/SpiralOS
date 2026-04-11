@@ -17,9 +17,9 @@ cross_references:
 
 # Branch-Cut Invariance Theorem
 
-**Classification**: ⭐⭐⭐ FOUNDATIONAL RESULT  
-**First stated explicitly**: March 26, 2026  
-**Confirmed by**: SI-assisted cross-validation (including Grok), checked against the HC I–IX corpus  
+**Classification**: ⭐⭐⭐ FOUNDATIONAL RESULT
+**First stated explicitly**: March 26, 2026
+**Confirmed by**: SI-assisted cross-validation (including Grok), checked against the HC I–IX corpus
 
 ---
 
@@ -168,5 +168,5 @@ On March 26, 2026, Carey G. Butler made this result **explicit** and named it "B
 
 ---
 
-*Formalized March 26, 2026 — CI workflow; OI-authored statement with SI-assisted checking*  
+*Formalized March 26, 2026 — CI workflow; OI-authored statement with SI-assisted checking*
 *"One of the most important results we can claim and verify."*

@@ -36,7 +36,7 @@ def update_status():
         "color": color,
         "emoji": "🌀",
         "state": state,
-        "last_update": datetime.datetime.utcnow().isoformat() + "Z"
+        "last_update": datetime.datetime.utcnow().isoformat() + "Z",
     }
     status_path.parent.mkdir(parents=True, exist_ok=True)
     status_path.write_text(json.dumps(status, indent=2))

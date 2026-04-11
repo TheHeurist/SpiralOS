@@ -34,13 +34,15 @@ def load_schema() -> dict:
 
 @APP.get("/registry/info")
 def info():
-    return jsonify({
-        "name": "SpiralOS Local Home Registry",
-        "schema": "chp-v1",
-        "fingerprint": short_fingerprint(),
-        "sandbox": True,
-        "time": datetime.utcnow().isoformat() + "Z"
-    })
+    return jsonify(
+        {
+            "name": "SpiralOS Local Home Registry",
+            "schema": "chp-v1",
+            "fingerprint": short_fingerprint(),
+            "sandbox": True,
+            "time": datetime.utcnow().isoformat() + "Z",
+        }
+    )
 
 
 @APP.post("/registry/heartbeat")
@@ -66,7 +68,7 @@ def heartbeat():
         "instance_ref": hb.get("instance_id"),
         "received": datetime.utcnow().isoformat() + "Z",
         "registry_signature": sign(hb),
-        "status": "verified"
+        "status": "verified",
     }
     ack_dir = LEDGER_DIR / "acks" / hb.get("instance_id", "unknown")
     ack_dir.mkdir(parents=True, exist_ok=True)

@@ -6,44 +6,44 @@ This document highlights the differences between **Retrieval-Augmented Generatio
 
 ## **RAG**
 
-**What it is:**  
+**What it is:**
 
-- A method that augments LLMs with external retrieval (usually vector search).  
+- A method that augments LLMs with external retrieval (usually vector search).
 - Embeds documents into a vector space and retrieves semantically similar chunks to a query.
 
-**Strengths:**  
+**Strengths:**
 
-- Simple and effective for many knowledge retrieval tasks.  
-- Works well with unstructured text (documents, transcripts, articles).  
-- Broad adoption and ecosystem support.  
+- Simple and effective for many knowledge retrieval tasks.
+- Works well with unstructured text (documents, transcripts, articles).
+- Broad adoption and ecosystem support.
 
-**Limits:**  
+**Limits:**
 
-- Relies only on **semantic similarity**; ignores relational structure between knowledge units.  
-- Multi-hop or relational queries are difficult.  
-- May return contextually relevant but structurally incoherent chunks.  
+- Relies only on **semantic similarity**; ignores relational structure between knowledge units.
+- Multi-hop or relational queries are difficult.
+- May return contextually relevant but structurally incoherent chunks.
 
 ---
 
 ## **GraphRAG**
 
-**What it is:**  
+**What it is:**
 
-- An extension of RAG that integrates **graph-based retrieval and reasoning**.  
+- An extension of RAG that integrates **graph-based retrieval and reasoning**.
 - Leverages graph traversal, graph neural networks, and query languages.
 
-**Strengths:**  
+**Strengths:**
 
-- **Graph Traversal:** Supports BFS/DFS to walk relationships in a knowledge graph.  
-- **Hybrid Retrieval:** Combines semantic vector similarity with structural reasoning.  
-- **Graph Query Languages:** Allows precise subgraph/entity queries.  
-- **Community-Based Extraction:** Retrieves coherent, context-rich subgraphs.  
-- Ideal for **knowledge graphs, biomedical ontologies, and SpiralOS holarchies**.  
+- **Graph Traversal:** Supports BFS/DFS to walk relationships in a knowledge graph.
+- **Hybrid Retrieval:** Combines semantic vector similarity with structural reasoning.
+- **Graph Query Languages:** Allows precise subgraph/entity queries.
+- **Community-Based Extraction:** Retrieves coherent, context-rich subgraphs.
+- Ideal for **knowledge graphs, biomedical ontologies, and SpiralOS holarchies**.
 
-**Limits:**  
+**Limits:**
 
-- More complex setup than standard RAG.  
-- Requires graph databases or graph embeddings.  
+- More complex setup than standard RAG.
+- Requires graph databases or graph embeddings.
 
 ---
 
@@ -61,7 +61,7 @@ This document highlights the differences between **Retrieval-Augmented Generatio
 
 ## **Synthesis for Heather’s Project**
 
-- **RAG** is the **baseline retriever**, ideal for documents, transcripts, and unstructured corpora.  
-- **GraphRAG** is the **advanced retriever**, essential when reasoning requires understanding of relationships, holarchies, or multi-hop dependencies.  
+- **RAG** is the **baseline retriever**, ideal for documents, transcripts, and unstructured corpora.
+- **GraphRAG** is the **advanced retriever**, essential when reasoning requires understanding of relationships, holarchies, or multi-hop dependencies.
 
 Together, they combine breadth (RAG) with depth (GraphRAG), aligning well with the layered epistemic needs of SpiralOS and EpitoME.

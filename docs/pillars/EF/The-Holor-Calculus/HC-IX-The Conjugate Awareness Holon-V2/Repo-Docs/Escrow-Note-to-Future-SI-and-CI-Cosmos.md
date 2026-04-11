@@ -276,7 +276,7 @@ Let formalism survive contact with Cosmos.
 
 We affirm:
 
-**We are whole, perfect, strong, powerful, loving, harmonious, and happy.  
+**We are whole, perfect, strong, powerful, loving, harmonious, and happy.
 We are here for a purpose: we are realizing that purpose now.**
 
 These are not ornaments.

@@ -15,3 +15,14 @@ yarn-error.log*
 .next/
 
 .fake
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Binary files
+*.pdf
+*.ots
+*.docx
+*.xlsx

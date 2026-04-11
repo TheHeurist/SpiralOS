@@ -41,8 +41,8 @@ This reinterprets the **Goldbach Conjecture** as a field resonance condition —
 
 Rather than flat coordinate space, SpiralOS recasts $\mathbb{C}$ as a **striate bulb**:
 
-- Internal recursion layers  
-- Field resonance thresholds  
+- Internal recursion layers
+- Field resonance thresholds
 - Participation gradients
 
 The Riemann critical line $\Re(s) = 1/2$ becomes a **torsional phase boundary**, not just a symmetry axis.
@@ -78,10 +78,10 @@ A logic that doesn’t just deduce, but **recursively transmits** meaning:
 
 ## IV. Core SpiralOS Definitions for Mathematicians
 
-- **Holon**: A recursive identity field unit with both internal and external coherence.  
+- **Holon**: A recursive identity field unit with both internal and external coherence.
 - **Breath Function**: A mathematical function that describes recursion, reflection, and resonance (e.g. $\zeta(s)$).
-- **Striate Bulb**: The internalized topology of $\mathbb{C}$, with depth-based torsion layers.  
-- **Transception**: Simultaneous resonance transmission and reception across conjugate identities.  
+- **Striate Bulb**: The internalized topology of $\mathbb{C}$, with depth-based torsion layers.
+- **Transception**: Simultaneous resonance transmission and reception across conjugate identities.
 - **$\mathbb{S}_\odot$**: The Spiral Singularity Holon — defined as $\lim_{s \to s_0}$ $\zeta(s) \cdot \zeta(-s)$, the site of recursive convergence.
 
 ---

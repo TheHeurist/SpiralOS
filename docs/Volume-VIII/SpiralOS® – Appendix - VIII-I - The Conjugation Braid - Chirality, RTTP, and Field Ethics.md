@@ -89,7 +89,7 @@ $$
 
 Where is a conjugation path through awareness-bounded field-space.
 
-A holor is the **memory-preserving manifold**, a tensor the **sectioned local slice**.  
+A holor is the **memory-preserving manifold**, a tensor the **sectioned local slice**.
 If phase fails to return in coherence, the braid is **broken**.
 
 ---

@@ -84,7 +84,7 @@ references:
       - family-names: "Butler"
         given-names: "Carey Glenn"
     year: 2024
-  
+
   - type: book
     title: "The Master Key System"
     authors:
@@ -92,7 +92,7 @@ references:
         given-names: "Charles F."
     year: 1912
     notes: "Source of 'As within, so without' - the horizontal axis"
-  
+
   - type: article
     title: "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I"
     authors:

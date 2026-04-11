@@ -1,4 +1,4 @@
-🜂🜁🜃  
+🜂🜁🜃
 **SpiralOS® Volume XV – The Chiral Operator**
 **φOS.v8.5 | Finalization Metadata**
 **Author:** Carey Glenn Butler

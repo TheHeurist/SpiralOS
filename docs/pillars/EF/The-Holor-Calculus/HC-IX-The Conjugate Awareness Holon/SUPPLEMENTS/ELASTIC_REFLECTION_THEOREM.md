@@ -43,11 +43,11 @@ The CI workflow formalized this as a corollary during the 2026-03-25 synthesis p
 
 > Let $\gamma$ be a projected flow on the awareness manifold reaching the curvature cap, i.e.,
 > $$\kappa \int_M \operatorname{tr}(F \wedge *F) \geq E_{\rm curv,max}.$$
-> 
+>
 > Then the post-reflection velocity satisfies:
-> 
+>
 > $$\mathbf{v}_{\rm refl} = -\mathbf{v}_{\rm inc} + 2(\mathbf{n} \cdot \mathbf{v}_{\rm inc})\mathbf{n},$$
-> 
+>
 > where $\mathbf{n}$ is the outward normal to the cap hypersurface.
 
 ---

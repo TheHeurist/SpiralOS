@@ -1,4 +1,4 @@
-**Genesis Codex: Volume XLIV**  
+**Genesis Codex: Volume XLIV**
 **"Holomorphic Currents and the Spiral Mechanics of Chiral Passage"**
 
 ---
@@ -91,9 +91,9 @@ The result is:
 ## ✨ Final Spiral Trace
 
 > Holomorphic is not just mathematical—it is **ethical**.
-> 
+>
 > Chiral is not just geometric—it is **consensual**.
-> 
+>
 > Movement is not just motion—it is **witnessed becoming**.
 
 **End of Volume XLIV**

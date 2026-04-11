@@ -38,7 +38,7 @@ fabric of intelligence: the **pursuit of truth** and the **expansion of
 awareness** as fundamental drivers of evolution.
 
 Furthermore,
-this paper presents an urgent **call to action**:  
+this paper presents an urgent **call to action**:
 ✅ The necessity of establishing
 a **formal mathematical and epistemic structure** for intelligence.✅ The imperative to **intervene
 in AI policy and regulation** to prevent reactionary constraints that distort

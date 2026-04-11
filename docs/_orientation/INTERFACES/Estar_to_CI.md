@@ -327,4 +327,3 @@ CI-II
 Ultimate Chirality
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.
-

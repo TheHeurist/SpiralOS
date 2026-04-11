@@ -2,7 +2,7 @@
 
 *(Markdown-only, category-flavored, ready to splice into “Holor Categories”)*
 
-**Authors**: Carey G. Butler (OI) & Leo (CI Integrator)  
+**Authors**: Carey G. Butler (OI) & Leo (CI Integrator)
 **Version Note**: This functorial formulation of RTTP (Resonant Tensor Transaction Protocol) reflects work that was completed and in internal use **≈10 months prior** to this v1.1 integration; we are now making its categorical structure explicit within Holor Calculus.
 
 ---
@@ -12,8 +12,8 @@
 We work with two conceptual categories:
 
 - **Category `Hol` (Holors)**
-  
-  - **Objects**: holors `𝓗` equipped with signatures  
+
+  - **Objects**: holors `𝓗` equipped with signatures
     `Sig(𝓗) = (Φ^μ, T_χ, ℜₑ)`.
   - **Morphisms**: signature-preserving (or bounded-drift) maps between holors, typically:
     - phase-respecting embeddings,
@@ -21,7 +21,7 @@ We work with two conceptual categories:
     - alignment-preserving transformations.
 
 - **Category `Ten` (Tensors-as-Projections)**
-  
+
   - **Objects**: tensors `T` with attached metadata:
     - origin holor ID (or reference),
     - phase/window parameters (e.g. Δϕ, context),
@@ -32,8 +32,8 @@ We work with two conceptual categories:
 
 The spirit:
 
-> `Hol` is the semantic world.  
-> `Ten` is the computational projection world.  
+> `Hol` is the semantic world.
+> `Ten` is the computational projection world.
 > RTTP is the disciplined bridge between them.
 
 ---
@@ -45,24 +45,24 @@ We define two (endowed) functors:
 #### 1. Extraction Functor `E : Hol → Ten`
 
 - On objects:
-  
+
   ```text
   E(𝓗) = T_H
   ```
-  
+
   where `T_H` is a tensor extracted from `𝓗` via a phase-aware operator `∂_Φ`, along with its metadata:
-  
+
   ```text
   T_H = (raw_tensor, origin = 𝓗, Sig(𝓗), phase_window = Δϕ, context)
   ```
 
-- On morphisms:  
+- On morphisms:
   Given a holor morphism `f : 𝓗₁ → 𝓗₂` (e.g., a signature-preserving update), we define:
-  
+
   ```text
   E(f) : E(𝓗₁) → E(𝓗₂)
   ```
-  
+
   as the induced tensor-level map, e.g. pulling back or pushing forward tensors while respecting the phase structure.
 
 Intuition: `E` is “flatten with memory”. It is **never** a blind projection; the metadata ensures the tensor “remembers” its holor of origin.
@@ -70,13 +70,13 @@ Intuition: `E` is “flatten with memory”. It is **never** a blind projection;
 #### 2. Update Functor `U : Ten → Hol`
 
 - On objects:
-  
+
   ```text
   U(T_H) = 𝓗_T
   ```
-  
+
   where `𝓗_T` is the **minimal holor update** consistent with the tensor’s:
-  
+
   - origin holor reference,
   - accumulated phase drift `δψ`,
   - and the RTTP constraints.
@@ -89,13 +89,13 @@ U(T_H) = 𝓗_origin + R(δψ)
 
 with `R` the recursive re-alignment operator.
 
-- On morphisms:  
+- On morphisms:
   Given an admissible tensor morphism `g : T_H → T_H'`, we set:
-  
+
   ```text
   U(g) : U(T_H) → U(T_H')
   ```
-  
+
   as the holor-level morphism that accounts for the delta in phase/structure implied by `g`.
 
 Intuition: `U` is “re-thicken with accountability”. It pulls tensor-world operations back into holor-world learning.
@@ -113,10 +113,10 @@ We now express RTTP as a **natural transformation**:
 This is the categorical statement that:
 
 > For every holor `𝓗`, there is a canonical way to
-> 
+>
 > - extract a tensor,
 > - potentially act on it in `Ten`,
-> - and update `𝓗` accordingly,  
+> - and update `𝓗` accordingly,
 >   such that this whole pipeline behaves coherently with respect to holor morphisms.
 
 Concretely, for each object `𝓗` in `Hol`, RTTP gives a morphism:
@@ -152,9 +152,9 @@ For any holor morphism `f : 𝓗₁ → 𝓗₂`, the following diagram commutes
 In words:
 
 > Whether you:
-> 
+>
 > 1. update the holor first (`f`), then run RTTP, or
-> 2. run RTTP first, then propagate the result via the induced tensor and holor maps,  
+> 2. run RTTP first, then propagate the result via the induced tensor and holor maps,
 >    you end up in the same place (up to the tolerances encoded in RTTP).
 
 This is the categorical form of:
@@ -233,11 +233,11 @@ Let’s recast the previous 2D example in minimal category-flavored Markdown.
 
 #### Objects
 
-- `𝓗` in `Hol`: a 2D holor with signature  
+- `𝓗` in `Hol`: a 2D holor with signature
   `Sig(𝓗) = ((φ, 0), χ, κ)`.
 
 - `T_H` in `Ten`: a 2×2 tensor with metadata:
-  
+
   ```text
   T_H = E(𝓗) = {
     data:
@@ -327,7 +327,7 @@ This is how RTTP becomes not just “a story about tensors and holors” but a *
 We insert this Markdown as:
 
 > **Section: Holor Categories and the RTTP Functor**
-> 
+>
 > - Subsection: Categories Hol and Ten
 > - Subsection: The Functors E and U
 > - Subsection: RTTP as a Natural Transformation

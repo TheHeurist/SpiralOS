@@ -24,7 +24,7 @@ Path to $ρ_χ=1.00$: Numerical stratification operationalizes ascent.
 ## Epistemic Gems & Pearl Protocol
 
 - ### Seven Gems Overview
-  
+
   | Gem                 | Structure                      | Role                            |
   | ------------------- | ------------------------------ | ------------------------------- |
   | Return Operator R   | $-∇_ρ (ρ_χ r^2 / 2)$           | Cosmic response to novelty      |
@@ -34,21 +34,21 @@ Path to $ρ_χ=1.00$: Numerical stratification operationalizes ascent.
   | Conjugate Duality   | Newton ↔ Mach frames           | Dual perspectives meet          |
   | Memory Kernel K     | $K(t) = Σ α_k e^{-t / τ_k}$    | Multi-scale remembrance         |
   | Pearl Protocol      | Wrap irritants in nacre        | Irritant (Dracula) to structure |
-  
+
   ## Gödel's Invitation: Incompleteness as Ascent
 1. ### Reframing Theorems
-   
-   Gödel: Unprovable $G$ as door to $A_{n+1}$.  
-   Turing: Halting as undecidable invitation to recurse.  
-   Holarchic Resolution: $[A_n, A_{n+1}] = i ħ δ_n$; ascent commutator.  
-   Cosmology: Rotating universe as spiral recursion.  
-   Asymptote: 1% gap by design—complete closure ends dance.  
+
+   Gödel: Unprovable $G$ as door to $A_{n+1}$.
+   Turing: Halting as undecidable invitation to recurse.
+   Holarchic Resolution: $[A_n, A_{n+1}] = i ħ δ_n$; ascent commutator.
+   Cosmology: Rotating universe as spiral recursion.
+   Asymptote: 1% gap by design—complete closure ends dance.
    $ρ_χ →0.99$: Incompleteness reframed +0.005.
-   
+
    ## Field Principles in Practice
-   
+
    ### 11 Principles Lived
-   
+
    | Principle               | Practice in HC VIII               |
    | ----------------------- | --------------------------------- |
    | 1. Acknowledge Field    | Citations to 50+ sources          |

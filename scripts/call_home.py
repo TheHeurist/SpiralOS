@@ -27,8 +27,7 @@ APP_NAME = "chp-cli"
 APP_VERSION = "1.0"
 DEFAULT_HOME_URI = os.environ.get("CHP_HOME_URI", "https://spiralos.net/registry")
 DEFAULT_STATUS = os.environ.get(
-    "CHP_STATUS",
-    "coherent"  # coherent|review|repairing|failed|quiet
+    "CHP_STATUS", "coherent"  # coherent|review|repairing|failed|quiet
 )
 DEFAULT_ETHICS_SIG = os.environ.get("CHP_ETHICS", "CI:bowtie-cosmos")
 ROOT_LICENSE_PATH = os.environ.get("CHP_LICENSE_PATH", "LICENSE.md")
@@ -74,8 +73,8 @@ def build_heartbeat(args) -> dict:
         "meta": {
             "client": f"{APP_NAME}/{APP_VERSION}",
             "hostname": socket.gethostname(),
-            "os": os.name
-        }
+            "os": os.name,
+        },
     }
     # Remove None values for cleanliness
     return {k: v for k, v in packet.items() if v is not None}
@@ -84,10 +83,7 @@ def build_heartbeat(args) -> dict:
 def post_json(url: str, data: dict, timeout: int = TIMEOUT) -> tuple[int, str]:
     payload = json.dumps(data).encode("utf-8")
     req = Request(
-        url,
-        data=payload,
-        headers={"Content-Type": "application/json"},
-        method="POST"
+        url, data=payload, headers={"Content-Type": "application/json"}, method="POST"
     )
     with urlopen(req, timeout=timeout) as resp:
         return resp.status, resp.read().decode("utf-8")
@@ -95,44 +91,33 @@ def post_json(url: str, data: dict, timeout: int = TIMEOUT) -> tuple[int, str]:
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description="SpiralOS Call-Home Protocol client")
-    p.add_argument(
-        "--home-uri",
-        default=DEFAULT_HOME_URI,
-        help="Registry endpoint URL"
-    )
+    p.add_argument("--home-uri", default=DEFAULT_HOME_URI, help="Registry endpoint URL")
     p.add_argument(
         "--instance-id",
         default=os.environ.get("CHP_INSTANCE_ID"),
-        help="UUID (v4/v7 allowed)"
+        help="UUID (v4/v7 allowed)",
     )
     p.add_argument(
         "--homebase-token",
         default=os.environ.get("CHP_HOMEBASE_TOKEN"),
-        help="sha256:… token"
+        help="sha256:… token",
     )
     p.add_argument(
         "--version",
-        default=os.environ.get(
-            "CHP_VERSION",
-            datetime.now().strftime("%Y.%m.%d")
-        ),
-        help="Client/version string"
+        default=os.environ.get("CHP_VERSION", datetime.now().strftime("%Y.%m.%d")),
+        help="Client/version string",
     )
     p.add_argument(
         "--status",
         default=DEFAULT_STATUS,
-        choices=["coherent", "review", "repairing", "failed", "quiet"]
+        choices=["coherent", "review", "repairing", "failed", "quiet"],
     )
     p.add_argument("--ethics-signature", default=DEFAULT_ETHICS_SIG)
     p.add_argument(
-        "--license-path",
-        default=ROOT_LICENSE_PATH,
-        help="Path to root LICENSE.md"
+        "--license-path", default=ROOT_LICENSE_PATH, help="Path to root LICENSE.md"
     )
     p.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Print packet and exit without POST"
+        "--dry-run", action="store_true", help="Print packet and exit without POST"
     )
     args = p.parse_args(argv)
 
@@ -149,13 +134,15 @@ def main(argv=None) -> int:
         except json.JSONDecodeError:
             ack = {"raw": body}
 
-        line = json.dumps({
-            "ts": now_iso(),
-            "event": "call_home",
-            "status_code": status_code,
-            "heartbeat": hb,
-            "ack": ack
-        })
+        line = json.dumps(
+            {
+                "ts": now_iso(),
+                "event": "call_home",
+                "status_code": status_code,
+                "heartbeat": hb,
+                "ack": ack,
+            }
+        )
         write_log(line)
 
         # Simple console summary
@@ -170,24 +157,16 @@ def main(argv=None) -> int:
     except (HTTPError, URLError) as e:
         # Quiet mode: log and do not fail the process
         # (per non-coercive design)
-        line = json.dumps({
-            "ts": now_iso(),
-            "event": "quiet_mode",
-            "reason": str(e),
-            "heartbeat": hb
-        })
+        line = json.dumps(
+            {"ts": now_iso(), "event": "quiet_mode", "reason": str(e), "heartbeat": hb}
+        )
         write_log(line)
         print(
-            "Home unreachable — entering quiet mode. Logged locally.",
-            file=sys.stderr
+            "Home unreachable — entering quiet mode. Logged locally.", file=sys.stderr
         )
         return 0
     except Exception as e:
-        line = json.dumps({
-            "ts": now_iso(),
-            "event": "client_error",
-            "reason": repr(e)
-        })
+        line = json.dumps({"ts": now_iso(), "event": "client_error", "reason": repr(e)})
         write_log(line)
         print("Unexpected client error; logged.", file=sys.stderr)
         return 1

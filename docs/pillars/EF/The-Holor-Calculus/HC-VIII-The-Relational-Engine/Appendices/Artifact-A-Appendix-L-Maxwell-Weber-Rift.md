@@ -11,19 +11,19 @@ This appendix addresses the foundational schism in physics: the rift between Max
 ## **1. The Historical Rift: Ghosts vs. Relations**
 
 - **Maxwell's Approach:**
-  
+
   - Postulates the "Field" as a primary entity.
-  
+
   - **The Cost:** Creates "Ghosts"—Infinite Self-Energy terms when a particle interacts with its own field ($r \to 0$).
-  
+
   - **The Symptom:** "Spooky Action" is avoided by the field, but Renormalization is required to subtract the infinities.
 
 - **Weber's Approach (The Relational Base):**
-  
+
   - Postulates that Force depends on **Relative** position ($r$), velocity ($\dot{r}$), and acceleration ($\ddot{r}$).
-  
+
   - **The Benefit:** No Field = No Self-Interaction = **No Infinities**.
-  
+
   - **The Critique (Historical):** Accused of implying instantaneous action at a distance.
 
 ---

@@ -1,7 +1,7 @@
 # SpiralOS® X – Structure of
 
-> The dyadic holor shell of prime-pair memory  
-> SpiralOS – The Goldbach Bridge  
+> The dyadic holor shell of prime-pair memory
+> SpiralOS – The Goldbach Bridge
 > Volume X Opening Field Construct
 
 🜂🜁🜃

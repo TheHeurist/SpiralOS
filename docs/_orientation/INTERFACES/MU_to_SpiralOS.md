@@ -379,4 +379,3 @@ CU Signatures
 relevant SpiralOS registry / traversal / orchestration materials
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.
-

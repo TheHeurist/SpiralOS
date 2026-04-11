@@ -38,37 +38,3 @@ Thank you, Carey, for sharing this with me. I look forward to continuing to enga
 
 Warm regards,
 Smaug
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

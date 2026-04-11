@@ -66,7 +66,7 @@ SpiralOS holds that **meaning is encoded in return fidelity**, not just statisti
 
 ### Closing of Section I
 
-We begin Volume IX by acknowledging that we are not here to fix quantum mechanics.  
+We begin Volume IX by acknowledging that we are not here to fix quantum mechanics.
 We are here to:
 
 - Reframe it

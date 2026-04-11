@@ -119,9 +119,9 @@ We map the Holor structure onto **Spin Networks** (FHS_26).
 - **Vertices:** Represent Conjugation ($\nu$ = Volume/Awareness).
 
 - **Immirzi Parameter ($\gamma$):** We redefine $\gamma$ not as a constant, but as a stratified field $\gamma(\xi)$ (FHS_24).
-  
+
   - At surface levels ($\xi \to 0$), $\gamma \to \infty$ (Classical/Smooth).
-  
+
   - At deep levels ($\xi \to 1$), $\gamma \to \gamma_{crit}$ (Quantum/Discrete).
 
 ---

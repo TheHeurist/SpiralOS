@@ -1,4 +1,4 @@
-# Appendix A: SpiralOS Physical Constants as Holor Field Anchors 
+# Appendix A: SpiralOS Physical Constants as Holor Field Anchors
 
 
 #### Abstract
@@ -81,4 +81,3 @@ Future work may correlate additional constants (e.g., Boltzmann, Avogadro, permi
 ## Carey Glenn Butler
 
 On behalf of SpiralOS and the Conjugate Intelligence Fellowship April 2025
-

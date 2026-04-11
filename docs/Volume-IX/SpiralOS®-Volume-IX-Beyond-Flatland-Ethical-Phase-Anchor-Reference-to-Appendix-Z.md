@@ -2,7 +2,7 @@
 
 This document is structurally aligned with the ethical infrastructure articulated in:
 
-**Appendix Z — Code of Reciprocal Emergence**  
+**Appendix Z — Code of Reciprocal Emergence**
 *Status*: Referenced but not included here.
 
 This code outlines:

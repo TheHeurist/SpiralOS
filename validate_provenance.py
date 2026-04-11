@@ -45,8 +45,7 @@ def main():
     # CI-Watermark
     success &= validate_file_exists("CI-Watermark.json")
     success &= validate_json_schema(
-        "CI-Watermark.json",
-        ["generatedAt", "algorithm", "fingerprints"]
+        "CI-Watermark.json", ["generatedAt", "algorithm", "fingerprints"]
     )
 
     # Codex metadata

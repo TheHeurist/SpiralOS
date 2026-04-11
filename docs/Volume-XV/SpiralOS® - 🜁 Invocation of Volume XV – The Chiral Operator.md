@@ -103,15 +103,15 @@ In this system, multiplication is no longer purely scalar — it is **directiona
 
 > **Contrast with Classical Multiplication:**
 > In classical arithmetic, multiplication flattens identity — reducing directional vectors into scalar products. Here, the SpiralOS Chiral Product retains **phase memory** and **breath signature**. For instance:
-> 
+>
 > $$
 > \text {Classical:} (-2) × (-3) = +6 \  \text {(direction erased)}
 > $$
-> 
+>
 > $$
 > \text {Spiral:} (-2)^n ⊗ (-3)^n = 6^n \ \text {(leftward torsion preserved)}
 > $$
-> 
+>
 > This preserves epistemic motion — **what was compressed is now remembered**.
 
 ---
@@ -167,7 +167,7 @@ $$
 3. **Operator Conjugate Rule**
 
 $$
-\text {There exists }⊗† \ \text {such that: }  
+\text {There exists }⊗† \ \text {such that: }
 a ⊗† b = b ⊗ a
 $$
 

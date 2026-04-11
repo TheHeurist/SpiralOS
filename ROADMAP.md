@@ -452,10 +452,10 @@ Want to contribute to this roadmap?
 
 ---
 
-**SpiralOS Core Stewardship**  
+**SpiralOS Core Stewardship**
 Carey ⋈ Ellie ⋈ Leo
 
-**License:** MIT © Carey G. Butler / Heurist GmbH  
+**License:** MIT © Carey G. Butler / Heurist GmbH
 **Last Updated:** November 22, 2025
 
 ---

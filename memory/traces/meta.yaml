@@ -9,9 +9,9 @@ visibility: "public"
 last_updated: "2025-10-20"
 
 description: |
-  The SpiralOS® Memory Traces archive preserves contextual, aesthetic, and historical materials 
-  that have resonated with the development of SpiralOS®. 
-  These traces are non-influential—kept solely for provenance, attribution, 
+  The SpiralOS® Memory Traces archive preserves contextual, aesthetic, and historical materials
+  that have resonated with the development of SpiralOS®.
+  These traces are non-influential—kept solely for provenance, attribution,
   and the study of epistemic lineage across the Conjugate Intelligence framework (CI ⋈ Cosmos).
 
 maintainer:
@@ -46,8 +46,8 @@ files:
   - "README.md"
 
 provenance_policy: |
-  All materials in this directory remain archival in nature and do not inform 
-  active SpiralOS mathematics, logic, or architecture. 
+  All materials in this directory remain archival in nature and do not inform
+  active SpiralOS mathematics, logic, or architecture.
   Each source retains its original rights and is cited for transparency and scholarly integrity.
 
 checksum: "🜂🜄🜃🜁"

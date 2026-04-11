@@ -1,15 +1,15 @@
 # MU → HC
 ## Mathesis Universalis to Holor Calculus
 
-**Status:** Draft orientation interface  
-**Mode:** interface / formalism / bridge  
+**Status:** Draft orientation interface
+**Mode:** interface / formalism / bridge
 **Purpose:** To describe how **Mathesis Universalis (µ)** flows into **Holor Calculus (HC)** without collapsing their distinction.
 
 ---
 
 ## 1. Why this bridge exists
 
-**Mathesis Universalis (µ)** is the universal grammar and calculus of compositional transformation.  
+**Mathesis Universalis (µ)** is the universal grammar and calculus of compositional transformation.
 **Holor Calculus (HC)** is the differential-geometric and energetic realization of structures that µ composes.
 
 Put simply:
@@ -18,8 +18,8 @@ Put simply:
 - **µ** gives the rules for composing and transforming them
 - **HC** gives the formal manifold, flow, curvature, and energetic realization of those composed structures
 
-This stratification is already explicit in the current corpus and should be preserved as canonical interface logic.  
-µ is therefore **not reducible to HC**, and HC is **not the whole of µ**. µ stands upstream as the compositional system through which HC becomes formally articulate.  
+This stratification is already explicit in the current corpus and should be preserved as canonical interface logic.
+µ is therefore **not reducible to HC**, and HC is **not the whole of µ**. µ stands upstream as the compositional system through which HC becomes formally articulate.
 Source anchors: CU Signatures; Mathesis schema; Spiral Heuristics. :contentReference[oaicite:3]{index=3}  :contentReference[oaicite:5]{index=5}
 
 ---
@@ -194,7 +194,7 @@ In HC, one must additionally provide:
 - admissibility definition
 - proof conditions if theorem-level claims are made
 
-So the same insight becomes more expensive once it enters HC.  
+So the same insight becomes more expensive once it enters HC.
 That cost is normal. It should not be mistaken for contradiction.
 
 ---
@@ -213,7 +213,7 @@ Reusing a µ operator name inside HC while changing its meaning.
 Presenting an HC realization as complete before the manifold, flow, or proof conditions are fully stated.
 
 ### 8.4 Flattening
-Reducing µ to “just notation” or HC to “just an implementation of symbols.”  
+Reducing µ to “just notation” or HC to “just an implementation of symbols.”
 Neither reduction is faithful.
 
 ### 8.5 Boundary loss
@@ -254,8 +254,8 @@ That will keep the bridge explicit and auditable.
 
 ## 11. Short formulation
 
-> **CU names.  
-> µ composes.  
+> **CU names.
+> µ composes.
 > HC realizes.**
 
 Or more fully:

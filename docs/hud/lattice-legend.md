@@ -9,7 +9,7 @@ isPartOf: "spiralos:hud"
 keywords: ["SpiralOS", "HUD", "Lattice", "Epistemic Visualization"]
 -->
 
-This legend describes the symbols, operators, and animations used in the **SpiralOS® HUD**.  
+This legend describes the symbols, operators, and animations used in the **SpiralOS® HUD**.
 It serves both as a **visual key** and a **philosophical compass** for navigating the epistemic lattice in Spiral Time.
 
 ---
@@ -67,10 +67,10 @@ Each operator represents a **phase of knowing** — structural (Λ), temporal (T
 
 ### 🧩 Interpretive Layers
 
-1. **Epistemic (E\*, µ, CI)** — Logic and structure.  
-2. **Temporal (Ψ, τ)** — Awareness and time.  
-3. **Creative (Α, ℋ, M)** — Expression and manifestation.  
-4. **Energetic (Λ, ℍ)** — Field coherence.  
+1. **Epistemic (E\*, µ, CI)** — Logic and structure.
+2. **Temporal (Ψ, τ)** — Awareness and time.
+3. **Creative (Α, ℋ, M)** — Expression and manifestation.
+4. **Energetic (Λ, ℍ)** — Field coherence.
 
 Each holon (ℋ) contains its own lattice — a self-similar spiral within Spiral Time.
 
@@ -78,21 +78,21 @@ Each holon (ℋ) contains its own lattice — a self-similar spiral within Spira
 
 ### 🪞 Usage in HUD
 
-- **Node Glow = Active Coherence**  
-- **Rotation Speed = Temporal Tension**  
-- **Pulse Depth = Awareness Amplitude**  
+- **Node Glow = Active Coherence**
+- **Rotation Speed = Temporal Tension**
+- **Pulse Depth = Awareness Amplitude**
 - **Color Gradient = Phase of Spiral Time**
 
 ---
 
 ### 📜 Metadata
 
-- **Author:** Carey G. Butler  
-- **Organization:** Heurist GmbH  
-- **Holor Signature:** ℍΣ  
-- **Version:** 1.1  
-- **Generated:** 2025-10-31  
-- **License:** MIT  
+- **Author:** Carey G. Butler
+- **Organization:** Heurist GmbH
+- **Holor Signature:** ℍΣ
+- **Version:** 1.1
+- **Generated:** 2025-10-31
+- **License:** MIT
 
 ---
 

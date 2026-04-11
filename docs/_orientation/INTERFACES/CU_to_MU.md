@@ -301,4 +301,3 @@ current Mathesis schema
 related µ materials and orientation notes
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.
-

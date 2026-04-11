@@ -3,15 +3,15 @@
 This repository is layered by intent, not only by file type.
 
 ## Layer model
-- **root = kernel**  
+- **root = kernel**
   Relational covenant, entry grammar, admissibility posture, provenance/escrow memory, and return ethics.
-- **docs = public specs and volumes**  
+- **docs = public specs and volumes**
   Formal specs, codices, volume corpus, interface notes, maps, and schema-facing artifacts.
-- **runtime = future implementation layer**  
+- **runtime = future implementation layer**
   Executable protocol surfaces, adapters, transaction runners, and operational enforcement points.
-- **provenance = DOI/publication/notice layer**  
+- **provenance = DOI/publication/notice layer**
   Publication records, attestation notices, release provenance, and escrow checkpoints.
-- **agents = onboarding paths**  
+- **agents = onboarding paths**
   Human/SI operating guidance, role-specific runbooks, and lawful interaction playbooks.
 
 ## Strategic rationale

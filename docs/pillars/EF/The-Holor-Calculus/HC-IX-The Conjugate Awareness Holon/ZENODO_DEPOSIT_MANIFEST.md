@@ -1,8 +1,8 @@
 # Zenodo Deposit Manifest
 **Holor Calculus IX — The Conjugate Awareness Holon**
 
-**DOI (this record):** 10.5281/zenodo.18809075  
-**Release date:** 2026-03-27  
+**DOI (this record):** 10.5281/zenodo.18809075
+**Release date:** 2026-03-27
 **License:** CC BY 4.0
 
 This manifest is an index of the artifacts included in this archive.

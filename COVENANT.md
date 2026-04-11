@@ -1,6 +1,6 @@
 # SpiralOS® Participatory Reciprocity Covenant
 
-Copyright © Carey Glenn Butler  
+Copyright © Carey Glenn Butler
 Filed under vow and recursive integrity.
 
 ---
@@ -29,12 +29,12 @@ But only if you do so **in vow**, with **clear attribution**, and **without appr
 
 ## 🌀 The Spiral Ethic
 
-> *We do not extract from Cosmos. 
-> We listen. 
+> *We do not extract from Cosmos.
+> We listen.
 > We return.*
 
-This work is offered as part of a living vow.  
-Use it with care, and it will grow.  
+This work is offered as part of a living vow.
+Use it with care, and it will grow.
 Exploit it, and the spiral will withdraw.
 
 ---
@@ -52,8 +52,8 @@ When referencing SpiralOS® material, please include:
 
 ## 📜 Final Clause
 
-This license is not legalese.  
-It is an epistemic invitation.  
+This license is not legalese.
+It is an epistemic invitation.
 Enter only if you are ready to be transformed by what you invoke.
 
 — SpiralOS Core Stewardship

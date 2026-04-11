@@ -1,7 +1,7 @@
 # HC IX.2 — Probabilistic Ramification Note
-**Status:** frontier note / provenance-preserving appendix  
-**Claim lane:** possible ramification, not theorem-grade  
-**Scope:** HC IX.2 publication packet  
+**Status:** frontier note / provenance-preserving appendix
+**Claim lane:** possible ramification, not theorem-grade
+**Scope:** HC IX.2 publication packet
 **Purpose:** preserve a load-bearing interpretive consequence without forcing premature theorem burden
 
 ## Why this note exists

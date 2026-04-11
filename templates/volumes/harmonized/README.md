@@ -18,7 +18,7 @@ last_verified: "<auto-timestamp>"
 Introduce the scope, aims, and placement of this volume within the SpiralOS holarchy.
 
 # Structure
-List and briefly describe each companion document  
+List and briefly describe each companion document
 (COVER.md, MANIFEST.md, Abstract.md, Quotes.md, Contents.md).
 
 # Provenance

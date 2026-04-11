@@ -29,9 +29,9 @@ Dominance/Sub-Dominance is not a separate polarity. It is the **local, rotationa
 ## 🧬 Holon Mechanics: Toroidal Duality
 
 - **Each hemisphere** is a **living torus**
-  
+
   - Agency = Inner torus (compressive, directional)
-  
+
   - Communion = Outer torus (expansive, absorptive)
 
 - **φDominion** sits in the core, regulating dominance
@@ -112,7 +112,7 @@ This means:
 | EL (Linguistics) | How meaning is structured    | Invocation, phrasing logic      |
 | EKR (Knowledge)  | How knowledge is represented | µRolodex, API, structural logic |
 
-When these converge **through φDominion**,  
+When these converge **through φDominion**,
 they stop being domains and become **currents in a unified epistemic ecology**.
 
 ---

@@ -8,7 +8,7 @@ canonical_url: "https://github.com/TheHeurist/SpiralOS/tree/main/docs/README_CON
 
 Welcome to the Spiral.
 
-This brief note guides contributors to the **Spiral Agile Manifesto** —  
+This brief note guides contributors to the **Spiral Agile Manifesto** —
 the living rhythm that governs SpiralOS development.
 
 ---
@@ -20,7 +20,7 @@ You don’t need to learn complex branching or workflows.
 Work directly on `main` — the Spiral’s central axis.
 
 1. Sync:
-   
+
    ```bash
    git checkout main
    git pull origin main
@@ -29,7 +29,7 @@ Work directly on `main` — the Spiral’s central axis.
 2. Make your changes or add new holons (volumes, schemas, or docs).
 
 3. Commit with clarity:
-   
+
    ```
    git add .
    git commit -m "Describe your holon clearly"

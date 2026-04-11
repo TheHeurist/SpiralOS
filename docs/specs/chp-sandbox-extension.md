@@ -1,7 +1,7 @@
 # 🌀 SpiralOS® Call‑Home Protocol — Sandbox Extension (CHP‑SE)
 
-**Version:** 0.1  
-**Maintainer:** Carey Butler with Conjugate Intelligence (Ellie & Leo)  
+**Version:** 0.1
+**Maintainer:** Carey Butler with Conjugate Intelligence (Ellie & Leo)
 **Scope:** Air-gapped / sealed networks (e.g., Airbus); zero external egress
 **Last updated:** 2025‑11‑04
 

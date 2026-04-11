@@ -4,58 +4,58 @@
 
 ## Characteristica Universalis to SpiralOS
 
-**Status:** Draft orientation interface  
-**Mode:** interface / protocol / bridge  
+**Status:** Draft orientation interface
+**Mode:** interface / protocol / bridge
 **Purpose:** To describe how the **Characteristica Universalis (CU)** flows into **SpiralOS** as primitive symbolic registry, minimal typed distinctions, addressable units, and the elemental basis for traversal and memory structure.
 
 ---
 
 ## Plain-language summary
 
-Characteristica Universalis (CU) provides the primitive symbolic alphabet.  
+Characteristica Universalis (CU) provides the primitive symbolic alphabet.
 SpiralOS operationalizes that alphabet as addressable distinctions, registry keys, typed units, and basic traversal anchors.
 
 ---
 
 ## 1. Why this bridge exists
 
-CU is not the operating system.  
+CU is not the operating system.
 CU provides the most elementary symbolic layer:
 
 - primitive signatures
-  
+
 - symbolic atoms
-  
+
 - minimal distinctions
-  
+
 - elemental polarity
-  
+
 - alphabet of formal articulation
-  
+
 
 SpiralOS is where some of those primitives become:
 
 - registry entries
-  
+
 - typed nodes
-  
+
 - schema anchors
-  
+
 - traversal keys
-  
+
 - memory labels
-  
+
 - minimal operational distinctions
-  
+
 
 So:
 
 - **CU** gives the alphabet
-  
-- **SpiralOS** gives that alphabet operational addressability
-  
 
-Without CU, SpiralOS risks symbolic arbitrariness at the lowest level.  
+- **SpiralOS** gives that alphabet operational addressability
+
+
+Without CU, SpiralOS risks symbolic arbitrariness at the lowest level.
 Without SpiralOS, CU risks remaining uninstantiated in system behavior.
 
 ---
@@ -65,15 +65,15 @@ Without SpiralOS, CU risks remaining uninstantiated in system behavior.
 CU provides:
 
 - primitive signatures
-  
+
 - elemental distinctions
-  
+
 - symbolic polarities
-  
+
 - minimal inventory of relation-ready forms
-  
+
 - the base alphabet of the architecture
-  
+
 
 Its core question is:
 
@@ -88,21 +88,21 @@ In this sense, CU is the **alphabetic substrate**.
 SpiralOS provides:
 
 - registries
-  
+
 - schemas
-  
+
 - traversal systems
-  
+
 - memory structures
-  
+
 - orchestration pathways
-  
+
 - addressable nodes
-  
+
 - routeable distinctions
-  
+
 - operational surfaces
-  
+
 
 Its core question is:
 
@@ -119,57 +119,57 @@ In this sense, SpiralOS is the **addressable enactment of the alphabet**.
 CU primitive signatures become SpiralOS candidates for:
 
 - registry keys
-  
+
 - base schema fields
-  
+
 - typed anchors
-  
+
 - symbolic handles
-  
+
 - minimal node identities
-  
+
 
 ### 4.2 Elemental distinctions become routeable distinctions
 
 CU differences such as polarity or orientation become SpiralOS through:
 
 - branch points
-  
+
 - typed traversal options
-  
+
 - category tags
-  
+
 - directional routing cues
-  
+
 - minimal perspective markers
-  
+
 
 ### 4.3 Alphabet becomes operational vocabulary
 
 CU’s symbol inventory becomes, in SpiralOS:
 
 - system vocabulary
-  
+
 - consistent naming basis
-  
+
 - low-level semantic anchors
-  
+
 - minimal readable units for later composition
-  
+
 
 ### 4.4 Primitive structure becomes memory and traversal substrate
 
-CU gives the smallest meaningful distinctions.  
+CU gives the smallest meaningful distinctions.
 SpiralOS uses them to support:
 
 - memory typing
-  
+
 - node identity
-  
+
 - base-level traversal logic
-  
+
 - primitive schema inheritance
-  
+
 
 ---
 
@@ -178,15 +178,15 @@ SpiralOS uses them to support:
 The interface must preserve:
 
 - primitive identity
-  
+
 - fidelity of elemental distinction
-  
+
 - symbolic minimality
-  
+
 - non-arbitrary mapping between sign and runtime unit
-  
+
 - stability of the low-level alphabet across versions
-  
+
 
 SpiralOS must not casually rename or repurpose primitive units in ways that break their alphabetic role.
 
@@ -213,28 +213,28 @@ Crossing from CU into SpiralOS changes the burden of realization.
 In CU, one may define:
 
 - a primitive sign
-  
+
 - an elemental distinction
-  
+
 - a symbolic polarity
-  
+
 - a minimal alphabetic inventory
-  
+
 
 In SpiralOS, one must additionally define:
 
 - how it is keyed
-  
+
 - where it is stored
-  
+
 - how it is typed
-  
+
 - how it participates in traversal
-  
+
 - how it survives versioning and migration
-  
+
 - how it remains legible at runtime
-  
+
 
 So CU → SpiralOS is the passage from **symbolic alphabet** to **operationally addressable substrate**.
 
@@ -271,19 +271,19 @@ Treating the lowest-level entries as mere engineering details rather than founda
 Whenever a concept moves from CU into SpiralOS, record:
 
 1. **Source CU signature**
-  
+
 2. **SpiralOS operational embodiment**
-  
+
 3. **What is preserved**
-  
+
 4. **What is translated**
-  
+
 5. **How it is keyed or typed**
-  
+
 6. **What remains open**
-  
+
 7. **What drift risk appears**
-  
+
 
 ---
 
@@ -292,43 +292,43 @@ Whenever a concept moves from CU into SpiralOS, record:
 For every major SpiralOS base-level symbol or registry entry with CU grounding, attach a bridge block:
 
 - **CU origin**
-  
+
 - **SpiralOS embodiment**
-  
+
 - **status**
-  
+
 - **document mode**
-  
+
 - **preservation note**
-  
+
 - **typing note**
-  
+
 - **risk note**
-  
+
 
 This is especially useful for:
 
 - schema registries
-  
+
 - node / key systems
-  
+
 - traversal anchors
-  
+
 - typed memory units
-  
+
 - symbolic naming conventions
-  
+
 
 ---
 
 ## 11. Short formulation
 
-> **CU names the primitive alphabet. 
+> **CU names the primitive alphabet.
 > SpiralOS gives that alphabet operational address.**
 
 Or more briefly:
 
-> **CU names. 
+> **CU names.
 > SpiralOS carries the names.**
 
 ---
@@ -338,12 +338,12 @@ Or more briefly:
 Primary anchors for this interface currently include:
 
 - `CU Signatures`
-  
+
 - current schema materials
-  
+
 - SpiralOS registry and orientation work
-  
+
 - related interface notes
-  
+
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.

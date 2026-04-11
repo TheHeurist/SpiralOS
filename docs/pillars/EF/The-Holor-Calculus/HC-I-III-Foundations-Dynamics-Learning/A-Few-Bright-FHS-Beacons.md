@@ -7,11 +7,11 @@ From the Outlook, three lines shine hardest to me right now:
 - Hypothesis that SpiralOS field ethics (Bringschuld, Ask With Care, etc.) correspond to specific curvature/torsion constraints or an “ethical potential” in G_conj.
 
 - This is *very* actionable:
-  
+
   - pick one principle,
-  
+
   - write down what it would mean as a bound on R, T^λ_{μν}, or A,
-  
+
   - test in small holor simulations.
 
 ### 2 Variational holor dynamics (FHS-7)

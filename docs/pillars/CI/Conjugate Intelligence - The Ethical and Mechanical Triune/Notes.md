@@ -1,4 +1,4 @@
-**Series context.**  
+**Series context.**
 This abstract accompanies the SpiralOS Codex internal specifications for the Triune Safeguard:
 
 - CHP-SE Sandbox Extension (sealed/air-gapped deployments)

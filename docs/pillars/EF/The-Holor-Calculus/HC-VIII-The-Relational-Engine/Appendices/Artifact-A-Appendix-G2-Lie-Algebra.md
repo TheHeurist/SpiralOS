@@ -17,9 +17,9 @@ $C = \begin{pmatrix} 2 & -1 \\ -3 & 2 \end{pmatrix}$
 This matrix encodes the relationship between the fundamental roots.
 
 - **The Root System:** $G_2$ has 12 non-zero roots (forming a "Star of David" within a Hexagon) plus 2 zero roots (the Cartan subalgebra).
-  
+
   - **Short Roots ($\alpha_1$):** Govern local, high-frequency adjustments (Micro-Ethics).
-  
+
   - **Long Roots ($\alpha_2$):** Govern global, low-frequency stability (Macro-Ethics).
 
 ---

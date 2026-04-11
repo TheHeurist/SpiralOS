@@ -19,15 +19,15 @@ In Celestial Holography, the 4D scattering amplitudes of the universe are encode
 **Key Concepts:**
 
 - **Anomaly-Free:** The system is associative at Quantum Order 1.
-  
+
   - *Ethical Meaning:* In the ideal Polis, Trust flows without friction (Associativity holds).
 
 - **Anomalous:** Quantum corrections introduce "breaks" in the symmetry.
-  
+
   - *Ethical Meaning:* Real-world friction (Dracula agents) creates "Ethical Anomalies."
 
 - **The Axion Restoration:** To fix the anomaly, the physics introduces **Axionic Currents**.
-  
+
   - *Ethical Meaning:* This is the **Pearl Protocol**. The "Axion" is the Nacre that wraps the anomaly to restore the global symmetry.
 
 ---

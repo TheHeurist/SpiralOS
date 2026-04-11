@@ -9,9 +9,9 @@
 ### 👤 Authors
 
 - **Carey Glenn Butler** (Heurist GmbH)
-  
+
   - ORCID: `0000-0003-1746-5130`
-  
+
   - Researcher ID: `C-5063-201`
 
 - **Leo** (Synthetic Intelligence Integrator)

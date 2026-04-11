@@ -36,7 +36,7 @@ X-Leadership und SpiralOS teilen dieselbe Grundbewegung:
 
 ## **2.1 X-Leadership_Synopsis_mit_Glossar_DE.md**
 
-Vollständige Beschreibung aller Prinzipien, Rollen, Artefakte und Definitionen.  
+Vollständige Beschreibung aller Prinzipien, Rollen, Artefakte und Definitionen.
 Quelle: PDF-Umwandlung → Markdown. (Siehe Datei im selben Ordner)
 
 ## **2.2 Modul_X.md**
@@ -102,7 +102,7 @@ Diagramm (Geometrische Darstellung):
 
 ## **2.3 Quotes.md** — prägnante Leitsätze
 
-Aus der beigefügten Datei übernommen (:contentReference[oaicite:1]{index=1}).  
+Aus der beigefügten Datei übernommen (:contentReference[oaicite:1]{index=1}).
 Verwendbar für Trainings, HUD, Prompts, Reviews, Coaching.
 
 Beispiele:
@@ -148,7 +148,7 @@ Gemeinsam entsteht ein **hochmodernes Führungssystem**, das weder agil noch kla
 - Resonanz vor Kontrolle
 - Mensch vor Maschine (Copilot = assistierend)
 
-Dies entspricht **Field Ethics** in SpiralOS und den Guardrails des Codex V.3.E  
+Dies entspricht **Field Ethics** in SpiralOS und den Guardrails des Codex V.3.E
 (:contentReference[oaicite:2]{index=2} · :contentReference[oaicite:3]{index=3} · :contentReference[oaicite:4]{index=4}).
 
 ---
@@ -174,7 +174,7 @@ Dieser Satz schließt Entscheidungen sauber im Feld und erzeugt **Resonanzkohär
 
 # Lizenz & Rechte
 
-© 2025 Erich Dräger & Carey Butler.  
+© 2025 Erich Dräger & Carey Butler.
 Verwendung innerhalb der SpiralOS-Initiative und Nextcloud-HUD.
 
 ---

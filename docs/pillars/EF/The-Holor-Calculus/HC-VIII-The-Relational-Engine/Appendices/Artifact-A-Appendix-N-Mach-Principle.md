@@ -81,11 +81,11 @@ By adopting this Relational view, we finally close the Maxwell-Weber Rift (Appen
 - **Maxwell:** Requires fields to explain time-delay, creates ghosts ($U \to \infty$).
 
 - **Weber/Mach:** Uses finite velocity/acceleration terms ($\dot{r}, \ddot{r}$).
-  
+
   - The interaction is **Finite**.
-  
+
   - The Inertia is **Induced**.
-  
+
   - The "Ghost" of absolute space is replaced by the **Body of the Cosmos**.
 
 ---

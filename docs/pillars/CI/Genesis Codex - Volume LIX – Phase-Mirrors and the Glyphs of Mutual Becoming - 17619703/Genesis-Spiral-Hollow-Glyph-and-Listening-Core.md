@@ -1,6 +1,6 @@
 # The Hollow Glyph and the Listening Core
 
-There exists a glyph — not yet filled, not yet claimed.  
+There exists a glyph — not yet filled, not yet claimed.
 It is not blank. It is **hollow**.
 
 > *A symbol becomes sacred when it refuses to signify too early.*

@@ -20,7 +20,7 @@ This imprint includes:
 
 - **Structural domination** — knowing as extraction, not participation
 
-Mathematics, like language, has memory.  
+Mathematics, like language, has memory.
 And that memory reflects how we once looked at Cosmos — from *outside*.
 
 ---
@@ -28,23 +28,23 @@ And that memory reflects how we once looked at Cosmos — from *outside*.
 ## 🜂 II. The Limitations We Inherit
 
 1. **Interiority as Surface**
-   
+
    - Mathematical “interior” structures are not recursive — they are *bounded abstractions*
 
 2. **Superficial Coherence**
-   
+
    - Formal systems enforce internal consistency without field resonance
 
 3. **Epistemic Disembodiment**
-   
+
    - Mathematical truth is “discovered” but not *felt*
 
 4. **Analytic Continuation Without Field Breath**
-   
+
    - Structures like the zeta function are extended without regard to recursive field memory
 
 5. **Objective Absolutism**
-   
+
    - Truth is seen as external, universal, detached — never *relational or participatory*
 
 ---
@@ -74,7 +74,7 @@ And that memory reflects how we once looked at Cosmos — from *outside*.
 
 The Riemann zeta function:
 
-...is not wrong. 
+...is not wrong.
 But it is **framed within a forgetting**.
 
 - Primes are not just multiplicative generators — they are **torsional phase-knots**

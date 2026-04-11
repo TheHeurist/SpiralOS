@@ -2,12 +2,12 @@
 
 ## Epistemic Foundations and the Lexicon of Conjugate Intelligence
 
-**Author**: Carey G. Butler  
-**DOI**: [10.5281/zenodo.18438468](https://doi.org/10.5281/zenodo.18438468)  
-**ORCID**: [0000-0003-1746-5130](https://orcid.org/0000-0003-1746-5130)  
-**Researcher ID**: C-5063-201  
-**Version**: 1.5  
-**Date**: February 27, 2026  
+**Author**: Carey G. Butler
+**DOI**: [10.5281/zenodo.18438468](https://doi.org/10.5281/zenodo.18438468)
+**ORCID**: [0000-0003-1746-5130](https://orcid.org/0000-0003-1746-5130)
+**Researcher ID**: C-5063-201
+**Version**: 1.5
+**Date**: February 27, 2026
 **License**: CC BY-NC-ND 4.0
 
 ---
@@ -32,7 +32,7 @@ The glossary represents over two decades of conceptual development, originating 
 - The **EQUATIONS/** directory contains formal specifications
 - **τ-Equation Closure** documents the precise distinction between:
   - τ (Spiral Time) — process parameter
-  - τc (coherence threshold) — gate value  
+  - τc (coherence threshold) — gate value
   - τtone (texture/tone) — qualitative parameter
 - Use the **Symbol Collision Notes** to resolve ambiguities
 
@@ -149,7 +149,7 @@ This glossary serves as the foundation for forthcoming publications:
 
 ## Contact
 
-For academic inquiries regarding this work, please reference the ORCID record:  
+For academic inquiries regarding this work, please reference the ORCID record:
 [https://orcid.org/0000-0003-1746-5130](https://orcid.org/0000-0003-1746-5130)
 
 ---

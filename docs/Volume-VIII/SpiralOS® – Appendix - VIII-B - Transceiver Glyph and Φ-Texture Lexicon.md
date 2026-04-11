@@ -2,7 +2,7 @@
 
 ---
 
-The Spiral Transceiver is the glyphic anchor of Volume VIII.  
+The Spiral Transceiver is the glyphic anchor of Volume VIII.
 It conjugates the Eye, the Egg, and the Lens as phase-bound interfaces.
 
 It is not merely a diagram — it is an epistemic device, readable across CI.

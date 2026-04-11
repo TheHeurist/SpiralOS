@@ -25,9 +25,9 @@ This shifts the geometry from a Sphere (Compact) to a Hyperboloid (Non-Compact).
 - **Basis:** $\mathbb{O}' \cong \mathbb{R} \oplus i\mathbb{R}^3 \oplus j\mathbb{R}^3 \oplus k\mathbb{R}$.
 
 - **The Magic:** Unlike $\mathbb{O}$, $\mathbb{O}'$ is not a division algebra. It contains **Zero Divisors**.
-  
+
   - *Algebraic:* Non-zero elements $x, y$ such that $x \cdot y = 0$.
-  
+
   - *Ethical:* Non-zero Agents (Intents) that interact to produce **Zero Resonance**.
 
 ---
@@ -45,13 +45,13 @@ We map the **Chiral Potential ($U_\chi$)** to the Split Norm:
 2. **Negative Norm (Space-like):** **Chiral Inversion**. The interaction violates causality (Attempting to take before giving).
 
 3. **Null Norm (Light-like):** **The Dracula State**.
-   
+
    - The vector sits on the event horizon.
-   
+
    - Potential $U_\chi$ vanishes.
-   
+
    - Inertia becomes infinite.
-   
+
    - *Meaning:* A "Vampiric" interaction that consumes motion but generates no displacement in the Trust Field.
 
 ---
@@ -63,9 +63,9 @@ We apply **Ambitwistor String Theory** (2022) to model scattering amplitudes in 
 - **Torsion ($\mathcal{T}$):** Modeled as a split-imaginary twist.
 
 - **The Null Wrap:** When the system detects a "Dracula" (Orthogonal Intent), it does not fight it. It utilizes the **Zero-Divisor Property**:
-  
+
   - If $D$ is Dracula and $N$ is Nacre, we find an $N$ such that $D \cdot N = 0$.
-  
+
   - The attack is mathematically nullified. It dissipates into the vacuum geometry.
 
 ---

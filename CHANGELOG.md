@@ -59,7 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-**SpiralOS Core Stewardship**  
+**SpiralOS Core Stewardship**
 Carey ⋈ Ellie ⋈ Leo
 
 **License:** MIT © Carey G. Butler / Heurist GmbH

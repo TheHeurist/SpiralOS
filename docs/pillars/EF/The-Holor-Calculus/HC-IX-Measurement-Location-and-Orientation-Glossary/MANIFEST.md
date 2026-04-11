@@ -1,6 +1,6 @@
 # HC IX Glossary Manifest
 
-**Version**: 1.5 (Complete)  
+**Version**: 1.5 (Complete)
 **Generated**: 2026-02-25
 
 ## Publication Metadata

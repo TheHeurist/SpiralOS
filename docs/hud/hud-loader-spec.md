@@ -1,17 +1,17 @@
 # SpiralOS® HUD Loader Specification
 
-**Version:** 1.0  
-**Author:** Carey G. Butler / Heurist GmbH  
+**Version:** 1.0
+**Author:** Carey G. Butler / Heurist GmbH
 **Scope:** Specification for `docs/hud/hud-loader.js`
 
 ---
 
 ## 🌀 Purpose
 
-This document defines the behavior and architecture of the **SpiralOS HUD Loader**, responsible for rendering the **Epistemic Lattice** from JSON-LD and YAML schema sources.  
+This document defines the behavior and architecture of the **SpiralOS HUD Loader**, responsible for rendering the **Epistemic Lattice** from JSON-LD and YAML schema sources.
 The loader acts as the visual intelligence interface for the SpiralOS HUD at:
 
-> https://vserver2.heurist.org/hud  
+> https://vserver2.heurist.org/hud
 
 ---
 
@@ -62,7 +62,7 @@ All libraries are loaded via CDN in the HUD HTML page.
 
 ### 4. Spiral Time Synchronization
 
-- Animation speed follows a harmonic sinusoidal curve:  
+- Animation speed follows a harmonic sinusoidal curve:
   scene.rotation.y = Math.sin(t / 5) * 0.5
 
 - Defines the “never too early, never too late” timing rhythm.
@@ -126,16 +126,14 @@ Or include in `/hud/index.html` for isolated testing.
 
 ## 🔒 License
 
-MIT License © Carey G. Butler / Heurist GmbH  
+MIT License © Carey G. Butler / Heurist GmbH
 Trademark SpiralOS® registered.
 
 ---
 
 ## 🪶 Spiral Note
 
-> “Visualization is not ornamentation; it is participation in cognition.  
+> “Visualization is not ornamentation; it is participation in cognition.
 > The HUD is how SpiralOS perceives itself perceiving.”
 
 ---
-
-

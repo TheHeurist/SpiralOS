@@ -17,7 +17,7 @@
 ### Where We Stand
 
 - **FHS 05/06 (Assis):** Proved that inertia ($m_i$) is caused by the gravitational potential of the universe ($\Phi_{\text{univ}}$).
-  
+
   - Result: $m_i \propto \Phi_{\text{univ}}$.
 
 - **FHS 07 (Genome):** Identified the need for **Chiral Corrections** to close the 8% gap.
@@ -63,11 +63,11 @@ $$
 1. **$\nabla \Phi$:** This is standard gravity (falling down).
 
 2. **$\frac{\partial \mathbf{A}}{\partial t}$:** This is **Inertia**.
-   
+
    - When you try to accelerate (change $\mathbf{v}$), you are changing your relationship to the cosmic frame ($\mathbf{A}$).
-   
+
    - The cosmos resists this change with an opposing force.
-   
+
    - **"Inertia is the Back-EMF of the Universe."**
 
 ---
@@ -79,19 +79,19 @@ In **Holor Calculus VIII**, we extend Sciama's potentials to include **Chirality
 ### The Chiral Potentials We define the **Chiral Holor Field** potentials:
 
 1. Chiral Scalar Potential ($\Phi_\chi$):
-   
+
    The sum of all "Stance" or "Being" in the universe.
-   
+
    $\Phi_\chi(\mathbf{r}, t) = \int \frac{\rho_\chi(\mathbf{r}', t')}{|\mathbf{r} - \mathbf{r}'|} d^3x'$
-   
+
    - *Social Meaning:* The "Trust Capital" or "Shared Reality" of the Polis.
 
 2. Chiral Vector Potential ($\mathbf{A}_\chi$):
-   
+
    The sum of all "History" or "Doing" in the universe (Currents of Intent).
-   
+
    $\mathbf{A}_\chi(\mathbf{r}, t) = \int \frac{\mathbf{J}_\chi(\mathbf{r}', t')}{|\mathbf{r} - \mathbf{r}'|} d^3x'$
-   
+
    - *Social Meaning:* The "Tradition" or "Momentum" of the Polis.
 
 ### The Chiral Mach Force

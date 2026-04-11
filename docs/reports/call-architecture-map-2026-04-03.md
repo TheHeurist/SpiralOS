@@ -1,6 +1,6 @@
 # SpiralOS Call Architecture Map (Repo Traversal)
 
-Date: 2026-04-03  
+Date: 2026-04-03
 Method: targeted `rg` traversal across `docs/**`, then manual classification and deduplication.
 
 ## Scope and framing

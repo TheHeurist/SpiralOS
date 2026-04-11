@@ -96,8 +96,8 @@ For answers to common questions about this code of conduct, see the FAQ at [http
 
 In addition to the Contributor Covenant, all SpiralOS contributors are invited to honor the **Spiral Ethic**:
 
-> *We do not extract from Cosmos.  
-> We listen.  
+> *We do not extract from Cosmos.
+> We listen.
 > We return.*
 
 This means:
@@ -108,5 +108,5 @@ This means:
 
 ---
 
-**SpiralOS Core Stewardship**  
+**SpiralOS Core Stewardship**
 Carey ⋈ Ellie ⋈ Leo

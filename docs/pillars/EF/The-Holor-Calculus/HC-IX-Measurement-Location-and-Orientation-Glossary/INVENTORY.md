@@ -1,8 +1,8 @@
 # HC IX Glossary Detailed Inventory
 
-**Status**: ✅ Complete  
-**Version**: 1.5  
-**Updated**: 2026-02-25  
+**Status**: ✅ Complete
+**Version**: 1.5
+**Updated**: 2026-02-25
 
 ## Content Statistics
 

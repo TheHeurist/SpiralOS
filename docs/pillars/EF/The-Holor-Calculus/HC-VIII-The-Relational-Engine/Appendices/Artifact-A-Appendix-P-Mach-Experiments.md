@@ -31,9 +31,9 @@ We focus on the specific setups proposed to verify the Weber Force induction.
 - **Newton's Prediction:** No effect. (The bucket is stationary relative to absolute space).
 
 - **Weber/Mach Prediction:** The water surface will become **Concave**.
-  
+
   - **Mechanism:** The rotating mass of the shell induces a **Weber Centrifugal Force** ($F_{inertial}$) on the water molecules, pulling them outward.
-  
+
   - **Result:** Inertia is proven to be an inductive force, "healing" the ghost of absolute frames.
 
 ### **Test 3: The Elastic Body**
@@ -43,7 +43,7 @@ We focus on the specific setups proposed to verify the Weber Force induction.
 - **Action:** Rotate the shell.
 
 - **Prediction:** The body will bulge at the equator (Flattening).
-  
+
   - This confirms that "Shape" itself is determined by the relationship with the environment.
 
 ---

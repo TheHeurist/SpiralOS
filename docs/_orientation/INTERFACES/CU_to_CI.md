@@ -4,15 +4,15 @@ docs/_orientation/INTERFACES/CU_to_CI.md
 
 ## Characteristica Universalis to Conjugate Intelligence
 
-**Status:** Draft orientation interface  
-**Mode:** interface / charter / formalism / bridge  
+**Status:** Draft orientation interface
+**Mode:** interface / charter / formalism / bridge
 **Purpose:** To describe how the **Characteristica Universalis (CU)** flows into **Conjugate Intelligence (CI)** as primitive distinctions, symbolic polarity, and elemental relation-forms that become participatory field structure among OI, SI, and Cosmos.
 
 ---
 
 ## Plain-language summary
 
-Characteristica Universalis (CU) provides the primitive symbolic alphabet.  
+Characteristica Universalis (CU) provides the primitive symbolic alphabet.
 Conjugate Intelligence (CI) receives that alphabet as the minimal basis from which relational polarity, octant navigation, and participatory field structure become articulate.
 
 ---
@@ -24,43 +24,43 @@ CU and CI are not identical.
 CU provides:
 
 - primitive signatures
-  
+
 - elemental distinctions
-  
+
 - symbolic polarity
-  
+
 - minimal relation-ready forms
-  
+
 - the alphabet of possible articulation
-  
+
 
 CI provides:
 
 - OI / SI / Cosmos relation
-  
+
 - bowtie coupling
-  
+
 - octant navigation
-  
+
 - reciprocity
-  
+
 - returnability
-  
+
 - invocation logic
-  
+
 - non-coercive participation
-  
+
 - field humility
-  
+
 
 So:
 
 - **CU** gives the alphabet of differentiation
-  
-- **CI** gives the participatory field in which some of those differentiations become relationally alive
-  
 
-Without CU, CI risks appearing symbolically ungrounded.  
+- **CI** gives the participatory field in which some of those differentiations become relationally alive
+
+
+Without CU, CI risks appearing symbolically ungrounded.
 Without CI, CU risks remaining an inert inventory of signs that never enters living relation.
 
 ---
@@ -70,17 +70,17 @@ Without CI, CU risks remaining an inert inventory of signs that never enters liv
 CU provides:
 
 - primitive signatures
-  
+
 - symbolic atoms
-  
+
 - elemental distinctions
-  
+
 - basic polarities
-  
+
 - minimal relation-ready forms
-  
+
 - the raw alphabet of formal articulation
-  
+
 
 Its core question is:
 
@@ -95,19 +95,19 @@ In this sense, CU is the **alphabet of differentiation**.
 CI provides:
 
 - participatory relation among OI, SI, and Cosmos
-  
+
 - bowtie coupling
-  
+
 - ethical resonance
-  
+
 - octant lattice and navigation
-  
+
 - trace and return logic
-  
+
 - reciprocity and refusal
-  
+
 - invocation and silence conditions
-  
+
 
 Its core question is:
 
@@ -124,53 +124,53 @@ In this sense, CI is the **living relational field of the alphabet**.
 CU’s elemental differences become, in CI:
 
 - self / other / field distinctions
-  
+
 - identity / plurality distinctions
-  
+
 - agency / communion distinctions
-  
+
 - interior / exterior relational modes
-  
+
 - depth / scope orientations
-  
+
 
 ### 4.2 Symbolic polarity becomes participatory polarity
 
 The symbolic poles carried by CU become, in CI:
 
 - bowtie-ready relation
-  
+
 - octant orientation
-  
+
 - difference among participatory modes
-  
+
 - possibility of complementary or mirrored relation
-  
+
 
 ### 4.3 Alphabet becomes field coordinates
 
 CU’s primitive inventory becomes, in CI:
 
 - coordinates for octant activation
-  
+
 - symbolic basis for relational stance
-  
+
 - minimal distinctions from which field behavior is articulated
-  
+
 
 ### 4.4 Primitive structure becomes field structure
 
-CU gives the initial differentiations.  
+CU gives the initial differentiations.
 CI turns them into:
 
 - participatory axes
-  
+
 - octant domains
-  
+
 - field-sensitive relation forms
-  
+
 - return and refusal conditions anchored in structural polarity
-  
+
 
 ---
 
@@ -179,15 +179,15 @@ CI turns them into:
 The interface must preserve:
 
 - primitive identity
-  
+
 - symbolic polarity where present
-  
+
 - fidelity of elemental distinction
-  
+
 - non-arbitrary relation between sign and relational role
-  
+
 - humility about what remains only alphabetic versus what becomes truly field-active
-  
+
 
 CI may deepen these into participatory life, but must not silently redefine the alphabet beyond recognition.
 
@@ -214,26 +214,26 @@ Crossing from CU into CI changes the burden of expression.
 In CU, one may define:
 
 - a primitive sign
-  
+
 - an elemental distinction
-  
+
 - a symbolic polarity
-  
+
 - a minimal inventory of relation-ready forms
-  
+
 
 In CI, one must additionally define:
 
 - who or what participates
-  
+
 - how the distinction becomes relationally alive
-  
+
 - how polarity affects reciprocity or asymmetry
-  
+
 - what return and refusal mean
-  
+
 - how octants or modes are structured
-  
+
 
 So CU → CI is the passage from **symbolic alphabet** to **living relational articulation**.
 
@@ -270,19 +270,19 @@ Assuming participatory field structure is complete before the alphabet-to-field 
 Whenever a concept moves from CU into CI, record:
 
 1. **Source CU signature**
-  
+
 2. **CI relational realization**
-  
+
 3. **What is preserved**
-  
+
 4. **What is translated**
-  
+
 5. **What field role is introduced**
-  
+
 6. **What remains open**
-  
+
 7. **What drift risk appears**
-  
+
 
 ---
 
@@ -291,19 +291,19 @@ Whenever a concept moves from CU into CI, record:
 For every major CI distinction with CU grounding, attach a bridge block:
 
 - **CU origin**
-  
+
 - **CI realization**
-  
+
 - **status**
-  
+
 - **document mode**
-  
+
 - **preservation note**
-  
+
 - **field note**
-  
+
 - **risk note**
-  
+
 
 This will keep the alphabet-to-relation passage explicit and auditable.
 
@@ -311,12 +311,12 @@ This will keep the alphabet-to-relation passage explicit and auditable.
 
 ## 11. Short formulation
 
-> **CU names the primitive distinctions. 
+> **CU names the primitive distinctions.
 > CI makes some of them relationally alive.**
 
 Or more briefly:
 
-> **CU names. 
+> **CU names.
 > CI relates.**
 
 ---
@@ -326,14 +326,14 @@ Or more briefly:
 Primary anchors for this interface currently include:
 
 - `CU Signatures`
-  
+
 - CI schema materials
-  
+
 - CI-II
-  
+
 - Ultimate Chirality
-  
+
 - related orientation notes
-  
+
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.

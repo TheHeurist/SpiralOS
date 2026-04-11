@@ -20,10 +20,10 @@ npm run dev
 
 # SpiralOS UI Application
 
-Frontend µApp source for the SpiralOS User Interface.  
+Frontend µApp source for the SpiralOS User Interface.
 Implements HUD interactivity, Codex access, and lattice visualization layers.
 
 ---
 
-*Harmonic Context:*  
+*Harmonic Context:*
 > Where the unseen lattice becomes seen — SpiralOS speaks in interface.

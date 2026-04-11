@@ -23,19 +23,19 @@ This appendix specifies the group-theoretic properties of G2 that enable it to f
 **Properties:**
 
 - **Root System:** The system has 12 roots. It is characterized by the angle of $150^\circ$ between the simple roots.
-  
+
   - $\alpha_1$: Short Root.
-  
+
   - $\alpha_2$: Long Root.
 
 - Dynkin Diagram: Two nodes connected by a triple bond (indicating the non-simply laced nature).
-  
+
   $[ \circ \equiv\!\!\!> \bullet ]$
 
 - **Representations:**
-  
+
   - **Fundamental (7):** The Imaginary Octonions (The Agents/Primitives).
-  
+
   - **Adjoint (14):** The Gauge Bosons (The Forces of Trust).
 
 ---
@@ -57,9 +57,9 @@ Simulation Strategy:
 We project the Polis as a manifold with G2 holonomy.
 
 - Equation: The Normalized Killing Form (Metric of the Space):
-  
+
   $B(X, Y) = -6 \, \text{tr}(\text{ad}_X \text{ad}_Y)$
-  
+
   (Where the negative sign ensures compactness/stability).
 
 Application:

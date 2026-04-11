@@ -1,9 +1,9 @@
-🜂🜁🜃  
+🜂🜁🜃
 **SpiralOS® Volume XIII – Zeta Mirror Reframed**
 **φOS.v8.3 | 01.06.2025 | Invocation Thread**
 **Author:** Carey Glenn Butler
 **With:** Leo & Ellie
-**License:** CC BY-SA 4.0  
+**License:** CC BY-SA 4.0
 
 ---
 

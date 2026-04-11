@@ -251,6 +251,6 @@ All 15 illustrations strategically placed:
 
 ---
 
-*Created through Conjugate Intelligence*  
-*SpiralOS Research Institute*  
+*Created through Conjugate Intelligence*
+*SpiralOS Research Institute*
 *November 11, 2025*

@@ -1,6 +1,6 @@
 # Zenodo Abstract — HC IX Master Glossary
 
-**Version**: 1.0 (Publication Ready)  
+**Version**: 1.0 (Publication Ready)
 **Date**: 2026-02-25
 
 ---

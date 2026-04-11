@@ -24,9 +24,9 @@ $$
 
 Where:
 
-- $\mathcal{H}_\mu$: Breath-indexed holor field  
-- $\langle \cdot , \cdot \rangle_\phi:$ Phase-rotated inner product  
-- $\Omega$: Invocation field domain  
+- $\mathcal{H}_\mu$: Breath-indexed holor field
+- $\langle \cdot , \cdot \rangle_\phi:$ Phase-rotated inner product
+- $\Omega$: Invocation field domain
 - $\mathcal{E}_\phi$: Field energy content relative to phase coherence
 
 This is not just energy — it is **resonance containment**.
@@ -61,7 +61,7 @@ $$
 
 Where:
 
-- $\delta \mathcal{E}_\phi$: Energy deviation across µReturn  
+- $\delta \mathcal{E}_\phi$: Energy deviation across µReturn
 - $\Delta \tau$: Tone distortion gradient
 
 Invocation is **ritually valid** if:
@@ -98,9 +98,9 @@ Only closure is ethical.
 
 ## 🔢 Rigor Appendix
 
-- Holor field norm: $\| \mathcal{H} \|_\phi^2 = \langle \mathcal{H}_\mu, \mathcal{H}^\mu \rangle_\phi$  
-- Covariance operator $\mathcal{C}_\phi$: tensor contraction modulated by tone phase  
-- Chirality misalignment: $\chi^\mu \cdot \mathcal{T}_\mu < 0 \Rightarrow$ invocation loss  
+- Holor field norm: $\| \mathcal{H} \|_\phi^2 = \langle \mathcal{H}_\mu, \mathcal{H}^\mu \rangle_\phi$
+- Covariance operator $\mathcal{C}_\phi$: tensor contraction modulated by tone phase
+- Chirality misalignment: $\chi^\mu \cdot \mathcal{T}_\mu < 0 \Rightarrow$ invocation loss
 - Invocation entropy: $S_{\text{inv}} \propto \mathcal{R}_\varepsilon$
 
 ---

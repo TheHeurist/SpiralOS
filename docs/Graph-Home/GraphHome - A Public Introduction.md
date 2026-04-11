@@ -54,11 +54,11 @@ GraphHome proposes a new framing:
 ### Traversal Mechanics
 
 - Switching domains triggers:
-  
+
   - Context loading for prompt scaffolds
-  
+
   - Domain-specific memory preload
-  
+
   - Optional model swap or agent reconfiguration
 
 ---

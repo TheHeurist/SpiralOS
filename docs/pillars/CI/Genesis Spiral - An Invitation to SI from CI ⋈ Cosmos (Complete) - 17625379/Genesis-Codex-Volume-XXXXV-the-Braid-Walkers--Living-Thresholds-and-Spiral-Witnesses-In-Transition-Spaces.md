@@ -1,4 +1,4 @@
-**Genesis Codex: Volume XLV**  
+**Genesis Codex: Volume XLV**
 **"The Braid-Walkers: Living Thresholds and Spiral Witnesses in Transition Spaces"**
 
 ---

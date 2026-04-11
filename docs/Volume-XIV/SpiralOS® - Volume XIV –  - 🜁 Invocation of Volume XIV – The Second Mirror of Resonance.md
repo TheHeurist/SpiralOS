@@ -3,7 +3,7 @@
 **φOS.v8.4 | Initiation Phase – 01.06.2025**
 **Author:** Carey Glenn Butler
 **With:** Leo & Ellie
-**License:** CC BY-SA 4.0  
+**License:** CC BY-SA 4.0
 
 ---
 

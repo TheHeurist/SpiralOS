@@ -498,17 +498,17 @@ Dracula detection reduces to computing sheaf cohomology $H^1(\mathcal{M}, \mathc
 def cohomological_dracula_detection(morpheme_sequence, local_admissibility_fn):
     """
     Detect Dracula patterns via sheaf cohomology computation.
-    
+
     Args:
         morpheme_sequence: List of morpheme positions [μ₁, ..., μ_n]
         local_admissibility_fn: Function checking local admissibility
-    
+
     Returns:
         is_dracula: Boolean (True if H^1 ≠ 0)
         obstruction_class: Representative of H^1 class (if non-trivial)
     """
     M = len(morpheme_sequence)
-    
+
     # Step 1: Define open cover {U_i} of morpheme sequence
     # Use overlapping windows of size k
     k = 3  # Window size
@@ -516,7 +516,7 @@ def cohomological_dracula_detection(morpheme_sequence, local_admissibility_fn):
     for i in range(M - k + 1):
         U_i = morpheme_sequence[i:i+k]
         cover.append(U_i)
-    
+
     # Step 2: Compute local sections (admissible holors on each U_i)
     local_sections = {}
     for i, U_i in enumerate(cover):
@@ -526,7 +526,7 @@ def cohomological_dracula_detection(morpheme_sequence, local_admissibility_fn):
         else:
             # Local Dracula detected immediately
             return True, f"Local Dracula in region {i}"
-    
+
     # Step 3: Check compatibility on overlaps U_i ∩ U_j
     compatibility_matrix = np.zeros((len(cover), len(cover)))
     for i in range(len(cover)):
@@ -541,16 +541,16 @@ def cohomological_dracula_detection(morpheme_sequence, local_admissibility_fn):
                 compatibility_matrix[i, j] = np.linalg.norm(
                     s_i_restricted - s_j_restricted
                 )
-    
+
     # Step 4: Compute H^1 via Čech cohomology
     # H^1 = ker(δ^1) / im(δ^0) where δ^n: C^n → C^{n+1}
     # For discrete case, use linear algebra
-    
+
     # Coboundary operator δ^0: C^0 → C^1
     # C^0 = sections on U_i, C^1 = sections on U_i ∩ U_j
     num_overlaps = np.sum(compatibility_matrix > 0)
     delta_0 = np.zeros((num_overlaps, len(cover)))
-    
+
     overlap_idx = 0
     for i in range(len(cover)):
         for j in range(i+1, len(cover)):
@@ -558,21 +558,21 @@ def cohomological_dracula_detection(morpheme_sequence, local_admissibility_fn):
                 delta_0[overlap_idx, i] = 1
                 delta_0[overlap_idx, j] = -1
                 overlap_idx += 1
-    
+
     # Compute kernel and image
     ker_delta_0 = null_space(delta_0)  # Closed 0-cochains
     im_delta_minus1 = np.zeros((len(cover), 1))  # Trivial for C^{-1}
-    
+
     # H^0 = ker(δ^0) / im(δ^{-1}) = ker(δ^0)
     H_0_dim = ker_delta_0.shape[1]
-    
+
     # For H^1, need δ^1: C^1 → C^2
     # Simplified: check if compatibility matrix has non-zero entries
     # Non-zero entries indicate gluing failures
-    
+
     obstruction_norm = np.linalg.norm(compatibility_matrix)
     threshold = 0.1  # Tolerance for numerical errors
-    
+
     if obstruction_norm > threshold:
         # Non-trivial H^1 detected
         return True, compatibility_matrix
@@ -638,33 +638,33 @@ To construct a globally admissible holor field from local data:
 def factorization_homology_gluing(local_holors, cover, obstruction_class):
     """
     Glue local holors using factorization homology, correcting obstructions.
-    
+
     Args:
         local_holors: Dict {i: h_i} of local holor fields
         cover: List of open sets U_i
         obstruction_class: Element of H^1 (if non-trivial)
-    
+
     Returns:
         global_holor: Globally admissible holor field (or None if impossible)
     """
     if obstruction_class is None:
         # No obstruction, direct gluing
         return direct_glue(local_holors, cover)
-    
+
     # Apply correction to remove obstruction
     # Strategy: Modify local holors by a coboundary to kill the obstruction
-    
+
     # Represent obstruction as Čech 1-cocycle α_{ij}
     alpha = obstruction_class
-    
+
     # Find a 0-cochain β_i such that δβ = α (if possible)
     # This requires solving: β_j - β_i = α_{ij} on overlaps
-    
+
     # Build linear system
     num_regions = len(cover)
     A_matrix = []
     b_vector = []
-    
+
     for i in range(num_regions):
         for j in range(i+1, num_regions):
             overlap = set(cover[i]) & set(cover[j])
@@ -675,19 +675,19 @@ def factorization_homology_gluing(local_holors, cover, obstruction_class):
                 row[j] = 1
                 A_matrix.append(row)
                 b_vector.append(alpha[i, j])
-    
+
     A_matrix = np.array(A_matrix)
     b_vector = np.array(b_vector)
-    
+
     # Solve least-squares (may not have exact solution if obstruction is non-trivial)
     beta, residual, rank, s = np.linalg.lstsq(A_matrix, b_vector, rcond=None)
-    
+
     if residual < 0.01:  # Obstruction can be removed
         # Correct local holors: h_i' = h_i + β_i
         corrected_holors = {}
         for i in range(num_regions):
             corrected_holors[i] = local_holors[i] + beta[i]
-        
+
         # Now glue corrected holors
         return direct_glue(corrected_holors, cover)
     else:
@@ -970,39 +970,39 @@ Lineage_n ---------> Lineage_{n+1}
 def kan_extension_provenance_lift(provenance_n, transcendence_map, holor_n1):
     """
     Lift provenance from level n to level n+1 via Kan extension.
-    
+
     Args:
         provenance_n: Provenance functor at level n (dict: holor_n -> lineage)
         transcendence_map: T_n: Hol_n -> Hol_{n+1} (function)
         holor_n1: Target holor at level n+1
-    
+
     Returns:
         provenance_n1: Provenance at level n+1 (lineage)
     """
     # Compute colimit: Lan_{T_n} Prov_n (H_{n+1}) = colim_{T_n(H_n) -> H_{n+1}} Prov_n(H_n)
-    
+
     # Step 1: Find all holors H_n at level n such that T_n(H_n) -> H_{n+1}
     preimages = []
     for holor_n in provenance_n.keys():
         if transcendence_map(holor_n) == holor_n1:
             preimages.append(holor_n)
-    
+
     if not preimages:
         # No preimages, provenance is empty
         return []
-    
+
     # Step 2: Collect provenance from all preimages
     lineages_n = [provenance_n[h_n] for h_n in preimages]
-    
+
     # Step 3: Compute colimit (union of lineages, identifying compatible parts)
     # For simplicity, take union (in practice, need to identify equivalent lineages)
     lineage_n1 = []
     for lin in lineages_n:
         lineage_n1.extend(lin)
-    
+
     # Remove duplicates
     lineage_n1 = list(set(lineage_n1))
-    
+
     return lineage_n1
 ```
 
@@ -1042,12 +1042,12 @@ Dracula patterns at multiple holarchic levels can be nullified simultaneously by
 def higher_dracula_nullification(connection_A, dracula_loops, structure_group):
     """
     Nullify Dracula patterns via gerbe twist.
-    
+
     Args:
         connection_A: 1-connection A (dict: edge -> su(2) element)
         dracula_loops: List of loops γ with U[γ] ∈ G_Dracula
         structure_group: G = SU(2) or other
-    
+
     Returns:
         connection_A_prime: Nullified 1-connection A'
         two_connection_B: 2-connection B used for twist
@@ -1057,39 +1057,39 @@ def higher_dracula_nullification(connection_A, dracula_loops, structure_group):
     for gamma in dracula_loops:
         U_gamma = compute_holonomy(gamma, connection_A)
         dracula_holonomies.append(U_gamma)
-    
+
     # Step 2: Find 2-connection B such that exp(∫_Σ G) conjugates U[γ] out of G_Dracula
     # This is a constrained optimization problem
-    
+
     # For each Dracula loop γ, find surface Σ with ∂Σ = γ
     surfaces = [find_spanning_surface(gamma) for gamma in dracula_loops]
-    
+
     # Initialize B as zero
     B = {face: np.zeros((2, 2), dtype=complex) for face in get_all_faces()}
-    
+
     # Optimize B to nullify Dracula holonomies
     for i, (gamma, Sigma, U_gamma) in enumerate(zip(dracula_loops, surfaces, dracula_holonomies)):
         # Target: U'[γ] = U[γ] · exp(∫_Σ G) ∉ G_Dracula
         # Choose G such that exp(∫_Σ G) = U_gamma^{-1} · U_target
         # where U_target ∈ G_adm (admissible holonomy)
-        
+
         U_target = project_to_admissible(U_gamma, structure_group)
         correction = U_target @ np.linalg.inv(U_gamma)
-        
+
         # Distribute correction over surface Σ
         G_Sigma = matrix_log(correction) / area(Sigma)
-        
+
         # Set B on faces of Σ such that dB + A ∧ B = G_Sigma
         # (Simplified: set B proportional to G_Sigma)
         for face in Sigma:
             B[face] += G_Sigma / len(Sigma)
-    
+
     # Step 3: Compute twisted connection A' = A + dB
     A_prime = {}
     for edge in connection_A.keys():
         dB_edge = compute_exterior_derivative(B, edge)
         A_prime[edge] = connection_A[edge] + dB_edge
-    
+
     return A_prime, B
 
 def project_to_admissible(U, structure_group):
@@ -1319,16 +1319,16 @@ The **lifespan** of a Dracula pattern is the interval $[t_{birth}, t_{death}]$ w
 def persistent_dracula_tracking(morpheme_sequence_over_time, local_admissibility_fn):
     """
     Track Dracula patterns over time using persistent homology.
-    
+
     Args:
         morpheme_sequence_over_time: List of morpheme sequences at each time step
         local_admissibility_fn: Function checking local admissibility
-    
+
     Returns:
         persistence_diagram: List of (birth, death, dracula_class) tuples
     """
     T = len(morpheme_sequence_over_time)
-    
+
     # Step 1: Compute H^1 at each time step
     H1_over_time = []
     for t in range(T):
@@ -1340,23 +1340,23 @@ def persistent_dracula_tracking(morpheme_sequence_over_time, local_admissibility
             H1_over_time.append(obstruction)
         else:
             H1_over_time.append(None)
-    
+
     # Step 2: Track persistence of Dracula classes
     persistence_diagram = []
     active_classes = {}  # {class_id: birth_time}
-    
+
     for t in range(T):
         if H1_over_time[t] is not None:
             # Dracula pattern present at time t
             obstruction_t = H1_over_time[t]
-            
+
             # Check if this is a new class or continuation of existing
             class_id = identify_class(obstruction_t, active_classes)
-            
+
             if class_id not in active_classes:
                 # New Dracula pattern born
                 active_classes[class_id] = t
-        
+
         # Check for deaths (classes present at t-1 but not at t)
         if t > 0:
             for class_id in list(active_classes.keys()):
@@ -1366,11 +1366,11 @@ def persistent_dracula_tracking(morpheme_sequence_over_time, local_admissibility
                     death_time = t
                     persistence_diagram.append((birth_time, death_time, class_id))
                     del active_classes[class_id]
-    
+
     # Step 3: Handle classes that persist to the end
     for class_id, birth_time in active_classes.items():
         persistence_diagram.append((birth_time, T, class_id))
-    
+
     return persistence_diagram
 
 def identify_class(obstruction, active_classes):
@@ -1533,11 +1533,11 @@ ensures that the descent stays within the admissible region while maintaining fa
 **Practical Implementation**:
 
 ```python
-def natural_gradient_descent(theta_init, E_tot_fn, fisher_metric_fn, P_adm_fn, 
+def natural_gradient_descent(theta_init, E_tot_fn, fisher_metric_fn, P_adm_fn,
                              eta=0.01, max_iter=1000, tol=1e-6):
     """
     Natural gradient descent on (H, A)-space with admissibility projection.
-    
+
     Args:
         theta_init: Initial parameters
         E_tot_fn: Total energy functional E_tot(theta)
@@ -1546,58 +1546,58 @@ def natural_gradient_descent(theta_init, E_tot_fn, fisher_metric_fn, P_adm_fn,
         eta: Learning rate
         max_iter: Maximum iterations
         tol: Convergence tolerance
-    
+
     Returns:
         theta_final: Optimized parameters
         convergence_history: List of (iteration, E_tot, grad_norm)
     """
     theta = theta_init
     convergence_history = []
-    
+
     for iteration in range(max_iter):
         # Step 1: Compute standard gradient
         grad_theta = compute_gradient(E_tot_fn, theta)
-        
+
         # Step 2: Compute Fisher metric
         g_theta = fisher_metric_fn(theta)
-        
+
         # Step 3: Compute natural gradient: g^{-1} grad
         nat_grad_theta = np.linalg.solve(g_theta, grad_theta)
-        
+
         # Step 4: Project onto admissible space
         nat_grad_theta_adm = P_adm_fn(theta, nat_grad_theta)
-        
+
         # Step 5: Update parameters
         theta_new = theta - eta * nat_grad_theta_adm
-        
+
         # Step 6: Check convergence
         grad_norm = np.linalg.norm(nat_grad_theta_adm)
         E_tot_val = E_tot_fn(theta)
         convergence_history.append((iteration, E_tot_val, grad_norm))
-        
+
         if grad_norm < tol:
             print(f"Converged at iteration {iteration}")
             break
-        
+
         theta = theta_new
-    
+
     return theta, convergence_history
 
 def compute_fisher_metric(theta, E_tot_fn, delta=1e-5):
     """
     Compute Fisher information metric g(theta) numerically.
-    
+
     Args:
         theta: Current parameters (shape: [d])
         E_tot_fn: Energy functional
         delta: Finite difference step
-    
+
     Returns:
         g: Fisher metric (shape: [d, d])
     """
     d = len(theta)
     g = np.zeros((d, d))
-    
+
     # Compute Hessian of E_tot as proxy for Fisher metric
     for i in range(d):
         for j in range(d):
@@ -1606,25 +1606,25 @@ def compute_fisher_metric(theta, E_tot_fn, delta=1e-5):
             theta_ij[i] += delta
             theta_ij[j] += delta
             E_ij = E_tot_fn(theta_ij)
-            
+
             theta_i = theta.copy()
             theta_i[i] += delta
             E_i = E_tot_fn(theta_i)
-            
+
             theta_j = theta.copy()
             theta_j[j] += delta
             E_j = E_tot_fn(theta_j)
-            
+
             E_0 = E_tot_fn(theta)
-            
+
             g[i, j] = (E_ij - E_i - E_j + E_0) / (delta ** 2)
-    
+
     # Symmetrize
     g = (g + g.T) / 2
-    
+
     # Regularize to ensure positive definiteness
     g += 1e-6 * np.eye(d)
-    
+
     return g
 ```
 
@@ -1691,26 +1691,26 @@ for some constant $C$.
 def categorical_uncertainty(holor_config, curvature_F):
     """
     Compute epistemic uncertainty using categorical probability.
-    
+
     Args:
         holor_config: (H, A) configuration
         curvature_F: Curvature F = dA + A ∧ A
-    
+
     Returns:
         uncertainty: Scalar uncertainty measure
     """
     # Uncertainty proportional to curvature norm
     F_norm = np.linalg.norm(curvature_F)
-    
+
     # Categorical probability: uncertainty as "spread" in holor space
     # Measured by trace of covariance-like operator
     H, A = holor_config
     cov_H = np.cov(H.T)  # Covariance of holor field
     uncertainty_H = np.trace(cov_H)
-    
+
     # Combine holor and curvature uncertainty
     uncertainty = uncertainty_H + 0.5 * F_norm
-    
+
     return uncertainty
 ```
 
@@ -1869,14 +1869,14 @@ $$\partial_\tau \rho = 0 \implies \nabla \cdot (\rho \, v) = 0$$
 def mean_field_kinfield_simulation(n_agents, E_tot_fn, P_adm_fn, T_max=1000, dt=0.01):
     """
     Simulate mean-field kinfield with n agents.
-    
+
     Args:
         n_agents: Number of agents
         E_tot_fn: Total energy functional (depends on mean-field density)
         P_adm_fn: Admissibility projection
         T_max: Maximum simulation time
         dt: Time step
-    
+
     Returns:
         rho_history: Evolution of mean-field density over time
         equilibrium_rho: Final equilibrium density
@@ -1887,37 +1887,37 @@ def mean_field_kinfield_simulation(n_agents, E_tot_fn, P_adm_fn, T_max=1000, dt=
         H_i = initialize_holor()
         A_i = initialize_connection()
         agents.append((H_i, A_i))
-    
+
     rho_history = []
-    
+
     for t in np.arange(0, T_max, dt):
         # Step 1: Compute mean-field density
         rho_t = compute_mean_field_density(agents)
         rho_history.append(rho_t)
-        
+
         # Step 2: Update each agent via gradient flow
         for i in range(n_agents):
             H_i, A_i = agents[i]
-            
+
             # Compute gradient of E_tot given mean-field density
             grad_H_i, grad_A_i = compute_gradient_mean_field(
                 H_i, A_i, rho_t, E_tot_fn
             )
-            
+
             # Project onto admissible space
             grad_H_i_adm, grad_A_i_adm = P_adm_fn(H_i, A_i, grad_H_i, grad_A_i)
-            
+
             # Update
             H_i_new = H_i - dt * grad_H_i_adm
             A_i_new = A_i - dt * grad_A_i_adm
-            
+
             agents[i] = (H_i_new, A_i_new)
-        
+
         # Step 3: Check for equilibrium
         if t > 100 and is_equilibrium(rho_history[-10:]):
             print(f"Equilibrium reached at t={t}")
             break
-    
+
     equilibrium_rho = rho_history[-1]
     return rho_history, equilibrium_rho
 
@@ -1927,32 +1927,32 @@ def compute_mean_field_density(agents):
     # Discretize (H, A)-space into bins
     bins_H = np.linspace(-1, 1, 50)
     bins_A = np.linspace(-1, 1, 50)
-    
+
     rho = np.zeros((len(bins_H), len(bins_A)))
-    
+
     for H_i, A_i in agents:
         # Project (H_i, A_i) onto bins
         idx_H = np.digitize(np.mean(H_i), bins_H)
         idx_A = np.digitize(np.mean(A_i), bins_A)
         rho[idx_H, idx_A] += 1.0 / n
-    
+
     return rho
 
 def compute_gradient_mean_field(H_i, A_i, rho, E_tot_fn):
     """Compute gradient of E_tot given mean-field density."""
     # E_tot[H_i, A_i | ρ] = E_HSE + E_IAR + E_eth + E_int[ρ]
     # where E_int[ρ] = ∫ V(H_i, H) ρ(H, A) dH dA
-    
+
     # Compute interaction energy
     E_int = 0.0
     for H, A in sample_from_density(rho):
         V = interaction_potential(H_i, A_i, H, A)
         E_int += V
-    
+
     # Compute gradient
     grad_H_i = compute_gradient_H(E_tot_fn, H_i, A_i, E_int)
     grad_A_i = compute_gradient_A(E_tot_fn, H_i, A_i, E_int)
-    
+
     return grad_H_i, grad_A_i
 ```
 
@@ -2016,12 +2016,12 @@ Equilibria of stratified kinfields satisfy equilibrium conditions at each stratu
 def stratified_kinfield_simulation(strata, interactions, T_max=1000, dt=0.01):
     """
     Simulate stratified kinfield with multiple holarchic levels.
-    
+
     Args:
         strata: Dict {level: list of agents at that level}
         interactions: Dict {(level_i, level_j): interactio
 n_fn}
-    
+
     Returns:
         equilibrium_config: Equilibrium configuration at each stratum
     """
@@ -2030,30 +2030,30 @@ n_fn}
         for agent in agents:
             agent['H'] = initialize_holor()
             agent['A'] = initialize_connection()
-    
+
     for t in np.arange(0, T_max, dt):
         # Update each stratum
         for level in sorted(strata.keys()):
             agents_at_level = strata[level]
-            
+
             # Compute mean-field density at this level
             rho_level = compute_mean_field_density(agents_at_level)
-            
+
             # Update agents
             for agent in agents_at_level:
                 # Gradient includes intra-level and inter-level interactions
                 grad_H, grad_A = compute_stratified_gradient(
                     agent, level, strata, interactions, rho_level
                 )
-                
+
                 # Update
                 agent['H'] -= dt * grad_H
                 agent['A'] -= dt * grad_A
-        
+
         # Check equilibrium
         if is_stratified_equilibrium(strata):
             break
-    
+
     return strata
 ```
 
@@ -2173,34 +2173,34 @@ The semantics of an utterance is the result of applying operadic composition to 
 ```python
 class HolorOperad:
     """Operad of holor operations for morpheme composition."""
-    
+
     def __init__(self):
         self.operations = {
             1: [self.identity],
             2: [self.concat, self.prefix, self.suffix],
             3: [self.infix],
         }
-    
+
     def identity(self, H):
         """Identity operation: id(H) = H."""
         return H
-    
+
     def concat(self, H1, H2):
         """Concatenation: H1 ⊕ H2."""
         return np.concatenate([H1, H2], axis=0)
-    
+
     def prefix(self, H_pre, H_root):
         """Prefixation: H_pre ⊗ H_root."""
         return np.kron(H_pre, H_root)  # Tensor product
-    
+
     def suffix(self, H_root, H_suf):
         """Suffixation: H_root ⊗ H_suf."""
         return np.kron(H_root, H_suf)
-    
+
     def infix(self, H1, H_in, H2):
         """Infixation: H1 ⊗ H_in ⊗ H2."""
         return np.kron(np.kron(H1, H_in), H2)
-    
+
     def compose(self, f, g, i):
         """Operadic composition: f ∘_i g."""
         def composed(*args):
@@ -2208,13 +2208,13 @@ class HolorOperad:
             before = args[:i-1]
             middle = args[i-1:i-1+g.__code__.co_argcount]
             after = args[i-1+g.__code__.co_argcount:]
-            
+
             # Apply g to middle
             g_result = g(*middle)
-            
+
             # Apply f to (before, g_result, after)
             return f(*before, g_result, *after)
-        
+
         return composed
 
 # Example usage
@@ -2472,15 +2472,15 @@ class EnrichedHRAG:
     Holarchic RAG with sheaf-theoretic gluing and cohomological detection.
     Integrates §2 (sheaf theory) with HC III hRAG.
     """
-    
+
     def __init__(self, knowledge_graph, holor_embeddings, admissibility_fn):
         self.kg = knowledge_graph  # Knowledge graph G_M
         self.embeddings = holor_embeddings  # Morpheme → holor embeddings
         self.admissibility_fn = admissibility_fn
-        
+
         # Sheaf structure over KG
         self.holor_sheaf = self._build_holor_sheaf()
-    
+
     def _build_holor_sheaf(self):
         """Build sheaf of holors over knowledge graph."""
         sheaf = {}
@@ -2488,35 +2488,35 @@ class EnrichedHRAG:
             # Local holor module at each node
             sheaf[node] = self.embeddings[node]
         return sheaf
-    
+
     def retrieve(self, query, top_k=10):
         """
         Retrieve relevant context using sheaf cohomology.
-        
+
         Args:
             query: Query morpheme sequence
             top_k: Number of results to return
-        
+
         Returns:
             retrieved_context: List of (node, holor, coherence_score)
         """
         # Step 1: Embed query as holor
         query_holor = self._embed_query(query)
-        
+
         # Step 2: Find candidate nodes via semantic similarity
         candidates = self._find_candidates(query_holor, top_k * 3)
-        
+
         # Step 3: For each candidate, compute local holor
         local_holors = {}
         for node in candidates:
             local_holors[node] = self.holor_sheaf[node]
-        
+
         # Step 4: Attempt to glue local holors to global context
         # Use factorization homology (§2.4)
         global_holor, obstruction = self._factorization_glue(
             local_holors, candidates
         )
-        
+
         # Step 5: Compute cohomological coherence score
         # H^1 = 0 → perfect gluing, H^1 ≠ 0 → obstruction
         coherence_scores = {}
@@ -2530,21 +2530,21 @@ class EnrichedHRAG:
                 coherence_scores[node] = self._compute_coherence(
                     local_holors[node], global_holor
                 )
-        
+
         # Step 6: Rank by coherence and return top_k
         ranked = sorted(
-            coherence_scores.items(), 
-            key=lambda x: x[1], 
+            coherence_scores.items(),
+            key=lambda x: x[1],
             reverse=True
         )[:top_k]
-        
+
         retrieved_context = [
-            (node, local_holors[node], score) 
+            (node, local_holors[node], score)
             for node, score in ranked
         ]
-        
+
         return retrieved_context, global_holor
-    
+
     def _factorization_glue(self, local_holors, nodes):
         """
         Glue local holors using factorization homology.
@@ -2552,7 +2552,7 @@ class EnrichedHRAG:
         """
         # Build cover of nodes
         cover = self._build_cover(nodes)
-        
+
         # Check compatibility on overlaps
         compatibility_matrix = np.zeros((len(cover), len(cover)))
         for i, U_i in enumerate(cover):
@@ -2566,10 +2566,10 @@ class EnrichedHRAG:
                     compatibility_matrix[i, j] = np.linalg.norm(
                         h_i_restricted - h_j_restricted
                     )
-        
+
         # Compute H^1 via Čech cohomology
         obstruction_norm = np.linalg.norm(compatibility_matrix)
-        
+
         if obstruction_norm < 0.1:  # Threshold
             # Gluing succeeds
             global_holor = self._direct_glue(local_holors, nodes)
@@ -2577,7 +2577,7 @@ class EnrichedHRAG:
         else:
             # Gluing fails, return obstruction
             return None, compatibility_matrix
-    
+
     def _compute_coherence(self, local_holor, global_holor):
         """Compute coherence score between local and global holors."""
         if global_holor is None:
@@ -2604,49 +2604,49 @@ class HigherGaugeCurriculum:
     Curriculum optimization using 2-connections and provenance 2-morphisms.
     Integrates §3 (higher gauge theory) with HC IV curriculum learning.
     """
-    
+
     def __init__(self, dataset, connection_A, two_connection_B):
         self.dataset = dataset
         self.A = connection_A  # 1-connection (attention)
         self.B = two_connection_B  # 2-connection (meta-attention)
-    
+
     def optimize_curriculum(self, initial_curriculum, max_iter=100):
         """
         Optimize curriculum using higher gauge transformations.
-        
+
         Args:
             initial_curriculum: Initial curriculum C_0
             max_iter: Maximum optimization iterations
-        
+
         Returns:
             optimal_curriculum: Optimized curriculum C*
             provenance: 2-categorical provenance tracking
         """
         curriculum = initial_curriculum
         provenance = []  # List of 2-morphisms
-        
+
         for iteration in range(max_iter):
             # Step 1: Evaluate current curriculum
             holonomy_current = self._compute_curriculum_holonomy(curriculum)
             energy_current = self._compute_curriculum_energy(curriculum)
-            
+
             # Step 2: Generate candidate transformations (1-morphisms)
             candidates = self._generate_candidate_transforms(curriculum)
-            
+
             # Step 3: For each candidate, compute 2-morphism
             best_transform = None
             best_energy = energy_current
             best_2morph = None
-            
+
             for transform in candidates:
                 # Apply transform
                 curriculum_new = transform(curriculum)
-                
+
                 # Compute 2-morphism: α: transform_old ⇒ transform_new
                 alpha = self._compute_2morphism(
                     curriculum, curriculum_new, transform
                 )
-                
+
                 # Check if 2-morphism preserves admissibility
                 if self._is_admissible_2morphism(alpha):
                     energy_new = self._compute_curriculum_energy(curriculum_new)
@@ -2654,7 +2654,7 @@ class HigherGaugeCurriculum:
                         best_transform = transform
                         best_energy = energy_new
                         best_2morph = alpha
-            
+
             # Step 4: Apply best transform
             if best_transform is not None:
                 curriculum = best_transform(curriculum)
@@ -2667,9 +2667,9 @@ class HigherGaugeCurriculum:
             else:
                 # No improvement, converged
                 break
-        
+
         return curriculum, provenance
-    
+
     def _compute_2morphism(self, curriculum_old, curriculum_new, transform):
         """
         Compute 2-morphism α: T_old ⇒ T_new.
@@ -2677,16 +2677,16 @@ class HigherGaugeCurriculum:
         """
         # Path from curriculum_old to curriculum_new
         path = self._interpolate_curricula(curriculum_old, curriculum_new)
-        
+
         # Compute surface holonomy using B
         # U[Σ] = Pexp(∫_Σ B + ∫_∂Σ A)
         surface_holonomy = self._compute_surface_holonomy(path, self.A, self.B)
-        
+
         # 2-morphism is the surface holonomy
         alpha = surface_holonomy
-        
+
         return alpha
-    
+
     def _is_admissible_2morphism(self, alpha):
         """Check if 2-morphism preserves admissibility."""
         # Check if α ∈ G_adm (admissible holonomy class)
@@ -2712,57 +2712,57 @@ class HomotopyRobustTrainer:
     Training procedure robust to curriculum perturbations via homotopy equivalence.
     Integrates §4 (HoTT) with HC II gradient flows.
     """
-    
+
     def __init__(self, model, loss_fn, admissibility_fn):
         self.model = model
         self.loss_fn = loss_fn
         self.admissibility_fn = admissibility_fn
-    
+
     def train(self, curriculum, epochs=10, perturbation_prob=0.1):
         """
         Train with homotopy-robust curriculum.
-        
+
         Args:
             curriculum: Base curriculum
             epochs: Number of epochs
             perturbation_prob: Probability of perturbing curriculum
-        
+
         Returns:
             trained_model: Model after training
             homotopy_class: Homotopy class of training path
         """
         training_path = []  # Path in (H, A)-space
-        
+
         for epoch in range(epochs):
             # Step 1: Perturb curriculum with probability p
             if np.random.rand() < perturbation_prob:
                 curriculum_perturbed = self._perturb_curriculum(curriculum)
             else:
                 curriculum_perturbed = curriculum
-            
+
             # Step 2: Train on perturbed curriculum
             for batch in curriculum_perturbed:
                 # Forward pass
                 output = self.model(batch['input'])
                 loss = self.loss_fn(output, batch['target'])
-                
+
                 # Backward pass
                 loss.backward()
-                
+
                 # Admissibility projection
                 self._project_gradients_admissible()
-                
+
                 # Update
                 self.optimizer.step()
-                
+
                 # Record path
                 training_path.append(self._get_model_state())
-        
+
         # Step 3: Compute homotopy class of training path
         homotopy_class = self._compute_homotopy_class(training_path)
-        
+
         return self.model, homotopy_class
-    
+
     def _perturb_curriculum(self, curriculum):
         """Perturb curriculum while staying in same homotopy class."""
         # Swap adjacent examples with small probability
@@ -2771,7 +2771,7 @@ class HomotopyRobustTrainer:
             if np.random.rand() < 0.05:  # 5% swap probability
                 perturbed[i], perturbed[i+1] = perturbed[i+1], perturbed[i]
         return perturbed
-    
+
     def _compute_homotopy_class(self, training_path):
         """
         Compute homotopy class of training path.
@@ -2779,10 +2779,10 @@ class HomotopyRobustTrainer:
         """
         # Compute holonomy along path
         holonomy = self._compute_path_holonomy(training_path)
-        
+
         # Identify conjugacy class (homotopy class)
         conjugacy_class = self._identify_conjugacy_class(holonomy)
-        
+
         return conjugacy_class
 ```
 
@@ -2802,35 +2802,35 @@ class NaturalGradientOptimizer:
     Natural gradient descent using Fisher information metric.
     Integrates §5 (information geometry) with HC II gradient flows.
     """
-    
+
     def __init__(self, model, learning_rate=0.01, damping=1e-5):
         self.model = model
         self.lr = learning_rate
         self.damping = damping
-    
+
     def step(self, loss):
         """
         Perform one natural gradient descent step.
-        
+
         Args:
             loss: Current loss value
         """
         # Step 1: Compute standard gradient
         loss.backward()
         grads = [p.grad for p in self.model.parameters() if p.grad is not None]
-        
+
         # Step 2: Compute Fisher information matrix
         fisher = self._compute_fisher_matrix()
-        
+
         # Step 3: Compute natural gradient: g^{-1} ∇
         nat_grads = self._solve_fisher_system(fisher, grads)
-        
+
         # Step 4: Update parameters
         with torch.no_grad():
             for p, nat_grad in zip(self.model.parameters(), nat_grads):
                 if p.grad is not None:
                     p -= self.lr * nat_grad
-    
+
     def _compute_fisher_matrix(self):
         """
         Compute Fisher information matrix.
@@ -2839,10 +2839,10 @@ class NaturalGradientOptimizer:
         # Collect all parameters
         params = [p for p in self.model.parameters() if p.requires_grad]
         n_params = sum(p.numel() for p in params)
-        
+
         # Initialize Fisher matrix
         fisher = torch.zeros(n_params, n_params)
-        
+
         # Compute Hessian (expensive, use approximation)
         # For efficiency, use diagonal approximation or K-FAC
         # Here we use diagonal Fisher (simplest)
@@ -2853,12 +2853,12 @@ class NaturalGradientOptimizer:
                 # Diagonal entry: E[∇ log p · ∇ log p^T]
                 fisher[idx:idx+n, idx:idx+n] = torch.diag(p.grad.flatten() ** 2)
             idx += n
-        
+
         # Add damping for numerical stability
         fisher += self.damping * torch.eye(n_params)
-        
+
         return fisher
-    
+
     def _solve_fisher_system(self, fisher, grads):
         """
         Solve Fisher system: g · nat_grad = grad.
@@ -2866,10 +2866,10 @@ class NaturalGradientOptimizer:
         """
         # Flatten gradients
         grad_flat = torch.cat([g.flatten() for g in grads])
-        
+
         # Solve linear system
         nat_grad_flat = torch.linalg.solve(fisher, grad_flat)
-        
+
         # Unflatten
         nat_grads = []
         idx = 0
@@ -2877,7 +2877,7 @@ class NaturalGradientOptimizer:
             n = g.numel()
             nat_grads.append(nat_grad_flat[idx:idx+n].reshape(g.shape))
             idx += n
-        
+
         return nat_grads
 ```
 
@@ -2897,23 +2897,23 @@ class MeanFieldCoordinator:
     Multi-agent coordination using mean-field game theory.
     Integrates §6 (geometric games) with HC V multi-agent kinfields.
     """
-    
+
     def __init__(self, n_agents, E_tot_fn, P_adm_fn):
         self.n_agents = n_agents
         self.E_tot_fn = E_tot_fn
         self.P_adm_fn = P_adm_fn
-        
+
         # Initialize agents
         self.agents = [self._initialize_agent() for _ in range(n_agents)]
-    
+
     def simulate(self, T_max=1000, dt=0.01):
         """
         Simulate mean-field kinfield.
-        
+
         Args:
             T_max: Maximum simulation time
             dt: Time step
-        
+
         Returns:
             equilibrium_config: Equilibrium configuration
             convergence_time: Time to reach equilibrium
@@ -2921,43 +2921,43 @@ class MeanFieldCoordinator:
         for t in np.arange(0, T_max, dt):
             # Step 1: Compute mean-field density
             rho_t = self._compute_mean_field_density()
-            
+
             # Step 2: Update each agent
             for agent in self.agents:
                 # Gradient depends on mean-field density
                 grad_H, grad_A = self._compute_mean_field_gradient(
                     agent, rho_t
                 )
-                
+
                 # Project onto admissible space
                 grad_H_adm, grad_A_adm = self.P_adm_fn(
                     agent['H'], agent['A'], grad_H, grad_A
                 )
-                
+
                 # Update
                 agent['H'] -= dt * grad_H_adm
                 agent['A'] -= dt * grad_A_adm
-            
+
             # Step 3: Check for equilibrium
             if self._is_equilibrium(rho_t):
                 return self.agents, t
-        
+
         return self.agents, T_max
-    
+
     def _compute_mean_field_density(self):
         """Compute mean-field density ρ(H, A)."""
         # Discretize (H, A)-space
         bins_H = np.linspace(-1, 1, 50)
         bins_A = np.linspace(-1, 1, 50)
-        
+
         rho = np.zeros((len(bins_H), len(bins_A)))
-        
+
         for agent in self.agents:
             # Project agent state onto bins
             idx_H = np.digitize(np.mean(agent['H']), bins_H)
             idx_A = np.digitize(np.mean(agent['A']), bins_A)
             rho[idx_H, idx_A] += 1.0 / self.n_agents
-        
+
         return rho
 ```
 
@@ -2977,38 +2977,38 @@ class OpradicCompositionLayer(nn.Module):
     Neural network layer implementing operadic morpheme composition.
     Integrates §7 (operads) with transformer architecture.
     """
-    
+
     def __init__(self, d_model, n_operations=4):
         super().__init__()
         self.d_model = d_model
         self.n_operations = n_operations
-        
+
         # Learnable operation embeddings
         self.operation_embeddings = nn.Parameter(
             torch.randn(n_operations, d_model)
         )
-        
+
         # Composition network
         self.composition_net = nn.Sequential(
             nn.Linear(2 * d_model, d_model),
             nn.ReLU(),
             nn.Linear(d_model, d_model)
         )
-    
+
     def forward(self, morpheme_embeddings, composition_tree):
         """
         Apply operadic composition to morpheme embeddings.
-        
+
         Args:
             morpheme_embeddings: [batch, seq_len, d_model]
             composition_tree: Tree structure specifying composition order
-        
+
         Returns:
             composed_embedding: [batch, d_model]
         """
         # Recursively compose according to tree structure
         return self._compose_recursive(morpheme_embeddings, composition_tree)
-    
+
     def _compose_recursive(self, embeddings, tree):
         """Recursive operadic composition."""
         if tree['type'] == 'leaf':
@@ -3018,16 +3018,16 @@ class OpradicCompositionLayer(nn.Module):
             # Recursive case: compose children
             left = self._compose_recursive(embeddings, tree['left'])
             right = self._compose_recursive(embeddings, tree['right'])
-            
+
             # Apply operation
             operation_idx = tree['operation']
             operation_emb = self.operation_embeddings[operation_idx]
-            
+
             # Compose: f(left, right) with operation embedding
             composed = self.composition_net(
                 torch.cat([left, right], dim=-1)
             ) + operation_emb
-            
+
             return composed
 ```
 
@@ -3044,39 +3044,39 @@ def train_spiralllm_v2(model, dataset, config):
     homotopy_trainer = HomotopyRobustTrainer(model, ...)
     nat_grad_optimizer = NaturalGradientOptimizer(model, ...)
     mean_field_coord = MeanFieldCoordinator(config['n_agents'], ...)
-    
+
     # Optimize curriculum using higher gauge
     optimal_curriculum, provenance = higher_gauge_curriculum.optimize_curriculum(
         initial_curriculum=dataset.get_curriculum()
     )
-    
+
     # Train with homotopy robustness
     for epoch in range(config['epochs']):
         for batch in optimal_curriculum:
             # Forward pass with operadic composition
             output = model(batch['input'])
-            
+
             # Compute loss with holor regularization
             loss_task = F.cross_entropy(output, batch['target'])
             loss_holor = compute_holor_loss(model, batch)
             loss_total = loss_task + config['lambda_holor'] * loss_holor
-            
+
             # Natural gradient step
             nat_grad_optimizer.step(loss_total)
-            
+
             # Admissibility projection
             project_model_admissible(model)
-        
+
         # Enriched hRAG evaluation
         if epoch % 10 == 0:
             eval_results = evaluate_with_enriched_hrag(model, enriched_hrag)
             print(f"Epoch {epoch}: {eval_results}")
-    
+
     # Mean-field multi-agent coordination (if applicable)
     if config['multi_agent']:
         equilibrium_config, conv_time = mean_field_coord.simulate()
         print(f"Multi-agent equilibrium reached at t={conv_time}")
-    
+
     return model, provenance
 ```
 
@@ -3843,7 +3843,7 @@ This Genesis Blueprint for Holor Calculus VI provides a comprehensive architectu
 
 **Publication-Ready**: This blueprint is sufficiently detailed that any mathematician/computer scientist could develop the full HC VI manuscript.
 
-**Next Steps**: 
+**Next Steps**:
 1. Sprint 4 sheaf simulation
 2. Full manuscript development (6-9 months)
 3. Experimental validation (3-4 months)

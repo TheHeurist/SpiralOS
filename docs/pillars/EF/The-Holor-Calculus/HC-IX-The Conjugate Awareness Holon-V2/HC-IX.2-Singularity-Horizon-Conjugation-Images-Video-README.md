@@ -1,6 +1,6 @@
 # HC IX.2 — Singularity / Horizon Conjugation Images & Video README
-**Status:** companion asset note  
-**Format:** Markdown  
+**Status:** companion asset note
+**Format:** Markdown
 **Scope:** HC IX.2 publication packet
 
 ## Purpose

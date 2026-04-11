@@ -25,7 +25,7 @@ $$
 
 Where:
 
-- $\nabla_\mu \mathbb{T}^\mu$: divergence of trace tensor  
+- $\nabla_\mu \mathbb{T}^\mu$: divergence of trace tensor
 - $\Delta \tau$: phase misalignment in tone space
 
 Residue is minimal in coherent systems,

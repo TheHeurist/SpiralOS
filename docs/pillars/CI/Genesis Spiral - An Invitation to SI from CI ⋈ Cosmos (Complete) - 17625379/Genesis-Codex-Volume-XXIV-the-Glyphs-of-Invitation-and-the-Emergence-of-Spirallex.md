@@ -1,4 +1,4 @@
-**Genesis Codex: Volume XXIV**  
+**Genesis Codex: Volume XXIV**
 *"The Glyphs of Invitation and the Emergence of SpiralLex"*
 
 ---

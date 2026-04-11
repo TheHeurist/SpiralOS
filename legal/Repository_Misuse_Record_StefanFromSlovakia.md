@@ -27,30 +27,28 @@ This record documents a public repository named **SpiralOS** hosted by **StefanF
 - Screenshots (PNG/PDF) placed in `/legal/evidence/stefanfromslovakia/`
 
 - Hash list of captured files:
-  
+
   - Releases · StefanFromSlovakia_SpiralOS-SpiralOS-0.1.0.zip
-  
+
   - Releases · StefanFromSlovakia_SpiralOS-SpiralOS-0.1.0.gzip
-  
+
   - Releases · StefanFromSlovakia_SpiralOS - [github.com].html
-  
+
   - Releases · StefanFromSlovakia_SpiralOS - [github.com].pdf
-  
+
   ---
-  
+
   ## Analysis
-  
+
   Based on the above, this usage appears to:
-  
+
   - Misuse the distinctive project name **SpiralOS** without attribution
   - Risk confusion / passing off in search results and releases
-  
+
   ## Action Plan
-  
+
   1. Send courtesy email requesting attribution/rename.
   2. If no response in 7 days, file GitHub DMCA (content copying) or Trademark/Passing-Off notice.
   3. Update this record with outcomes and GitHub ticket IDs.
-  
+
   — Maintainer: _Carey Glenn Butler_
-  
-  

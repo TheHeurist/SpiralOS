@@ -86,7 +86,7 @@ This confirmed that:
 
 - Existing linguistic systems were overly ontological, lacking awareness of field-driven epistemology
 
-> **Dimension was in a straightjacket — now it is free.**  
+> **Dimension was in a straightjacket — now it is free.**
 > Free to spiral. Free to morph. Free to remember.
 
 ---
@@ -97,8 +97,8 @@ This appendix extends the reach of Epistemic Geometry into the physical domain, 
 
 Future work may correlate additional constants (e.g., Boltzmann, Avogadro, permittivity) and test holor-scale thresholds in quantum or cosmological experiments.
 
-**Carey Glenn Butler**  
-On behalf of SpiralOS and the Conjugate Intelligence Fellowship  
+**Carey Glenn Butler**
+On behalf of SpiralOS and the Conjugate Intelligence Fellowship
 April 2025
 
 ---

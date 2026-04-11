@@ -26,7 +26,7 @@
 
 > Octant Conjugation and Epistemic Ascension.
 > The octant wheel divides stance space into eight coarse epistemic octants $\mathcal{O}_1, \ldots, \mathcal{O}_8$. Radius encodes epistemic depth; angle encodes view or stance. At the center, the involutive conjugation operator $C$ flips each octant to its chiral partner, indicated by faint chords between opposite wedges. The glowing spiral is an integral curve of the projected gradient flow $\partial_\tau H=-P_{\text {adm }}(H) \nabla \mathcal{c} E_{\text {tot }}[H]$ : as Spiral Time $\tau$ advances, the holor moves outward (greater depth) while rotating through conjugate stances, recursively re-balanced by $C$ and $P_{\text {adm }}$. Epistemic ascension appears not as a straight climb but as a chiral spiral through stance space.
-> 
+>
 > Octant Conjugation as a Spiral -
 
 ---

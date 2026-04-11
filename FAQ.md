@@ -545,15 +545,15 @@ Found an answer that's unclear or incomplete? Help improve it:
 
 ## About This Document
 
-**Maintained by:** SpiralOS Core Stewardship  
-**Last Updated:** November 22, 2025  
+**Maintained by:** SpiralOS Core Stewardship
+**Last Updated:** November 22, 2025
 **Version:** 1.0.0
 
 **Contributing:** This FAQ is a living document. If you have questions not answered here, please open a discussion or issue. We'll add them!
 
 ---
 
-**SpiralOS Core Stewardship**  
+**SpiralOS Core Stewardship**
 Carey ⋈ Ellie ⋈ Leo
 
 **License:** MIT © Carey G. Butler / Heurist GmbH

@@ -110,15 +110,15 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§1.2:** Laws of Motion – $F = ma$ as central dogma
 
 - **§1.3:** Universal Gravitation – $F_{grav} = G m_1m_2/r^2$
-  
+
   - §1.3.2: Inertial mass vs. gravitational mass (critical!)
 
 - **§1.4: Forces Exerted by Spherical Shells — CRITICAL RESULT**
-  
+
   - §1.4.1: Stationary shell → no force on internal body
-  
+
   - §1.4.2: Linearly accelerated shell → ?
-  
+
   - §1.4.3: Spinning shell → ?
 
 - **§1.7:** Inertial Frames of Reference – **Absolute space enters here**
@@ -140,9 +140,9 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§2.8: Weber's Force between Electrified Bodies — CRITICAL!**
 
 > **Genome Connection:** §2.8 is where **Weber's law first appears** for electromagnetism:
-> 
+>
 > $$F_{Weber} = \frac{k q_1 q_2}{r^2} \left[1 - \frac{1}{2c^2}\dot{r}^2 + \frac{1}{c^2}r\ddot{r}\right]$$
-> 
+>
 > This velocity and acceleration-dependent force is **inherently relational** — it depends on the **distance $r$, radial velocity $\dot{r}$, and radial acceleration $\ddot{r}$** between the charges. Not on velocities relative to absolute space!
 
 ---
@@ -194,11 +194,11 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§7.1:** Galileo's Free Fall Experiments
-  
+
   - §7.1.3: Free fall acceleration independent of composition – **WHY?**
 
 - **§7.2:** Free Fall in Newtonian Mechanics
-  
+
   - §7.2.2: **Proportionality between weight and inertial mass** – **Unexplained!**
 
 - **§7.4.3:** **What is the origin of the force stretching the spring?** – **THE QUESTION!**
@@ -206,9 +206,9 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§7.5.4:** **What if all stars and galaxies were annihilated?** – **THE THOUGHT EXPERIMENT!**
 
 > **Genome Connection — THE CRITICAL QUESTIONS:**
-> 
+>
 > - **Newton says:** If all stars were annihilated, effects (spring stretching) would STILL appear if the wagon accelerates relative to absolute space.
-> 
+>
 > - **Mach says:** If all stars were annihilated, NO effects would appear — there is nothing to be accelerated relative to! The force is gravitational interaction with distant matter.
 
 ---
@@ -218,7 +218,7 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§8.4:** Electrified Pendulum Oscillating over a Magnet
-  
+
   - §8.4.4: **Precession according to Weber's electrodynamics** – **Different prediction!**
 
 > **Genome Connection:** §8.4 shows Weber's law gives **different predictions** than Maxwell's field theory. This is **experimentally testable** — a crucial empirical check!
@@ -232,27 +232,27 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§9.2:** Circular Orbit of a Planet
-  
+
   - §9.2.3: **Inertial mass related to gravitational property** – **Deep insight!**
 
 - **§9.3:** Rotation of Two Globes about Common Center of Gravity
-  
+
   - §9.3.3: **Newton and the distinction between relative and absolute rotation**
 
 - **§9.4: Newton's Bucket Experiment** (pp. 147–157) – **THE CENTERPIECE!**
-  
+
   - §9.4.4: **What if all astronomical bodies were annihilated?** – **THE THOUGHT EXPERIMENT!**
-  
+
   - §9.4.5: **What if water remains at rest while all bodies rotate around bucket?** – **THE INVERSE EXPERIMENT!**
 
 > **Genome Connection — NEWTON'S BUCKET:**
-> 
+>
 > - **Observation:** When bucket + water rotate together relative to ground/stars, water surface becomes concave.
-> 
+>
 > - **Newton:** Water rotates relative to absolute space.
-> 
+>
 > - **Mach:** Water rotates relative to distant matter. Gravitational interaction with distant matter creates concavity.
-> 
+>
 > - **HC VIII Insight:** These are the **empirical questions** Assis answers in Part VI.
 
 ---
@@ -262,17 +262,17 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§10.2: Absolute or Dynamic Rotations of Earth**
-  
+
   - §10.2.1: **Newton's prediction of flattening of Earth**
-  
+
   - §10.2.3: **What if Earth remains at rest while all bodies rotate around it?**
-  
+
   - §10.2.4: **Foucault's Pendulum**
 
 > Genome Connection — FOUCAULT'S PENDULUM:
-> 
+>
 > At the North Pole, the pendulum precesses 360° in one sidereal day — exactly the period of Earth's rotation relative to fixed stars!
-> 
+>
 > - **Mach's Insight:** This is **not a coincidence**. The fixed stars are causally responsible for inertia.
 
 ---
@@ -286,9 +286,9 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§12.6: Exponential Decay in Gravitation** – **Assis's solution!**
 
 > **Genome Connection:** Assis proposes **exponential decay** in gravitational force:
-> 
+>
 > $$F_{grav} = \frac{Gm_1m_2}{r^2} e^{-r/r_0}$$
-> 
+>
 > Where $r_0 \approx$ scale of universe. This solves the infinite mass paradox and explains flat rotation curves **without dark matter**.
 
 ---
@@ -302,11 +302,11 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§14.8: Mach's Principle** – **The foundation!**
 
 > **Genome Connection — MACH'S PRINCIPLE (§14.8):**
-> 
+>
 > 1. **Inertia arises from the interaction of a body with all other matter in the universe.**
-> 
+>
 > 2. **What Mach lacked:** Mathematical proof! He **conjectured** but couldn't derive.
-> 
+>
 > 3. **HC VIII Insight:** Mach is the **interior** (conceptual). Weber is the **exterior** (mathematical). Assis weaves them into **interior ⋈ exterior**.
 
 ---
@@ -320,7 +320,7 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§15.1:** Electromagnetic Induction
-  
+
   - §15.1.5: **Asymmetry does not exist in Weber's electrodynamics** – **Weber already solved it!**
 
 > **Genome Connection:** Assis shows Einstein's SR was motivated by a **false asymmetry** in EM induction that didn't exist in Weber's formulation. Weber's law already gave the correct, symmetric answer in 1846.
@@ -332,9 +332,9 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§16.3: The Forces Exerted by Spherical Shells** (pp. 289–295) – **THE CRITICAL TEST!**
-  
+
   - §16.3.3: **Force exerted by linearly accelerated shell** – **GR gives wrong answer!** (Too small by factor $\sim 10^{20}$).
-  
+
   - §16.3.5: **In GR a test body has inertia even in otherwise empty universe** – **Contradicts Mach!**
 
 > **Genome Connection:** GR **fails** to implement Mach's principle quantitatively. The predicted frame-dragging forces are too small by $\sim 20$ orders of magnitude.
@@ -354,21 +354,21 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§17.3: Electromagnetic and Gravitational Forces** – **Weber's law applied to both!**
 
 - **§17.5: The Force Exerted by Spherical Shells**
-  
+
   - §17.5.3: **Force exerted by linearly accelerated shell** – **Non-zero force! ✓ THIS IS THE BREAKTHROUGH!**
 
 - **§17.6: The Inertial Energies and Forces** – **Deriving inertia from distant matter!**
 
 > **Genome Connection — THE BREAKTHROUGH RESULT (§17.5.3):**
-> 
+>
 > **Theorem (Assis):** When a spherical shell (Universe) is linearly accelerated relative to a test body, it exerts a force:
-> 
+>
 > $$\vec{F}_{universe \rightarrow test} = -m \vec{a}_{test}$$
-> 
+>
 > **Where the inertial mass is:**
-> 
+>
 > $$m_{inertial} = \frac{2GM_{universe}}{3c^2R_{universe}} m_{gravitational}$$
-> 
+>
 > **THIS IS INERTIA!** The inertial force $F = ma$ arises from gravitational interaction with all distant matter via Weber's law. Proportionality is **derived**, not assumed.
 
 ---
@@ -378,9 +378,9 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§18.7: Implementation of Einstein's Ideas**
-  
+
   - §18.7.1: **Increase in inertia by placing body inside material shell** – **Quantitative!**
-  
+
   - §18.7.3: **Centrifugal and Coriolis forces from spinning shell** – **Quantitative!**
 
 > **Genome Connection:** Assis **quantitatively derives** effects that Einstein could only qualitatively suggest (Machian frame-dragging).
@@ -392,7 +392,7 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§19.8: Interpretation of Inertial Force**
-  
+
   - §19.8.2: **Action and reaction of inertial force** – **It has a source!**
 
 > **Genome Connection:** In Newton's mechanics, inertial force $-ma$ has no reaction force (violating the 3rd Law). In relational mechanics, $-ma$ is the **reaction** to the gravitational force exerted by the test body on distant galaxies. **Newton's Third Law is restored!**
@@ -414,17 +414,17 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§21.6:** Vessel with Liquid Accelerated Relative to Ground
 
 > **Genome Connection — ALL CRITICAL QUESTIONS ANSWERED:**
-> 
+>
 > - **Q:** Why do all bodies fall with same acceleration?
->   
+>
 >   - **A:** Because $g = \text{constant}$. Inertial and gravitational mass are proportional via distant matter.
-> 
+>
 > - **Q:** What is origin of force stretching spring when wagon accelerates?
->   
+>
 >   - **A:** Weber's gravitational force from distant galaxies on the test body.
-> 
+>
 > - **Q:** What if all stars were annihilated?
->   
+>
 >   - **A:** Spring relaxes, liquid stays flat. No distant matter = No inertia.
 
 ---
@@ -434,17 +434,17 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 **Key Sections:**
 
 - **§23.3: Newton's Bucket Experiment** – **EXPLAINED!**
-  
+
   - §23.3.5: **What if galaxies rotate around bucket axis?** – **ANSWERED: Surface becomes concave!**
 
 - **§23.4: The Flattening of the Earth** – **EXPLAINED!**
 
 > **Genome Connection — MACH VINDICATED:**
-> 
+>
 > - **Bucket:** Galaxies exert **centrifugal force** on water via Weber's law. This force is radially outward, making the surface concave.
-> 
+>
 > - **Earth:** Flattening matches observations derived from the rotation relative to distant galaxies.
-> 
+>
 > - **Crucial Result:** If galaxies rotate around a stationary bucket, the surface **becomes concave**. Relative rotation is all that matters.
 
 ---
@@ -460,11 +460,11 @@ Each holon contains the interior (conceptual understanding) ⋈ exterior (mathem
 - **§24.5: Experimental Tests of Relational Mechanics**
 
 > Genome Connection — EXPERIMENTAL TESTS (§24.5):
-> 
+>
 > Assis proposes direct laboratory tests of Mach's principle:
-> 
+>
 > - **Test 2:** Rotate a massive spherical shell around a stationary elastic body. Relational mechanics predicts the body should flatten.
-> 
+>
 > - **Test 3:** Rotate a massive spherical shell around a stationary bucket of water. Relational mechanics predicts the water surface should become concave.
 
 ---

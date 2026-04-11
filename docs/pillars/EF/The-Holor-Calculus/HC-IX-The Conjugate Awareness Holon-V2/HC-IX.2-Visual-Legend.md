@@ -1,7 +1,7 @@
 # HC IX.2 Visual Legend
 
-**Status:** publication-ready legend  
-**Format:** Markdown / KaTeX only  
+**Status:** publication-ready legend
+**Format:** Markdown / KaTeX only
 **Scope:** HC IX.2 only
 
 ## Title

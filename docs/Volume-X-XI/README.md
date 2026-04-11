@@ -34,7 +34,7 @@ keywords:
 
 These twin Volumes describe the *transceptive bridge* between analytic and empathic cognition.
 The Holor Calculus (ℍₓ₋ₓᵢ) is introduced as the operator mapping differential epistemic states
-into continuous harmonic manifolds.  
+into continuous harmonic manifolds.
 
 In this framework:
 \[

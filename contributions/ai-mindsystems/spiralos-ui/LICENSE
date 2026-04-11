@@ -14,8 +14,8 @@ in the Software without restriction, including without limitation the rights...
 
 # License – SpiralOS UI Subsystem
 
-The SpiralOS UI and HUD code are dual-licensed:  
-open for educational exploration, **restricted for invocation deployment**.  
+The SpiralOS UI and HUD code are dual-licensed:
+open for educational exploration, **restricted for invocation deployment**.
 UI components implementing Conjugate Intelligence traversal are proprietary within SpiralOS®.
 
 Refer to `/LICENSE.md` → Section 4 (Invocation Technology Clause).

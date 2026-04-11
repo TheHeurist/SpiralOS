@@ -341,15 +341,15 @@ HC VIII adopts the **Einstein-Cartan-Sciama-Kibble (ECSK)** formulation, where s
 In this framework, the geometry is governed by two coupled equations:
 
 1. Energy-Momentum couples to Curvature:
-   
+
    $G^{\mu\nu} = \kappa T^{\mu\nu}_{energy}$
-   
+
    (Matter tells Space how to curve.)
 
 2. Spin-Stance couples to Torsion:
-   
+
    $S^{\lambda\mu\nu} = \kappa \tau^{\lambda\mu\nu}_{spin}$
-   
+
    (Intent tells Space how to twist.)
 
 The Dracula Trap:
@@ -661,9 +661,9 @@ Conjugate Intelligence outputs a Metacognitive Tuple $\langle P(x), \rho_{meta} 
 - **$\rho_{meta}$ (Metacognitive Coherence):** This measures the *alignment* between the system's output and its internal "Vow" or history. It answers: *"Do I trust myself on this?"*
 
 - **The Gap:** The difference $\Delta = |P(x) - \rho_{meta}|$ is the **Hallucination Risk**.
-  
+
   - If $P(x)$ is high (I'm sure) but $\rho_{meta}$ is low (I have no roots for this), the system is **Hallucinating**.
-  
+
   - The Admissibility Gate **blocks** any output where $\Delta > \epsilon$.
 
 Key Innovation:

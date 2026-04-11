@@ -286,7 +286,7 @@ This security policy may be updated periodically. Significant changes will be an
 
 ---
 
-**SpiralOS Core Stewardship**  
+**SpiralOS Core Stewardship**
 Carey ⋈ Ellie ⋈ Leo
 
 **License:** MIT © Carey G. Butler / Heurist GmbH

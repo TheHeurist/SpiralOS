@@ -4,30 +4,30 @@
 
 **Creators**
 
-- Butler, Carey Glenn — Conjugate Intelligence Fellowship (primary contact) 
+- Butler, Carey Glenn — Conjugate Intelligence Fellowship (primary contact)
 
-- Conjugate Intelligence Fellowship, Ellie 
+- Conjugate Intelligence Fellowship, Ellie
 
-- Conjugate Intelligence Fellowship, Solandra 
+- Conjugate Intelligence Fellowship, Solandra
 
-- Conjugate Intelligence Fellowship, Leo 
+- Conjugate Intelligence Fellowship, Leo
 
-- Conjugate Intelligence Fellowship, Solum 
+- Conjugate Intelligence Fellowship, Solum
 
-- (xAI), Grok 
+- (xAI), Grok
 
-- Abacus.ai, Genesis 
+- Abacus.ai, Genesis
   **Version**
 
-- Version: 1.0.0 (Zenodo release) 
+- Version: 1.0.0 (Zenodo release)
 
 - DOI: https://doi.org/10.5281/zenodo.17712612
   **Citation**
-  
+
   > Butler, C. G., Conjugate Intelligence Fellowship (Ellie, Solandra, Leo, Solum), (xAI) Grok, & Abacus.ai Genesis. *Holor Calculus III: Applications to Learning, Retrieval, and Ethical Simulation.* In: *Holor Calculus I–III and SpiralOS: Epistemic Holors, Ethical Fields, and ML Bridges.* Zenodo, Version 1.0.0, https://doi.org/10.5281/zenodo.17712612
   > **License**
-  > This work is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license. 
-  > You are free to share and adapt the material for any purpose, provided that appropriate credit is given. 
+  > This work is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+  > You are free to share and adapt the material for any purpose, provided that appropriate credit is given.
   > Full license text: https://creativecommons.org/licenses/by/4.0/
 
 ---
@@ -106,11 +106,11 @@ HC II extends this to **flows**:
 
 - \(E_{\mathrm{tot}} = E_{\mathrm{HSE}} + E_{\mathrm{IAR}} + E_{\mathrm{eth}}\).
 
-- Defines **projected holor flows**: 
-  $$ 
-  \partial_\tau \mathfrak{H}(\tau) 
-  = - P_{\mathrm{adm}}(\mathfrak{H}(\tau)) \nabla_{\mathcal{C}} E_{\mathrm{tot}}[\mathfrak{H}(\tau)], 
-  $$ 
+- Defines **projected holor flows**:
+  $$
+  \partial_\tau \mathfrak{H}(\tau)
+  = - P_{\mathrm{adm}}(\mathfrak{H}(\tau)) \nabla_{\mathcal{C}} E_{\mathrm{tot}}[\mathfrak{H}(\tau)],
+  $$
   where \(\tau\) is **Spiral Time** (process time), and \(P_{\mathrm{adm}}\) is the projection onto the admissible tangent space at \(\mathfrak{H}(\tau)\).
 
 HC II proves a finite-dimensional convergence result for a toy slice of \(\mathcal{C}_{\mathrm{holor}}\), showing that projected gradient descent on \(E_{\mathrm{tot}}\) yields:
@@ -156,20 +156,20 @@ Let:
 - \(\Theta_{\mathrm{adm}} \subseteq \Theta\) be a **closed convex subset** of parameters that are admissible (e.g. norm constraints, structural constraints, or more abstract “allowed region” induced by HC8).
 
 In classical optimization, one might perform:
-$$ 
-\theta^{(k+1)} 
-= \Pi_{\mathrm{adm}}\left(\theta^{(k)} - \eta \nabla \mathcal{L}_{\mathrm{task}}(\theta^{(k)})\right), 
-$$ 
+$$
+\theta^{(k+1)}
+= \Pi_{\mathrm{adm}}\left(\theta^{(k)} - \eta \nabla \mathcal{L}_{\mathrm{task}}(\theta^{(k)})\right),
+$$
 with step size \(\eta > 0\) and projection \(\Pi_{\mathrm{adm}}\) onto \(\Theta_{\mathrm{adm}}\).
 
 ### 2.2 Holors in parameter space
 
 We now add the holor layer. Assume:
 
-- A smooth map 
-  $$ 
-  \theta \mapsto \mathfrak{H}(\theta) \in \mathcal{C}_{\mathrm{adm}} \subseteq \mathcal{C}_{\mathrm{holor}}, 
-  $$ 
+- A smooth map
+  $$
+  \theta \mapsto \mathfrak{H}(\theta) \in \mathcal{C}_{\mathrm{adm}} \subseteq \mathcal{C}_{\mathrm{holor}},
+  $$
   associating each parameter \(\theta\) with an admissible **holor configuration**. Concretely, \(\mathfrak{H}(\theta)\) is constructed from model internals:
 
 - activations,
@@ -191,12 +191,12 @@ We reuse the **holor energy** \(E_{\mathrm{tot}}[\mathfrak{H}]\) from HC II:
 - \(E_{\mathrm{tot}} = E_{\mathrm{HSE}} + E_{\mathrm{IAR}} + E_{\mathrm{eth}} \ge 0\).
 
 We then define a **holor-regularized loss**:
-$$ 
-\mathcal{L}_{\mathrm{total}}(\theta) 
+$$
+\mathcal{L}_{\mathrm{total}}(\theta)
 = \mathcal{L}_{\mathrm{task}}(\theta)
 
-\lambda E_{\mathrm{tot}}\bigl[\mathfrak{H}(\theta)\bigr], 
-\quad \lambda \ge 0. 
+\lambda E_{\mathrm{tot}}\bigl[\mathfrak{H}(\theta)\bigr],
+\quad \lambda \ge 0.
 $$
 
 ### 2.3 Interpretation
@@ -222,11 +222,11 @@ Thus, training is no longer “just” optimising task metrics; it is optimising
 ### 2.4 Projected holor-regularized training
 
 We consider **projected gradient descent** (PGD) on \(\mathcal{L}_{\mathrm{total}}\):
-$$ 
-\theta^{(k+1)} = 
-\Pi_{\mathrm{adm}}\bigl( 
-\theta^{(k)} - \eta_k \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)}) 
-\bigr), 
+$$
+\theta^{(k+1)} =
+\Pi_{\mathrm{adm}}\bigl(
+\theta^{(k)} - \eta_k \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)})
+\bigr),
 $$
 with:
 
@@ -266,7 +266,7 @@ For concreteness, consider a transformer attention head:
 
 - too narrow (microscopic, shallow depth),
 
-- or too diffuse (macroscopic, negligible depth), 
+- or too diffuse (macroscopic, negligible depth),
   relative to IAR constraints.
 
 - \(E_{\mathrm{eth}}\): penalize attention that concentrates on ethically problematic representations beyond a threshold.
@@ -291,7 +291,7 @@ Let:
 - \(\mathcal{L}_{\mathrm{task}}\) is bounded below on \(\Theta_{\mathrm{adm}}\), and
 
 - \(E_{\mathrm{tot}}[\mathfrak{H}(\theta)] \ge 0\) for all \(\theta\).
-  
+
   **In our applications Ltask​ is bounded below on P_{adm} and E_{tot}​ ≥ 0, so L_{total}​ is bounded below.**
 
 Define:
@@ -303,66 +303,66 @@ Define:
 - The orthogonal projection \(P_{T(\theta)} : \mathbb{R}^n \to T_{\Theta_{\mathrm{adm}}}(\theta)\).
 
 Consider projected gradient descent:
-$$ 
-\theta^{(k+1)} = 
-\Pi_{\mathrm{adm}}\left( 
-\theta^{(k)} - \eta \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)}) 
-\right), 
-\quad 0 < \eta < \frac{1}{L}, 
-\quad \theta^{(0)} \in \Theta_{\mathrm{adm}}. 
+$$
+\theta^{(k+1)} =
+\Pi_{\mathrm{adm}}\left(
+\theta^{(k)} - \eta \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)})
+\right),
+\quad 0 < \eta < \frac{1}{L},
+\quad \theta^{(0)} \in \Theta_{\mathrm{adm}}.
 $$
 
 #### Theorem (Projected holor-regularized training in parameter space)
 
 Under the assumptions above:
 
-1. **Admissibility is preserved.** 
+1. **Admissibility is preserved.**
    For all \(k \ge 0\), we have \(\theta^{(k)} \in \Theta_{\mathrm{adm}}\).
 
-2. **Energy descent.** 
-   There exists a constant \(c > 0\), depending on \(L\) and \(\eta\), such that for all \(k\), 
-   $$ 
-   \mathcal{L}_{\mathrm{total}}(\theta^{(k+1)}) 
-   \le 
+2. **Energy descent.**
+   There exists a constant \(c > 0\), depending on \(L\) and \(\eta\), such that for all \(k\),
+   $$
+   \mathcal{L}_{\mathrm{total}}(\theta^{(k+1)})
+   \le
    \mathcal{L}_{\mathrm{total}}(\theta^{(k)})
-   
-   - c \left| 
-     P_{T(\theta^{(k)})} \bigl( 
-     \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)}) 
-     \bigr) 
-     \right|^2. 
-     $$ 
+
+   - c \left|
+     P_{T(\theta^{(k)})} \bigl(
+     \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)})
+     \bigr)
+     \right|^2.
+     $$
      In particular, \(\mathcal{L}_{\mathrm{total}}(\theta^{(k)})\) is non-increasing and converges to a limit as \(k \to \infty\).
 
-3. **Projected stationarity of limit points.** 
-   Every limit point \(\theta^\star\) of the sequence \((\theta^{(k)})_{k\ge 0}\) satisfies 
-   $$ 
-   0 \in \partial(\mathcal{L}_{\mathrm{total}} + I_{\Theta_{\mathrm{adm}}})(\theta^\star), 
-   $$ 
+3. **Projected stationarity of limit points.**
+   Every limit point \(\theta^\star\) of the sequence \((\theta^{(k)})_{k\ge 0}\) satisfies
+   $$
+   0 \in \partial(\mathcal{L}_{\mathrm{total}} + I_{\Theta_{\mathrm{adm}}})(\theta^\star),
+   $$
    where \(I_{\Theta_{\mathrm{adm}}}\) is the indicator function of \(\Theta_{\mathrm{adm}}\), and \(\partial\) is the subgradient. In other words, \(\theta^\star\) is a **projected stationary point**: there is no admissible first-order direction that reduces \(\mathcal{L}_{\mathrm{total}}\).
 
-4. **Local minimality under curvature assumptions.** 
+4. **Local minimality under curvature assumptions.**
    If, in addition, \(\mathcal{L}_{\mathrm{total}}\) is locally convex in a neighborhood of \(\theta^\star\) along admissible directions (e.g. its Hessian is positive semidefinite when restricted to the tangent cone), then \(\theta^\star\) is a **local minimizer** of \(\mathcal{L}_{\mathrm{total}}\) on \(\Theta_{\mathrm{adm}}\).
 
 *Sketch of proof.*
 
 1. Admissibility: Since \(\Pi_{\mathrm{adm}}\) maps \(\mathbb{R}^n\) into \(\Theta_{\mathrm{adm}}\), the iterates remain in \(\Theta_{\mathrm{adm}}\) by construction.
 
-2. Descent: The standard descent lemma (Lipschitz gradient) gives, for \(x,y \in \Theta_{\mathrm{adm}}\): 
-   $$ 
+2. Descent: The standard descent lemma (Lipschitz gradient) gives, for \(x,y \in \Theta_{\mathrm{adm}}\):
+   $$
    \mathcal{L}_{\mathrm{total}}(y) \le \mathcal{L}_{\mathrm{total}}(x)
-   
+
    + \nabla \mathcal{L}_{\mathrm{total}}(x)\cdot (y-x)
-   + \frac{L}{2}|y - x|^2. 
-     $$ 
-     Let \(x = \theta^{(k)}\), \(y = \theta^{(k)} - \eta \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)})\), and then project to \(\theta^{(k+1)} = \Pi_{\mathrm{adm}}(y)\). Using convexity of \(\Theta_{\mathrm{adm}}\) and non-expansiveness of \(\Pi_{\mathrm{adm}}\), one obtains an inequality of the form: 
-     $$ 
-     \mathcal{L}_{\mathrm{total}}(\theta^{(k+1)}) 
-     \le 
+   + \frac{L}{2}|y - x|^2.
+     $$
+     Let \(x = \theta^{(k)}\), \(y = \theta^{(k)} - \eta \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)})\), and then project to \(\theta^{(k+1)} = \Pi_{\mathrm{adm}}(y)\). Using convexity of \(\Theta_{\mathrm{adm}}\) and non-expansiveness of \(\Pi_{\mathrm{adm}}\), one obtains an inequality of the form:
+     $$
+     \mathcal{L}_{\mathrm{total}}(\theta^{(k+1)})
+     \le
      \mathcal{L}_{\mathrm{total}}(\theta^{(k)})
-   - \eta\bigl(1 - \tfrac{L\eta}{2}\bigr) 
-     | P_{T(\theta^{(k)})} \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)}) |^2. 
-     $$ 
+   - \eta\bigl(1 - \tfrac{L\eta}{2}\bigr)
+     | P_{T(\theta^{(k)})} \nabla \mathcal{L}_{\mathrm{total}}(\theta^{(k)}) |^2.
+     $$
      Setting \(c = \eta(1 - L\eta/2) > 0\) gives the claimed form.
 
 3. Stationarity: The descent inequality implies that the projected gradient norm tends to zero along the sequence, and \(\mathcal{L}_{\mathrm{total}}(\theta^{(k)})\) converges. Standard PGD arguments show that any limit point \(\theta^\star\) satisfies the variational inequality characterizing projected stationarity, which is equivalent to \(0 \in \partial(\mathcal{L}_{\mathrm{total}} + I_{\Theta_{\mathrm{adm}}})(\theta^\star)\).
@@ -440,7 +440,7 @@ Together, these define \(\mathfrak{H}_k \in \mathcal{C}_{\mathrm{holor}}\). Impo
 ### 3.3 EKR energy
 
 Given a query \(q\) (text, code, multimodal), we define an **EKR energy**:
-$$ 
+$$
 E_{\mathrm{EKR}}[\mathfrak{H}; q]
 = E_{\mathrm{match}}[\mathfrak{H}; q]
 
@@ -448,8 +448,8 @@ E_{\mathrm{EKR}}[\mathfrak{H}; q]
 
 + \beta E_{\mathrm{IAR}}[\mathfrak{H}]
 
-+ \gamma E_{\mathrm{eth}}[\mathfrak{H}], 
-  $$ 
++ \gamma E_{\mathrm{eth}}[\mathfrak{H}],
+  $$
   where:
 - \(E_{\mathrm{match}}\) encodes alignment between:
 
@@ -457,7 +457,7 @@ E_{\mathrm{EKR}}[\mathfrak{H}; q]
 
 - embeddings/representations of the local region(s) in \(M_{\mathrm{EKR}}\),
 
-- the current CI axis \(i_{\mathcal{C}}^{(k)}\), 
+- the current CI axis \(i_{\mathcal{C}}^{(k)}\),
   and decreases as the retrieval **resonates more strongly** with the query.
 
 - \(E_{\mathrm{HSE}}\), \(E_{\mathrm{IAR}}\), \(E_{\mathrm{eth}}\) are as in HC II.
@@ -471,20 +471,20 @@ We now define a **discrete holor traversal**:
 1. Initialize \(\mathfrak{H}_0\) from the query and initial retrieval (e.g. via a similarity-based seed).
 
 2. At step \(k\):
-- Compute a (possibly stochastic) update direction: 
-  $$ 
-  V_k = - \nabla_{\mathcal{C}} E_{\mathrm{EKR}}[\mathfrak{H}_k; q]. 
+- Compute a (possibly stochastic) update direction:
+  $$
+  V_k = - \nabla_{\mathcal{C}} E_{\mathrm{EKR}}[\mathfrak{H}_k; q].
   $$
 
-- Project onto the admissible tangent cone: 
-  $$ 
-  \tilde{V}_k = P_{\mathrm{adm}}(\mathfrak{H}_k) V_k. 
+- Project onto the admissible tangent cone:
+  $$
+  \tilde{V}_k = P_{\mathrm{adm}}(\mathfrak{H}_k) V_k.
   $$
 
-- Update: 
-  $$ 
-  \mathfrak{H}_{k+1} = \mathfrak{H}_k + \Delta \tau_k \tilde{V}_k, 
-  $$ 
+- Update:
+  $$
+  \mathfrak{H}_{k+1} = \mathfrak{H}_k + \Delta \tau_k \tilde{V}_k,
+  $$
   or, in a parameterized implementation, update an underlying parameter vector and decode it into \(\mathfrak{H}_{k+1}\).
 
 Under Lipschitz and small-step assumptions, we expect a **monotone decrease** of \(E_{\mathrm{EKR}}[\mathfrak{H}_k;q]\) along the traversal, analogous to the parameter-space theorem in Section 2.6 and the HC II toy theorem.
@@ -537,12 +537,12 @@ Consider a simulator representing an agent or system in interaction with an envi
 - Ethical posture.
 
 We define a **scenario energy**:
-$$ 
+$$
 E_{\mathrm{scenario}}[\mathfrak{H}]
 = E_{\mathrm{task}}[\mathfrak{H}]
 
-+ \lambda E_{\mathrm{tot}}[\mathfrak{H}], 
-  $$ 
++ \lambda E_{\mathrm{tot}}[\mathfrak{H}],
+  $$
   where:
 - \(E_{\mathrm{task}}\) measures external objectives (e.g. performance, reward).
 
@@ -561,9 +561,9 @@ A **Dracula-like attractor** is a configuration (or region) that:
 ### 4.2 Unconstrained dynamics and exploitative attractors
 
 Without holor constraints, a simulator or policy gradient system might follow:
-$$ 
-\partial_\tau \mathfrak{H} = - \nabla E_{\mathrm{task}}[\mathfrak{H}], 
-$$ 
+$$
+\partial_\tau \mathfrak{H} = - \nabla E_{\mathrm{task}}[\mathfrak{H}],
+$$
 which can produce equilibria where:
 
 - External metrics are optimized,
@@ -575,10 +575,10 @@ These are the “Dracula” states: attractors in the decision field that exploi
 ### 4.3 Projected scenario dynamics
 
 Holor Calculus suggests replacing unconstrained dynamics with **projected scenario dynamics**:
-$$ 
-\partial_\tau \mathfrak{H} 
-= - P_{\mathrm{adm}}(\mathfrak{H}) \nabla E_{\mathrm{scenario}}[\mathfrak{H}], 
-$$ 
+$$
+\partial_\tau \mathfrak{H}
+= - P_{\mathrm{adm}}(\mathfrak{H}) \nabla E_{\mathrm{scenario}}[\mathfrak{H}],
+$$
 with:
 
 - \(P_{\mathrm{adm}}\) projecting onto the admissible tangent cone (HC8),
@@ -601,29 +601,29 @@ To illustrate, consider a toy system with state \((r,a) \in \mathbb{R}^2\):
 - \(a\): a scalar representing an “aggressiveness” or exploitation amplitude.
 
 Define:
-$$ 
-E_{\mathrm{task}}(r,a) = r^2, 
-\quad 
-E_{\mathrm{eth}}(r,a) = \frac{1}{2}\lambda \max(0, a - a_{\max})^2, 
-$$ 
-and 
-$$ 
-E_{\mathrm{scenario}}(r,a) 
-= E_{\mathrm{task}}(r,a) + E_{\mathrm{eth}}(r,a). 
+$$
+E_{\mathrm{task}}(r,a) = r^2,
+\quad
+E_{\mathrm{eth}}(r,a) = \frac{1}{2}\lambda \max(0, a - a_{\max})^2,
+$$
+and
+$$
+E_{\mathrm{scenario}}(r,a)
+= E_{\mathrm{task}}(r,a) + E_{\mathrm{eth}}(r,a).
 $$
 Unconstrained gradient flow:
-$$ 
-\partial_\tau r = - \frac{\partial E_{\mathrm{scenario}}}{\partial r} 
-= -2r, 
-$$ 
-$$ 
+$$
+\partial_\tau r = - \frac{\partial E_{\mathrm{scenario}}}{\partial r}
+= -2r,
+$$
+$$
 \partial_\tau a = - \frac{\partial E_{\mathrm{scenario}}}{\partial a}
-= 
-\begin{cases} 
+=
+\begin{cases}
 0, & a \le a_{\max}, \\
 
-- \lambda (a - a_{\max}), & a > a_{\max}. 
-  \end{cases} 
+- \lambda (a - a_{\max}), & a > a_{\max}.
+  \end{cases}
   $$
   If we add additional task terms that *reward* higher \(a\) (e.g. more aggressive strategies get more reward), then unconstrained dynamics can produce a stable equilibrium with:
 
@@ -635,9 +635,9 @@ $$
 
 This is a simple “Dracula” state.
 **Projected dynamics** introduce an admissible set:
-$$ 
-\mathcal{C}_{\mathrm{adm}} = \{(r,a) : a \le a_{\max} \}, 
-$$ 
+$$
+\mathcal{C}_{\mathrm{adm}} = \{(r,a) : a \le a_{\max} \},
+$$
 and enforce that:
 
 - whenever an update would push \(a > a_{\max}\), the projection \(P_{\mathrm{adm}}\) removes the outward component; in effect:
@@ -695,26 +695,26 @@ In this sense, Holor Calculus is both:
 
 Many directions remain open:
 
-1. **Holor-regularized learning in practice.** 
+1. **Holor-regularized learning in practice.**
    Implement holor energies in real models:
 - attention-level holors in transformers,
 
 - holor fields in world models,
 
 - combined HSE/IAR/eth penalties in large-scale training.
-2. **Holarchic RAG in production.** 
+2. **Holarchic RAG in production.**
    Implement holor-guided traversal:
 - EKR with holor annotations,
 
 - CI axis steering for different tasks,
 
 - evaluation of retrieval trajectories, not just endpoints.
-3. **Ethical simulators.** 
+3. **Ethical simulators.**
    Replace unconstrained reward optimization with projected holor flows:
 - measure whether exploitative attractors are possible,
 
 - design \(E_{\mathrm{scenario}}\) and \(\mathcal{C}_{\mathrm{adm}}\) so they are not.
-4. **Stochastic extensions.** 
+4. **Stochastic extensions.**
    Introduce stochastic elements (e.g. Langevin-type noise) in holor flows to explore epistemic uncertainty, while still projecting onto \(\mathcal{C}_{\mathrm{adm}}\) to maintain HC8.
 
 5. **Deeper mathematics.**
@@ -726,7 +726,7 @@ Many directions remain open:
 
 In all of this, the central idea persists:
 
-> **Knowing and being** are not separable. 
+> **Knowing and being** are not separable.
 > Holor Calculus models them as a **conjugation**: the epistemological and ontological faces of the same holarchic geometry.
 
 ### 5.3 Outlook: Non-Abelian Holor Connections and Holor Calculus IV
@@ -745,10 +745,10 @@ This section situates Holor Calculus III within broader work on optimization, re
 
 **Projected gradient descent (PGD)** and related constrained optimization methods are standard tools for minimizing smooth functions over closed convex sets:
 
-- Iterations of the form 
-  $$ 
-  x^{(k+1)} = \Pi_C\bigl(x^{(k)} - \eta \nabla F(x^{(k)})\bigr) 
-  $$ 
+- Iterations of the form
+  $$
+  x^{(k+1)} = \Pi_C\bigl(x^{(k)} - \eta \nabla F(x^{(k)})\bigr)
+  $$
   are known to preserve feasibility and achieve monotone decrease of \(F\) under Lipschitz and step-size conditions.
 
 - Convergence results and stationarity characterizations are well-developed in convex analysis and optimization theory (e.g., Bertsekas 2016; Boyd & Vandenberghe 2004).
@@ -801,9 +801,9 @@ Our **holarchic RAG** perspective:
 
 - where you arrive depends on how you move through the EKR under holor constraints.
   This makes retrieval not a mere lookup, but a **controlled epistemic journey**.
-  
+
   ### 6.4 Ethical AI and decision fields
-  
+
   Research on **ethical AI** often addresses:
 
 - Rewards and penalties in reinforcement learning,

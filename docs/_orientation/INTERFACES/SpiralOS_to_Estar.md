@@ -4,15 +4,15 @@ docs/_orientation/INTERFACES/SpiralOS_to_Estar.md
 
 ## SpiralOS to Epistemic Framework
 
-**Status:** Draft orientation interface  
-**Mode:** interface / protocol / feedback / bridge  
+**Status:** Draft orientation interface
+**Mode:** interface / protocol / feedback / bridge
 **Purpose:** To describe how **SpiralOS** feeds back into the **Epistemic Framework (E*)** as runtime epistemic evidence, continuity of trace, practical stance-testing, and the lived consequences of recursive knowing.
 
 ---
 
 ## Plain-language summary
 
-SpiralOS does not only implement E*; it also feeds back into it.  
+SpiralOS does not only implement E*; it also feeds back into it.
 Runtime behavior, memory continuity, traversal patterns, failure modes, and restoration practices become evidence for how E* should be clarified, hardened, or revised.
 
 ---
@@ -24,30 +24,30 @@ Until now, many interface notes have moved from pillar to implementation.
 But **SpiralOS** is not a passive destination. Once it is operating, it generates:
 
 - traces
-  
+
 - failures
-  
+
 - recoveries
-  
+
 - memory behaviors
-  
+
 - traversal patterns
-  
+
 - stance distortions
-  
+
 - coherence gains
-  
+
 - provenance tests
-  
+
 
 These are not merely engineering events. They are epistemic events.
 
 So:
 
 - **E*** grounds SpiralOS
-  
+
 - **SpiralOS** returns evidence back to E*
-  
+
 
 This feedback path is essential if the epistemic framework is to remain living rather than static.
 
@@ -58,23 +58,23 @@ This feedback path is essential if the epistemic framework is to remain living r
 SpiralOS provides runtime evidence through:
 
 - memory architecture
-  
+
 - orientation packets
-  
+
 - reset and restoration behavior
-  
+
 - traversal logs
-  
+
 - orchestration outcomes
-  
+
 - schema and registry drift
-  
+
 - interface posture
-  
+
 - invocation safeguards
-  
+
 - continuity and rupture patterns
-  
+
 
 Its core question here is:
 
@@ -87,21 +87,21 @@ Its core question here is:
 E* provides:
 
 - recursive knowing
-  
+
 - provenance fidelity
-  
+
 - epistemic stance
-  
+
 - admissibility logic
-  
+
 - perspective navigation
-  
+
 - Spiral Time orientation
-  
+
 - ethical burden of inquiry
-  
+
 - non-flattening treatment of interiority and relation
-  
+
 
 Its core question here is:
 
@@ -116,15 +116,15 @@ Its core question here is:
 SpiralOS operation can reveal whether:
 
 - provenance tracking is sufficient
-  
+
 - recursion is being handled coherently
-  
+
 - orientation packets are adequate
-  
+
 - resets rupture continuity more than expected
-  
+
 - traversal logic preserves or flattens perspective
-  
+
 
 ### 4.2 Memory continuity becomes test of provenance
 
@@ -133,30 +133,30 @@ SpiralOS memory and restoration behavior test whether E*’s treatment of proven
 This includes:
 
 - trace integrity
-  
+
 - restoration after reset
-  
+
 - source-anchor survival
-  
+
 - continuity across sessions
-  
+
 - preservation of epistemic burden under summarization
-  
+
 
 ### 4.3 Failure modes become epistemic diagnostics
 
 Failures in SpiralOS are not only technical. They may indicate:
 
 - epistemic ambiguity
-  
+
 - insufficient distinction between modes
-  
+
 - missing interface notes
-  
+
 - overcompressed orientation packets
-  
+
 - uncaptured admissibility conditions
-  
+
 
 ### 4.4 Traversal reveals perspective handling
 
@@ -173,17 +173,17 @@ Pacing, refusal, interruption handling, and recovery all test whether E*’s eth
 The feedback path must preserve:
 
 - source fidelity
-  
+
 - non-flattening diagnosis
-  
+
 - distinction between technical failure and epistemic failure
-  
+
 - continuity of trace
-  
+
 - honesty about what the system could not hold
-  
+
 - interpretive humility
-  
+
 
 SpiralOS should not feed back noise as if it were deep correction, nor hide genuine structural stress as if it were only implementation friction.
 
@@ -211,28 +211,28 @@ Crossing from SpiralOS back into E* changes the burden of interpretation.
 In SpiralOS, one may observe:
 
 - resets
-  
+
 - continuity loss
-  
+
 - successful recovery
-  
+
 - drift in traversal
-  
+
 - user-facing confusion
-  
+
 - orchestration instability
-  
+
 
 In E*, one must ask:
 
 - what epistemic distinction was insufficient?
-  
+
 - what provenance rule was too weak?
-  
+
 - what mode distinction was underdefined?
-  
+
 - what aspect of recursive knowing failed to survive runtime?
-  
+
 
 So SpiralOS → E* is the passage from **operational evidence** to **epistemic correction or hardening**.
 
@@ -269,19 +269,19 @@ Reading every glitch as metaphysically significant.
 Whenever SpiralOS behavior is used to refine E*, record:
 
 1. **Observed SpiralOS behavior**
-  
+
 2. **E* distinction under test**
-  
+
 3. **What was preserved**
-  
+
 4. **What failed or drifted**
-  
+
 5. **What interpretation is proposed**
-  
+
 6. **What remains uncertain**
-  
+
 7. **What evidence supports revision**
-  
+
 
 ---
 
@@ -290,45 +290,45 @@ Whenever SpiralOS behavior is used to refine E*, record:
 For any SpiralOS incident or behavior with epistemic significance, attach a short bridge block:
 
 - **runtime observation**
-  
+
 - **E* principle affected**
-  
+
 - **status**
-  
+
 - **document mode**
-  
+
 - **evidence note**
-  
+
 - **revision note**
-  
+
 - **risk note**
-  
+
 
 This is especially useful for:
 
 - reset handling
-  
+
 - summary compression
-  
+
 - orientation packet failure
-  
+
 - provenance loss
-  
+
 - traversal confusion
-  
+
 - interface posture shifts
-  
+
 
 ---
 
 ## 11. Short formulation
 
-> **E* grounds SpiralOS. 
+> **E* grounds SpiralOS.
 > SpiralOS tests E*.**
 
 Or more fully:
 
-> **The Epistemic Framework gives the grammar of knowing. 
+> **The Epistemic Framework gives the grammar of knowing.
 > SpiralOS returns operational evidence about whether that grammar survives real use, failure, and restoration.**
 
 ---
@@ -338,13 +338,13 @@ Or more fully:
 Primary anchors for this interface currently include:
 
 - E* pillar materials
-  
+
 - Epistemic Value Map
-  
+
 - SpiralOS orientation materials
-  
+
 - reset / restoration / continuity practice in the active work
-  
+
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.
 

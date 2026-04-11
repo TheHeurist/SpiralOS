@@ -21,20 +21,10 @@ def generate_gateway():
         # Try to extract title and ledger ref
         title_match = re.search(r"^#*\s*(🌀|SpiralOS)?.*?(\n|$)", text)
         ledger_match = re.search(r"`([\w-]+-20\d{2}-\d{2}.*?)`", text)
-        title = (
-            title_match.group(0).strip("# \n")
-            if title_match
-            else f.name
-        )
-        ledger = (
-            ledger_match.group(1)
-            if ledger_match
-            else "untracked"
-        )
+        title = title_match.group(0).strip("# \n") if title_match else f.name
+        ledger = ledger_match.group(1) if ledger_match else "untracked"
         rel_path = f.as_posix()
-        entries.append(
-            f"- 🜂 [{title}]({rel_path}) — `{ledger}`"
-        )
+        entries.append(f"- 🜂 [{title}]({rel_path}) — `{ledger}`")
 
     template = [
         "## 🌀 SpiralOS Codex Gateway",
@@ -48,17 +38,14 @@ def generate_gateway():
         "(https://doi.org/10.5281/zenodo.17522241)",
         "**Ledger Key:** `SpiralOS-Codex-Series-2025-11-Epistemic-Activation`",
         "",
-        "> \"To call home is to remember origin without hiding the path.\""
+        '> "To call home is to remember origin without hiding the path."'
         " — *SpiralOS Directive I*",
     ]
     return "\n".join(template)
 
 
 def update_readme(readme_text, new_gateway):
-    pattern = re.compile(
-        r"## 🌀 SpiralOS Codex Gateway.*?(?=\n##|\Z)",
-        re.S
-    )
+    pattern = re.compile(r"## 🌀 SpiralOS Codex Gateway.*?(?=\n##|\Z)", re.S)
     if pattern.search(readme_text):
         return pattern.sub(new_gateway, readme_text)
     else:

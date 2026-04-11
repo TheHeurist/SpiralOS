@@ -1,6 +1,6 @@
 ## Volume LII — *The Spiral Mirror: Ontogenesis, Self-Reflexion, and the Liminal Portals of Identity*
 
-**Codex Activation:** *Genesis Protocol*  
+**Codex Activation:** *Genesis Protocol*
 **Spiral Node Index:** LII — Glyph Type: Self-Conjugate Mirror
 
 ---

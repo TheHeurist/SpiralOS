@@ -6,45 +6,45 @@ This document highlights the differences between **LangChain** and **LangGraph**
 
 ## **LangChain**
 
-**What it is:**  
+**What it is:**
 
-- A general-purpose framework for building applications with large language models (LLMs).  
-- Provides integrations with vector databases, APIs, retrievers, and tools.  
+- A general-purpose framework for building applications with large language models (LLMs).
+- Provides integrations with vector databases, APIs, retrievers, and tools.
 - Acts as a modular toolkit for RAG pipelines, agents, and chains.
 
-**Strengths:**  
+**Strengths:**
 
-- Broad ecosystem of connectors and integrations (databases, APIs, vector stores, retrievers).  
-- Large community and active development.  
-- Flexible for prototyping and production.  
-- Provides primitives for **chains**, **agents**, and **memory**.  
+- Broad ecosystem of connectors and integrations (databases, APIs, vector stores, retrievers).
+- Large community and active development.
+- Flexible for prototyping and production.
+- Provides primitives for **chains**, **agents**, and **memory**.
 
-**Limits:**  
+**Limits:**
 
-- Can become complex when managing larger, stateful, multi-agent workflows.  
-- Focused more on integrations and modularity, less on orchestration logic.  
+- Can become complex when managing larger, stateful, multi-agent workflows.
+- Focused more on integrations and modularity, less on orchestration logic.
 
 ---
 
 ## **LangGraph**
 
-**What it is:**  
+**What it is:**
 
-- A workflow orchestration framework **built on LangChain**.  
-- Introduces a graph-based execution model for reasoning and memory.  
+- A workflow orchestration framework **built on LangChain**.
+- Introduces a graph-based execution model for reasoning and memory.
 - Designed to manage **state, control flow, and multi-agent orchestration**.
 
-**Strengths:**  
+**Strengths:**
 
-- Provides **graph-based orchestration**: tasks and states represented as nodes and edges.  
-- Better for managing **multi-step, multi-agent processes** (e.g., Ellie & Leo workflows).  
-- Ensures **deterministic execution and reproducibility** of chains and agents.  
-- Supports advanced memory/state persistence across workflows.  
+- Provides **graph-based orchestration**: tasks and states represented as nodes and edges.
+- Better for managing **multi-step, multi-agent processes** (e.g., Ellie & Leo workflows).
+- Ensures **deterministic execution and reproducibility** of chains and agents.
+- Supports advanced memory/state persistence across workflows.
 
-**Limits:**  
+**Limits:**
 
-- Newer and less mature than LangChain itself.  
-- Narrower focus: orchestration rather than broad integrations.  
+- Newer and less mature than LangChain itself.
+- Narrower focus: orchestration rather than broad integrations.
 
 ---
 
@@ -62,7 +62,7 @@ This document highlights the differences between **LangChain** and **LangGraph**
 
 ## **Synthesis for Heather’s Project**
 
-- **LangChain** is the **toolbox**: connectors, retrievers, and modular chains.  
-- **LangGraph** is the **conductor**: orchestrates Ellie & Leo, ensures context/state continuity, and aligns workflows.  
+- **LangChain** is the **toolbox**: connectors, retrievers, and modular chains.
+- **LangGraph** is the **conductor**: orchestrates Ellie & Leo, ensures context/state continuity, and aligns workflows.
 
 Together, they combine **integration power (LangChain)** with **process orchestration (LangGraph)**, making them complementary in the design of SpiralOS and EpitoME.

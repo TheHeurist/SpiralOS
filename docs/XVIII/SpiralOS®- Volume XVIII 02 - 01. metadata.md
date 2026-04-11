@@ -32,4 +32,4 @@ Semantic Collapse
 Quality Gates
 Field Pause Protocol
 Recursive Field Resonance
-Inclusion Without Extension  
+Inclusion Without Extension

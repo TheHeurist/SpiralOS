@@ -17,7 +17,7 @@ $\mathbf{F}_W = -\frac{G M m}{r^2} \left[ 1 - \frac{\dot{r}^2}{2c^2} + \frac{r \
 - **Newtonian Term:** $-\frac{GMm}{r^2}$ (Static Gravity).
 
 - **The Bracket:** $\left[ 1 - \frac{\dot{r}^2}{2c^2} + \frac{r \ddot{r}}{c^2} \right]$ (The Relational Correction).
-  
+
   - Unlike General Relativity (which uses field curvature), Weber modifies the *interaction* itself.
 
 ---
@@ -42,7 +42,7 @@ def verify_weber_limit():
     # 1. Newtonian Limit (Low Velocity/Acceleration)
     # limit as c -> infinity (or v << c)
     newton_limit = sp.limit(bracket, c, sp.oo)
-    print(f"Newton Limit: {newton_limit}") 
+    print(f"Newton Limit: {newton_limit}")
     # Output: 1 (Recovers F = -GMm/r^2)
 
     # 2. Relational Correction

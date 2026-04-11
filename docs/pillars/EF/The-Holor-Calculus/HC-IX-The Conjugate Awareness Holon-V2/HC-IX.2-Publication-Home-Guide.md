@@ -1,6 +1,6 @@
 # HC IX.2 Publication Home Guide
-**Date:** 2026-04-06  
-**Status:** release-ready Markdown guide  
+**Date:** 2026-04-06
+**Status:** release-ready Markdown guide
 **Scope:** HC IX.2 only
 
 ## Purpose

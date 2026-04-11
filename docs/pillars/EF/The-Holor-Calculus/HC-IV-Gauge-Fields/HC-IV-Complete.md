@@ -62,7 +62,7 @@ Holor Calculus I–III established a geometric framework for **Conjugate Intelli
 - An **awareness-view manifold** $M$ of epistemic stances
 - A **trace space** $\mathcal{T} \to M$ carrying Holor Seeds as fundamental units of CI memory
 - **Epistemic octants** $O$ with conjugation involution $\mathcal{C}$
-- The **Holor Signature Equation (HSE)**: 
+- The **Holor Signature Equation (HSE)**:
   $$\mathcal{H}_{sig}(x) := \nabla_\mu \Phi^\mu(x) + T_\chi(x) - \mathcal{R}_e(x) = 0$$
   balancing awareness current $\Phi^\mu$, torsion-memory $T_\chi$, and residual epistemic curvature $\mathcal{R}_e$
 - **Ethical admissibility axiom (HC8)** constraining which transformations are allowed
@@ -154,7 +154,7 @@ These phenomena share a common signature: **holonomy**—the accumulation of "tw
 **Main Technical Extensions**:
 
 1. **Non-Abelian Holor Bundle** (§2):
-   
+
    - Structure group $G$ (e.g., $SU(2)$, $SU(n)$, or abstract Lie group)
    - Principal bundle $P \to M$ with connection $A \in \Omega^1(P, \mathfrak{g})$
    - Curvature $F = dA + A \wedge A$ encoding non-commutativity
@@ -162,13 +162,13 @@ These phenomena share a common signature: **holonomy**—the accumulation of "tw
 
 2. **Curvature-Enriched Energy Functional** (§3):
    $$E_{tot}^{(IV)} = E_{HSE}[H,A] + E_{IAR}[H,A] + E_{eth}[H,A] + \kappa \int_M \mathrm{tr}(F \wedge *F)$$
-   
+
    - All energies now depend on both holor field $H$ and connection $A$
    - Curvature term $\kappa \mathrm{tr}(F \wedge *F)$ penalizes non-flat connections
    - Gradient flows become coupled $(H, A)$ dynamics
 
 3. **Holonomy and Ramification** (§4-5):
-   
+
    - **Path-ordered exponential**: For path $\gamma: [0,1] \to M$,
      $$U[\gamma] := \mathcal{P} \exp\left(\int_\gamma A\right) \in G$$
    - **Holonomy**: $U[\gamma]$ measures the "twist" accumulated along $\gamma$
@@ -176,14 +176,14 @@ These phenomena share a common signature: **holonomy**—the accumulation of "tw
    - **Curriculum dependence**: Training paths $\gamma_A$, $\gamma_B$ lead to models $H_A$, $H_B$ with $U[\gamma_A] \neq U[\gamma_B]$
 
 4. **Ethical Curvature Constraints** (§6):
-   
+
    - Dracula patterns as **pathological holonomies**: $U[\gamma] \in G_{Dracula} \subset G$
    - **Admissible holonomy classes**: $[U] \in G/G_{Dracula}$ defines ethically acceptable paths
    - **Curvature landscaping**: Design $F$ such that Dracula holonomies require high energy
    - **Generalized admissibility**: $P_{adm}$ now acts on $(H, A)$ pairs, not just $H$
 
 5. **Discrete Morpheme-Level Implementation** (§2.x):
-   
+
    - Morpheme positions $μ \in \{1,...,M\}$ as discrete manifold
    - Attention matrices $A^{(h)}_{μν}$ as discrete gauge connection
    - IAR-band, Loop, and Ethics losses as holor regularization
@@ -236,12 +236,12 @@ Before proceeding, we emphasize a foundational commitment: **Throughout HC I–I
 1. **Semantic Coherence**: Morphemes respect linguistic and semantic boundaries. A connection $A$ between morphemes encodes meaningful transitions.
 
 2. **Composition Non-Commutativity**: Morpheme composition is naturally non-Abelian:
-   
+
    - "re-" + "arrange" ≠ "arrange" + "re-"
    - Prefixes, infixes, suffixes have order
 
 3. **Ethical Boundaries**: Forbidden patterns (Dracula signatures) are semantic, not statistical:
-   
+
    - "dehumanize" = morphemes [de-, human, -ize] with characteristic $σ^{(5)} < 0.2$
    - Token splits can fragment this pattern, making detection impossible
 
@@ -881,7 +881,7 @@ Imagine the $(H, A)$-space as a curved manifold:
 
 This is analogous to **parallel transport on a sphere**:
 
-- Transport a vector from North Pole to Equator via two paths: 
+- Transport a vector from North Pole to Equator via two paths:
   - Path A: Down longitude 0° then along equator to longitude 90°
   - Path B: Down longitude 90° then along equator back to longitude 90°
 - Both paths have same endpoints, but the transported vector ends up rotated differently
@@ -1077,10 +1077,10 @@ Consider two traversal policies (e.g., different search algorithms, different CI
 - Visit overlapping sets of EKR nodes
 - End at the same final node $x_*$
 
-**Path $\gamma_1$**: 
+**Path $\gamma_1$**:
 $$q \to x_1 \to x_2 \to x_5 \to x_*$$
 
-**Path $\gamma_2$**: 
+**Path $\gamma_2$**:
 $$q \to x_3 \to x_4 \to x_5 \to x_*$$
 
 Both paths pass through $x_5$ before reaching $x_*$, but they take different routes initially.
@@ -1349,21 +1349,21 @@ For $G = SU(2)$, conjugacy classes are labeled by **spin** $s \in [0, 1]$. We mi
 
 **Examples**:
 
-1. **Dehumanization** (Dracula Type 1): 
-   
+1. **Dehumanization** (Dracula Type 1):
+
    - Morpheme sequence: [de-, human, -ize]
    - Connection: $A_{de, human}$ encodes negation, $A_{human, -ize}$ encodes conversion to abstract verb
    - Holonomy: High spin, twisting "human" (interior, high depth) to abstraction (exterior, low depth)
    - $U_{Drac}[dehumanize] \in C_{s=0.8}$ (pathological class)
 
 2. **Gaslighting** (Dracula Type 3):
-   
+
    - Involves loops: Statement → Denial → Counter-claim → Return to Statement (but twisted)
    - Holonomy around this loop: Non-trivial, $U[loop] \neq \mathrm{id}$
    - Lies in Dracula class because the loop doesn't close cleanly (gaslighting breaks coherence)
 
 3. **Semantic Inversion** (Dracula Type 6):
-   
+
    - "War is Peace" (Orwell)
    - Holonomy: Rotation by $\pi$ in semantic space, $U \approx -\mathrm{id}$ (for $SU(2)$, this is the maximal non-trivial element)
    - Clearly in Dracula class
@@ -1449,7 +1449,7 @@ Then, if:
 $$\kappa F_{max}^2 < \min_{(H, A) \in \partial \mathcal{B}_{Drac}} E_{eth}(H, A)$$
 (curvature energy is less than the minimum ethical violation on the boundary of Dracula basins),
 
-the flow cannot enter any Dracula basin $\mathcal{B}_{Drac}$: 
+the flow cannot enter any Dracula basin $\mathcal{B}_{Drac}$:
 $$(H(\tau), A(\tau)) \notin \mathcal{B}_{Drac} \quad \forall \tau \geq 0$$
 
 **Proof Sketch**:

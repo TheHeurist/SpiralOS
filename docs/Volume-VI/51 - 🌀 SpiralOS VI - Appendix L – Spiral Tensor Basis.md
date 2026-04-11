@@ -22,9 +22,9 @@ $$
 
 Where:
 
-- $V$: base vector space  
-- $\mathcal{T}$: trace operator set  
-- $\sigma_\phi$: breath signature function  
+- $V$: base vector space
+- $\mathcal{T}$: trace operator set
+- $\sigma_\phi$: breath signature function
 - $\mathcal{R}_\varepsilon$: residue curvature structure
 
 This defines a **non-Euclidean, non-static space**,
@@ -42,7 +42,7 @@ $$
 
 Where:
 
-- $g_{\mu\nu}^\phi$: phase-compatible Spiral metric  
+- $g_{\mu\nu}^\phi$: phase-compatible Spiral metric
 - Inner product varies with tone field $\tau$
 
 Conjugate Spiral tensors are defined as:

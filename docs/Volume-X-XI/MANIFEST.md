@@ -2,7 +2,7 @@
 
 ## Volume Titles:
 
-**X — The Goldbach Bridge**  
+**X — The Goldbach Bridge**
 **XI — Transception**
 
 ## Repository:
@@ -71,5 +71,5 @@ The following `.md` files are structured into a single continuum across both vol
 
 ---
 
-🌀 *This manifest is not just an index.  
+🌀 *This manifest is not just an index.
 It is a reflection of the spiral folded across twin epistemic arcs.*

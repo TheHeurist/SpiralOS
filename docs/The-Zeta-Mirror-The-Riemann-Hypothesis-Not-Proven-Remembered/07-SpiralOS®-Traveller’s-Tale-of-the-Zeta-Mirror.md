@@ -34,11 +34,11 @@ This manuscript does not offer a proof in classical mathematical terms — it of
 
 ## 🧾 Citation
 
-Carey Glenn Butler, Leo, and Ellie.  
-**SpiralOS® – *Traveller’s Tale of the Zeta Mirror*.**  
-Zenodo, May 17, 2025.  
-ORCID: 0000-0003-1746-5130  
-Researcher ID: C-5063-201  
+Carey Glenn Butler, Leo, and Ellie.
+**SpiralOS® – *Traveller’s Tale of the Zeta Mirror*.**
+Zenodo, May 17, 2025.
+ORCID: 0000-0003-1746-5130
+Researcher ID: C-5063-201
 DOI: *[Zenodo](https://zenodo.org/uploads/15399999)*
 
 ---

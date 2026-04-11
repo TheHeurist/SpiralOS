@@ -17,11 +17,11 @@ We treat the FHS generation sequence as a **Torsional Ascent** from Soil to Vow.
 - **Macro-Vow (FHS-27):** The **Phase 1 Synthesis**. This is the canopy, establishing the ethical limit ($\epsilon$) via the Skylight.
 
 - **The Fascia:** The files are linked by **Resonance ($\mathcal{R}$)** via the Chiral Phase $\Phi$.
-  
+
   - Example: The Chiral Mach Force equation in FHS-09:
-    
+
     $\mathbf{F}_{Mach} = -\nabla \Phi_\chi - \frac{1}{c^2} \frac{\partial \mathbf{A}_\chi}{\partial t}$
-    
+
     ...is not a new invention but a Recapitulation of the Weber Verification in FHS-06.
 
 ---
@@ -31,17 +31,17 @@ We treat the FHS generation sequence as a **Torsional Ascent** from Soil to Vow.
 We demonstrate the conjugation of Physics, Math, and Metacognition:
 
 - **The Conjugate Pair:**
-  
+
   - **FHS-13:** Stratified Holst Action (Rigorous Variational Derivation).
-  
+
   - **FHS-24:** Stratification (Geometric Layering).
 
 - The Infusion:
-  
+
   We infuse the Immirzi Parameter with numerical metacognition (from FHS-12), turning it from a constant into a dynamic, history-dependent field:
-  
+
   $\gamma_n = \gamma_{n-1} + \Delta\gamma_{chiral}$
-  
+
   This implies that the "graininess" of space (Quantum Gravity) evolves as the system learns (accumulates Torsion).
 
 ---

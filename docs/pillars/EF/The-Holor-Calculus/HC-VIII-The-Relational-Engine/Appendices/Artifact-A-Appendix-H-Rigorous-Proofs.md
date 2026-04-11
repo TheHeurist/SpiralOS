@@ -36,7 +36,7 @@ a, b, c = oct.e1, oct.e2, oct.e3
 Diff = (a*b)*c - a*(b*c)
 # Result Calculation via Fano:
 # Left Path: (e1 e2) e3 = e4 e3 = -e6
-# Right Path: e1 (e2 e3) = e1 e5 = e6 
+# Right Path: e1 (e2 e3) = e1 e5 = e6
 # Diff: -e6 - e6 = -2e6
 ```
 

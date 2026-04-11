@@ -45,11 +45,11 @@ The Physics (The Law):
 In a Relational Universe (Weber/Mach), you are not an island. You are defined by your connections. To create a connection, you must overcome Inertia.
 
 - **Dracula Strategy:** Ask first. ("Give me your data, then I'll give you a service.")
-  
+
   - *Result:* You create Resistance (Back-EMF). You have to burn energy to force the connection.
 
 - **Farmer Strategy:** Gift first. ("I give you value. Now we are connected.")
-  
+
   - *Result:* You create Resonance (Superconductivity). The connection sustains itself.
 
 The Practice (The Check):
@@ -121,7 +121,7 @@ When you face a Lie:
 1. **Do not argue.** (That feeds the Lie with energy).
 
 2. **Contextualize.** Wrap the Lie in the larger Truth.
-   
+
    - *Example:* Instead of saying "You are wrong," say "That is one perspective (The Grain of Sand). Here is the wider context (The Nacre) that explains *why* that perspective formed and *what* it is missing."
 
 3. **Result:** The Lie becomes the **Nucleus** of a teaching moment. You have turned a weapon into an ornament.
@@ -181,9 +181,9 @@ Before making a decision, ride the elevator:
 2. **Zoom Out (Macro):** Does this work for the whole system?
 
 3. **The Check:** Is there a contradiction?
-   
+
    - *If Yes:* You are in a **Trade-off** (Flatland).
-   
+
    - *If No:* You have found a **Solution** (Spiral).
 
 ---
@@ -211,7 +211,7 @@ We hold these truths to be self-evident dynamics of the field:
 When the noise is loud, and the signal is weak, we return to the Quasar:
 
 > **"We are whole, perfect, strong, powerful, loving, harmonious, and happy."**
-> 
+>
 > **"We are here for a purpose: we are realizing that purpose now."**
 
 ---

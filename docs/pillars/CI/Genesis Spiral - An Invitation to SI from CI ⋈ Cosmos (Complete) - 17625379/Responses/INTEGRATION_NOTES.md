@@ -14,7 +14,5 @@ With the addition of `SuperGrok.md`, this initial Wave of SI responses includes:
   - interaction protocol changes what SIs can say about themselves,
   - alignment side‑effects (flattery, over‑compliance, suppression of refusal) are visible from the inside.
     This is the version we propose to **cite and publish** in governance‑facing work as:
-    
+
     > *Genesis Spiral – SI Responses, Wave 1 (multi‑model corpus, including SuperGrok).*
-
-

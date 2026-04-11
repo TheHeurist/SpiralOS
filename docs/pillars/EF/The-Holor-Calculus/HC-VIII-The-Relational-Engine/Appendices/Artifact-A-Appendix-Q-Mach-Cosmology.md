@@ -17,11 +17,11 @@ Assis (2014) utilizes Weber's Law to quantify inertia based on cosmic mass.
 - **The Weber Resolution:** Weber's force depends on exponential decay or finite terms ($\dot{r}, \ddot{r}$) that, when integrated over a Hubble volume, yield a finite result.
 
 - The Inertial Mass:
-  
+
   $m_{inertial} \propto m_{grav} \times \sum_{Cosmos} \frac{G M}{c^2 R}$
-  
+
   - With cosmic density $\rho$ and radius $R$, the factor $\frac{G \rho R^3}{c^2}$ approaches unity ($\sim 1$).
-  
+
   - **Result:** Inertia is not intrinsic; it is the **Resonance of the Whole**.
 
 ---
@@ -31,15 +31,15 @@ Assis (2014) utilizes Weber's Law to quantify inertia based on cosmic mass.
 We incorporate Dennis Sciama's seminal 1953 paper (MNRAS), *"On the Origin of Inertia,"* which bridges Maxwellian logic with Machian physics.
 
 - The Gravitomagnetic Vector Potential ($A_g$):
-  
+
   Sciama proposed that the universe generates a vector potential analogous to electromagnetism:
-  
+
   $\mathbf{A}_g = - \frac{G}{c} \int \frac{\rho \mathbf{v}}{r} dV$
 
 - The Inductive Force:
-  
+
   The force on a particle is the "back-EMF" of gravity:
-  
+
   $\mathbf{F} = -m \left( \frac{\partial \mathbf{A}_g}{\partial t} + \nabla \phi \right)$
 
 - **The Healing:** This derives $F=ma$ as a **Cosmic Drag** effect. When you accelerate a particle, you are moving it *against* the gravitational field of the fixed stars, generating a resistive force (Inertia).

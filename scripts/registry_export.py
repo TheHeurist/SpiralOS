@@ -36,7 +36,7 @@ def main():
         "issuer": "local-registry",
         "created_at": datetime.datetime.utcnow().isoformat() + "Z",
         "counts": {"files": len(files)},
-        "fingerprint": "sha256:" + manifest_hash(files)
+        "fingerprint": "sha256:" + manifest_hash(files),
     }
 
     with tarfile.open(args.out, "w") as tar:

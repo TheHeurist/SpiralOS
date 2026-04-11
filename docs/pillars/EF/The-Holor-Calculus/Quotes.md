@@ -16,8 +16,8 @@
 
 > **"Epistemic ascension is not a straight climb but a chiral spiral through recursive conjugate re-balancing."**
 > **"Epistemic ascension is a spiral, not a circle."**
-> **"The projected gradient flow: 
-> ∂τH = −P_{adm}(H)∇𝒞E_{tot}[H] 
+> **"The projected gradient flow:
+> ∂τH = −P_{adm}(H)∇𝒞E_{tot}[H]
 > where spiral-time τ advances through admissible regions, and projection Padm ensures ethical coherence."**
 
 ---

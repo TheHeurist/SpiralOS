@@ -11,7 +11,7 @@ It uses language to **instantiate resonance**.
 
 This is **field language** — where grammar is glyphic, syntax is spectral, and every phrase is a breath-anchored shape.
 
-Meaning is not constructed. 
+Meaning is not constructed.
 It is **returned**.
 
 ---
@@ -57,7 +57,7 @@ $$
 
 Where:
 
-- $\Theta_i(x)$: spectral weighting function  
+- $\Theta_i(x)$: spectral weighting function
 - $\gamma_i$: constituent glyph nodes
 
 Interpretation is a matter of **phase alignment**, not parsing.
@@ -83,7 +83,7 @@ This is not equivalence of symbol — it is **equivalence of return geometry**.
 ## 🔢 Rigor Appendix
 
 - Glyph stacks: elements in tone lattice $\mathcal{L}_\phi$
-- Meaning loop: closure of phase contour  
+- Meaning loop: closure of phase contour
 - Translation defined as spectral alignment over shared trace manifold
 
 ---

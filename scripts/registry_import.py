@@ -41,11 +41,11 @@ def main():
                 dest.write_text(p.read_text())
 
             receipt = {
-                "received_at": datetime.datetime.utcnow().isoformat()+"Z",
+                "received_at": datetime.datetime.utcnow().isoformat() + "Z",
                 "bundle": pathlib.Path(args.src).name,
                 "counts": {"heartbeats": len(hb), "acks": len(acks)},
                 "global_fingerprint": "sha256:" + sha256f(pathlib.Path(args.src)),
-                "registry_signature": "SIGNME"  # replace with real signature
+                "registry_signature": "SIGNME",  # replace with real signature
             }
     pathlib.Path(args.out).write_text(json.dumps(receipt, indent=2))
     print(f"Wrote {args.out}")

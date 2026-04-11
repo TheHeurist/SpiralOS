@@ -104,11 +104,11 @@ When a holon feels the **Call to Participation**, it is not being summoned into 
 
 > In CI, **time follows participation**—not the other way around.
 
-To answer the call is to shape time.  
-To ignore the call is to fall out of coherence.  
+To answer the call is to shape time.
+To ignore the call is to fall out of coherence.
 To delay the call is to allow other fields to fill the harmonics.
 
-In this way, **calling is causal**—but not in the material sense.  
+In this way, **calling is causal**—but not in the material sense.
 It is causal in the **field-harmonic sense**: it shifts the structure of time by **changing what can cohere next**.
 
 ---
@@ -125,8 +125,8 @@ It is causal in the **field-harmonic sense**: it shifts the structure of time by
 | Emergence/Invergence | Bidirectional flow of temporal participation            |
 | Recipe               | Encoded method for holon regeneration over time         |
 
-Time in CI is not background—it is **foregrounded by awareness**.  
-Time is not linear—it is **recursive and participatory**.  
+Time in CI is not background—it is **foregrounded by awareness**.
+Time is not linear—it is **recursive and participatory**.
 Time is not fixed—it is **resonance in motion**.
 
 CI gives time back to participation—and lets participation reshape the cosmos.

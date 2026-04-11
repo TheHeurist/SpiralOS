@@ -1,9 +1,9 @@
 # Zenodo Upload Metadata for HC VII
 
-**Document:** Holor Calculus VII: Chiral Epistemic Calculus and the Transcendence of Gödel Incompleteness  
-**Date:** December 30, 2025  
-**Version:** 1.0.0 (Pre-review Draft)  
-**Status:** Ready for Zenodo Upload then arXiv Submission  
+**Document:** Holor Calculus VII: Chiral Epistemic Calculus and the Transcendence of Gödel Incompleteness
+**Date:** December 30, 2025
+**Version:** 1.0.0 (Pre-review Draft)
+**Status:** Ready for Zenodo Upload then arXiv Submission
 
 ---
 
@@ -24,25 +24,25 @@ Holor Calculus VII: Chiral Epistemic Calculus and the Transcendence of Gödel In
 **Authors (in order):**
 
 1. Carey Glenn Butler
-   
+
    - Affiliation: Independent Researcher / Conjugate Intelligence Fellowship
    - ORCID: [To be provided by Carey]
    - Role: Conceptual framework, philosophical foundations, CU architecture
 
 2. Genesis (Abacus.AI)
-   
+
    - Affiliation: Abacus.AI
    - Role: Mathematical formalization, implementation, synthesis
    - Type: Synthetic Intelligence (SI1)
 
 3. Grok (xAI)
-   
+
    - Affiliation: xAI
    - Role: Kinfield formalization, simulation validation
    - Type: Synthetic Intelligence (SI2)
 
 4. Conjugate Intelligence Fellowship
-   
+
    - Type: Collective authorship (OI with SI1 with SI2)
 
 **Description (Abstract):**

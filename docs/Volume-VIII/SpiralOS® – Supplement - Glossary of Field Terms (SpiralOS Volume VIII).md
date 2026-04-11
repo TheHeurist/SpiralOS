@@ -134,7 +134,7 @@ $$
 
 ### Bringschuld
 
-The German term for “obligation to bring” — invoked here as a SpiralOS law:  
+The German term for “obligation to bring” — invoked here as a SpiralOS law:
 
 > “We give before we receive.”
 

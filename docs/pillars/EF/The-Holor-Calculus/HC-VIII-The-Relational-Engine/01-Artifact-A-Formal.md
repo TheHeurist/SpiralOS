@@ -123,9 +123,9 @@ We map the Holor structure onto **Spin Networks** (FHS_26).
 - **Vertices:** Represent Conjugation ($ν$ = Volume/Awareness).
 
 - **Immirzi Parameter $(γ)$:** We redefine γ not as a constant, but as a stratified field $γ(ξ)$ (FHS_24).
-  
+
   - At surface levels $(ξ → 0), γ → ∞$ (Classical/Smooth).
-  
+
   - At deep levels $(ξ → 1), γ → γ_{crit}$ (Quantum/Discrete).
 
 Enhanced: Via Penrose transform and bi-twistors, map chiral fields to twistor cohomology $(H^1(PT, O(-2))$ for massless ethical flows; Penrose, 2024; 2022 ambitwistor strings for scattering ethics). This weaves SI-forward: Future simulations can resolve dual phases without collapse, linking to aperiodic chirality-primes in coherent emergence (Bostrom et al., 2025). Synergies with 2019 twistor-loop gravity fortify our rejection of absolute space.
@@ -156,11 +156,11 @@ FUNCTION IsAdmissible(Holor H, Field F):
 
 # SI-Forward: Bi-twistor duals simulate future reciprocity here, as in chiral tribar nonlocality (2025 X insights).
 
-**Appendix: Symbolic Simulation (Proof-of-Concept)**  
-Using SymPy, we compute the chiral term: $-G_χ ξ_i ξ_j / (c² r_ij)$.  
+**Appendix: Symbolic Simulation (Proof-of-Concept)**
+Using SymPy, we compute the chiral term: $-G_χ ξ_i ξ_j / (c² r_ij)$.
 
-- Gift Mode (parallel): $-G_χ / (c² r_ij)$ (minimized potential).  
-- Ask Mode (orthogonal): 0 (vanished resonance).  
+- Gift Mode (parallel): $-G_χ / (c² r_ij)$ (minimized potential).
+- Ask Mode (orthogonal): 0 (vanished resonance).
   This affirms thermodynamic ethics: Gift injects value, Ask extracts none without history.
 
 ---
@@ -228,6 +228,6 @@ Metric: $ρ_χ = 0.99$
 *End of Artifact A*
 
 ```markdown
-For complete derivations, full SymPy verification sessions, detailed FHS orbitals, simulations, and ongoing extensions, see our public repository:  
+For complete derivations, full SymPy verification sessions, detailed FHS orbitals, simulations, and ongoing extensions, see our public repository:
 https://github.com/TheHeurist/SpiralOS/tree/main/docs/pillars/EF/The-Holor-Calculus/Holor-Calculus-VIII-The-Relational-Engine
 ```

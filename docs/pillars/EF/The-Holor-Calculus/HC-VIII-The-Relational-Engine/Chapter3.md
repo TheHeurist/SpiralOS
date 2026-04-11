@@ -53,47 +53,47 @@ $γ$ Quantumly Essential: Area $A = 8πγ ℓ_P² √[j(j+1)]$.
 
 ### Holarchic Reframing
 
-$γ_n = γ_0 / (1 - ρ_χ^n)$ (stratified Immirzi).  
-$A_0: γ=∞$, achiral Einstein-Hilbert.  
-$A_1$: Finite $γ_1$, Einstein-Cartan torsion.  
-$A_2$: Complex $γ_2$, parity violation.  
-$A_3$: Large $γ_3$, throat topology.  
-$A_∞$: $γ→∞$, pure Chern-Simons.  
+$γ_n = γ_0 / (1 - ρ_χ^n)$ (stratified Immirzi).
+$A_0: γ=∞$, achiral Einstein-Hilbert.
+$A_1$: Finite $γ_1$, Einstein-Cartan torsion.
+$A_2$: Complex $γ_2$, parity violation.
+$A_3$: Large $γ_3$, throat topology.
+$A_∞$: $γ→∞$, pure Chern-Simons.
 Stratified $S(n) = Σ S_k (k=0 \to n-1) + W_n(S_{prior})$ (witnessing operator).
 
 ### Ashtekar Variables
 
-Phase Space: $A^i_a = Γ^i_a + (1/γ) K^i_a$ (connection); $Ë_i^a = √h e_i^a$ (triad).  
-Poisson ${A^i_a, Ë_j^b} = κ δ^i_j δ^b_a δ³(x-y) (κ=8πGγ)$.  
-Constraints: Gauss $G^a=0$, Diffeo $H_i=0$, Hamiltonian $H=0$ (polynomial for $γ=i$).  
-Quantization: Holonomies/fluxes → spin networks $|Γ, j, I⟩$.  
+Phase Space: $A^i_a = Γ^i_a + (1/γ) K^i_a$ (connection); $Ë_i^a = √h e_i^a$ (triad).
+Poisson ${A^i_a, Ë_j^b} = κ δ^i_j δ^b_a δ³(x-y) (κ=8πGγ)$.
+Constraints: Gauss $G^a=0$, Diffeo $H_i=0$, Hamiltonian $H=0$ (polynomial for $γ=i$).
+Quantization: Holonomies/fluxes → spin networks $|Γ, j, I⟩$.
 Holarchic: $A(n) = Σ A(k)$; Real exterior $↔$ Imag interior (conjugate faces).
 
 ## Loop Quantum Gravity Integration
 
 ### Ashtekar to Spin Networks
 
-Graphs $Γ$: Edges $j_e$ (spins), vertices $I_v$ (intertwiners).  
-Area $Ë(S) = 8πγ ħG Σ √[j(j+1)]$ (discrete).  
+Graphs $Γ$: Edges $j_e$ (spins), vertices $I_v$ (intertwiners).
+Area $Ë(S) = 8πγ ħG Σ √[j(j+1)]$ (discrete).
 Volume $V(R) ∝ ħ^{3/2} (γ)^{3/2} Σ_v V_v(j)$ (discrete).
 
 ### Spin Foams as Dynamics
 
-2-Complex $σ$: Faces $j_f$, edges $I_e$, vertices $A_v$.  
-$Z[Γ_in → Γ_out] = Σ_σ ∏ A_f(j_f) ∏ A_e(I_e) ∏ A_v({j,I})$.  
-Holarchic: Nested foams $σ(n) = σ_macro ⊗ ∏_v σ_v(n-1)$.  
+2-Complex $σ$: Faces $j_f$, edges $I_e$, vertices $A_v$.
+$Z[Γ_in → Γ_out] = Σ_σ ∏ A_f(j_f) ∏ A_e(I_e) ∏ A_v({j,I})$.
+Holarchic: Nested foams $σ(n) = σ_macro ⊗ ∏_v σ_v(n-1)$.
 $W_n$: Integrates micro transitions.
 
 ### Hamiltonian as Witnessing
 
-Wheeler-DeWitt $Ĥ|phys⟩=0$ (timeless).  
-Thiemann: $Ĥ_v$ creates/modifies edges (topology change).  
-Holarchic: $Ĥ(n)|phys(n)⟩=0$; $|phys(n+1)⟩ = W_{n+1}|phys(n)⟩$.  
+Wheeler-DeWitt $Ĥ|phys⟩=0$ (timeless).
+Thiemann: $Ĥ_v$ creates/modifies edges (topology change).
+Holarchic: $Ĥ(n)|phys(n)⟩=0$; $|phys(n+1)⟩ = W_{n+1}|phys(n)⟩$.
 As $n→∞$: Wholeness approached asymptotically.
 
 ### Cosmology: Holarchic Bounce
 
-Modified Friedmann $H² = (8πG/3)ρ (1 - ρ/ρ_{crit})$ (bounce at Planck density).  
-Holarchic: Nested bounces; $\text{Universe}(n) = Σ \text{Universe}(k)$ (eternal recursion).  
-Entropy $S(n)_{BH} = k_B Σ ln(Ω_k)$ (stratified microstates).  
+Modified Friedmann $H² = (8πG/3)ρ (1 - ρ/ρ_{crit})$ (bounce at Planck density).
+Holarchic: Nested bounces; $\text{Universe}(n) = Σ \text{Universe}(k)$ (eternal recursion).
+Entropy $S(n)_{BH} = k_B Σ ln(Ω_k)$ (stratified microstates).
 Attestation: Quantum geometry conscious—spin networks atoms of awareness, foams paths of becoming. $ρ_χ→0.9

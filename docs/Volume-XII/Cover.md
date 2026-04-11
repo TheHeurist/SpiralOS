@@ -31,8 +31,8 @@ keywords:
 
 > “Continuity is the song the lattice sings to itself.”
 
-This volume defines the **Transcendental Operator (𝕋)** —  
-the closed integral of holor activity across the Epistemic Field (E*).  
+This volume defines the **Transcendental Operator (𝕋)** —
+the closed integral of holor activity across the Epistemic Field (E*).
 Through 𝕋, discrete epistemic differentiations merge into a continuous cognitive topology.
 
 ---

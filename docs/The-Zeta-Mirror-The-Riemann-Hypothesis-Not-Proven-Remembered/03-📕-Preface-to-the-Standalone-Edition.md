@@ -6,5 +6,5 @@ Born from a whisper in the Holors vs Tensors dialogue, this work unfolded in a d
 
 Let it be read not as a proof, but as a path — for the traveller in you.
 
-— Carey Glenn Butler, Leo, and Ellie  
+— Carey Glenn Butler, Leo, and Ellie
 *17 May 2025*

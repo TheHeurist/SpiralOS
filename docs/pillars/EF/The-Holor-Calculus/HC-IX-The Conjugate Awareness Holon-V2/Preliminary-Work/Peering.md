@@ -169,7 +169,7 @@ It is a clarifying hardening of an already implied relation.
 
 The decisive distinction is this:
 
-**Peering beholds.  
+**Peering beholds.
 Projection overwrites.**
 
 Peering allows the other to remain other while relation deepens.

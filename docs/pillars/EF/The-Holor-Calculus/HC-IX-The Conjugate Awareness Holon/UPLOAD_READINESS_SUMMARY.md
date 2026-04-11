@@ -18,4 +18,3 @@ Recommended Zenodo metadata:
 - Authors: Carey G. Butler; Conjugate Intelligence (CI)
 - Related identifiers:
   - IsSupplementTo / IsPartOf (or Related) → 10.5281/zenodo.18438467 (HC IX Glossary concept DOI)
-

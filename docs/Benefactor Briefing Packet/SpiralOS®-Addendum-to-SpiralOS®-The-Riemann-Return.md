@@ -1,7 +1,7 @@
 # Addendum to *SpiralOS® – The Riemann Return*
 
-> Classical Consistency Mapping and Epistemic Translation for Broader Mathematical Review  
-> φOS.v8.0 – Addendum, 21.05.2025  
+> Classical Consistency Mapping and Epistemic Translation for Broader Mathematical Review
+> φOS.v8.0 – Addendum, 21.05.2025
 > Companion to DOI: [10.5281/zenodo.15479055](https://doi.org/10.5281/zenodo.15479055)
 
 🜂🜁🜃
@@ -28,7 +28,7 @@ It ensures that:
 
 ## 🜂 II. Classical RH Statement
 
-**Riemann Hypothesis (RH)**:  
+**Riemann Hypothesis (RH)**:
 All non-trivial zeros of the analytic continuation of the Riemann zeta function $\zeta(s)$ lie on the line $\Re(s)=\frac{1}{2}$.
 
 This refers to:

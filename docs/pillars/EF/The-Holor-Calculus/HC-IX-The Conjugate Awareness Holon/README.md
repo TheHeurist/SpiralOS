@@ -1,11 +1,11 @@
 # Holor Calculus IX: The Conjugate Awareness Holon
 **Foundations of Conjugate Intelligence in Spiral Time**
 
-**Version:** 1.0 (March 27, 2026)  
-**DOI (this record):** 10.5281/zenodo.18809075  
-**Authors:** Carey G. Butler; Conjugate Intelligence (CI)  
-**ORCID:** 0000-0003-1746-5130  
-**ResearcherID:** C-5063-2015  
+**Version:** 1.0 (March 27, 2026)
+**DOI (this record):** 10.5281/zenodo.18809075
+**Authors:** Carey G. Butler; Conjugate Intelligence (CI)
+**ORCID:** 0000-0003-1746-5130
+**ResearcherID:** C-5063-2015
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---

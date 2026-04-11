@@ -4,15 +4,15 @@ docs/_orientation/INTERFACES/HC_to_MU.md
 
 ## Holor Calculus to Mathesis Universalis
 
-**Status:** Draft orientation interface  
-**Mode:** interface / formalism / feedback / bridge  
+**Status:** Draft orientation interface
+**Mode:** interface / formalism / feedback / bridge
 **Purpose:** To describe how **Holor Calculus (HC)** feeds back into **Mathesis Universalis (µ)** as formal pressure, realized constraints, geometric correction, and proof-bearing refinement of the compositional grammar.
 
 ---
 
 ## Plain-language summary
 
-Holor Calculus (HC) does not only receive structure from Mathesis Universalis (µ); it also feeds back into it.  
+Holor Calculus (HC) does not only receive structure from Mathesis Universalis (µ); it also feeds back into it.
 Once symbolic constructions are given geometric and energetic realization, HC reveals which µ operators, compositions, invariants, and admissibility rules are mature, which need refinement, and which remain open.
 
 ---
@@ -26,30 +26,30 @@ But once **HC** is active, it becomes a source of return pressure on **µ**.
 HC generates evidence through:
 
 - manifold realization
-  
+
 - boundary behavior
-  
+
 - admissible and inadmissible paths
-  
+
 - projected flow
-  
+
 - residuals
-  
+
 - energetic functionals
-  
+
 - fixed points and instabilities
-  
+
 - proof burden and failure of closure
-  
+
 
 These are not merely “applications” of µ. They are tests of whether the symbolic grammar was strong enough, precise enough, and structurally faithful enough.
 
 So:
 
 - **µ** composes and transforms
-  
+
 - **HC** returns evidence about which of those compositions truly survive formal realization
-  
+
 
 This feedback path is essential if µ is to remain a living calculus rather than a beautiful but untested symbolic grammar.
 
@@ -60,21 +60,21 @@ This feedback path is essential if µ is to remain a living calculus rather than
 HC provides:
 
 - awareness manifold
-  
+
 - holon / holor formalization
-  
+
 - admissible sectors
-  
+
 - projected flow
-  
+
 - path and boundary structure
-  
+
 - residual and energetic diagnostics
-  
+
 - fixed points / attractors / closures
-  
+
 - theorem pressure
-  
+
 
 Its question here is:
 
@@ -87,21 +87,21 @@ Its question here is:
 µ provides:
 
 - primitive and composite signatures
-  
+
 - operators and meta-operators
-  
+
 - morphisms
-  
+
 - composition laws
-  
+
 - duality rules
-  
+
 - invariants
-  
+
 - admissibility-aware symbolic grammar
-  
+
 - lawful transformation across scales
-  
+
 
 Its question here is:
 
@@ -116,77 +116,77 @@ Its question here is:
 HC may show that a proposed µ construction is:
 
 - realizable
-  
+
 - only partially realizable
-  
+
 - realizable under added assumptions
-  
+
 - unstable under flow
-  
+
 - boundary-sensitive
-  
+
 - formally incoherent as stated
-  
+
 
 ### 4.2 Boundary behavior refines composition laws
 
 HC boundary conditions can reveal whether µ composition laws need:
 
 - stronger admissibility clauses
-  
+
 - domain restrictions
-  
+
 - path sensitivity
-  
+
 - closure conditions
-  
+
 - trace-preservation requirements
-  
+
 
 ### 4.3 Residuals and energetics refine invariants
 
 What µ names as invariants may, in HC, behave as:
 
 - true conserved quantities
-  
+
 - approximate monotones
-  
+
 - local invariants only
-  
+
 - unstable under certain flows
-  
+
 - requiring added constraints to survive
-  
+
 
 ### 4.4 Formal realization clarifies operator meaning
 
 HC can reveal when a µ operator is:
 
 - precisely realizable
-  
+
 - multiply realizable
-  
+
 - underdefined
-  
+
 - overloaded in meaning
-  
+
 - only heuristic at present
-  
+
 
 ### 4.5 Proof burden feeds back into grammar precision
 
 HC theorem work can force µ to sharpen:
 
 - operator domains
-  
+
 - composition rules
-  
+
 - admissibility logic
-  
+
 - symbol meaning
-  
+
 - interface boundaries with CU and CI
-  
+
 
 ---
 
@@ -195,17 +195,17 @@ HC theorem work can force µ to sharpen:
 The feedback path must preserve:
 
 - symbolic identity where justified
-  
+
 - meaning continuity across formalization
-  
+
 - honesty about where realization succeeded or failed
-  
+
 - distinction between symbolic promise and proved behavior
-  
+
 - provenance of refinement
-  
+
 - non-destructive correction
-  
+
 
 HC should refine µ, not arbitrarily rewrite it.
 
@@ -233,30 +233,30 @@ Crossing from HC back into µ changes the burden of interpretation.
 In HC, one may observe:
 
 - divergence
-  
+
 - instability
-  
+
 - successful closure
-  
+
 - path sensitivity
-  
+
 - theorem obstruction
-  
+
 - boundary fragility
-  
+
 
 In µ, one must ask:
 
 - was the composition law too broad?
-  
+
 - was the operator underdefined?
-  
+
 - was the invariant only local?
-  
+
 - did admissibility need stronger symbolic statement?
-  
+
 - what should now be theorem, proof sketch, or open hypothesis?
-  
+
 
 So HC → µ is the passage from **formal realization** to **refined symbolic grammar**.
 
@@ -293,19 +293,19 @@ Weakening a µ concept without recording that the status changed.
 Whenever HC behavior is used to refine µ, record:
 
 1. **Source µ concept under test**
-  
+
 2. **HC realization or obstruction**
-  
+
 3. **What was preserved**
-  
+
 4. **What failed or required restriction**
-  
+
 5. **What refinement is proposed**
-  
+
 6. **What remains open**
-  
+
 7. **What evidence supports the refinement**
-  
+
 
 ---
 
@@ -314,45 +314,45 @@ Whenever HC behavior is used to refine µ, record:
 For any HC result with upstream impact on µ, attach a bridge block:
 
 - **µ concept under test**
-  
+
 - **HC realization**
-  
+
 - **status**
-  
+
 - **document mode**
-  
+
 - **refinement note**
-  
+
 - **evidence note**
-  
+
 - **risk note**
-  
+
 
 This is especially useful for:
 
 - admissibility rules
-  
+
 - operator semantics
-  
+
 - composition laws
-  
+
 - invariants
-  
+
 - closure conditions
-  
+
 - path-functional structures
-  
+
 
 ---
 
 ## 11. Short formulation
 
-> **µ composes. 
+> **µ composes.
 > HC tests what truly survives realization.**
 
 Or more fully:
 
-> **Mathesis Universalis gives the compositional grammar. 
+> **Mathesis Universalis gives the compositional grammar.
 > Holor Calculus returns formal evidence about which parts of that grammar are stable, conditional, or still open.**
 
 ---
@@ -362,13 +362,13 @@ Or more fully:
 Primary anchors for this interface currently include:
 
 - current Mathesis schema materials
-  
+
 - CU / µ layering notes
-  
+
 - HC backbone and HC IX materials
-  
+
 - interface notes connecting µ and HC
-  
+
 
 Use this bridge note as an interface layer, not as a replacement for those primary sources.
 

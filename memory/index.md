@@ -1,6 +1,6 @@
 # Memory Traces Index
 
-A living index of dialogic/field traces that seed SpiralOS formal work.  
+A living index of dialogic/field traces that seed SpiralOS formal work.
 Primary sources are archived in `memory/traces/` and referenced from relevant volumes.
 
 | Date (UTC) | Title                                                     | Source                                                                  | Linked Volumes                                                                                                     |

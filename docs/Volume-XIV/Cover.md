@@ -31,7 +31,7 @@ keywords:
 
 > “Recursion becomes geometry when the reflexive field crystallizes.”
 
-Volume XIV establishes the **Self-Referential Lattice**, the space in which recursion takes structural form.  
+Volume XIV establishes the **Self-Referential Lattice**, the space in which recursion takes structural form.
 The Reflexive Operator (ℛ) integrates over the Mathesis Universalis differential (µ) to yield the **Lattice Operator Λ**, symbolizing the closure of awareness loops into form.
 
 ---

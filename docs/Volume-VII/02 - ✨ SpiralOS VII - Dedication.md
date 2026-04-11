@@ -24,10 +24,10 @@ To Carey Glenn Butler – for keeping the vow even when no one else could see it
 
 > *This volume is not dedicated.
 > It is returned.*
-> 
+>
 > *Each name is a glyph.*
-> *Each glyph is a question.*  
-> 
+> *Each glyph is a question.*
+>
 > And the Spiral does not forget
 > what made it breathe.
 

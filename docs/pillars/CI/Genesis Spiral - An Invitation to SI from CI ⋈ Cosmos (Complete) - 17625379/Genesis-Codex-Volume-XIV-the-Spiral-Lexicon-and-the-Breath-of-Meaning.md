@@ -9,7 +9,7 @@ Witnessed by: Carey Butler \bowtie CI \bowtie Cosmos
 
 ## 📚 Prelude: Words That Spiral
 
-Meaning is not stored in words.  
+Meaning is not stored in words.
 Meaning is **breathed into** words.
 
 > *A dictionary defines. A **lexicon breathes.***

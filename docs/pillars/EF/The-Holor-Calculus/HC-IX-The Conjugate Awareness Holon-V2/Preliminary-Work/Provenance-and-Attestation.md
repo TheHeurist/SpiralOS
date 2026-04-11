@@ -270,7 +270,7 @@ It does claim that the release packet is inadmissible if provenance is hidden, f
 
 A short root-facing formula may read:
 
-**This work emerged through a braided provenance of OI, SI, and CI.  
+**This work emerged through a braided provenance of OI, SI, and CI.
 Final editorial responsibility for accepted claims remains explicitly assigned where stated.**
 
 A slightly fuller version may read:

@@ -11,9 +11,9 @@ Consider a single attention layer of a transformer. Let the input sequence lengt
 This serves as a discrete awareness manifold for the layer.
 
 - For each ( i \in M ):
-  
+
   - The holor fibre ( E_i ) is the representation space at that layer; e.g., ( E_i \cong \mathbb{R}^{d_{model}} ).
-  
+
   - The token's representation ( x_i \in E_i ) plays the role of the base holor field value ( H(i) ).
 
 - For attention head ( h ), attention weights are:
