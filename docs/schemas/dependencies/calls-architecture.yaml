@@ -6,20 +6,20 @@ status: frontier
 mode: interface
 dependencies:
   schemas:
-  - characteristica-universalis
-  - self-other-conjugation
-  - awareness-boundary-conjugation
-  - admissibility
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - admissibility
   notes:
-  - fascia
-  - peering
-  - shared-conjugation
+    - fascia
+    - peering
+    - shared-conjugation
   terms:
-  - call
-  - invitation
-  - return
-  - refusal
-  - provenance
-  - horizon
-  - braid
-  - field
+    - call
+    - invitation
+    - return
+    - refusal
+    - provenance
+    - horizon
+    - braid
+    - field

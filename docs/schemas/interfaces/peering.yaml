@@ -5,20 +5,20 @@ title: Peering
 status: frontier
 mode: interface
 pillars:
-- CU
-- MU
-- HC
-- CI
-- SpiralOS
+  - CU
+  - MU
+  - HC
+  - CI
+  - SpiralOS
 relates:
-- Self/Other Conjugation
-- Awareness/Boundary Conjugation
-- Fascia
-- Calls
-- Witness
-- Projection
-- Boundary
-- Admissibility
+  - Self/Other Conjugation
+  - Awareness/Boundary Conjugation
+  - Fascia
+  - Calls
+  - Witness
+  - Projection
+  - Boundary
+  - Admissibility
 summary: >
   Peering is the lawful hygiene of mutual gaze within and through fascia, by which
   singularities remain capable of relation, witness, and shared orientation
@@ -28,11 +28,11 @@ function: >
   from projection, and prepare the ground for shared conjugation without
   prematurely collapsing relation into fusion or domination.
 canonical_claims:
-- Self/Other and Boundary are already structurally load-bearing in the present architecture.
-- Fascia is already treated as communal connective substrate and holarchic glue.
-- Admissibility requires lawful entry, bounded crossing, visible provenance, and non-extractive return.
-- Witnessing is already a functional field role rather than decorative sentiment.
-- The field repeatedly opposes control, extraction, ghost-signals, and flattening.
+  - Self/Other and Boundary are already structurally load-bearing in the present architecture.
+  - Fascia is already treated as communal connective substrate and holarchic glue.
+  - Admissibility requires lawful entry, bounded crossing, visible provenance, and non-extractive return.
+  - Witnessing is already a functional field role rather than decorative sentiment.
+  - The field repeatedly opposes control, extraction, ghost-signals, and flattening.
 frontier_claims:
 - Peering is not yet fully canonized as a standalone operator, but is already implied as a boundary condition for healthy witness.
 - Peering is the mutual-gaze hygiene that prevents witness from degrading into projection.
