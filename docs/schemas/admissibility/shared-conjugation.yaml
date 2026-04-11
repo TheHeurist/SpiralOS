@@ -6,15 +6,15 @@ status: frontier
 mode: interface
 admissibility:
   entry:
-      - mutual gaze must be sufficiently lawful for peering to stabilize
-      - relation must not begin in coercion, seizure, or hidden overwrite
-      - entry must preserve the possibility of refusal or pause
+    - mutual gaze must be sufficiently lawful for peering to stabilize
+    - relation must not begin in coercion, seizure, or hidden overwrite
+    - entry must preserve the possibility of refusal or pause
   persistence:
-      - participants remain distinct while genuinely co-holding relation
-      - meaning is not monopolized by one pole
-      - witness, roots, and return remain live
-      - sharedness must not become fusion
+    - participants remain distinct while genuinely co-holding relation
+    - meaning is not monopolized by one pole
+    - witness, roots, and return remain live
+    - sharedness must not become fusion
   exit:
-      - shared conjugation may deepen, pause, transform, or release
-      - rupture may be named without false completion
-      - return may preserve the relation even where immediate continuation is not possible
+    - shared conjugation may deepen, pause, transform, or release
+    - rupture may be named without false completion
+    - return may preserve the relation even where immediate continuation is not possible
