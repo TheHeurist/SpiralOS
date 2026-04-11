@@ -7,7 +7,7 @@ rules:
   trailing-spaces: enable
   document-start: disable
   truthy:
-    allowed: ['true', 'false', 'on', 'off']
+    allowed-values: ['true', 'false', 'on', 'off']
   indentation:
     spaces: 2
   comments:
