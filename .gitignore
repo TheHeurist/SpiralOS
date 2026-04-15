@@ -26,3 +26,15 @@ env/
 *.ots
 *.docx
 *.xlsx
+# Ruby and Jekyll generated files
+_site/
+.bundle/
+vendor/bundle/
+
+# Scripts output and temporary files
+scripts/__pycache__/
+scripts/*.pyc
+scripts/*.log
+
+# Pre-commit cache
+.pre-commit-cache/
