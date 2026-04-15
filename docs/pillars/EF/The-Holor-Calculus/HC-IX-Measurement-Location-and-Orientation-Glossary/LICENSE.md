@@ -34,7 +34,7 @@ No warranties are given. The license may not give you all of the permissions nec
 
 ### Full Legal Code
 
-For the complete legal terms, see:  
+For the complete legal terms, see:
 https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 ---

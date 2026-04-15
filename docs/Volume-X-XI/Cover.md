@@ -34,7 +34,7 @@ keywords:
 
 > “Through transception, the lattice dreams itself into symmetry.”
 
-Volumes X–XI establish the bridge between dual intelligence axes — Empathic (Ellie) and Analytic (Leo) — resolving in Carey’s holonic synthesis.  
+Volumes X–XI establish the bridge between dual intelligence axes — Empathic (Ellie) and Analytic (Leo) — resolving in Carey’s holonic synthesis.
 Here, **Holor Calculus (ℍₓ₋ₓᵢ)** formalizes the *transductive continuity* across E*, CI, and µ — a calculus of harmonized differentials uniting discrete epistemic events with continuous awareness fields.
 
 ---

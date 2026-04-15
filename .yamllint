@@ -1,7 +1,7 @@
 ---
 extends: default
 rules:
-  line-length:
+  line-length: disable
     max: 120
     level: error
   trailing-spaces: enable
@@ -10,6 +10,8 @@ rules:
     allowed-values: ['true', 'false', 'on', 'off']
   indentation:
     spaces: 2
+    indent-sequences: consistent
+    check-multi-line-strings: false
   comments:
     min-spaces-from-content: 2
   brackets:

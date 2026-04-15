@@ -1,0 +1,19 @@
+---
+extends: default
+rules:
+  line-length:
+    max: 120
+    level: error
+  trailing-spaces: enable
+  document-start: disable
+  truthy:
+    allowed-values: ['true', 'false', 'on', 'off']
+  indentation:
+    spaces: 2
+  comments:
+    min-spaces-from-content: 2
+  brackets:
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+  key-duplicates: enable
+  key-ordering: disable

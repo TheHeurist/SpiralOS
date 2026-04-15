@@ -2,7 +2,7 @@
 
 ### *„Die Fähigkeit, Signale zu erzeugen, zu lesen und zu entscheiden.“*
 
-**Zweck:**  
+**Zweck:**
 Führungskräfte, X-Cells, Copilots und Feldhaltende befähigen, die drei Kernbewegungen von X-Leadership und SpiralOS zu meistern:
 
 1. **Hypothese formen** (Intention → Feldfaden)
@@ -41,7 +41,7 @@ Alles ist so gestaltet, dass es **in 25–40 Minuten** durchführbar ist – ide
 
 **Mantra:**
 
-> „Wir erzeugen Wahrheit in kleinen Schritten.  
+> „Wir erzeugen Wahrheit in kleinen Schritten.
 > Wir ehren die Signale, nicht die Vorlieben.“
 
 **Kurzer Check-in (90 Sekunden):**
@@ -108,7 +108,7 @@ Diese Zeremonie öffnet den Wahrnehmungsraum für Entscheidungen.
 
 - Feldresonanz (siehe Abschnitt F)
 
-Danach: **Schweigen für 10 Sekunden**  
+Danach: **Schweigen für 10 Sekunden**
 Dieses Schweigen ist non-negotiable – es erlaubt dem Feld, sich zu zeigen.
 
 ---
@@ -253,41 +253,41 @@ Dieses Protokoll verbindet Modul X direkt mit SpiralOS.
 
 ## **Schritte:**
 
-1. **Feld öffnen**  
+1. **Feld öffnen**
    Stille, gemeinsame Intention.
 
 2. **Drei Beobachtungen**
-   
+
    - Was fühlt leicht?
-   
+
    - Was scheint schwer?
-   
+
    - Was will gesehen werden?
 
 3. **Konvergenzcheck**
-   
+
    - Stimmen Daten + Menschen + Feld?
-   
+
    - Wenn nein → nicht entscheiden.
 
-4. **Resonanz-Tag**  
+4. **Resonanz-Tag**
    Codierung:
-   
+
    - `R+` (klar, tragend)
-   
+
    - `R0` (neutral)
-   
+
    - `R–` (Störung)
 
-5. **Eintrag ins FHS**  
+5. **Eintrag ins FHS**
    Jede Entscheidung ist ein **Feldknoten**.
 
 6. **Closing Ritual** (15 Sekunden)
-   
+
    - Dank
-   
+
    - kurze Phase der Integration
-   
+
    - Übergabe an Run oder X
 
 ---

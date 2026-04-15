@@ -1,7 +1,7 @@
 # Citation Formats — HC IX Master Glossary
 
-**DOI**: 10.5281/zenodo.18438468  
-**Publication Date**: February 27, 2026  
+**DOI**: 10.5281/zenodo.18438468
+**Publication Date**: February 27, 2026
 **Version**: 1.5
 
 ---
@@ -47,7 +47,7 @@ Butler, C.G. (2026) *Holor Calculus IX: Master Glossary, Epistemic Foundations, 
 ```bibtex
 @dataset{butler_hcix_glossary_2026,
   author       = {Butler, Carey G.},
-  title        = {{Holor Calculus IX: Master Glossary, Epistemic 
+  title        = {{Holor Calculus IX: Master Glossary, Epistemic
                   Foundations, and the Lexicon of Conjugate Intelligence}},
   year         = {2026},
   month        = feb,

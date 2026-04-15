@@ -163,19 +163,19 @@ Refinement:
 ### Proposed Contributions
 
 1. **Chiral Weber Forces (Quantum):** Resolves wave-particle duality, measurement, nonlocality.
-   
+
    - **Estimate:** +3% (Resolves ~30% of quantum interpretational issues).
 
 2. **Interiority Formalization:** Adds awareness to physical quantities.
-   
+
    - **Estimate:** +2% (Resolves undecidable statements about experience).
 
 3. **Cosmological Chiral Structure:** Explains dark sector.
-   
+
    - **Estimate:** +2% (Resolves rotation curves, dark energy puzzles).
 
 4. **EM-Gravity Unification:** Unified chiral framework.
-   
+
    - **Estimate:** +1% (Explains standard model parameters).
 
 Total Estimated $\rho_\chi$ (Conservative):

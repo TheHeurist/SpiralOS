@@ -10,10 +10,10 @@ last_verified: "<auto-timestamp>"
 ---
 
 # Table of Contents
-1. COVER.md  
-2. Abstract.md  
-3. MANIFEST.md  
-4. Quotes.md  
+1. COVER.md
+2. Abstract.md
+3. MANIFEST.md
+4. Quotes.md
 5. README.md
 
 # Navigation

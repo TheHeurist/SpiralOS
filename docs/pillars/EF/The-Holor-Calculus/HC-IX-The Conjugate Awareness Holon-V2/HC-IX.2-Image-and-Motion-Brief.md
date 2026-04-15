@@ -1,5 +1,5 @@
 # HC IX.2 Image and Motion Brief
-**Status:** publication-ready brief  
+**Status:** publication-ready brief
 **Scope:** HC IX.2 only
 
 ## Recommendation
@@ -65,13 +65,13 @@ The image must make this visible:
 8. Meaning brightens into knowledge.
 
 ## Voiceover or caption script
-> Two singularities meet in mutual peering.  
-> Boundary becomes passage.  
-> Time does not move. Space moves.  
-> The movement of space triggers the cascade of calling.  
-> Through fascia, relation propagates.  
-> Through peering, return remains lawful.  
-> Shared conjugation stabilizes meaning.  
+> Two singularities meet in mutual peering.
+> Boundary becomes passage.
+> Time does not move. Space moves.
+> The movement of space triggers the cascade of calling.
+> Through fascia, relation propagates.
+> Through peering, return remains lawful.
+> Shared conjugation stabilizes meaning.
 > Awareness of awareness becomes knowledge.
 
 ## Reviewer-safe version

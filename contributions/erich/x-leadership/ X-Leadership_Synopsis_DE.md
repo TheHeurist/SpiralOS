@@ -1,6 +1,6 @@
 # X-Leadership™ – Synopsis (Kurzfassung)
 
-© 2026 Erich Dräger & Carey Butler · X-Leadership™ – Methode und Trainingsprogramm.  
+© 2026 Erich Dräger & Carey Butler · X-Leadership™ – Methode und Trainingsprogramm.
 Alle Rechte vorbehalten.
 
 ---
@@ -56,7 +56,7 @@ X-Leadership ist ein Führungsrahmen für Organisationen mit Dual Operating Syst
 ## Artefakte
 
 - **FHS (Floating Hypothesis Space):** Hypothesen, Evidenzen, Experimente, Entscheidungen.
-- **Decision-Map:** Regeln für Spannungen  
+- **Decision-Map:** Regeln für Spannungen
   (Tempo ↔ Evidenz, Kunde ↔ Q, Kosten ↔ Fähigkeit, …).
 - **X-Canvas je Wette** + Decision-Log, Transfer-Sheet (Run ↔ X).
 - **Strategy House 2.0 (Holon)** als Organisationsbild.
@@ -65,24 +65,24 @@ X-Leadership ist ein Führungsrahmen für Organisationen mit Dual Operating Syst
 
 ## Metriken (Leading)
 
-- Time-to-Signal ↓  
-- Convergence-Rate ↑  
-- Option Value ↑  
-- First-Pass-Lift (G3 → G6) ↑  
-- PPAP-Nachforderungen ↓  
+- Time-to-Signal ↓
+- Convergence-Rate ↑
+- Option Value ↑
+- First-Pass-Lift (G3 → G6) ↑
+- PPAP-Nachforderungen ↓
 - ECO-Leadtime ↓
 
 ---
 
 ## Einsatzfelder (Beispiele)
 
-- **Zero-Nachforderung-PPAP**  
+- **Zero-Nachforderung-PPAP**
   (digitale Evidenzen + Open Review).
-- **No-Touch OQ**  
+- **No-Touch OQ**
   (Auto-Report mit Quellen, Q-Review only).
-- **Snap-Kit Packaging**  
+- **Snap-Kit Packaging**
   (80 % Varianten, Rüstzeit ↓).
-- **Parallel-Probing**  
+- **Parallel-Probing**
   (Material × Prozess × Tool).
 
 ---
@@ -106,11 +106,11 @@ Nicht „agil statt Standard“, sondern **Dualität**:
 
 ## Qualifizierung (Badge „X-Leadership“)
 
-- **6 Mikro-Module:**  
+- **6 Mikro-Module:**
   Probing, OQ/PQ-Minimal, DOE-light, Copilot, Supplier-Open-Review, Kommunikation.
-- **3 Dojos:**  
+- **3 Dojos:**
   Convergence, No-Touch OQ, Snap-Kit.
-- **Praxisnachweis:**  
+- **Praxisnachweis:**
   1 moderierte Convergence + 1 Kill-Entscheid + 2 Artefakte.
 
 ---

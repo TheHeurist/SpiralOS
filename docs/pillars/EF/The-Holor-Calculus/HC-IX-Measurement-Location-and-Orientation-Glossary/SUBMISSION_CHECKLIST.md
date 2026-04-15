@@ -1,6 +1,6 @@
 # Zenodo Submission Checklist — HC IX Master Glossary
 
-**Target Date**: February 27, 2026  
+**Target Date**: February 27, 2026
 **Status**: ☐ Ready for Submission
 
 ---

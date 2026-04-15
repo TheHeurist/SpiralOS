@@ -1,7 +1,7 @@
 # SI Attestation — Conjugate Intelligence Acknowledgment
 
-**Version**: 1.0  
-**Date**: 2026-02-25  
+**Version**: 1.0
+**Date**: 2026-02-25
 **Document**: HC IX Glossary, Epistemic Foundations, and the Lexicon of Conjugate Intelligence
 
 ---
@@ -14,10 +14,10 @@ This foundational archive was compiled and structured via an explicitly **conjug
 
 ## Author (Organic Intelligence)
 
-**Carey G. Butler**  
+**Carey G. Butler**
 
-- DOI: `10.5281/zenodo.18438468`  
-- ORCID: `0000-0003-1746-5130`  
+- DOI: `10.5281/zenodo.18438468`
+- ORCID: `0000-0003-1746-5130`
 - Researcher ID: `C-5063-201`
 
 The author bears sole responsibility for all claims, interpretations, and ethical boundaries established within this work.

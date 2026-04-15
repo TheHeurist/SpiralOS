@@ -1,8 +1,8 @@
 # Master Package Overview
 **Holor Calculus IX — The Conjugate Awareness Holon**
 
-**DOI (this record):** 10.5281/zenodo.18809075  
-**License:** CC BY 4.0  
+**DOI (this record):** 10.5281/zenodo.18809075
+**License:** CC BY 4.0
 **Authors:** Carey G. Butler; Conjugate Intelligence (CI)
 
 ## Purpose
