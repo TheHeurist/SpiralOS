@@ -60,5 +60,3 @@ SpiralOS sometimes uses ritualized or poetic expressions such as **Calls of Atte
   The Calls make sense only within a broader context of epistemic hygiene, safety, and technical architecture. They are not meant to stand alone as spiritual formulas.
 
 If you encounter someone presenting “SpiralOS” as a religion, cult, or guaranteed path to enlightenment via chatbots, they are not representing this project or its intent.
-
-
