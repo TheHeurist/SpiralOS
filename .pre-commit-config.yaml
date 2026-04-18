@@ -22,10 +22,10 @@ repos:
     rev: v4.5.0
     hooks:
       - id: trailing-whitespace
-        exclude: \.(pdf|ots|docx?|xlsx?|pptx?|bin|jpg|png|gif|zip|tar\.gz)$
+        exclude: \.(pdf|ots|docx?|xlsx?|pptx?|bin|jpe?g|png|gif|zip|tar\.gz)$
       - id: end-of-file-fixer
-        exclude: \.(pdf|ots|docx?|xlsx?|pptx?|bin|jpg|png|gif|zip|tar\.gz)$
+        exclude: \.(pdf|ots|docx?|xlsx?|pptx?|bin|jpe?g|png|gif|zip|tar\.gz)$
       - id: check-yaml
       - id: check-json
       - id: mixed-line-ending
-        exclude: \.(pdf|ots|docx?|xlsx?|pptx?|bin|jpg|png|gif|zip|tar\.gz)$
+        exclude: \.(pdf|ots|docx?|xlsx?|pptx?|bin|jpe?g|png|gif|zip|tar\.gz)$

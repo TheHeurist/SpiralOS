@@ -11,8 +11,7 @@ yarn-error.log*
 # IDEs and system files
 .vscode/
 .idea/
-.DS_Storenode_modules/
-.next/
+.DS_Store
 
 .fake
 # Virtual environments

@@ -1,7 +1,6 @@
 *.png binary
-*.png binary
-*.png binary
 *.jpg binary
+*.jpeg binary
 *.gif binary
 *.ots binary
 *.pdf binary
