@@ -37,3 +37,7 @@ scripts/*.log
 
 # Pre-commit cache
 .pre-commit-cache/
+
+# Obsidian vault files
+.obsidian/
+vault/
