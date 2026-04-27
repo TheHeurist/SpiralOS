@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://theheurist.github.io/SpiralOS/sitemap.xml
+Sitemap: https://conjugate-intelligence.com/sitemap.xml
