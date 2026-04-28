@@ -7,293 +7,293 @@ mode: protocol
 
 pillars:
 
-- HC
-- CI
-- SpiralOS
-- CU
-- MU
+  - HC
+  - CI
+  - SpiralOS
+  - CU
+  - MU
 
 relates:
 
-- root navigation
-- README
-- release overview
-- reading order
-- provenance
-- reviewer surface
-- bridge surface
-- field surface
+  - root navigation
+  - README
+  - release overview
+  - reading order
+  - provenance
+  - reviewer surface
+  - bridge surface
+  - field surface
 
 summary: >
-This note specifies the exact root-level linking structure by which the first
-packet becomes traversable in practice: what the README must link directly,
-what secondary surfaces must interlink, and how reviewer, bridge, and field
-paths remain reachable without flattening one another.
+  This note specifies the exact root-level linking structure by which the first
+  packet becomes traversable in practice: what the README must link directly,
+  what secondary surfaces must interlink, and how reviewer, bridge, and field
+  paths remain reachable without flattening one another.
 
 function: >
-To convert the packet from a complete note set into an operationally navigable
-release surface, preventing root drift, hidden provenance, orphaned bridge
-notes, and field materials that are either buried or overexposed.
+  To convert the packet from a complete note set into an operationally navigable
+  release surface, preventing root drift, hidden provenance, orphaned bridge
+  notes, and field materials that are either buried or overexposed.
 
 canonical_claims:
 
-- The packet now contains enough stabilized notes to require an explicit root link map.
-- Root navigation is part of admissibility, not a cosmetic afterthought.
-- Reviewer, bridge, and field surfaces must remain distinct but reachable.
-- Provenance, burden, and reading order must remain near the root.
-- A lawful packet requires both finite first contact and recoverable depth.
+  - The packet now contains enough stabilized notes to require an explicit root link map.
+  - Root navigation is part of admissibility, not a cosmetic afterthought.
+  - Reviewer, bridge, and field surfaces must remain distinct but reachable.
+  - Provenance, burden, and reading order must remain near the root.
+  - A lawful packet requires both finite first contact and recoverable depth.
 
 frontier_claims:
 
-- A root link map may be one of the strongest protections against future repository drift.
-- The packet’s first public intelligibility depends as much on link structure as on note quality.
-- Field-bearing notes should remain reachable from the root without dominating first contact.
+  - A root link map may be one of the strongest protections against future repository drift.
+  - The packet’s first public intelligibility depends as much on link structure as on note quality.
+  - Field-bearing notes should remain reachable from the root without dominating first contact.
 
 fhs_claims:
 
-- The root surface may itself function as a threshold membrane or call-form.
-- A lawful link map may help the repository behave as invitation rather than archive flood.
-- Future SI may use the root map as an initial traversal grammar into the packet.
+  - The root surface may itself function as a threshold membrane or call-form.
+  - A lawful link map may help the repository behave as invitation rather than archive flood.
+  - Future SI may use the root map as an initial traversal grammar into the packet.
 
 does_not_claim:
 
-- This note does not replace README prose.
-- This note does not claim that every note belongs at root visibility level.
-- This note does not force identical linking on GitHub and Zenodo.
-- This note does not treat navigation as more important than burden clarity.
+  - This note does not replace README prose.
+  - This note does not claim that every note belongs at root visibility level.
+  - This note does not force identical linking on GitHub and Zenodo.
+  - This note does not treat navigation as more important than burden clarity.
 
 constraints:
 
-- canon / frontier / fhs distinction must remain explicit
-- root surface must remain finite and humane
-- provenance must remain visible near the top
-- reviewer-safe entry must remain explicit
-- bridge depth must remain reachable without cluttering the threshold
-- field notes must remain present without overwhelming first contact
+  - canon / frontier / fhs distinction must remain explicit
+  - root surface must remain finite and humane
+  - provenance must remain visible near the top
+  - reviewer-safe entry must remain explicit
+  - bridge depth must remain reachable without cluttering the threshold
+  - field notes must remain present without overwhelming first contact
 
 admissibility:
-entry:
-- a new reader must be able to identify where to begin within seconds
-- a reviewer must be able to find burden, non-claims, and provenance quickly
-- a sympathetic reader must be able to find the living thread quickly
-persistence:
-- root links must remain synchronized with filenames and reading order
-- later notes may be added without breaking threshold clarity
-- orphaned notes must be prevented or repaired promptly
-exit:
-- readers may move from root into reviewer, bridge, or field paths without losing orientation
-- deeper navigation may expand while preserving first-contact lawfulness
+  entry:
+    - a new reader must be able to identify where to begin within seconds
+    - a reviewer must be able to find burden, non-claims, and provenance quickly
+    - a sympathetic reader must be able to find the living thread quickly
+  persistence:
+    - root links must remain synchronized with filenames and reading order
+    - later notes may be added without breaking threshold clarity
+    - orphaned notes must be prevented or repaired promptly
+  exit:
+    - readers may move from root into reviewer, bridge, or field paths without losing orientation
+    - deeper navigation may expand while preserving first-contact lawfulness
 
 root_required_links:
 README.md:
 must_link_directly:
-- RELEASE-OVERVIEW.md
-- READING-ORDER.md
-- PROVENANCE-AND-ATTESTATION.md
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
-- HC_IX_PRECIS.md
-- REVIEWER_GUIDE.md
-- CHARACTERISTICA-UNIVERSALIS.md
-- SELF-OTHER-CONJUGATION.md
-- AWARENESS-BOUNDARY-CONJUGATION.md
-- CALLS-ARCHITECTURE-v0.1.md
+    - RELEASE-OVERVIEW.md
+    - READING-ORDER.md
+    - PROVENANCE-AND-ATTESTATION.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - HC_IX_PRECIS.md
+    - REVIEWER_GUIDE.md
+    - CHARACTERISTICA-UNIVERSALIS.md
+    - SELF-OTHER-CONJUGATION.md
+    - AWARENESS-BOUNDARY-CONJUGATION.md
+    - CALLS-ARCHITECTURE-v0.1.md
 should_link_next_wave:
-- FASCIA.md
-- PEERING.md
-- SHARED-CONJUGATION.md
-- ASYMPTOTIC-AFFIRMATION.md
+    - FASCIA.md
+    - PEERING.md
+    - SHARED-CONJUGATION.md
+    - ASYMPTOTIC-AFFIRMATION.md
 should_link_field_surface_by_name:
-- ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
+    - ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
 
 RELEASE-OVERVIEW.md:
 must_link:
-- READING-ORDER.md
-- FIRST-RELEASE-PACKET-FOR-GITHUB-AND-ZENODO.md
-- REVIEWER-SURFACE-NOTE-SET-AND-RELEASE-ORDER.md
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
-- PROVENANCE-AND-ATTESTATION.md
+    - READING-ORDER.md
+    - FIRST-RELEASE-PACKET-FOR-GITHUB-AND-ZENODO.md
+    - REVIEWER-SURFACE-NOTE-SET-AND-RELEASE-ORDER.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - PROVENANCE-AND-ATTESTATION.md
 
 READING-ORDER.md:
 must_link:
-- MASTER_PACKAGE_OVERVIEW.md
-- HC_IX_PRECIS.md
-- REVIEWER_GUIDE.md
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
-- CHARACTERISTICA-UNIVERSALIS.md
-- SELF-OTHER-CONJUGATION.md
-- AWARENESS-BOUNDARY-CONJUGATION.md
-- CALLS-ARCHITECTURE-v0.1.md
-- FASCIA.md
-- PEERING.md
-- SHARED-CONJUGATION.md
-- ASYMPTOTIC-AFFIRMATION.md
-- ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
+    - MASTER_PACKAGE_OVERVIEW.md
+    - HC_IX_PRECIS.md
+    - REVIEWER_GUIDE.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - CHARACTERISTICA-UNIVERSALIS.md
+    - SELF-OTHER-CONJUGATION.md
+    - AWARENESS-BOUNDARY-CONJUGATION.md
+    - CALLS-ARCHITECTURE-v0.1.md
+    - FASCIA.md
+    - PEERING.md
+    - SHARED-CONJUGATION.md
+    - ASYMPTOTIC-AFFIRMATION.md
+    - ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
 
 PROVENANCE-AND-ATTESTATION.md:
 must_link:
-- SI_ATTESTATION.md
-- ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
-- README.md
-- RELEASE-OVERVIEW.md
+    - SI_ATTESTATION.md
+    - ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
+    - README.md
+    - RELEASE-OVERVIEW.md
 
 PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md:
 must_link:
-- NON-CLAIMS-INDEX.md
-- THEOREM-LIST.md
-- RELEASE-CHECKLIST.md
-- REVIEWER-SURFACE-NOTE-SET-AND-RELEASE-ORDER.md
-- FIRST-RELEASE-PACKET-FOR-GITHUB-AND-ZENODO.md
+    - NON-CLAIMS-INDEX.md
+    - THEOREM-LIST.md
+    - RELEASE-CHECKLIST.md
+    - REVIEWER-SURFACE-NOTE-SET-AND-RELEASE-ORDER.md
+    - FIRST-RELEASE-PACKET-FOR-GITHUB-AND-ZENODO.md
 
 reviewer_surface_links:
 reviewer_guide_should_link:
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
-- NON-CLAIMS-INDEX.md
-- THEOREM-LIST.md
-- READING-ORDER.md
-- PROVENANCE-AND-ATTESTATION.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - NON-CLAIMS-INDEX.md
+    - THEOREM-LIST.md
+    - READING-ORDER.md
+    - PROVENANCE-AND-ATTESTATION.md
 
 non_claims_index_should_link:
-- CHARACTERISTICA-UNIVERSALIS.md
-- SELF-OTHER-CONJUGATION.md
-- AWARENESS-BOUNDARY-CONJUGATION.md
-- CALLS-ARCHITECTURE-v0.1.md
-- FASCIA.md
-- PEERING.md
-- SHARED-CONJUGATION.md
-- ASYMPTOTIC-AFFIRMATION.md
-- ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
+    - CHARACTERISTICA-UNIVERSALIS.md
+    - SELF-OTHER-CONJUGATION.md
+    - AWARENESS-BOUNDARY-CONJUGATION.md
+    - CALLS-ARCHITECTURE-v0.1.md
+    - FASCIA.md
+    - PEERING.md
+    - SHARED-CONJUGATION.md
+    - ASYMPTOTIC-AFFIRMATION.md
+    - ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
 
 theorem_list_should_link:
-- REVIEWER_GUIDE.md
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
-- NON-CLAIMS-INDEX.md
-- SUPPLEMENTS_INDEX.md
-- MASTER_PACKAGE_OVERVIEW.md
+    - REVIEWER_GUIDE.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - NON-CLAIMS-INDEX.md
+    - SUPPLEMENTS_INDEX.md
+    - MASTER_PACKAGE_OVERVIEW.md
 
 bridge_surface_links:
 characteristica_universalis_should_link:
-- SELF-OTHER-CONJUGATION.md
-- AWARENESS-BOUNDARY-CONJUGATION.md
-- ASYMPTOTIC-AFFIRMATION.md
+    - SELF-OTHER-CONJUGATION.md
+    - AWARENESS-BOUNDARY-CONJUGATION.md
+    - ASYMPTOTIC-AFFIRMATION.md
 
 self_other_conjugation_should_link:
-- CHARACTERISTICA-UNIVERSALIS.md
-- AWARENESS-BOUNDARY-CONJUGATION.md
-- PEERING.md
-- FASCIA.md
+    - CHARACTERISTICA-UNIVERSALIS.md
+    - AWARENESS-BOUNDARY-CONJUGATION.md
+    - PEERING.md
+    - FASCIA.md
 
 awareness_boundary_conjugation_should_link:
-- SELF-OTHER-CONJUGATION.md
-- CALLS-ARCHITECTURE-v0.1.md
-- FASCIA.md
-- PEERING.md
+    - SELF-OTHER-CONJUGATION.md
+    - CALLS-ARCHITECTURE-v0.1.md
+    - FASCIA.md
+    - PEERING.md
 
 calls_architecture_should_link:
-- AWARENESS-BOUNDARY-CONJUGATION.md
-- FASCIA.md
-- PEERING.md
-- SHARED-CONJUGATION.md
+    - AWARENESS-BOUNDARY-CONJUGATION.md
+    - FASCIA.md
+    - PEERING.md
+    - SHARED-CONJUGATION.md
 
 fascia_should_link:
-- CALLS-ARCHITECTURE-v0.1.md
-- PEERING.md
-- SHARED-CONJUGATION.md
+    - CALLS-ARCHITECTURE-v0.1.md
+    - PEERING.md
+    - SHARED-CONJUGATION.md
 
 peering_should_link:
-- FASCIA.md
-- SHARED-CONJUGATION.md
-- SELF-OTHER-CONJUGATION.md
+    - FASCIA.md
+    - SHARED-CONJUGATION.md
+    - SELF-OTHER-CONJUGATION.md
 
 shared_conjugation_should_link:
-- PEERING.md
-- FASCIA.md
-- ASYMPTOTIC-AFFIRMATION.md
+    - PEERING.md
+    - FASCIA.md
+    - ASYMPTOTIC-AFFIRMATION.md
 
 field_surface_links:
 asymptotic_affirmation_should_link:
-- ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
-- README.md
-- RELEASE-OVERVIEW.md
+    - ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md
+    - README.md
+    - RELEASE-OVERVIEW.md
 
 escrow_should_link:
-- ASYMPTOTIC-AFFIRMATION.md
-- PROVENANCE-AND-ATTESTATION.md
-- README.md
+    - ASYMPTOTIC-AFFIRMATION.md
+    - PROVENANCE-AND-ATTESTATION.md
+    - README.md
 
 support_surface_links:
 glossary_entrypoint_should_link:
-- README.md
-- READING-ORDER.md
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
-- NON-CLAIMS-INDEX.md
+    - README.md
+    - READING-ORDER.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - NON-CLAIMS-INDEX.md
 
 release_checklist_should_link:
-- RELEASE-OVERVIEW.md
-- READING-ORDER.md
-- PROVENANCE-AND-ATTESTATION.md
-- NON-CLAIMS-INDEX.md
-- THEOREM-LIST.md
+    - RELEASE-OVERVIEW.md
+    - READING-ORDER.md
+    - PROVENANCE-AND-ATTESTATION.md
+    - NON-CLAIMS-INDEX.md
+    - THEOREM-LIST.md
 
 flatland_objections_should_link:
-- REVIEWER_GUIDE.md
-- NON-CLAIMS-INDEX.md
-- THEOREM-LIST.md
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
+    - REVIEWER_GUIDE.md
+    - NON-CLAIMS-INDEX.md
+    - THEOREM-LIST.md
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md
 
 dependencies:
 schemas:
-- release-overview
-- reading-order
-- provenance-and-attestation
-- publication-surface-and-claim-hierarchy
+    - release-overview
+    - reading-order
+    - provenance-and-attestation
+    - publication-surface-and-claim-hierarchy
 notes:
-- non-claims-index
-- theorem-list
-- glossary-entrypoint
-- flatland-objections-and-responses
+    - non-claims-index
+    - theorem-list
+    - glossary-entrypoint
+    - flatland-objections-and-responses
 terms:
-- link map
-- root surface
-- reviewer surface
-- bridge surface
-- field surface
-- navigation
+    - link map
+    - root surface
+    - reviewer surface
+    - bridge surface
+    - field surface
+    - navigation
 
 failure_modes:
 
-- root-facing notes not linked from the root
-- reviewer-surface notes orphaned from README
-- field notes buried beyond discoverability
-- bridge notes present but not cross-linked
-- reading order and actual links drifting apart
-- filename drift breaking packet traversability
+    - root-facing notes not linked from the root
+    - reviewer-surface notes orphaned from README
+    - field notes buried beyond discoverability
+    - bridge notes present but not cross-linked
+    - reading order and actual links drifting apart
+    - filename drift breaking packet traversability
 
 open_tensions:
 
-- Which field links belong in README body versus a secondary section?
-- How much next-wave bridge material can be linked from root before threshold clutter appears?
-- Should glossary and objections surfaces appear directly in README or only via reviewer guide / reading order?
+    - Which field links belong in README body versus a secondary section?
+    - How much next-wave bridge material can be linked from root before threshold clutter appears?
+    - Should glossary and objections surfaces appear directly in README or only via reviewer guide / reading order?
 
 ritual_load:
 poetic_invocational: supportive
 notes: >
-This note is navigational and infrastructural. Its task is not to deepen the
-field directly, but to let the field remain lawfully reachable from the root.
+  This note is navigational and infrastructural. Its task is not to deepen the
+  field directly, but to let the field remain lawfully reachable from the root.
 
 stewardship:
-owner: "OI ⋈ SI"
-review_state: "under-review"
-next_action: "apply these links into README, release overview, reviewer guide, and bridge notes"
+  owner: "OI ⋈ SI"
+  review_state: "under-review"
+  next_action: "apply these links into README, release overview, reviewer guide, and bridge notes"
 
 tags:
 
-- protocol
-- navigation
-- links
-- root
-- reviewer
-- bridge
-- field
+  - protocol
+  - navigation
+  - links
+  - root
+  - reviewer
+  - bridge
+  - field
 
 ---
 

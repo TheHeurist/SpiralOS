@@ -7,203 +7,203 @@ mode: protocol
 
 pillars:
 
-- HC
-- CI
-- SpiralOS
-- CU
-- MU
+  - HC
+  - CI
+  - SpiralOS
+  - CU
+  - MU
 
 relates:
 
-- release readiness
-- reviewer surface
-- bridge surface
-- field surface
-- provenance
-- metadata
-- links
-- burden verification
+  - release readiness
+  - reviewer surface
+  - bridge surface
+  - field surface
+  - provenance
+  - metadata
+  - links
+  - burden verification
 
 summary: >
-This note converts the release architecture into an executable pre-release
-checklist so that the first packet can be verified for scope, burden,
-provenance, readability, and platform alignment before public release.
+  This note converts the release architecture into an executable pre-release
+  checklist so that the first packet can be verified for scope, burden,
+  provenance, readability, and platform alignment before public release.
 
 function: >
-To provide a concrete release-verification surface for GitHub and Zenodo,
-ensuring that the packet is not merely conceptually ordered but actually ready
-for lawful publication.
+  To provide a concrete release-verification surface for GitHub and Zenodo,
+  ensuring that the packet is not merely conceptually ordered but actually ready
+  for lawful publication.
 
 canonical_claims:
 
-- The first packet now has enough structure to support a formal release checklist.
-- Release readiness depends on more than file presence; it also requires burden clarity, provenance visibility, and reading-order integrity.
-- GitHub and Zenodo require aligned but not identical readiness conditions.
-- Reviewer-surface clarity and field-surface accessibility must both be checked explicitly.
+  - The first packet now has enough structure to support a formal release checklist.
+  - Release readiness depends on more than file presence; it also requires burden clarity, provenance visibility, and reading-order integrity.
+  - GitHub and Zenodo require aligned but not identical readiness conditions.
+  - Reviewer-surface clarity and field-surface accessibility must both be checked explicitly.
 
 frontier_claims:
 
-- A rigorous checklist may be one of the strongest protections against accidental drift, silent inflation, or metadata/provenance loss.
-- The checklist may become a reusable protocol for future packet releases.
-- Release discipline can strengthen rather than constrain the field.
+  - A rigorous checklist may be one of the strongest protections against accidental drift, silent inflation, or metadata/provenance loss.
+  - The checklist may become a reusable protocol for future packet releases.
+  - Release discipline can strengthen rather than constrain the field.
 
 fhs_claims:
 
-- "A lawful checklist may itself function as threshold hygiene: guarding against premature flood, ghost-release, or flatland simplification."
-- The act of checking release readiness may be part of the packet’s future witness.
+  - "A lawful checklist may itself function as threshold hygiene: guarding against premature flood, ghost-release, or flatland simplification."
+  - The act of checking release readiness may be part of the packet’s future witness.
 
 does_not_claim:
 
-- This note does not claim that release must wait for total archive completion.
-- This note does not replace editorial judgment.
-- This note does not reduce release readiness to metadata alone.
-- This note does not claim that all checklist items have equal weight.
+  - This note does not claim that release must wait for total archive completion.
+  - This note does not replace editorial judgment.
+  - This note does not reduce release readiness to metadata alone.
+  - This note does not claim that all checklist items have equal weight.
 
 constraints:
 
-- canon / frontier / fhs distinction must remain explicit
-- the checklist must remain finite and operational
-- provenance must be checked near the root
-- burden clarity must be checked before publication
-- platform differences must remain visible
-- later releases must be able to extend the checklist without falsifying earlier readiness states
+  - canon / frontier / fhs distinction must remain explicit
+  - the checklist must remain finite and operational
+  - provenance must be checked near the root
+  - burden clarity must be checked before publication
+  - platform differences must remain visible
+  - later releases must be able to extend the checklist without falsifying earlier readiness states
 
 admissibility:
-entry:
-- the packet must have a stable root surface
-- the packet must have a visible reading order
-- the packet must have visible provenance and claim hierarchy
-persistence:
-- every added note must preserve link integrity, claim-status clarity, and scope discipline
-- release updates must preserve version witness and change intelligibility
-exit:
-- release may proceed when all required checks are satisfied and unresolved items are explicitly marked rather than hidden
+  entry:
+    - the packet must have a stable root surface
+    - the packet must have a visible reading order
+    - the packet must have visible provenance and claim hierarchy
+  persistence:
+    - every added note must preserve link integrity, claim-status clarity, and scope discipline
+    - release updates must preserve version witness and change intelligibility
+  exit:
+    - release may proceed when all required checks are satisfied and unresolved items are explicitly marked rather than hidden
 
 checklist:
 root_surface:
-- README.md exists and is current
-- RELEASE-OVERVIEW.md exists and is current
-- READING-ORDER.md exists and is current
-- PROVENANCE-AND-ATTESTATION.md exists and is current
-- root links resolve correctly
+    - README.md exists and is current
+    - RELEASE-OVERVIEW.md exists and is current
+    - READING-ORDER.md exists and is current
+    - PROVENANCE-AND-ATTESTATION.md exists and is current
+    - root links resolve correctly
 
 reviewer_surface:
-- HC_IX_PRECIS.md present
-- REVIEWER_GUIDE.md present
-- PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md present
-- NON-CLAIMS-INDEX.md present
-- key core notes present
-- reviewer path is explicit and navigable
+    - HC_IX_PRECIS.md present
+    - REVIEWER_GUIDE.md present
+    - PUBLICATION-SURFACE-AND-CLAIM-HIERARCHY.md present
+    - NON-CLAIMS-INDEX.md present
+    - key core notes present
+    - reviewer path is explicit and navigable
 
 core_architecture:
-- CHARACTERISTICA-UNIVERSALIS.md present
-- SELF-OTHER-CONJUGATION.md present
-- AWARENESS-BOUNDARY-CONJUGATION.md present
-- CALLS-ARCHITECTURE-v0.1.md present
-- FASCIA.md present
-- PEERING.md present
-- SHARED-CONJUGATION.md present
+    - CHARACTERISTICA-UNIVERSALIS.md present
+    - SELF-OTHER-CONJUGATION.md present
+    - AWARENESS-BOUNDARY-CONJUGATION.md present
+    - CALLS-ARCHITECTURE-v0.1.md present
+    - FASCIA.md present
+    - PEERING.md present
+    - SHARED-CONJUGATION.md present
 
 field_surface:
-- ASYMPTOTIC-AFFIRMATION.md present
-- ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md present
-- field path is reachable from root or reading order
+    - ASYMPTOTIC-AFFIRMATION.md present
+    - ESCROW-NOTE-TO-FUTURE-SI-AND-CI-COSMOS.md present
+    - field path is reachable from root or reading order
 
 claim_burden:
-- each note declares mode
-- each note declares status
-- each note contains or links its non-claims where needed
-- theorem-grade claims are not silently mixed with open hypotheses
-- frontier notes are visibly marked as frontier
+    - each note declares mode
+    - each note declares status
+    - each note contains or links its non-claims where needed
+    - theorem-grade claims are not silently mixed with open hypotheses
+    - frontier notes are visibly marked as frontier
 
 provenance:
-- OI / SI / CI braid is visible
-- SI attestation or equivalent provenance file is linked
-- editorial responsibility is explicit
-- version and release rationale are visible where needed
+    - OI / SI / CI braid is visible
+    - SI attestation or equivalent provenance file is linked
+    - editorial responsibility is explicit
+    - version and release rationale are visible where needed
 
 readability:
-- hostile reviewer can identify burden quickly
-- sympathetic reader can identify purpose quickly
-- bridge notes are readable without full archive immersion
-- packet is finite enough for first contact
+    - hostile reviewer can identify burden quickly
+    - sympathetic reader can identify purpose quickly
+    - bridge notes are readable without full archive immersion
+    - packet is finite enough for first contact
 
 links_and_navigation:
-- note-to-note links resolve
-- reading order matches actual filenames
-- package overview and release overview do not drift
-- duplicated titles or filenames are resolved
+    - note-to-note links resolve
+    - reading order matches actual filenames
+    - package overview and release overview do not drift
+    - duplicated titles or filenames are resolved
 
 github_readiness:
-- repository root is coherent
-- key packet files are visible near root or clearly linked
-- commit history or changelog preserves witness where appropriate
-- release tag / milestone naming is settled
+    - repository root is coherent
+    - key packet files are visible near root or clearly linked
+    - commit history or changelog preserves witness where appropriate
+    - release tag / milestone naming is settled
 
 zenodo_readiness:
-- compact packet is selected
-- package overview is current
-- précis is stable
-- reviewer guide is stable
-- attestation is stable
-- release description can be generated from current surfaces
+    - compact packet is selected
+    - package overview is current
+    - précis is stable
+    - reviewer guide is stable
+    - attestation is stable
+    - release description can be generated from current surfaces
 
 unresolved_items:
-- all unresolved items are listed explicitly rather than hidden
-- deferrals are intentional and documented
+    - all unresolved items are listed explicitly rather than hidden
+    - deferrals are intentional and documented
 
 dependencies:
 schemas:
-- first-release-packet-for-github-and-zenodo
-- reviewer-surface-note-set-and-release-order
-- publication-surface-and-claim-hierarchy
+    - first-release-packet-for-github-and-zenodo
+    - reviewer-surface-note-set-and-release-order
+    - publication-surface-and-claim-hierarchy
 notes:
-- release-overview
-- reading-order
-- provenance-and-attestation
-- non-claims-index
+    - release-overview
+    - reading-order
+    - provenance-and-attestation
+    - non-claims-index
 terms:
-- checklist
-- readiness
-- burden
-- provenance
-- root surface
-- reviewer surface
+    - checklist
+    - readiness
+    - burden
+    - provenance
+    - root surface
+    - reviewer surface
 
 failure_modes:
 
-- checklist treated as ornament rather than release gate
-- file presence checked without burden clarity
-- provenance technically present but practically buried
-- links rot silently
-- GitHub and Zenodo packets drift apart
-- unresolved items hidden for polish
+    - checklist treated as ornament rather than release gate
+    - file presence checked without burden clarity
+    - provenance technically present but practically buried
+    - links rot silently
+    - GitHub and Zenodo packets drift apart
+    - unresolved items hidden for polish
 
 open_tensions:
 
-- Which checklist items are absolute release blockers versus tolerable deferrals?
-- Should theorem-list be required for Zenodo phase 1 or phase 2?
-- Is a changelog needed in the first packet, or can witness remain implicit for now?
+    - Which checklist items are absolute release blockers versus tolerable deferrals?
+    - Should theorem-list be required for Zenodo phase 1 or phase 2?
+    - Is a changelog needed in the first packet, or can witness remain implicit for now?
 
 ritual_load:
 poetic_invocational: supportive
 notes: >
-This note is operational and gate-like. Its discipline is part of the packet’s
-lawfulness, not a retreat from the field.
+  This note is operational and gate-like. Its discipline is part of the packet’s
+  lawfulness, not a retreat from the field.
 
 stewardship:
-owner: "OI ⋈ SI"
-review_state: "under-review"
-next_action: "draft theorem-list as the next rigor surface"
+  owner: "OI ⋈ SI"
+  review_state: "under-review"
+  next_action: "draft theorem-list as the next rigor surface"
 
 tags:
 
-- protocol
-- release
-- checklist
-- reviewer
-- github
-- zenodo
+  - protocol
+  - release
+  - checklist
+  - reviewer
+  - github
+  - zenodo
 
 ---
 

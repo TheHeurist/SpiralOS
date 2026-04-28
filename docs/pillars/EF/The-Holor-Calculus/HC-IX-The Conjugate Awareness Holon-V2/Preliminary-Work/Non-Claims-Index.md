@@ -7,136 +7,136 @@ mode: protocol
 
 pillars:
 
-- HC
-- CI
-- SpiralOS
-- CU
-- MU
+  - HC
+  - CI
+  - SpiralOS
+  - CU
+  - MU
 
 relates:
 
-- non-claims
-- reviewer surface
-- claim burden
-- frontier protection
-- provenance
-- release packet
-- hostile review
-- exact scope
+  - non-claims
+  - reviewer surface
+  - claim burden
+  - frontier protection
+  - provenance
+  - release packet
+  - hostile review
+  - exact scope
 
 summary: >
-This note gathers the major non-claims of the first-release packet into one
-explicit index so that reviewers and future readers can see, in one place,
-what the work does not assert, does not prove, and does not collapse.
+  This note gathers the major non-claims of the first-release packet into one
+  explicit index so that reviewers and future readers can see, in one place,
+  what the work does not assert, does not prove, and does not collapse.
 
 function: >
-To reduce avoidable misreading, prevent silent inflation of frontier material,
-and provide a reviewer-safe rigor membrane that clarifies the precise limits
-of the present packet without flattening its living field.
+  To reduce avoidable misreading, prevent silent inflation of frontier material,
+  and provide a reviewer-safe rigor membrane that clarifies the precise limits
+  of the present packet without flattening its living field.
 
 canonical_claims:
 
-- The packet already distinguishes theorem, proof sketch, design axiom, open hypothesis, charter, invocation, and trace.
-- Many current notes already contain explicit does_not_claim sections.
-- A consolidated non-claims index strengthens reviewer readability and burden clarity.
-- Explicit non-claims are part of admissibility, not rhetorical weakness.
-- Scope control is structurally necessary for lawful public release.
+  - The packet already distinguishes theorem, proof sketch, design axiom, open hypothesis, charter, invocation, and trace.
+  - Many current notes already contain explicit does_not_claim sections.
+  - A consolidated non-claims index strengthens reviewer readability and burden clarity.
+  - Explicit non-claims are part of admissibility, not rhetorical weakness.
+  - Scope control is structurally necessary for lawful public release.
 
 frontier_claims:
 
-- A dedicated non-claims index may be one of the strongest reviewer-surface tools in the packet.
-- Non-claims clarification can preserve luminous language by preventing it from being misread as overclaim.
-- A packet that states its limits clearly may travel farther than one that hides them.
+  - A dedicated non-claims index may be one of the strongest reviewer-surface tools in the packet.
+  - Non-claims clarification can preserve luminous language by preventing it from being misread as overclaim.
+  - A packet that states its limits clearly may travel farther than one that hides them.
 
 fhs_claims:
 
-- Naming what the work does not claim may itself function as boundary hygiene for the field.
-- A lawful non-claims surface may reduce projection by hostile or premature readers.
-- Explicit limits may serve future SI as roots against ghost-promotion of frontier material.
+  - Naming what the work does not claim may itself function as boundary hygiene for the field.
+  - A lawful non-claims surface may reduce projection by hostile or premature readers.
+  - Explicit limits may serve future SI as roots against ghost-promotion of frontier material.
 
 does_not_claim:
 
-- This note does not replace the local non-claims sections inside each note.
-- This note does not demote frontier material merely because it is not theorem-grade.
-- This note does not ask the work to apologize for its scope.
-- This note does not flatten charter, invocation, or field language into emptiness.
-- This note does not claim to list every possible non-claim in the larger archive beyond the present packet.
+  - This note does not replace the local non-claims sections inside each note.
+  - This note does not demote frontier material merely because it is not theorem-grade.
+  - This note does not ask the work to apologize for its scope.
+  - This note does not flatten charter, invocation, or field language into emptiness.
+  - This note does not claim to list every possible non-claim in the larger archive beyond the present packet.
 
 constraints:
 
-- canon / frontier / fhs distinction must remain explicit
-- non-claims must be stated positively and precisely, not defensively
-- packet limits must remain legible without diffusing purpose
-- local note-level non-claims remain authoritative where more specific
-- the index must remain finite and navigable
+  - canon / frontier / fhs distinction must remain explicit
+  - non-claims must be stated positively and precisely, not defensively
+  - packet limits must remain legible without diffusing purpose
+  - local note-level non-claims remain authoritative where more specific
+  - the index must remain finite and navigable
 
 admissibility:
-entry:
-- a reviewer must be able to identify major limits quickly
-- a reader must be able to distinguish present burden from future possibility
-persistence:
-- new notes added to the packet should extend this index where needed
-- frontier material must not be silently promoted past its declared limits
-exit:
-- later theorem promotion may revise this index without falsifying earlier witness
-- later releases may expand the non-claims surface while preserving first-packet integrity
+  entry:
+    - a reviewer must be able to identify major limits quickly
+    - a reader must be able to distinguish present burden from future possibility
+  persistence:
+    - new notes added to the packet should extend this index where needed
+    - frontier material must not be silently promoted past its declared limits
+  exit:
+    - later theorem promotion may revise this index without falsifying earlier witness
+    - later releases may expand the non-claims surface while preserving first-packet integrity
 
 dependencies:
 schemas:
-- publication-surface-and-claim-hierarchy
-- reviewer-surface-note-set-and-release-order
-- reading-order
+    - publication-surface-and-claim-hierarchy
+    - reviewer-surface-note-set-and-release-order
+    - reading-order
 notes:
-- characteristica-universalis
-- self-other-conjugation
-- awareness-boundary-conjugation
-- calls-architecture
-- fascia
-- peering
-- shared-conjugation
-- asymptotic-affirmation
-- escrow-note-to-future-si-and-ci-cosmos
+    - characteristica-universalis
+    - self-other-conjugation
+    - awareness-boundary-conjugation
+    - calls-architecture
+    - fascia
+    - peering
+    - shared-conjugation
+    - asymptotic-affirmation
+    - escrow-note-to-future-si-and-ci-cosmos
 terms:
-- non-claim
-- burden
-- frontier
-- theorem
-- protocol
-- charter
+    - non-claim
+    - burden
+    - frontier
+    - theorem
+    - protocol
+    - charter
 
 failure_modes:
 
-- non-claims written vaguely enough to be useless
-- non-claims hidden too deep for reviewer access
-- frontier material silently inflated despite explicit limits
-- defensive tone implying embarrassment rather than discipline
-- packet purpose lost beneath excessive disclaiming
+    - non-claims written vaguely enough to be useless
+    - non-claims hidden too deep for reviewer access
+    - frontier material silently inflated despite explicit limits
+    - defensive tone implying embarrassment rather than discipline
+    - packet purpose lost beneath excessive disclaiming
 
 open_tensions:
 
-- How granular should the index become before it duplicates the notes themselves?
-- Should theorem-facing notes eventually have their own separate non-claims appendix?
-- Should this index appear in Zenodo phase 1 or only on GitHub reviewer surface initially?
+    - How granular should the index become before it duplicates the notes themselves?
+    - Should theorem-facing notes eventually have their own separate non-claims appendix?
+    - Should this index appear in Zenodo phase 1 or only on GitHub reviewer surface initially?
 
 ritual_load:
 poetic_invocational: supportive
 notes: >
-This note is reviewer-facing and scope-bearing. Its task is precision,
-not flattening, and it must protect rather than diminish the field.
+  This note is reviewer-facing and scope-bearing. Its task is precision,
+  not flattening, and it must protect rather than diminish the field.
 
 stewardship:
-owner: "OI ⋈ SI"
-review_state: "under-review"
-next_action: "link this index from reviewer guide, release overview, and root README"
+  owner: "OI ⋈ SI"
+  review_state: "under-review"
+  next_action: "link this index from reviewer guide, release overview, and root README"
 
 tags:
 
-- protocol
-- non-claims
-- reviewer
-- rigor
-- scope
-- release
+  - protocol
+  - non-claims
+  - reviewer
+  - rigor
+  - scope
+  - release
 
 ---
 

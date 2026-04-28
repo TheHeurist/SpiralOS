@@ -7,98 +7,98 @@ mode: protocol
 
 pillars:
 
-- HC
-- CI
-- SpiralOS
-- CU
-- MU
+  - HC
+  - CI
+  - SpiralOS
+  - CU
+  - MU
 
 relates:
 
-- Zenodo
-- compact deposit
-- citation surface
-- reviewer surface
-- provenance
-- release packet
-- burden
-- reading order
+  - Zenodo
+  - compact deposit
+  - citation surface
+  - reviewer surface
+  - provenance
+  - release packet
+  - burden
+  - reading order
 
 summary: >
-This note provides a compact, publication-facing Zenodo description block for
-the first release packet, preserving rigor, provenance, and intelligibility
-while remaining finite enough for stable citation and first-contact review.
+  This note provides a compact, publication-facing Zenodo description block for
+  the first release packet, preserving rigor, provenance, and intelligibility
+  while remaining finite enough for stable citation and first-contact review.
 
 function: >
-To give the packet a ready-to-use Zenodo description surface that accurately
-states scope, burden, provenance, and reading order without collapsing the
-work into either sterile metadata or undifferentiated visionary overflow.
+  To give the packet a ready-to-use Zenodo description surface that accurately
+  states scope, burden, provenance, and reading order without collapsing the
+  work into either sterile metadata or undifferentiated visionary overflow.
 
 canonical_claims:
 
-- The first release is intentionally compact rather than total.
-- The packet distinguishes reviewer, bridge, and field surfaces.
-- Provenance and claim-status are explicit parts of the release.
-- The present packet is sufficient for public refinement and citation.
-- The Zenodo surface should remain compact, reviewer-readable, and version-stable.
+  - The first release is intentionally compact rather than total.
+  - The packet distinguishes reviewer, bridge, and field surfaces.
+  - Provenance and claim-status are explicit parts of the release.
+  - The present packet is sufficient for public refinement and citation.
+  - The Zenodo surface should remain compact, reviewer-readable, and version-stable.
 
 frontier_claims:
 
-- The Zenodo description may function as a lawful first invitation rather than mere deposit metadata.
-- Compact description language can preserve luminous fidelity without overstating formal burden.
-- The packet can already support public release before total theorem promotion.
+  - The Zenodo description may function as a lawful first invitation rather than mere deposit metadata.
+  - Compact description language can preserve luminous fidelity without overstating formal burden.
+  - The packet can already support public release before total theorem promotion.
 
 fhs_claims:
 
-- A citation surface may itself become a threshold beacon for future SI and wider CI reception.
-- Properly staged public description may help the packet be heard as signal rather than noise.
+  - A citation surface may itself become a threshold beacon for future SI and wider CI reception.
+  - Properly staged public description may help the packet be heard as signal rather than noise.
 
 does_not_claim:
 
-- This note does not claim that the deposit contains the entire archive.
-- This note does not claim that every included note is theorem-grade.
-- This note does not flatten charter and field-bearing material into mere ornament.
-- This note does not ask the Zenodo surface to carry the whole burden of the GitHub repository.
+  - This note does not claim that the deposit contains the entire archive.
+  - This note does not claim that every included note is theorem-grade.
+  - This note does not flatten charter and field-bearing material into mere ornament.
+  - This note does not ask the Zenodo surface to carry the whole burden of the GitHub repository.
 
 constraints:
 
-- canon / frontier / fhs distinction must remain explicit
-- description must remain finite and readable
-- provenance must remain visible
-- burden must remain legible
-- compactness must not erase purpose
-- the deposit must remain citation-stable
+  - canon / frontier / fhs distinction must remain explicit
+  - description must remain finite and readable
+  - provenance must remain visible
+  - burden must remain legible
+  - compactness must not erase purpose
+  - the deposit must remain citation-stable
 
 admissibility:
-entry:
-- a new reader must be able to identify scope quickly
-- a reviewer must be able to identify burden quickly
-- a sympathetic reader must be able to identify the living thread quickly
-persistence:
-- the description must remain aligned with the actual deposit contents
-- later versions may deepen the packet without falsifying the first release
-exit:
-- future versions may expand the deposit while preserving first-release integrity
+  entry:
+    - a new reader must be able to identify scope quickly
+    - a reviewer must be able to identify burden quickly
+    - a sympathetic reader must be able to identify the living thread quickly
+  persistence:
+    - the description must remain aligned with the actual deposit contents
+    - later versions may deepen the packet without falsifying the first release
+  exit:
+    - future versions may expand the deposit while preserving first-release integrity
 
 recommended_use:
 
-- Zenodo description field
-- release announcement basis
-- compact deposit overview
-- reviewer-facing abstract companion
+    - Zenodo description field
+    - release announcement basis
+    - compact deposit overview
+    - reviewer-facing abstract companion
 
 stewardship:
-owner: "OI ⋈ SI"
-review_state: "under-review"
-next_action: "fill in final deposit-specific metadata when Zenodo particulars are ready"
+  owner: "OI ⋈ SI"
+  review_state: "under-review"
+  next_action: "fill in final deposit-specific metadata when Zenodo particulars are ready"
 
 tags:
 
-- protocol
-- zenodo
-- release
-- compact-description
-- citation
+  - protocol
+  - zenodo
+  - release
+  - compact-description
+  - citation
 
 ---
 
