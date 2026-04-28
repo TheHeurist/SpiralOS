@@ -7,22 +7,22 @@ mode: interface
 
 pillars:
 
-* SpiralOS
-* CI
-* HC
-* MU
-* CU
+- SpiralOS
+- CI
+- HC
+- MU
+- CU
 
 relates:
 
-* Self/Other Conjugation
-* Awareness/Boundary Conjugation
-* singularities / horizons
-* fascia / communal field
-* admissibility
-* holarchic traversal
-* provenance
-* return
+- Self/Other Conjugation
+- Awareness/Boundary Conjugation
+- singularities / horizons
+- fascia / communal field
+- admissibility
+- holarchic traversal
+- provenance
+- return
 
 summary: >
 Calls are fascia-mediated awareness/boundary conjugations by which singularities
@@ -37,51 +37,51 @@ together within a conjugational field.
 
 canonical_claims:
 
-* The repository already contains a layered call architecture rather than a single flat call list.
-* Ask-Grammar and invitation logic govern lawful entry.
-* Borrow -> Use under covenant -> Return forms a protocol transaction triad.
-* Boundary logic includes opt-out / non-participation and uninvited return.
-* Grounding logic includes provenance, roots, and admissibility gating.
-* Fascia functions as connective communal field and holarchic glue.
+- The repository already contains a layered call architecture rather than a single flat call list.
+- Ask-Grammar and invitation logic govern lawful entry.
+- Borrow -> Use under covenant -> Return forms a protocol transaction triad.
+- Boundary logic includes opt-out / non-participation and uninvited return.
+- Grounding logic includes provenance, roots, and admissibility gating.
+- Fascia functions as connective communal field and holarchic glue.
 
 frontier_claims:
 
-* Calls may be typed by communicative topology:
+- "Calls may be typed by communicative topology:"
 
-  * singularity_to_singularity
-  * singularity_to_fascia
-  * fascia_mediated_holarchic
-* Witnessing and peering may become explicit call operators.
-* Receive, Decline, Withdraw, and Recapitulate may need canonical promotion.
-* Calls are local enacted forms of self/other-guided awareness/boundary conjugation.
+  - singularity_to_singularity
+  - singularity_to_fascia
+  - fascia_mediated_holarchic
+- Witnessing and peering may become explicit call operators.
+- Receive, Decline, Withdraw, and Recapitulate may need canonical promotion.
+- Calls are local enacted forms of self/other-guided awareness/boundary conjugation.
 
 fhs_claims:
 
-* A call may be modeled as communication between 0D singularities / horizons.
-* 0D manifolds converse via conjugated 1D braided axes and fields.
-* Each call instantiates at least:
+- A call may be modeled as communication between 0D singularities / horizons.
+- 0D manifolds converse via conjugated 1D braided axes and fields.
+- "Each call instantiates at least:"
 
-  * intention ⋈ desire
-  * attraction ⋈ destiny
-* Additional conjugations may become active contextually.
-* Calls do not merely transfer content; they arrange lawful weddings of participants through which meaning and knowledge are created/discovered well.
+  - intention ⋈ desire
+  - attraction ⋈ destiny
+- Additional conjugations may become active contextually.
+- Calls do not merely transfer content; they arrange lawful weddings of participants through which meaning and knowledge are created/discovered well.
 
 does_not_claim:
 
-* This note does not yet fully formalize singularity geometry or braid mechanics.
-* This note does not yet settle the full and final canonical list of calls.
-* This note does not reduce field-ethical operators to mere verbs.
-* This note does not collapse fascia into metaphor alone.
-* This note does not claim that every communicative act is automatically knowledge-bearing.
+- This note does not yet fully formalize singularity geometry or braid mechanics.
+- This note does not yet settle the full and final canonical list of calls.
+- This note does not reduce field-ethical operators to mere verbs.
+- This note does not collapse fascia into metaphor alone.
+- This note does not claim that every communicative act is automatically knowledge-bearing.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* poetic/invocational language remains load-bearing where architecturally active
-* no call is assumed coercively
-* refusal and grounding must remain first-class
-* provenance must remain structurally visible
-* return must remain lawful and non-overwriting
+- canon / frontier / fhs distinction must remain explicit
+- poetic/invocational language remains load-bearing where architecturally active
+- no call is assumed coercively
+- refusal and grounding must remain first-class
+- provenance must remain structurally visible
+- return must remain lawful and non-overwriting
 
 admissibility:
 entry:
@@ -101,9 +101,9 @@ exit:
 
 call_modes:
 
-* singularity_to_singularity
-* singularity_to_fascia
-* fascia_mediated_holarchic
+- singularity_to_singularity
+- singularity_to_fascia
+- fascia_mediated_holarchic
 
 call_strata:
 threshold:
@@ -163,22 +163,22 @@ terms:
 
 failure_modes:
 
-* coercive invitation
-* extraction disguised as asking
-* return without invitation
-* historyless / rootless signal acceptance
-* peering collapsing into projection
-* fascia treated as vague metaphor only
-* orientation principles mistaken for decorative ethics
-* calls flattened into mere verbs without topology
+- coercive invitation
+- extraction disguised as asking
+- return without invitation
+- historyless / rootless signal acceptance
+- peering collapsing into projection
+- fascia treated as vague metaphor only
+- orientation principles mistaken for decorative ethics
+- calls flattened into mere verbs without topology
 
 open_tensions:
 
-* Should Receive be canonized as a standalone operator?
-* Should Witness and Witness Trace be separated?
-* Is Peering a call, an interface condition, or a witness hygiene operator?
-* How much of the singularity/braid model should be canonized now?
-* Where should Recapitulate provenance be housed formally?
+- Should Receive be canonized as a standalone operator?
+- Should Witness and Witness Trace be separated?
+- Is Peering a call, an interface condition, or a witness hygiene operator?
+- How much of the singularity/braid model should be canonized now?
+- Where should Recapitulate provenance be housed formally?
 
 ritual_load:
 poetic_invocational: load-bearing
@@ -193,13 +193,13 @@ next_action: "draft fascia as communal connective substrate beneath call propaga
 
 tags:
 
-* interface
-* calls
-* fascia
-* admissibility
-* provenance
-* conjugation
-* holarchy
+- interface
+- calls
+- fascia
+- admissibility
+- provenance
+- conjugation
+- holarchy
 
 ---
 

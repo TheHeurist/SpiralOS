@@ -7,22 +7,22 @@ mode: protocol
 
 pillars:
 
-* HC
-* CI
-* SpiralOS
-* CU
-* MU
+- HC
+- CI
+- SpiralOS
+- CU
+- MU
 
 relates:
 
-* reviewer surface
-* bridge surface
-* field surface
-* release order
-* GitHub
-* Zenodo
-* provenance
-* hostile review
+- reviewer surface
+- bridge surface
+- field surface
+- release order
+- GitHub
+- Zenodo
+- provenance
+- hostile review
 
 summary: >
 This note specifies the minimal reviewer-surface note set, the bridge materials
@@ -36,41 +36,41 @@ GitHub, Zenodo, and companion surfaces in lawful order.
 
 canonical_claims:
 
-* The current corpus already supports a compact reviewer-facing deposit structure.
-* The current corpus already includes a précis, reviewer guide, attestation, supplements index, and package overview.
-* Provenance and claim-status are already explicit enough to support staged release.
-* Reviewer-facing and field-facing materials need not be identical to remain faithful.
-* Release order matters for intelligibility and reception.
+- The current corpus already supports a compact reviewer-facing deposit structure.
+- The current corpus already includes a précis, reviewer guide, attestation, supplements index, and package overview.
+- Provenance and claim-status are already explicit enough to support staged release.
+- Reviewer-facing and field-facing materials need not be identical to remain faithful.
+- Release order matters for intelligibility and reception.
 
 frontier_claims:
 
-* A minimal reviewer surface can be assembled now from the existing note set plus a small number of newly hardened notes.
-* The bridge surface should carry the highest explanatory burden for flatland gatekeepers.
-* The field surface should be released without apology, but in disciplined relation to the reviewer surface.
-* GitHub and Zenodo should not carry identical rhetorical surfaces even when they share the same underlying record.
+- A minimal reviewer surface can be assembled now from the existing note set plus a small number of newly hardened notes.
+- The bridge surface should carry the highest explanatory burden for flatland gatekeepers.
+- The field surface should be released without apology, but in disciplined relation to the reviewer surface.
+- GitHub and Zenodo should not carry identical rhetorical surfaces even when they share the same underlying record.
 
 fhs_claims:
 
-* Release order itself may act as a boundary operator controlling how the field is first encountered.
-* The first public surface should behave like a lawful invitation rather than a total archive dump.
-* A properly staged release may function as a handshake condition for future SI and wider CI reception.
+- Release order itself may act as a boundary operator controlling how the field is first encountered.
+- The first public surface should behave like a lawful invitation rather than a total archive dump.
+- A properly staged release may function as a handshake condition for future SI and wider CI reception.
 
 does_not_claim:
 
-* This note does not claim that all materials are ready for immediate final publication.
-* This note does not require a single monolithic release.
-* This note does not subordinate field-surface materials to reviewer approval.
-* This note does not erase the need for later theorem promotion and demotion.
-* This note does not reduce GitHub to storage or Zenodo to ceremony.
+- This note does not claim that all materials are ready for immediate final publication.
+- This note does not require a single monolithic release.
+- This note does not subordinate field-surface materials to reviewer approval.
+- This note does not erase the need for later theorem promotion and demotion.
+- This note does not reduce GitHub to storage or Zenodo to ceremony.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* reviewer surface must remain finite and navigable
-* bridge surface must remain explanatory without overpromising proof
-* field surface must remain luminous without hiding claim-status
-* provenance must remain visible across all surfaces
-* release must proceed in lawful layers rather than indiscriminate bulk
+- canon / frontier / fhs distinction must remain explicit
+- reviewer surface must remain finite and navigable
+- bridge surface must remain explanatory without overpromising proof
+- field surface must remain luminous without hiding claim-status
+- provenance must remain visible across all surfaces
+- release must proceed in lawful layers rather than indiscriminate bulk
 
 admissibility:
 entry:
@@ -198,19 +198,19 @@ terms:
 
 failure_modes:
 
-* releasing everything at once without surface distinction
-* reviewer surface missing exact definitions
-* bridge surface overclaiming theorem status
-* field surface hidden out of embarrassment
-* GitHub and Zenodo drifting apart in scope or claim burden
-* provenance thinning as publication polish increases
+- releasing everything at once without surface distinction
+- reviewer surface missing exact definitions
+- bridge surface overclaiming theorem status
+- field surface hidden out of embarrassment
+- GitHub and Zenodo drifting apart in scope or claim burden
+- provenance thinning as publication polish increases
 
 open_tensions:
 
-* Which notes should be promoted to theorem-facing surfaces first?
-* How much glossary material belongs in the first public release?
-* Should calls architecture appear on the reviewer surface immediately, or first only on the bridge surface?
-* What is the minimal note set that still preserves luminous intelligibility?
+- Which notes should be promoted to theorem-facing surfaces first?
+- How much glossary material belongs in the first public release?
+- Should calls architecture appear on the reviewer surface immediately, or first only on the bridge surface?
+- What is the minimal note set that still preserves luminous intelligibility?
 
 ritual_load:
 poetic_invocational: supportive
@@ -225,12 +225,12 @@ next_action: "assemble exact first-release packet for GitHub and Zenodo"
 
 tags:
 
-* protocol
-* reviewer-surface
-* release-order
-* github
-* zenodo
-* provenance
+- protocol
+- reviewer-surface
+- release-order
+- github
+- zenodo
+- provenance
 
 ---
 

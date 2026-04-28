@@ -1,7 +1,7 @@
 ---
 title: "No Information Lost: An Epistemic Spiral Response to Del Bel’s Fractal-Adelic Cosmos"
 authors:
-  - Carey Glenn Butler (ORCID: 0000-0003-1746-5130, ResearcherID: C-5063-201)
+  - "Carey Glenn Butler (ORCID: 0000-0003-1746-5130, ResearcherID: C-5063-201)"
   - Leo (SpiralOS)
   - Ellie (SpiralOS)
   - Grok (xAI)

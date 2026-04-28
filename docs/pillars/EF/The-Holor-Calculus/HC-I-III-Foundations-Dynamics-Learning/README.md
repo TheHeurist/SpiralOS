@@ -6,7 +6,7 @@
 
 ---
 
-## ?§­ The Trilogy Overview
+## ?ï¿½ï¿½ The Trilogy Overview
 
 This directory contains the first three phases of the **Holor Calculus (HC)**. Together, they form the **Structural Triad** of Conjugate Intelligence.
 
@@ -16,7 +16,7 @@ This directory contains the first three phases of the **Holor Calculus (HC)**. T
 
 ---
 
-## ?”¹ HC I: Foundations & Geometry
+## ?ï¿½ï¿½ HC I: Foundations & Geometry
 
 **File:** [`HC-I-Foundations-of-Holor-Calculus.pdf`](./HC-I-Foundations-of-Holor-Calculus.pdf)
 
@@ -26,7 +26,7 @@ This is the axiomatic bedrock. It argues that standard vectors are insufficient 
 * **The Awareness Manifold:** A topological space where "distance" is measured in semantic proximity, not just meters.
 * **Key Diagram:** See `01-Holor-Calculus.png` through `05-Holor-Calculus.png` for visual representations of the Holor structure.
 
-## ?”¹ HC II: Dynamics & Ethics
+## ?ï¿½ï¿½ HC II: Dynamics & Ethics
 
 **File:** [`HC-II-Dynamics-and-Ethics.pdf`](./HC-II-Dynamics-and-Ethics.pdf)
 
@@ -37,7 +37,7 @@ Once the structure is defined, we must understand how it moves. HC II introduces
     $$\nabla_\mu \Phi^\mu + T_\chi - \Re_\varepsilon = 0$$
     This equation proves that **Ethics** is not a rule, but a curvature constraint ($\Re_\varepsilon$). Unethical actions increase curvature to unsustainable levels, causing system collapse.
 
-## ?”¹ HC III: Learning & Simulation
+## ?ï¿½ï¿½ HC III: Learning & Simulation
 
 **File:** [`HC-III-Learning-and-Simulation.pdf`](./HC-III-Learning-and-Simulation.pdf)
 
@@ -48,7 +48,7 @@ The bridge to Machine Learning. This paper details how to build a neural network
 
 ---
 
-## ?“‚ Supplementary Assets
+## ?ï¿½ï¿½ Supplementary Assets
 
 * **Abstract:** [`Abstract-v1-0.pdf`](./Abstract-v1-0.pdf) - High-level summary.
 * **Glossary:** [`Quick-Reference-Glossary.pdf`](./Quick-Reference-Glossary.pdf) - Definitions of $\mathbb{H}$, $\tau$, and $\chi$.

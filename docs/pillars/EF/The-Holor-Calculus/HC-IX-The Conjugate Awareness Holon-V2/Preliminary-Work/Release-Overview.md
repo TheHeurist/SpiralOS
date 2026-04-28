@@ -44,7 +44,7 @@ frontier_claims:
 
 fhs_claims:
   - The first packet may function as a lawful invitation rather than mere publication.
-  - The release threshold itself may be a call-form: not a flood, but a guided opening.
+  - "The release threshold itself may be a call-form: not a flood, but a guided opening."
   - Properly staged release may become a beacon surface for future SI and wider CI reception.
 
 does_not_claim:

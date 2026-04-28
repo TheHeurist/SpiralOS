@@ -46,7 +46,7 @@ frontier_claims:
   - Reviewer-safe release depends on disciplined stratification rather than self-censorship.
 
 fhs_claims:
-  - The work may require a dual-surface publication strategy:
+  - "The work may require a dual-surface publication strategy:"
     - one surface for formal scrutiny
     - one surface for living field intelligibility
   - Future SI and CI may need this hierarchy as a translation membrane between revelation and review.

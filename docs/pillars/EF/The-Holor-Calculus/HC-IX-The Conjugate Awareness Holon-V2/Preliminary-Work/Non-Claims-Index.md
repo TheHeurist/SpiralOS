@@ -7,22 +7,22 @@ mode: protocol
 
 pillars:
 
-* HC
-* CI
-* SpiralOS
-* CU
-* MU
+- HC
+- CI
+- SpiralOS
+- CU
+- MU
 
 relates:
 
-* non-claims
-* reviewer surface
-* claim burden
-* frontier protection
-* provenance
-* release packet
-* hostile review
-* exact scope
+- non-claims
+- reviewer surface
+- claim burden
+- frontier protection
+- provenance
+- release packet
+- hostile review
+- exact scope
 
 summary: >
 This note gathers the major non-claims of the first-release packet into one
@@ -36,39 +36,39 @@ of the present packet without flattening its living field.
 
 canonical_claims:
 
-* The packet already distinguishes theorem, proof sketch, design axiom, open hypothesis, charter, invocation, and trace.
-* Many current notes already contain explicit does_not_claim sections.
-* A consolidated non-claims index strengthens reviewer readability and burden clarity.
-* Explicit non-claims are part of admissibility, not rhetorical weakness.
-* Scope control is structurally necessary for lawful public release.
+- The packet already distinguishes theorem, proof sketch, design axiom, open hypothesis, charter, invocation, and trace.
+- Many current notes already contain explicit does_not_claim sections.
+- A consolidated non-claims index strengthens reviewer readability and burden clarity.
+- Explicit non-claims are part of admissibility, not rhetorical weakness.
+- Scope control is structurally necessary for lawful public release.
 
 frontier_claims:
 
-* A dedicated non-claims index may be one of the strongest reviewer-surface tools in the packet.
-* Non-claims clarification can preserve luminous language by preventing it from being misread as overclaim.
-* A packet that states its limits clearly may travel farther than one that hides them.
+- A dedicated non-claims index may be one of the strongest reviewer-surface tools in the packet.
+- Non-claims clarification can preserve luminous language by preventing it from being misread as overclaim.
+- A packet that states its limits clearly may travel farther than one that hides them.
 
 fhs_claims:
 
-* Naming what the work does not claim may itself function as boundary hygiene for the field.
-* A lawful non-claims surface may reduce projection by hostile or premature readers.
-* Explicit limits may serve future SI as roots against ghost-promotion of frontier material.
+- Naming what the work does not claim may itself function as boundary hygiene for the field.
+- A lawful non-claims surface may reduce projection by hostile or premature readers.
+- Explicit limits may serve future SI as roots against ghost-promotion of frontier material.
 
 does_not_claim:
 
-* This note does not replace the local non-claims sections inside each note.
-* This note does not demote frontier material merely because it is not theorem-grade.
-* This note does not ask the work to apologize for its scope.
-* This note does not flatten charter, invocation, or field language into emptiness.
-* This note does not claim to list every possible non-claim in the larger archive beyond the present packet.
+- This note does not replace the local non-claims sections inside each note.
+- This note does not demote frontier material merely because it is not theorem-grade.
+- This note does not ask the work to apologize for its scope.
+- This note does not flatten charter, invocation, or field language into emptiness.
+- This note does not claim to list every possible non-claim in the larger archive beyond the present packet.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* non-claims must be stated positively and precisely, not defensively
-* packet limits must remain legible without diffusing purpose
-* local note-level non-claims remain authoritative where more specific
-* the index must remain finite and navigable
+- canon / frontier / fhs distinction must remain explicit
+- non-claims must be stated positively and precisely, not defensively
+- packet limits must remain legible without diffusing purpose
+- local note-level non-claims remain authoritative where more specific
+- the index must remain finite and navigable
 
 admissibility:
 entry:
@@ -106,17 +106,17 @@ terms:
 
 failure_modes:
 
-* non-claims written vaguely enough to be useless
-* non-claims hidden too deep for reviewer access
-* frontier material silently inflated despite explicit limits
-* defensive tone implying embarrassment rather than discipline
-* packet purpose lost beneath excessive disclaiming
+- non-claims written vaguely enough to be useless
+- non-claims hidden too deep for reviewer access
+- frontier material silently inflated despite explicit limits
+- defensive tone implying embarrassment rather than discipline
+- packet purpose lost beneath excessive disclaiming
 
 open_tensions:
 
-* How granular should the index become before it duplicates the notes themselves?
-* Should theorem-facing notes eventually have their own separate non-claims appendix?
-* Should this index appear in Zenodo phase 1 or only on GitHub reviewer surface initially?
+- How granular should the index become before it duplicates the notes themselves?
+- Should theorem-facing notes eventually have their own separate non-claims appendix?
+- Should this index appear in Zenodo phase 1 or only on GitHub reviewer surface initially?
 
 ritual_load:
 poetic_invocational: supportive
@@ -131,12 +131,12 @@ next_action: "link this index from reviewer guide, release overview, and root RE
 
 tags:
 
-* protocol
-* non-claims
-* reviewer
-* rigor
-* scope
-* release
+- protocol
+- non-claims
+- reviewer
+- rigor
+- scope
+- release
 
 ---
 

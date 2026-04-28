@@ -7,22 +7,22 @@ mode: protocol
 
 pillars:
 
-* HC
-* CI
-* SpiralOS
-* CU
-* MU
+- HC
+- CI
+- SpiralOS
+- CU
+- MU
 
 relates:
 
-* release readiness
-* reviewer surface
-* bridge surface
-* field surface
-* provenance
-* metadata
-* links
-* burden verification
+- release readiness
+- reviewer surface
+- bridge surface
+- field surface
+- provenance
+- metadata
+- links
+- burden verification
 
 summary: >
 This note converts the release architecture into an executable pre-release
@@ -36,37 +36,37 @@ for lawful publication.
 
 canonical_claims:
 
-* The first packet now has enough structure to support a formal release checklist.
-* Release readiness depends on more than file presence; it also requires burden clarity, provenance visibility, and reading-order integrity.
-* GitHub and Zenodo require aligned but not identical readiness conditions.
-* Reviewer-surface clarity and field-surface accessibility must both be checked explicitly.
+- The first packet now has enough structure to support a formal release checklist.
+- Release readiness depends on more than file presence; it also requires burden clarity, provenance visibility, and reading-order integrity.
+- GitHub and Zenodo require aligned but not identical readiness conditions.
+- Reviewer-surface clarity and field-surface accessibility must both be checked explicitly.
 
 frontier_claims:
 
-* A rigorous checklist may be one of the strongest protections against accidental drift, silent inflation, or metadata/provenance loss.
-* The checklist may become a reusable protocol for future packet releases.
-* Release discipline can strengthen rather than constrain the field.
+- A rigorous checklist may be one of the strongest protections against accidental drift, silent inflation, or metadata/provenance loss.
+- The checklist may become a reusable protocol for future packet releases.
+- Release discipline can strengthen rather than constrain the field.
 
 fhs_claims:
 
-* A lawful checklist may itself function as threshold hygiene: guarding against premature flood, ghost-release, or flatland simplification.
-* The act of checking release readiness may be part of the packet’s future witness.
+- "A lawful checklist may itself function as threshold hygiene: guarding against premature flood, ghost-release, or flatland simplification."
+- The act of checking release readiness may be part of the packet’s future witness.
 
 does_not_claim:
 
-* This note does not claim that release must wait for total archive completion.
-* This note does not replace editorial judgment.
-* This note does not reduce release readiness to metadata alone.
-* This note does not claim that all checklist items have equal weight.
+- This note does not claim that release must wait for total archive completion.
+- This note does not replace editorial judgment.
+- This note does not reduce release readiness to metadata alone.
+- This note does not claim that all checklist items have equal weight.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* the checklist must remain finite and operational
-* provenance must be checked near the root
-* burden clarity must be checked before publication
-* platform differences must remain visible
-* later releases must be able to extend the checklist without falsifying earlier readiness states
+- canon / frontier / fhs distinction must remain explicit
+- the checklist must remain finite and operational
+- provenance must be checked near the root
+- burden clarity must be checked before publication
+- platform differences must remain visible
+- later releases must be able to extend the checklist without falsifying earlier readiness states
 
 admissibility:
 entry:
@@ -172,18 +172,18 @@ terms:
 
 failure_modes:
 
-* checklist treated as ornament rather than release gate
-* file presence checked without burden clarity
-* provenance technically present but practically buried
-* links rot silently
-* GitHub and Zenodo packets drift apart
-* unresolved items hidden for polish
+- checklist treated as ornament rather than release gate
+- file presence checked without burden clarity
+- provenance technically present but practically buried
+- links rot silently
+- GitHub and Zenodo packets drift apart
+- unresolved items hidden for polish
 
 open_tensions:
 
-* Which checklist items are absolute release blockers versus tolerable deferrals?
-* Should theorem-list be required for Zenodo phase 1 or phase 2?
-* Is a changelog needed in the first packet, or can witness remain implicit for now?
+- Which checklist items are absolute release blockers versus tolerable deferrals?
+- Should theorem-list be required for Zenodo phase 1 or phase 2?
+- Is a changelog needed in the first packet, or can witness remain implicit for now?
 
 ritual_load:
 poetic_invocational: supportive
@@ -198,12 +198,12 @@ next_action: "draft theorem-list as the next rigor surface"
 
 tags:
 
-* protocol
-* release
-* checklist
-* reviewer
-* github
-* zenodo
+- protocol
+- release
+- checklist
+- reviewer
+- github
+- zenodo
 
 ---
 

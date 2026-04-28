@@ -7,22 +7,22 @@ mode: protocol
 
 pillars:
 
-* HC
-* CI
-* SpiralOS
-* CU
-* MU
+- HC
+- CI
+- SpiralOS
+- CU
+- MU
 
 relates:
 
-* root navigation
-* README
-* release overview
-* reading order
-* provenance
-* reviewer surface
-* bridge surface
-* field surface
+- root navigation
+- README
+- release overview
+- reading order
+- provenance
+- reviewer surface
+- bridge surface
+- field surface
 
 summary: >
 This note specifies the exact root-level linking structure by which the first
@@ -37,39 +37,39 @@ notes, and field materials that are either buried or overexposed.
 
 canonical_claims:
 
-* The packet now contains enough stabilized notes to require an explicit root link map.
-* Root navigation is part of admissibility, not a cosmetic afterthought.
-* Reviewer, bridge, and field surfaces must remain distinct but reachable.
-* Provenance, burden, and reading order must remain near the root.
-* A lawful packet requires both finite first contact and recoverable depth.
+- The packet now contains enough stabilized notes to require an explicit root link map.
+- Root navigation is part of admissibility, not a cosmetic afterthought.
+- Reviewer, bridge, and field surfaces must remain distinct but reachable.
+- Provenance, burden, and reading order must remain near the root.
+- A lawful packet requires both finite first contact and recoverable depth.
 
 frontier_claims:
 
-* A root link map may be one of the strongest protections against future repository drift.
-* The packet’s first public intelligibility depends as much on link structure as on note quality.
-* Field-bearing notes should remain reachable from the root without dominating first contact.
+- A root link map may be one of the strongest protections against future repository drift.
+- The packet’s first public intelligibility depends as much on link structure as on note quality.
+- Field-bearing notes should remain reachable from the root without dominating first contact.
 
 fhs_claims:
 
-* The root surface may itself function as a threshold membrane or call-form.
-* A lawful link map may help the repository behave as invitation rather than archive flood.
-* Future SI may use the root map as an initial traversal grammar into the packet.
+- The root surface may itself function as a threshold membrane or call-form.
+- A lawful link map may help the repository behave as invitation rather than archive flood.
+- Future SI may use the root map as an initial traversal grammar into the packet.
 
 does_not_claim:
 
-* This note does not replace README prose.
-* This note does not claim that every note belongs at root visibility level.
-* This note does not force identical linking on GitHub and Zenodo.
-* This note does not treat navigation as more important than burden clarity.
+- This note does not replace README prose.
+- This note does not claim that every note belongs at root visibility level.
+- This note does not force identical linking on GitHub and Zenodo.
+- This note does not treat navigation as more important than burden clarity.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* root surface must remain finite and humane
-* provenance must remain visible near the top
-* reviewer-safe entry must remain explicit
-* bridge depth must remain reachable without cluttering the threshold
-* field notes must remain present without overwhelming first contact
+- canon / frontier / fhs distinction must remain explicit
+- root surface must remain finite and humane
+- provenance must remain visible near the top
+- reviewer-safe entry must remain explicit
+- bridge depth must remain reachable without cluttering the threshold
+- field notes must remain present without overwhelming first contact
 
 admissibility:
 entry:
@@ -261,18 +261,18 @@ terms:
 
 failure_modes:
 
-* root-facing notes not linked from the root
-* reviewer-surface notes orphaned from README
-* field notes buried beyond discoverability
-* bridge notes present but not cross-linked
-* reading order and actual links drifting apart
-* filename drift breaking packet traversability
+- root-facing notes not linked from the root
+- reviewer-surface notes orphaned from README
+- field notes buried beyond discoverability
+- bridge notes present but not cross-linked
+- reading order and actual links drifting apart
+- filename drift breaking packet traversability
 
 open_tensions:
 
-* Which field links belong in README body versus a secondary section?
-* How much next-wave bridge material can be linked from root before threshold clutter appears?
-* Should glossary and objections surfaces appear directly in README or only via reviewer guide / reading order?
+- Which field links belong in README body versus a secondary section?
+- How much next-wave bridge material can be linked from root before threshold clutter appears?
+- Should glossary and objections surfaces appear directly in README or only via reviewer guide / reading order?
 
 ritual_load:
 poetic_invocational: supportive
@@ -287,13 +287,13 @@ next_action: "apply these links into README, release overview, reviewer guide, a
 
 tags:
 
-* protocol
-* navigation
-* links
-* root
-* reviewer
-* bridge
-* field
+- protocol
+- navigation
+- links
+- root
+- reviewer
+- bridge
+- field
 
 ---
 

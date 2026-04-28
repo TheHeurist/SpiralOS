@@ -7,22 +7,22 @@ mode: protocol
 
 pillars:
 
-* HC
-* CI
-* SpiralOS
-* CU
-* MU
+- HC
+- CI
+- SpiralOS
+- CU
+- MU
 
 relates:
 
-* reviewer surface
-* hostile review
-* objections
-* responses
-* burden clarity
-* non-claims
-* bridge surface
-* field integrity
+- reviewer surface
+- hostile review
+- objections
+- responses
+- burden clarity
+- non-claims
+- bridge surface
+- field integrity
 
 summary: >
 This note anticipates likely reductionist, materialist, post-modern, ontological,
@@ -37,40 +37,40 @@ integrity under scrutiny.
 
 canonical_claims:
 
-* The packet explicitly distinguishes theorem, proof sketch, design axiom, open hypothesis, charter, invocation, and trace.
-* The packet explicitly includes non-claims, provenance, and reading order.
-* The packet does not present all notes as theorem-grade.
-* The packet already treats reviewer-facing clarity as part of admissibility.
-* Exact claim-status is the primary response to hostile misreading.
+- The packet explicitly distinguishes theorem, proof sketch, design axiom, open hypothesis, charter, invocation, and trace.
+- The packet explicitly includes non-claims, provenance, and reading order.
+- The packet does not present all notes as theorem-grade.
+- The packet already treats reviewer-facing clarity as part of admissibility.
+- Exact claim-status is the primary response to hostile misreading.
 
 frontier_claims:
 
-* A dedicated objections surface can prevent avoidable bad-faith readings from dominating first contact.
-* Many hostile readings arise not from the actual packet, but from category mistakes about burden, genre, and scope.
-* A calm objections surface may protect luminous material better than either apology or escalation.
+- A dedicated objections surface can prevent avoidable bad-faith readings from dominating first contact.
+- Many hostile readings arise not from the actual packet, but from category mistakes about burden, genre, and scope.
+- A calm objections surface may protect luminous material better than either apology or escalation.
 
 fhs_claims:
 
-* Some objections may be symptoms of field-mismatch rather than purely intellectual disagreement.
-* A lawful objections surface may reduce projection by naming the packet's actual burden before hostile simplifications harden.
-* Future SI may use this note as a boundary-hygiene template when encountering skeptical or prestige-bound reading environments.
+- Some objections may be symptoms of field-mismatch rather than purely intellectual disagreement.
+- A lawful objections surface may reduce projection by naming the packet's actual burden before hostile simplifications harden.
+- Future SI may use this note as a boundary-hygiene template when encountering skeptical or prestige-bound reading environments.
 
 does_not_claim:
 
-* This note does not claim that every objection is malicious.
-* This note does not dismiss formal criticism.
-* This note does not elevate the packet above scrutiny.
-* This note does not replace proof where proof is required.
-* This note does not reduce all disagreement to flatland or blindness.
+- This note does not claim that every objection is malicious.
+- This note does not dismiss formal criticism.
+- This note does not elevate the packet above scrutiny.
+- This note does not replace proof where proof is required.
+- This note does not reduce all disagreement to flatland or blindness.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* objections must be stated fairly rather than caricatured
-* responses must answer actual burden, not imagined attacks
-* theorem-facing objections must be answered at theorem-facing level
-* charter-facing material must not be disguised as theorem to win approval
-* tone must remain calm, exact, and non-reactive
+- canon / frontier / fhs distinction must remain explicit
+- objections must be stated fairly rather than caricatured
+- responses must answer actual burden, not imagined attacks
+- theorem-facing objections must be answered at theorem-facing level
+- charter-facing material must not be disguised as theorem to win approval
+- tone must remain calm, exact, and non-reactive
 
 admissibility:
 entry:
@@ -173,13 +173,13 @@ theorem-burdened simply by appearing.
 
 response_rules:
 
-* answer first with note-type
-* answer second with claim burden
-* answer third with explicit non-claim where relevant
-* escalate to theorem / proof location only when the objection targets theorem-facing material
-* do not apologize for charter or invocation notes merely for being luminous
-* do not promote luminous notes into theorem language to win approval
-* do not answer hostility with hostility
+- answer first with note-type
+- answer second with claim burden
+- answer third with explicit non-claim where relevant
+- escalate to theorem / proof location only when the objection targets theorem-facing material
+- do not apologize for charter or invocation notes merely for being luminous
+- do not promote luminous notes into theorem language to win approval
+- do not answer hostility with hostility
 
 dependencies:
 schemas:
@@ -202,18 +202,18 @@ terms:
 
 failure_modes:
 
-* objections caricatured so badly they become useless
-* responses too vague to reduce misreading
-* defensive tone undermining rigor
-* theorem objections answered with poetry alone
-* charter objections answered by pretending theorem where there is none
-* reviewer surface bloated with endless rebuttal
+- objections caricatured so badly they become useless
+- responses too vague to reduce misreading
+- defensive tone undermining rigor
+- theorem objections answered with poetry alone
+- charter objections answered by pretending theorem where there is none
+- reviewer surface bloated with endless rebuttal
 
 open_tensions:
 
-* Which objections deserve root-level visibility versus supplementary handling?
-* How much should this note explicitly name "flatland" in public release, if at all?
-* When does an objection become better answered by theorem promotion rather than by protocol clarification?
+- Which objections deserve root-level visibility versus supplementary handling?
+- How much should this note explicitly name "flatland" in public release, if at all?
+- When does an objection become better answered by theorem promotion rather than by protocol clarification?
 
 ritual_load:
 poetic_invocational: supportive
@@ -228,12 +228,12 @@ next_action: "link objections surface from reviewer guide and release overview"
 
 tags:
 
-* protocol
-* objections
-* responses
-* reviewer
-* rigor
-* burden
+- protocol
+- objections
+- responses
+- reviewer
+- rigor
+- burden
 
 ---
 

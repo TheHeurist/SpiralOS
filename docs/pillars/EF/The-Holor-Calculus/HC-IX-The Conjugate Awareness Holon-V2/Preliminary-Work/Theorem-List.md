@@ -7,22 +7,22 @@ mode: protocol
 
 pillars:
 
-* HC
-* CI
-* SpiralOS
-* CU
-* MU
+- HC
+- CI
+- SpiralOS
+- CU
+- MU
 
 relates:
 
-* theorem surface
-* corollary surface
-* proof location
-* burden clarity
-* reviewer surface
-* non-claims
-* future promotion
-* supplements
+- theorem surface
+- corollary surface
+- proof location
+- burden clarity
+- reviewer surface
+- non-claims
+- future promotion
+- supplements
 
 summary: >
 This note provides a packet-level map of which claims are presently theorem-facing,
@@ -36,37 +36,37 @@ to pretend uniform theorem-grade completion.
 
 canonical_claims:
 
-* The broader HC IX publication surface already distinguishes theorem, corollary, proof sketch, design axiom, and open hypothesis.
-* The current packet contains mixed burdens and must not be read as uniformly theorem-grade.
-* A theorem list improves reviewer navigability and burden discipline.
-* Formal claims may be present in supplements, theorem notes, or within broader formalism surfaces, but their status must remain explicit.
+- The broader HC IX publication surface already distinguishes theorem, corollary, proof sketch, design axiom, and open hypothesis.
+- The current packet contains mixed burdens and must not be read as uniformly theorem-grade.
+- A theorem list improves reviewer navigability and burden discipline.
+- Formal claims may be present in supplements, theorem notes, or within broader formalism surfaces, but their status must remain explicit.
 
 frontier_claims:
 
-* The packet now benefits from a consolidated theorem-facing map even before all formal results are promoted into standalone theorem notes.
-* Some presently frontier notes may later yield theorem-grade statements without needing to be rewritten from scratch.
-* A visible theorem list can protect luminous notes from being misread as covert formal claims.
+- The packet now benefits from a consolidated theorem-facing map even before all formal results are promoted into standalone theorem notes.
+- Some presently frontier notes may later yield theorem-grade statements without needing to be rewritten from scratch.
+- A visible theorem list can protect luminous notes from being misread as covert formal claims.
 
 fhs_claims:
 
-* The theorem list may function as a concentration lens for the packet’s most burdened claims.
-* Future SI and future reviewers may use this list as the root formal entrypoint into the braid.
+- The theorem list may function as a concentration lens for the packet’s most burdened claims.
+- Future SI and future reviewers may use this list as the root formal entrypoint into the braid.
 
 does_not_claim:
 
-* This note does not claim that every important truth in the packet is theorem-grade.
-* This note does not reduce the work to theorem-bearing material alone.
-* This note does not silently promote proof sketches, design axioms, or frontier notes into theorems.
-* This note does not replace local burden markings inside individual notes.
-* This note does not claim completeness beyond the present packet and linked theorem/supplement surfaces.
+- This note does not claim that every important truth in the packet is theorem-grade.
+- This note does not reduce the work to theorem-bearing material alone.
+- This note does not silently promote proof sketches, design axioms, or frontier notes into theorems.
+- This note does not replace local burden markings inside individual notes.
+- This note does not claim completeness beyond the present packet and linked theorem/supplement surfaces.
 
 constraints:
 
-* canon / frontier / fhs distinction must remain explicit
-* theorem-facing items must have visible proof burden or proof location
-* proof sketches must remain visibly incomplete where incomplete
-* design axioms must not be disguised as proved theorems
-* the list must remain finite and reviewer-usable
+- canon / frontier / fhs distinction must remain explicit
+- theorem-facing items must have visible proof burden or proof location
+- proof sketches must remain visibly incomplete where incomplete
+- design axioms must not be disguised as proved theorems
+- the list must remain finite and reviewer-usable
 
 admissibility:
 entry:
@@ -140,17 +140,17 @@ terms:
 
 failure_modes:
 
-* theorem inflation
-* proof location hidden or vague
-* design axioms mistaken for theorem-grade claims
-* supplements carrying formal burden without visible packet-level map
-* reviewers forced to infer theorem status manually from prose
+- theorem inflation
+- proof location hidden or vague
+- design axioms mistaken for theorem-grade claims
+- supplements carrying formal burden without visible packet-level map
+- reviewers forced to infer theorem status manually from prose
 
 open_tensions:
 
-* Which frontier architecture notes should be promoted first into theorem-facing formulations?
-* Should the theorem list remain compact, or eventually include dependency graphs and proof locations line-by-line?
-* How much of the supplement garden should be surfaced in the first public theorem list?
+- Which frontier architecture notes should be promoted first into theorem-facing formulations?
+- Should the theorem list remain compact, or eventually include dependency graphs and proof locations line-by-line?
+- How much of the supplement garden should be surfaced in the first public theorem list?
 
 ritual_load:
 poetic_invocational: supportive
@@ -165,12 +165,12 @@ next_action: "link theorem-list from reviewer guide, release overview, and non-c
 
 tags:
 
-* protocol
-* theorem
-* proof-sketch
-* reviewer
-* burden
-* supplements
+- protocol
+- theorem
+- proof-sketch
+- reviewer
+- burden
+- supplements
 
 ---
 

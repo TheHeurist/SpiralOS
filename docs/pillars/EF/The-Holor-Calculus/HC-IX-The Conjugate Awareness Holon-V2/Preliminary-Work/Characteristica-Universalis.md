@@ -99,7 +99,7 @@ asymptotic_orientation:
 open_tensions:
   - Should "What do all things have in common?" be elevated to charter-level wording?
   - How explicitly should memes be derived from nested morphemic conjugation?
-  - Where should the transition from meaning to knowledge be formally housed: here or in awareness-boundary-conjugation?
+  - "Where should the transition from meaning to knowledge be formally housed: here or in awareness-boundary-conjugation?"
   - Is the asymptotic affirmation best housed here, or in a separate asymptotic note with back-reference?
 
 ritual_load:
