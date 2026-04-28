@@ -21,7 +21,8 @@ nodes:
   - id: "Ψ"
     name: "Spiral Heuristics"
     file: "philosophy/spiral-heuristics.jsonld"
-    description: "Heuristics as cosmic operators — the learning keys within Conjugate Intelligence. They amplify awareness and guide emergence."
+    description: "Heuristics as cosmic operators — the learning keys within Conjugate Intelligence. They amplify
+    awareness and guide emergence."
     depends_on: ["E*"]
     provides: ["µ", "CI", "ℋ", "C1", "C2", "C3"]
 

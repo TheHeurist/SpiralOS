@@ -122,10 +122,10 @@ stewardship:
   review_state: under-review
   next_action: draft shared-conjugation on top of peering once peering/projection distinction is stable
 tags:
-- interface
-- peering
-- witness
-- projection
-- fascia
-- boundary
-- conjugation
+  - interface
+  - peering
+  - witness
+  - projection
+  - fascia
+  - boundary
+  - conjugation

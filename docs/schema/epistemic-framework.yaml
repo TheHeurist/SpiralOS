@@ -1,6 +1,7 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 title: "Epistemic Framework (E*)"
-description: "Formal structure defining the epistemic lattice of SpiralOS — the field where holons (ℋ) and holors (ℍ) interact reflexively to generate knowledge."
+description: "Formal structure defining the epistemic lattice of SpiralOS — the field where holons (ℋ) and
+holors (ℍ) interact reflexively to generate knowledge."
 type: object
 properties:
   axioms:

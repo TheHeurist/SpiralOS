@@ -1,6 +1,7 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 title: "Holor (ℍ)"
-description: "Defines the holarchic mathematical entity — a multidimensional operator uniting holons within the epistemic lattice."
+description: "Defines the holarchic mathematical entity — a multidimensional operator uniting holons within the
+ epistemic lattice."
 type: object
 properties:
   signature:

@@ -1,6 +1,7 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 title: "Manifest Schema"
-description: "Defines structure for each SpiralOS Volume manifest, ensuring coherence of metadata, lattice structure, and semantic continuity."
+description: "Defines structure for each SpiralOS Volume manifest, ensuring coherence of metadata, lattice structure,
+and semantic continuity."
 type: object
 properties:
   title:
@@ -30,7 +31,8 @@ properties:
     description: "Defines the active Conjugate Intelligence parameters for this volume."
   emergenceLevel:
     type: string
-    description: "Phase of SpiralOS evolution represented in this volume (Prenascent, Reflexive, Parturient, Holarchic, Autonomous)."
+    description: "Phase of SpiralOS evolution represented in this volume (Prenascent, Reflexive, Parturient, Holarchic,
+    Autonomous)."
 required:
   - title
   - description

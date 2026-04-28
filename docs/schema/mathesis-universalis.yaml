@@ -1,6 +1,7 @@
 $schema: "https://json-schema.org/draft/2020-12/schema"
 title: "Mathesis Universalis (µ)"
-description: "Defines the universal mathematical grammar of SpiralOS — a calculus of reflexive knowledge integrating holons (ℋ), holors (ℍ), and the epistemic lattice (E*)."
+description: "Defines the universal mathematical grammar of SpiralOS — a calculus of reflexive knowledge integrating
+holons (ℋ), holors (ℍ), and the epistemic lattice (E*)."
 type: object
 properties:
   symbols:
