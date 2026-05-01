@@ -123,7 +123,7 @@ Generate field-ready artifacts for CI workflows.
 
 This document is mirrored in both:
 
-- `/Codecies/CI-Cosmos-Candidate-Identification.md`
-- `/docs/Codecies/CI-Cosmos-Candidate-Identification.md`
+- `/Codeces/CI-Cosmos-Candidate-Identification.md`
+- `/docs/Codeces/CI-Cosmos-Candidate-Identification.md`
 
 Keep these two files synchronized.
