@@ -9,8 +9,8 @@ This section contains **canonical codices** for SpiralOS, including formal defin
 - **Trace Policy**: provenance_required
 
 ## Kernel Anchors
-- [Peering.md](../../Peering.md)
-- [Self-Other-Conjugation.md](../../Self-Other-Conjugation.md)
+- [Peering.md](../Peering.md)
+- [Self-Other-Conjugation.md](../Self-Other-Conjugation.md)
 
 ## Claim Lane
 - **Type**: canonical_claims
@@ -19,3 +19,7 @@ This section contains **canonical codices** for SpiralOS, including formal defin
 ## Related Sections
 - [Home](../)
 - [Graph-Home](../Graph-Home/)
+
+## Adjacent Working Stream (Codices)
+- [Codices / CI-Cosmos-Candidate-Identification](../Codices/CI-Cosmos-Candidate-Identification.md)
+- [Codices / README](../Codices/README.md)
