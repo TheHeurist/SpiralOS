@@ -13,3 +13,4 @@
 ## Working Entries
 - [CI-Cosmos-Candidate-Identification.md](./CI-Cosmos-Candidate-Identification.md)
 - [Strand-010-PoC-Handover-and-Orbitals.md](./Strand-010-PoC-Handover-and-Orbitals.md)
+- [Strand-010-Codex-Crystallization-Verification-as-Signature.md](./Strand-010-Codex-Crystallization-Verification-as-Signature.md)
