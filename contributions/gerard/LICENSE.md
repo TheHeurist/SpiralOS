@@ -1,4 +1,4 @@
-# License – Erich Assets
+# License – Gerard's Assets
 
 Images, figures, and media files supplied by Erich are licensed
 for internal documentation and display within SpiralOS®.
